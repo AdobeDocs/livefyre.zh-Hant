@@ -2,11 +2,11 @@
 description: 使用Livefyre程式庫建立結帳。
 seo-description: 使用Livefyre程式庫建立結帳。
 seo-title: 建立檢查加總
-solution: Experience Manager
+solution: Livefyre
 title: 建立檢查加總
 uuid: ddddaha-7a6d-434a-8db8-dc179935 f810
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: f603682d95f288b510cde3a8b706a269feae4a6c
 
 ---
 

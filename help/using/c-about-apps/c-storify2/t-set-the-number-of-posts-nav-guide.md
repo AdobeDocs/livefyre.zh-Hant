@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 在導覽指南中設定貼文數目
 uuid: 8baee47a-7f9f-48dd-ac6 e-a2 f47 f56148 b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

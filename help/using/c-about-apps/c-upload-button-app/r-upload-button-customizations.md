@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 上傳按鈕自訂
 uuid: d820bbc-8c76-4864-9e70-5539401c35d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

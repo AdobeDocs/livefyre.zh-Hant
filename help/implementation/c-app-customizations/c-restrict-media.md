@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 限制媒體
 uuid: c470c985-d221-4f39-4bd4-4e44 ec14 db95
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

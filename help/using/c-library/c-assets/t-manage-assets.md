@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 檢視資產詳細資料
 uuid: 06a19bca-d7 b9-431b-abc4-4d6 f154901 b9
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

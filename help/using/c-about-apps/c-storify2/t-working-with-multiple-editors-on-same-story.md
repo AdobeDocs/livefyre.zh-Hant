@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 與同一內文的多位編輯合作
 uuid: c9b8f70-84c3-4e58-bd0-f3 d0 ea74 fc68
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

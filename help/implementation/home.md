@@ -4,7 +4,7 @@ solution: Experience Manager
 title: Livefyre實施說明
 uuid: cdede9b-88d3-4e6e-9105-662e984002d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 ---
 

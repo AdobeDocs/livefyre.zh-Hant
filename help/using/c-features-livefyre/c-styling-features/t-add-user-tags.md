@@ -5,7 +5,7 @@ seo-title: 新增使用者標記至帳戶
 title: 新增使用者標記至帳戶
 uuid: 737907ff-4958-489d-acf-fab531 edbd526
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -5,7 +5,7 @@ seo-title: 建立隱私權請求
 title: 建立隱私權請求
 uuid: 9fmd564-0ca-4e4f-bdea-d5 b8644 fe63 a
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

@@ -5,7 +5,7 @@ seo-title: 將Livefyre. js新增至頁面
 title: 將Livefyre. js新增至頁面
 uuid: Fe52446e-4911-4160-a68 c-7413e9 bc6222
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

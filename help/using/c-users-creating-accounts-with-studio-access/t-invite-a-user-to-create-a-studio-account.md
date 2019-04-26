@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 邀請使用者建立Studio帳戶
 uuid: 2cfa4639-1624-4a28-a06 d-b6 b0180 bc3 b0
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

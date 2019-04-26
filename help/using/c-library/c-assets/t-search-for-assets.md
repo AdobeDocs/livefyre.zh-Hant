@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 在程式庫中搜尋儲存的資產
 uuid: 2be5be4-fe69-487e-8d9 c-9d0 fd2 af97179 c
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

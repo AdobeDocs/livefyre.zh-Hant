@@ -6,7 +6,7 @@ solution: Experience Manager
 title: getEnfor使用者網路方法
 uuid: b70b8b0f-2b3a-4a-1d-90d0-93a97a137ad
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

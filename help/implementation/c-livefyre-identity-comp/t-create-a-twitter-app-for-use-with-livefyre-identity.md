@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 建立Twitter應用程式以搭配Livefyre身分識別
 uuid: 841cce7c-618d-4154-85a3-1d96d04bb69
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

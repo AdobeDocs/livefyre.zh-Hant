@@ -5,7 +5,7 @@ seo-title: Sitdones自訂字串
 title: Sitdones自訂字串
 uuid: 73745273-d3 fb-4569-8910-d149 fb37 a7 b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 

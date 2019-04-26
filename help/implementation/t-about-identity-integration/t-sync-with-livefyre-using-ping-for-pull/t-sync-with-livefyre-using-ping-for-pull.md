@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 與Livefyre同步，以用於提取
 uuid: 7b 059064-cca-46d7-8055-dfe59 f493 ac1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 

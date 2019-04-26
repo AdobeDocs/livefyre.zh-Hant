@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 使用Studio註冊端點
 uuid: 4EB816ee-d743-43bb-bte-d9 b9 fd98 b482
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

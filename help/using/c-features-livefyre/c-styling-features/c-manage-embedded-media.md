@@ -5,7 +5,7 @@ seo-title: 管理內嵌媒體
 title: 管理內嵌媒體
 uuid: d8621be1-dblc-429f-954e-b21 fdf02715
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

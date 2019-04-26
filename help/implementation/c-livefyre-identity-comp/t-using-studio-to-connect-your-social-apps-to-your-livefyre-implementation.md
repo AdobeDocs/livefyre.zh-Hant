@@ -5,7 +5,7 @@ seo-title: 使用Studio將您的社交應用程式連接到您的Livefyre實作
 title: 使用Studio將您的社交應用程式連接到您的Livefyre實作
 uuid: 是14869c-e0 df-48cd-a1 f3-99eb953 dd9 ce
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

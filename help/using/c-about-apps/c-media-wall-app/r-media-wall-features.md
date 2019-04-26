@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 媒體塗鴉牆功能
 uuid: 2f2e22b4-de10-48ee-8f3 d-3d0 fd88 abb8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

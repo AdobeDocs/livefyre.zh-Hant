@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 將翻譯套用至網站
 uuid: 750f4ca2-0350-40c-9176-ce56581 fb8 ab
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

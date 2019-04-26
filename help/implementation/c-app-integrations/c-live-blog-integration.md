@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 即時部落格
 uuid: ca373f1-2008-45ab-9ec295af4e368
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 

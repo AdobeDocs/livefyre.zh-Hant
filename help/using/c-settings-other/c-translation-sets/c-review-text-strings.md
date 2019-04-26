@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 檢閱文字字串
 uuid: 86251e49-bc73-4eec-9f9 b-b4 b0 b0 b42099
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

@@ -5,7 +5,7 @@ seo-title: 使用程式庫將產品與內容建立關聯
 title: 使用程式庫將產品與內容建立關聯
 uuid: 63520f34-c5 fe-4cbd-937a-33d707 bbc5 f
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

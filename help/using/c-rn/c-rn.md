@@ -4,7 +4,7 @@ seo-description: Adobe Livefyre的最新發行說明。
 seo-title: Adobe Livefyre的最新發行說明
 title: Livefyre的最新發行說明
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
 
 ---
 

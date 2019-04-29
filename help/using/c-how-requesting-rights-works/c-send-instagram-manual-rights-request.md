@@ -25,7 +25,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 1. 開啓 **[!UICONTROL Rights options]** 視窗。
 1. 選取用於請求權限的帳戶。帳戶必須是Instagram的商業帳戶。
 1. (選擇性)編輯請求訊息。如果訊息遺失或必要元素拼錯，會顯示錯誤訊息，指出錯誤或遺失資訊。
-1. 按一下 **[!UICONTROL Copy]** ，將方塊中的文字複製到剪貼簿中。
+1. 按一下 **[!UICONTROL Copy]**，將方塊中的文字複製到剪貼簿中。
 
    ![](assets/rr_insta_workaround1.png)
 

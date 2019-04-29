@@ -24,4 +24,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    此面板列出所選網路中包含的所有網站。
 
-1. 輸入和 **[!UICONTROL Name]****[!UICONTROL URL]** 在提供的欄位中，然後按一下 **[!UICONTROL Add Site]**。
+1. 輸入和 **[!UICONTROL Name]** **[!UICONTROL URL]** 在提供的欄位中，然後按一下 **[!UICONTROL Add Site]**。

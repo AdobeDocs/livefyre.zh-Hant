@@ -24,7 +24,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 前往 [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)，然後登入您的Yahoo！account to create a new or selected a existing app for use with Livefyre Identity.
 1. 選取 **[!UICONTROL Application Type: Web Application]**。
-1. Enter **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
+1. Enter **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
 1. 選擇 **[!UICONTROL API Permissions: Profiles (Social Directory)]** 和 **[!UICONTROL Read Public]**。
 
    完成後，Yahoo的應用程式詳細資訊頁面將列出應用程式的用戶端ID(消費者金鑰)和用戶端密碼(消費者密碼)，以便用於Studio的「整合設定」頁面。

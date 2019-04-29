@@ -18,7 +18,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 若要協調擱置中的內容，只需將滑鼠移到 **[!UICONTROL Pending]** 按鈕上方即可。
 
-**[!UICONTROL Pending]** 按鈕變更，您可以選取是否要拒絕( **[!UICONTROL x]**)或核准( **[!UICONTROL ✓]**)。
+**[!UICONTROL Pending]** 按鈕變更，您可以選取是否要拒絕( **[!UICONTROL x]** )或核准( **[!UICONTROL ✓]** )。
 
 將滑鼠指標暫留在備注空間，並顯示下列協調選項：
 

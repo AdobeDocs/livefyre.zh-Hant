@@ -28,14 +28,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 任務內容
 
 1. 在Livefyre Studio中，按一下 **[!UICONTROL Settings]**。
-1. 在左側導軌中，按 **[!UICONTROL CTAs]**一下。
+1. 在左側導軌中，按 **[!UICONTROL CTAs]** 一下。
 
-   CTA程式庫隨即出現，其中CTA可在資料夾中建立和組織。1. 按一 **[!UICONTROL Create CTA]**下。
+   CTA程式庫隨即出現，其中CTA可在資料夾中建立和組織。1. 按一 **[!UICONTROL Create CTA]** 下。
 1. 以所需的自訂方式填寫欄位，並將按鈕預覽顯示在「建立CTA」畫面底部。
 
    ![](assets/cta-button-create.png)
 
-1. 按一 **[!UICONTROL Create]**下。
+1. 按一 **[!UICONTROL Create]** 下。
 
    CTA按鈕現在可新增至任何資產。
 
@@ -45,7 +45,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 在Livefyre Studio中，導覽至 **[!UICONTROL Library]** > **[!UICONTROL All Assets]**。
 1. 選取要新增CTA按鈕的一或多個資產。
-1. 按一 **[!UICONTROL CTAs]**下。
+1. 按一 **[!UICONTROL CTAs]** 下。
 
    ![](assets/cta-button-create2.png)
 

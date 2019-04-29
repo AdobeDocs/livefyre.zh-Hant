@@ -23,6 +23,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 在您的資料庫中搜尋資產。
 1. 選取您要發佈至網站的資產。
-1. 按一 **[!UICONTROL Publish]**下。
+1. 按一 **[!UICONTROL Publish]** 下。
 
    **[!UICONTROL Publish to App]** 對話方塊開啓。1選取要發佈選取資產的應用程式。

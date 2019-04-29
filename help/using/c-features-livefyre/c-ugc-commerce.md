@@ -67,7 +67,7 @@ AEM Commerce使用者可順暢地將現有產品目錄整合至Livefyre，以便
 >將檔案上傳至具有現有檔案的檔案夾將會刪除該檔案夾中的所有檔案，並將它們覆寫為新檔案。
 
 1. 導覽至 **[!UICONTROL Network Settings > Products.]**
-1. 建立 **[!UICONTROL Product Folder]** 或使用現有 **[!UICONTROL Product Folder]**的。
+1. 建立 **[!UICONTROL Product Folder]** 或使用現有 **[!UICONTROL Product Folder]** 的。
 
 1. 按一下 **[!UICONTROL Product Folder]** 以選取它。
 1. 按一下 **[!UICONTROL Upload Products]** 按鈕。

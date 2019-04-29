@@ -32,7 +32,7 @@ source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
 1. 停用 **[!UICONTROL Show related content]**。
 啓用後，會先顯示使用 `data-lf-attr-product` 屬性篩選的內容，然後再顯示應用程式中的所有其他內容。
 
-1. 按一 **[!UICONTROL Publish]**下。
+1. 按一 **[!UICONTROL Publish]** 下。
 
 1. 將您要篩選的產品ID插入到結果代碼中。
 

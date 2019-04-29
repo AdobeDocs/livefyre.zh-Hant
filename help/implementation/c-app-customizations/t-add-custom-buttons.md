@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 將自訂動作新增至Livefyre應用程式。
 
-Livefyre可讓您在內容的現有動作按鈕(例如 **[!UICONTROL Share]**，和 **[!UICONTROL Flag]**)上新增自訂按鈕。
+Livefyre可讓您在內容的現有動作按鈕(例如 **[!UICONTROL Share]**，和 **[!UICONTROL Flag]** )上新增自訂按鈕。
 
 使用行動引數來定義按鈕是否將顯示在行動裝置上。
 

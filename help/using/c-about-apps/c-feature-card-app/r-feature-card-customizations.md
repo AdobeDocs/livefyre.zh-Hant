@@ -37,7 +37,7 @@ r_feature_card_customization.dita
 
    * **[!UICONTROL Call-to-action header text]** 要顯示在內容模型中「呼叫收貨人」按鈕上方標題上方的字詞。預設字詞為「Shop these products：「.
    * **[!UICONTROL Call-to-action button text]** 自訂「呼叫動作」按鈕上的文字。預設文字為「立即購買」。
-   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]****[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
+   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]** **[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
    * **[!UICONTROL Product URL referral tracking]** 切換切換至開啓，以追蹤從此應用程式到相關聯產品頁面的反向連結。
    * **[!UICONTROL Referral tracking key-value pairs]** 新增參數，進一步指定從您的應用程式內容到相關聯產品頁面的反向連結追蹤。
 

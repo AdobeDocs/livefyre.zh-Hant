@@ -60,6 +60,6 @@ Sitdandes content協調允許大量變更，以及個別狀態變更(如上所�
 
 ## 協調Livefyre使用者 {#section_grw_mqm_zz}
 
-將滑鼠指標暫留在Livefyre使用者的使用者名稱之上，開啓下拉式選單，讓您可以取得 **[!UICONTROL Ban the User]****[!UICONTROL More Info]**或檢視其清單 **[!UICONTROL Comments]**。按一下此功能表將會開啓Studio **[!UICONTROL Users]** 頁面中的使用者資訊卡。
+將滑鼠指標暫留在Livefyre使用者的使用者名稱之上，開啓下拉式選單，讓您可以取得 **[!UICONTROL Ban the User]** **[!UICONTROL More Info]** 或檢視其清單 **[!UICONTROL Comments]**。按一下此功能表將會開啓Studio **[!UICONTROL Users]** 頁面中的使用者資訊卡。
 
 如需如何調節 **[!UICONTROL Users]** 頁面使用者的詳細資訊，請參閱 [「協調使用者模型](/help/using/c-features-livefyre/c-about-moderation/t-moderate-users-modq.md#t_moderate_users_modq)」。

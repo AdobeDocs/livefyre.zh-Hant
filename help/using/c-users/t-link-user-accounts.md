@@ -23,7 +23,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 在您的網路上建立Livefyre使用者個人檔案後，登入Studio。
 1. 前往 **[!UICONTROL Users]**，尋找您的使用者描述檔，然後按兩下以檢視詳細資訊。
-1. 按一 **[!UICONTROL Connect account]**下。
+1. 按一 **[!UICONTROL Connect account]** 下。
 1. 在開啓的視窗中，選取要連結至此帳戶的使用者帳戶。
 1. 確認 **[!UICONTROL Link Profile]** 資訊，然後按一下 **[!UICONTROL Link]**。 ![](assets/UsersConnectAccount-1024x311.png)
 

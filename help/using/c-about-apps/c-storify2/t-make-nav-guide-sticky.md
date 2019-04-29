@@ -16,4 +16,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 選擇讓導覽指南保持在畫面的特定區域。
 
 1. 在Storify App **[!UICONTROL Navigation Guide]** Designer中，切換切換。
-1. 切換時切換 **[!UICONTROL Stickiness]** 。
+1. 切換時切換 **[!UICONTROL Stickiness]**。

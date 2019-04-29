@@ -84,7 +84,7 @@ ModQ會分割為兩個標籤式面板：
 
 不同的篩選選項適用於 **[!UICONTROL Items]** 和 **[!UICONTROL Streams Premoderation]** 標籤。
 
-The following options are available for the ModQ under both **[!UICONTROL Items]** and **[!UICONTROL Streams Premoderation]**:
+The following options are available for the ModQ under both **[!UICONTROL Items]** and **[!UICONTROL Streams Premoderation]** :
 
 * **[!UICONTROL App]**. 使用「搜尋應用程式」欄位，依應用程式篩選結果。可能會選取多個應用程式。
 * **[!UICONTROL System Flags]**. 依垃圾訊息、褻瀆、SAFE和「預覽」規則等規則來篩選內容。
@@ -98,11 +98,11 @@ The following options are available for the ModQ under both **[!UICONTROL Items]
 * **[!UICONTROL Rights Requests.]** 按一下核取方塊，只顯示具有授予權限的內容。
 * **[!UICONTROL Entered the queue.]** 依據內容傳送至ModQ期間的時間範圍篩選內容。傳送內容至ModQ的時間不一定是張貼至應用程式的時間。
 
-以下是ModQ下方 **[!UICONTROL Streams Premoderation]**的可用選項：
+以下是ModQ下方 **[!UICONTROL Streams Premoderation]** 的可用選項：
 
 * **[!UICONTROL Social Source]** 依據內容來源的社交來源篩選內容。例如，社交來源的選項包括Twitter、Instagram、Facebook和RSS。
 
-下列選項適用於ModQ下方 **[!UICONTROL Items]**：
+下列選項適用於ModQ下方 **[!UICONTROL Items]** ：
 
 **[!UICONTROL Moderation Recommendations]**. 依據自動化協調建議提供的建議篩選內容。
 
@@ -138,17 +138,17 @@ The following options are available for the ModQ under both **[!UICONTROL Items]
 >
 >串流內容可能不是Botzo'd。垃圾串流內容會永久將它從串流移除，且無法復原。
 
-協調內容後，將會從協調者的ModQ中移除，其作者無法再從串流中編輯內容。如果協調者關閉項目，或是使用者刪除了他們的注釋，則會即時在其他協調者的佇列中呈現灰色。當內容變灰時 **[!UICONTROL Clear Moderated]** ，按鈕會顯示在頁面上，讓協調者從清單中移除它，並維持其位置，不論其他協調者活動為何。
+協調內容後，將會從協調者的ModQ中移除，其作者無法再從串流中編輯內容。如果協調者關閉項目，或是使用者刪除了他們的注釋，則會即時在其他協調者的佇列中呈現灰色。當內容變灰時 **[!UICONTROL Clear Moderated]**，按鈕會顯示在頁面上，讓協調者從清單中移除它，並維持其位置，不論其他協調者活動為何。
 
 ## 在ModQ中使用垃圾筒函數 {#section_tpx_qgz_y1b}
 
 當內容標示為「已銷毀」時，使用設定區段可選取可用選項。
 
-* ****[!UICONTROL Confirm Trash]**** 啓用此選項，可要求協調者在將內容設定為垃圾筒時確認其動作。啓用後，選取 **[!UICONTROL Trash]** 內容會顯示對話方塊的對話方塊 **[!UICONTROL Reason for Moderation]**，並提供可能輸入的 **[!UICONTROL Note]** 欄位。
+* ****[!UICONTROL Confirm Trash]** ** 啓用此選項，可要求協調者在將內容設定為垃圾筒時確認其動作。啓用後，選取 **[!UICONTROL Trash]** 內容會顯示對話方塊的對話方塊 **[!UICONTROL Reason for Moderation]**，並提供可能輸入的 **[!UICONTROL Note]** 欄位。
 
    (此設定適用於 **[!UICONTROL only]** 網路層級，並適用於您網路下的所有網站)。
 
-* ****[!UICONTROL Hide Replies]**** 啓用此選項，可在父項留言被毀壞或Botzo'd時自動垃圾回覆。
+* ****[!UICONTROL Hide Replies]** ** 啓用此選項，可在父項留言被毀壞或Botzo'd時自動垃圾回覆。
 
 ## 變更ModQ中的使用者狀態 {#section_tmw_lg1_z1b}
 

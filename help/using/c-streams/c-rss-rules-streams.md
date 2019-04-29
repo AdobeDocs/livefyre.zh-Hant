@@ -22,8 +22,8 @@ RSS串流每分鐘更新，尋找動態消息前50個項目中不存在的內容
 * **[!UICONTROL URL]** RSS饋送。
 * **[!UICONTROL Include recent items.]** 如果此項目設為：
 
-   * **[!UICONTROL Enabled]**Livefyre會新增動態消息中的前50個內容項目，不論出版日期為何。
-   * **[!UICONTROL Disabled]**Livefyre會將您的動態消息中前50個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
+   * **[!UICONTROL Enabled]** Livefyre會新增動態消息中的前50個內容項目，不論出版日期為何。
+   * **[!UICONTROL Disabled]** Livefyre會將您的動態消息中前50個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
 
 * **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** 從項目連結或從XML提取資訊。
 

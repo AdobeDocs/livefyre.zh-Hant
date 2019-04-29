@@ -12,7 +12,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 熱門意見{#top-comments}
 
-排名最前的意見列出25個最喜歡對話中的留言。**[!UICONTROL Top Comments]** 檢視顯示25個最喜歡系列中的留言。如果原始貼文收到最多贊，則會列出貼文，但不會回覆。如果回覆收到最多贊，則也會顯示其直屬上層貼文。此清單不是即時清單，只會在頁面重新整理或其他排序檢視(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]**)時更新。
+排名最前的意見列出25個最喜歡對話中的留言。**[!UICONTROL Top Comments]** 檢視顯示25個最喜歡系列中的留言。如果原始貼文收到最多贊，則會列出貼文，但不會回覆。如果回覆收到最多贊，則也會顯示其直屬上層貼文。此清單不是即時清單，只會在頁面重新整理或其他排序檢視(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]** )時更新。
 
 如果使用者在檢視 **[!UICONTROL Top Comments]** 檢視時從留言編輯器張貼意見，使用者將會切換回 **[!UICONTROL Newest]** 檢視。如果使用者對其中一個「排名最前的留言」按贊或回覆，則會將其串流至檢視的 **[!UICONTROL Top Comments]** 檢視中，供使用者檢視。
 

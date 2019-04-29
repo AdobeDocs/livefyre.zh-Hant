@@ -29,7 +29,7 @@ source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
 * 每個Instagram業務帳戶最多可搜尋30個唯一主題標籤。
 
 * Livefyre會使用基於位置的篩選條件刪除Instagram串流規則，以避免失敗。
-* **[!UICONTROL Business User Search]**：搜尋Instagram貼文。
+* **[!UICONTROL Business User Search]** ：搜尋Instagram貼文。
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
 
 * 您現在可以使用下列功能，在資料庫中依主題標籤搜尋Instagram：
 
-   * **[!UICONTROL Top Tags Search]**：搜尋使用特定主題標籤標記的最受歡迎媒體。頂端標記由此處概述的標準決定： [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
-   * **[!UICONTROL Recent Tags Search]**：使用主題標籤搜尋最近的貼文。
+   * **[!UICONTROL Top Tags Search]** ：搜尋使用特定主題標籤標記的最受歡迎媒體。頂端標記由此處概述的標準決定： [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
+   * **[!UICONTROL Recent Tags Search]** ：使用主題標籤搜尋最近的貼文。
 
 如需更新Instagram功能的詳細資訊，請 [參閱網路研討會的影片，其中說明此功能](https://youtu.be/wRkGc3obaOA)。

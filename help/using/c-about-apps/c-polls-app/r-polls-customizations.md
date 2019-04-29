@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    選擇您要建立的民調問答類型。**[!UICONTROL Single image]** 可讓您新增民調問答問題的影像。**[!UICONTROL Multiple image]** 可讓您新增民調問答的答案。**[!UICONTROL Text only]** 建立不含影像的民調問答。
 
-* **[!UICONTROL Question]***必要項目*
+* **[!UICONTROL Question]** *必要項目*
 
    輸入將針對您的民調問答顯示的問題。
 
@@ -37,7 +37,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    啓用後，您的民調問答將包含使用者可能共用的連結。
 
-* **[!UICONTROL Link]***選用項目*
+* **[!UICONTROL Link]** *選用項目*
 
    供您的民調問答顯示的連結。
 
@@ -49,7 +49,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    如果啓用，檢視器將能夠查看民調問答結果。如果停用，投票者只會在完成民調問答後看到「感謝您」畫面。
 
-* **[!UICONTROL Disclaimer]***選用項目*
+* **[!UICONTROL Disclaimer]** *選用項目*
 
    以您的民調問答顯示的選擇性免責聲明。
 

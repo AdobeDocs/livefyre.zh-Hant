@@ -32,4 +32,4 @@ Instagram商業帳戶使用Facebook Token(過期)。您的Livefyre網路會在To
 
    ).
 
-您可以按一下帳戶旁的Refresh Token( **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** > **[!UICONTROL Instagram Accounts]**)，重新整理Token。
+您可以按一下帳戶旁的Refresh Token( **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** > **[!UICONTROL Instagram Accounts]** )，重新整理Token。

@@ -21,7 +21,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 >
 >您只能在「網路」層級設定權限管理。您無法設定網站特定的權限管理。
 
-1. 在Livefyre Studio中，瀏覽至 **[!UICONTROL Network]****[!UICONTROL Settings > Rights Management]**。
+1. 在Livefyre Studio中，瀏覽至 **[!UICONTROL Network]** **[!UICONTROL Settings > Rights Management]**。
 
    >[!NOTE]
    >

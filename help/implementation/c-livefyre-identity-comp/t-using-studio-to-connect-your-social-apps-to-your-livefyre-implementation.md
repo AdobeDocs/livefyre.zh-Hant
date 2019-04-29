@@ -37,7 +37,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 若要使用Livefyre原生帳戶啓用登入：
 
-1. 在Livefyre Studio中導覽至 **[!UICONTROL Integration Settings]** 。
+1. 在Livefyre Studio中導覽至 **[!UICONTROL Integration Settings]**。
 1. 切換 **[!UICONTROL Enable Login with Email]** 切換至 **[!UICONTROL On]**。
 
 ## 使用Facebook帳戶啓用登入 {#section_ph3_515_bbb}
@@ -98,15 +98,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 輸入 **[!UICONTROL Microsoft Live Client ID (Private Key)]** 和 **[!UICONTROL Microsoft Live Client Secret (Password)]**。
 
-1. 按一 **[!UICONTROL Save Settings]**下。
+1. 按一 **[!UICONTROL Save Settings]** 下。
 
-   這些 **[!UICONTROL Microsoft Live Client ID (Private Key)]****[!UICONTROL Microsoft Live Client Secret (Password)]** 值會列在Microsoft Live ID應用程式詳細資訊頁面中。
+   這些 **[!UICONTROL Microsoft Live Client ID (Private Key)]** **[!UICONTROL Microsoft Live Client Secret (Password)]** 值會列在Microsoft Live ID應用程式詳細資訊頁面中。
 
 ## 將您的社交應用程式連接至Livefyre身份識別 {#section_on2_vc5_bbb}
 
 讓您的使用者可以在您的網站上使用Livefyre身分識別實施。
 
 1. 建立應用程式。
-1. 導覽至 **[!UICONTROL Studio]** > **[!UICONTROL Settings]** > **[!UICONTROL Integration Settings]**> **[!UICONTROL Livefyre Identity]**。
+1. 導覽至 **[!UICONTROL Studio]** > **[!UICONTROL Settings]** > **[!UICONTROL Integration Settings]** > **[!UICONTROL Livefyre Identity]**。
 
 1. 輸入您所建立應用程式的必要應用程式憑證。

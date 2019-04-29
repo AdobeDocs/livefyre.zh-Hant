@@ -15,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 若要內容內容，您必須先啓用Studio中的「啓用精選注釋」設定。
 
-1. **[!UICONTROL Studio > Settings > Network Settings > Default Settings]**前往。
+1. **[!UICONTROL Studio > Settings > Network Settings > Default Settings]** 前往。
 1. 切換 **[!UICONTROL Enable Featured Comments]** 設定可讓您反白標示最近出現在編輯器上方的註解。

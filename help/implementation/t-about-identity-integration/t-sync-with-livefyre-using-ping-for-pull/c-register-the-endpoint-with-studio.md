@@ -18,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 在每個網路上僅對提取URL註冊一次。一旦設定後，此值不應變更，除非從使用者管理系統變更擷取使用者設定檔資料的端點。
 
 1. 使用Studio以Livefyre註冊此URL端點。
-1. 註冊Livefyre將擷取更新使用者描述檔資訊的URL，然後前往 **[!UICONTROL Studio > Settings > Integration Settings > Remote Profiles]****[!UICONTROL Ping for Pull URL]** 欄位中輸入。
+1. 註冊Livefyre將擷取更新使用者描述檔資訊的URL，然後前往 **[!UICONTROL Studio > Settings > Integration Settings > Remote Profiles]** **[!UICONTROL Ping for Pull URL]** 欄位中輸入。
 
    例如，URL看起來就像： `https://example.yoursite.com/some_path/?id={id}`
 

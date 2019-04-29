@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 建立新的Storify故事。
 
-1. 按一 **[!UICONTROL New App]**下。
-1. 按一 **[!UICONTROL Storify 2]**下。
-1. 輸入 **[!UICONTROL App Title]**一個。
-1. 選擇 **[!UICONTROL Site]**a。
-1. 按一 **[!UICONTROL Create]**下。
+1. 按一 **[!UICONTROL New App]** 下。
+1. 按一 **[!UICONTROL Storify 2]** 下。
+1. 輸入 **[!UICONTROL App Title]** 一個。
+1. 選擇 **[!UICONTROL Site]** a。
+1. 按一 **[!UICONTROL Create]** 下。

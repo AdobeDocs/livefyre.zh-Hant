@@ -29,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 If there are no threads in the stream with a popularity score, no comments will be displayed, and users will see the message **[!UICONTROL There are not enough threads yet]** and a link to **[!UICONTROL See what’s new]**.
 
-「熱門話題」清單不是即時的，而且只會在頁面重新整理或其他檢視(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]**)時更新。(如果評論已協調且Botzo「d」或「破折號」，則會立即從清單中移除。)
+「熱門話題」清單不是即時的，而且只會在頁面重新整理或其他檢視(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]** )時更新。(如果評論已協調且Botzo「d」或「破折號」，則會立即從清單中移除。)
 
 ## 劃分檢視 {#section_zmf_ddl_wy}
 

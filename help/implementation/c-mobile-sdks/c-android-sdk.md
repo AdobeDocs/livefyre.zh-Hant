@@ -48,11 +48,11 @@ Livefyre也根據此SDK提供 [評論](https://github.com/Livefyre/StreamHub-iOS
 1. 從現有專案開始，或建立新專案。
 1. 在專案上按一下滑鼠右鍵，然後選取 **[!UICONTROL Open Module Settings]**。
 1. 選取視窗左上角的 **[!UICONTROL +]** 按鈕。
-1. 選取 **[!UICONTROL Import Existing Project.]** (在新版本Android工作室中，您可以找到 **[!UICONTROL Import Existing Project]****[!UICONTROL More Modules]**)。
+1. 選取 **[!UICONTROL Import Existing Project.]** (在新版本Android工作室中，您可以找到 **[!UICONTROL Import Existing Project]** **[!UICONTROL More Modules]** )。
 
 1. 瀏覽並選擇StreamHub-Android-SDK。
 
-Android Studio可能會要求您將SDK轉換為gradle版本；如果發生這種 **[!UICONTROL next]****[!UICONTROL finish]**情況，請選取。
+Android Studio可能會要求您將SDK轉換為gradle版本；如果發生這種 **[!UICONTROL next]** **[!UICONTROL finish]** 情況，請選取。
 
 前往 **專案檔案夾> app檔案夾> build. gradle** 檔案underend相ies以新增下列相依性：
 

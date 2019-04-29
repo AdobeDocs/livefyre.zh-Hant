@@ -32,7 +32,7 @@ source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
    * 例如，如果您想要輸入的Playlist動態消息URL， `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`只要輸入 `PLFE5670C92BDAC201`
 
 * **[!UICONTROL Include recent items.]** 如果此項目設為：
-   * **[!UICONTROL Enabled]**Livefyre會將您的前15個內容項目新增至串流，不論出版日期為何。
-   * **[!UICONTROL Disabled]**Livefyre會將動態消息中的前15個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
+   * **[!UICONTROL Enabled]** Livefyre會將您的前15個內容項目新增至串流，不論出版日期為何。
+   * **[!UICONTROL Disabled]** Livefyre會將動態消息中的前15個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
 
 如需所有串流規則的其他串流規則選項，請參閱 [所有串流規則的串流規則選項](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

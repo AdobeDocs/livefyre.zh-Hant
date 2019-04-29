@@ -23,16 +23,16 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 每個註冊的Livefyre使用者會顯示下列資訊(如果有的話)：
 
-* **[!UICONTROL Username]**：其使用者名稱。
-* **[!UICONTROL Display name]**：其顯示名稱。
-* **[!UICONTROL Avatar]**：他們的頭像。
+* **[!UICONTROL Username]** ：其使用者名稱。
+* **[!UICONTROL Display name]** ：其顯示名稱。
+* **[!UICONTROL Avatar]** ：他們的頭像。
 * **[!UICONTROL Total number of posts]** 作者：連結至Studio中該使用者的內容清單。總計會由「核准」、「擱置中」、「波佐」或「破折號」的數目顯示。
-* **[!UICONTROL Total #Flags]**：套用至此作者貼文的旗標總數。
-* **[!UICONTROL Join date]**：在您的網路上建立使用者帳戶的日期。
-* **[!UICONTROL Email]**：他們列出的電子郵件地址。
-* **[!UICONTROL IP Address]**：其IP位址，由Livefyre決定。
-* **[!UICONTROL Bio]**：使用者說明。
-* **[!UICONTROL Bans]**：列出使用者已被禁止或Botzo'd的網站。
-* **[!UICONTROL Whitelists]**：列出使用者已列入白名單的網站。
+* **[!UICONTROL Total #Flags]** ：套用至此作者貼文的旗標總數。
+* **[!UICONTROL Join date]** ：在您的網路上建立使用者帳戶的日期。
+* **[!UICONTROL Email]** ：他們列出的電子郵件地址。
+* **[!UICONTROL IP Address]** ：其IP位址，由Livefyre決定。
+* **[!UICONTROL Bio]** ：使用者說明。
+* **[!UICONTROL Bans]** ：列出使用者已被禁止或Botzo'd的網站。
+* **[!UICONTROL Whitelists]** ：列出使用者已列入白名單的網站。
 
 如需如何在「應用程式內容」索引標籤中協調使用者的詳細資訊，請參閱 [「使用應用程式內容協調」](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。

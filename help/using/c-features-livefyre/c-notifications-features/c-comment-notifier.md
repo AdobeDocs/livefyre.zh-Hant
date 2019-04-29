@@ -29,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## 隱藏注釋通知 {#section_cmy_cvx_vy}
 
-按一下 **[!UICONTROL x]****[!UICONTROL New Comments]** 列的右上角，關閉頁面的通知。重新整理頁面，通知將會重新顯示。
+按一下 **[!UICONTROL x]** **[!UICONTROL New Comments]** 列的右上角，關閉頁面的通知。重新整理頁面，通知將會重新顯示。
 
 使用CSS自訂功能，隱藏整個網路上的通知介面工具集。
 

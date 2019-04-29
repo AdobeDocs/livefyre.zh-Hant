@@ -22,10 +22,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 「應用程式摘要」頁面提供個標籤：
 
-* **[!UICONTROL App Summary]**：提供應用程式內容和狀態的概述，並提供工具在其網站上存取應用程式並產生內嵌代碼。
-* **[!UICONTROL Designer]**：可讓您選取應用程式的設計選項，包括字體、色彩配置和應用程式特定設定選項。
-* **[!UICONTROL Streams]**：列出應用程式內容的所有串流來源。按一下串流的標題以開啓「串流詳細資料」頁面，可從中編輯。
-* **[!UICONTROL Settings]**：可讓您選取應用程式特定設定，包括將內容新增至應用程式的規則，以及顯示內容類型。按一下 **[!UICONTROL Settings]** 標籤以覆寫應用程式的網路和網站設定。
+* **[!UICONTROL App Summary]** ：提供應用程式內容和狀態的概述，並提供工具在其網站上存取應用程式並產生內嵌代碼。
+* **[!UICONTROL Designer]** ：可讓您選取應用程式的設計選項，包括字體、色彩配置和應用程式特定設定選項。
+* **[!UICONTROL Streams]** ：列出應用程式內容的所有串流來源。按一下串流的標題以開啓「串流詳細資料」頁面，可從中編輯。
+* **[!UICONTROL Settings]** ：可讓您選取應用程式特定設定，包括將內容新增至應用程式的規則，以及顯示內容類型。按一下 **[!UICONTROL Settings]** 標籤以覆寫應用程式的網路和網站設定。
 
 ## 應用程式清單 {#section_eyp_ykt_bbb}
 
@@ -33,17 +33,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 「應用程式」清單頁面會顯示下列資訊：
 
-* **[!UICONTROL Title]**：列出您的應用程式標題，並包含指示應用程式類型的圖示。
-* **[!UICONTROL Site]**：依網站列出應用程式的位置。
-* **[!UICONTROL Content Count]**：列出發佈至應用程式的內容部分。
-* **[!UICONTROL Date Modified]**：列出App Designer中上次變更應用程式的時間。
-* **[!UICONTROL Embed Code (</>)]**：按一下圖示以產生您應用程式的內嵌代碼。
+* **[!UICONTROL Title]** ：列出您的應用程式標題，並包含指示應用程式類型的圖示。
+* **[!UICONTROL Site]** ：依網站列出應用程式的位置。
+* **[!UICONTROL Content Count]** ：列出發佈至應用程式的內容部分。
+* **[!UICONTROL Date Modified]** ：列出App Designer中上次變更應用程式的時間。
+* **[!UICONTROL Embed Code (</>)]** ：按一下圖示以產生您應用程式的內嵌代碼。
 
 ## 應用程式自訂 {#section_lvj_xlt_bbb}
 
 您可以使用「應用程式設計人員」標籤選取 **[!UICONTROL Style]** 和 **[!UICONTROL Configuration]** 選項來自訂您的應用程式。
 
-**[!UICONTROL Style]** 所有應用程式類型的選項都一致； **[!UICONTROL Configuration]** 選項依應用程式而異。**[!UICONTROL Style]****[!UICONTROL Configuration]** 和窗格底部會列出您應用程式的Livefyre應用程式版本。
+**[!UICONTROL Style]** 所有應用程式類型的選項都一致； **[!UICONTROL Configuration]** 選項依應用程式而異。**[!UICONTROL Style]** **[!UICONTROL Configuration]** 和窗格底部會列出您應用程式的Livefyre應用程式版本。
 
 **選取樣式選項**
 
@@ -84,7 +84,7 @@ App Designer可讓您以多種發送格式預覽應用程式，以及顯示您�
 
 預覽模式提供下列選項：
 
-* **[!UICONTROL Preview Options]**：使用下拉式選單選擇預覽格式(行動裝置、平板電腦或桌面)，以及顯示是否顯示 **[!UICONTROL Sample Data]** 或應用程式的串流資料。
+* **[!UICONTROL Preview Options]** ：使用下拉式選單選擇預覽格式(行動裝置、平板電腦或桌面)，以及顯示是否顯示 **[!UICONTROL Sample Data]** 或應用程式的串流資料。
 
 * 
 
@@ -92,13 +92,13 @@ App Designer可讓您以多種發送格式預覽應用程式，以及顯示您�
 >
 >如果您取消選取 **[!UICONTROL Sample Data]**，且應用程式未啓用「串流」，則不會在「預覽模式」中顯示內容。
 
-* **[!UICONTROL Share]**：在新的瀏覽器標籤中開啓應用程式，並產生URL，可供朋友、同事或非Studio使用者檢閱您的應用程式，並在不同的瀏覽器和裝置中測試它。
+* **[!UICONTROL Share]** ：在新的瀏覽器標籤中開啓應用程式，並產生URL，可供朋友、同事或非Studio使用者檢閱您的應用程式，並在不同的瀏覽器和裝置中測試它。
 
    >[!NOTE]
    >
    >張貼至應用程式審核版本的任何內容都會新增至應用程式。如果您不希望此內容出現在發佈的應用程式中，您必須先刪除它，然後再按一下 **「發佈**」。
 
-* **[!UICONTROL Exit Preview]**：傳回您的編輯模式。
+* **[!UICONTROL Exit Preview]** ：傳回您的編輯模式。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ App Designer可讓您以多種發送格式預覽應用程式，以及顯示您�
 1. 按一下要選取的版本。
 1. 重新整理預覽顯示。
 1. 按一下 **[!UICONTROL Restore Version]** 以複製選取的版本並從中工作。
-1. 按一下上一頁按鈕 **[!UICONTROL Version History]** ，回復至您的工作草稿。
+1. 按一下上一頁按鈕 **[!UICONTROL Version History]**，回復至您的工作草稿。
 1. 按一下 **[!UICONTROL Share]** 以產生預覽的URL。
 
 >[!NOTE]
@@ -136,16 +136,16 @@ App Designer可讓您以多種發送格式預覽應用程式，以及顯示您�
 
 「應用程式摘要」標籤可讓您：
 
-* **[!UICONTROL See on Site]**：在您的網站上開啓應用程式。
-* **[!UICONTROL Embed code]**：僅適用於發佈的應用程式，提供可點選連結，以產生任何已發佈應用程式的內嵌代碼。
+* **[!UICONTROL See on Site]** ：在您的網站上開啓應用程式。
+* **[!UICONTROL Embed code]** ：僅適用於發佈的應用程式，提供可點選連結，以產生任何已發佈應用程式的內嵌代碼。
 
    >[!NOTE]
    >
    >使用此內嵌代碼將民調問答新增至您的留言或即時部落格應用程式。如需詳細資訊，請參閱「自訂互動>自訂HTML」。
 
-* **[!UICONTROL View Content]**：開啓「內容」頁面，其中列出發佈至您應用程式的所有內容。
-* **[!UICONTROL Moderate]**：開啓ModQ，列出應用程式等待協調的所有內容。
-* **[!UICONTROL Developer Info]**：提供應用程式的收集ID、文章ID和網站ID。
+* **[!UICONTROL View Content]** ：開啓「內容」頁面，其中列出發佈至您應用程式的所有內容。
+* **[!UICONTROL Moderate]** ：開啓ModQ，列出應用程式等待協調的所有內容。
+* **[!UICONTROL Developer Info]** ：提供應用程式的收集ID、文章ID和網站ID。
 
 ## 使用Studio在您的網站上內嵌應用程式 {#section_w3h_1nt_bbb}
 
@@ -168,7 +168,7 @@ App Designer可讓您以多種發送格式預覽應用程式，以及顯示您�
 
 若要刪除應用程式：
 
-1. 按一 **[!UICONTROL Apps]**下。
+1. 按一 **[!UICONTROL Apps]** 下。
 1. 按一下要刪除之應用程式名稱右邊的橢圓形。
 1. 按一下 **[!UICONTROL Delete App]** 以刪除應用程式。
 

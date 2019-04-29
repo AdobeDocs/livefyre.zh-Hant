@@ -23,7 +23,7 @@ Instagram具有不同的社交帳戶規則，視您使用Adobe Livefyre而定。
 
 若要設定社交帳戶：
 
-1. 導覽至 **[!UICONTROL Settings >]****[!UICONTROL Network Settings.]**
+1. 導覽至 **[!UICONTROL Settings >]** **[!UICONTROL Network Settings.]**
 1. 導覽至下一 **[!UICONTROL Social Accounts]** 節 **[!UICONTROL Network Settings]**。
 1. 按一下 **[!UICONTROL Add Account]** 您要新增的社交帳戶類型。出現對話方塊彈出畫面，讓您授權Livefyre帳戶。
 

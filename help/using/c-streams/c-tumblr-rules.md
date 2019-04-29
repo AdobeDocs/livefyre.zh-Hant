@@ -27,7 +27,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Include recent items.]** 如果此項目設為：
 
-   * **[!UICONTROL Enabled]**Livefyre會將您的前20個內容項目新增至串流，不論出版日期為何。
-   * **[!UICONTROL Disabled]**Livefyre會將您的動態消息中前20個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
+   * **[!UICONTROL Enabled]** Livefyre會將您的前20個內容項目新增至串流，不論出版日期為何。
+   * **[!UICONTROL Disabled]** Livefyre會將您的動態消息中前20個內容項目新增至與串流規則建立日期或更新版本相同的出版日期。
 
 如需所有串流規則的其他串流規則選項，請參閱 [所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

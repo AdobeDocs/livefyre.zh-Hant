@@ -45,7 +45,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    * **[!UICONTROL Call-to-action button text]** 自訂「呼叫動作」按鈕上的文字。預設文字為「立即購買」。
 
-   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]****[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
+   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]** **[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
 
    * **[!UICONTROL Product URL referral tracking]** 切換切換至開啓，以追蹤從此應用程式到相關聯產品頁面的反向連結。
 

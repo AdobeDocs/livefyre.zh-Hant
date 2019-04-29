@@ -18,8 +18,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 **[!UICONTROL Tweets]** 顯示：
 
-* **[!UICONTROL Author information]**包括作者的姓名和使用者名稱、貼文、關注和追隨者的數目、他們的位置和網站(如果有的話)、Twitter帳戶的建立日期，以及Twitter設定檔的連結。
-* **[!UICONTROL Content information]**包括來源、建立的日期、回推和按贊次數。
+* **[!UICONTROL Author information]** 包括作者的姓名和使用者名稱、貼文、關注和追隨者的數目、他們的位置和網站(如果有的話)、Twitter帳戶的建立日期，以及Twitter設定檔的連結。
+* **[!UICONTROL Content information]** 包括來源、建立的日期、回推和按贊次數。
 
 **[!UICONTROL Instagram posts]** 顯示：
 

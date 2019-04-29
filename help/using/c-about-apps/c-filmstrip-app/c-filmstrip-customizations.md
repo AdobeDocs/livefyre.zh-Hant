@@ -35,7 +35,7 @@ source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
    * **[!UICONTROL Call-to-action indication text]** 要顯示的文字，提示使用者按下卡片以開啓呼叫動作模式。
    * **[!UICONTROL Call-to-action header text]** 要顯示在內容模型中呼叫動作按鈕上方標題上方的字詞。預設文字為「Shop these products：「.
    * **[!UICONTROL Call-to-action button text]** 要顯示在內容模型中呼叫動作按鈕中的字詞。預設文字為「立即購買：「.
-   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]****[!UICONTROL Product name]** 使用呼叫動作按鈕。
+   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]** **[!UICONTROL Product name]** 使用呼叫動作按鈕。
 
       >[!NOTE]
       >

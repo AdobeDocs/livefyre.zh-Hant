@@ -18,7 +18,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 搜尋並尋找使用者並產生其內容的報表：
 
-1. 前往 **[!UICONTROL Settings > Privacy]**，然後按 **[!UICONTROL Create Request]**一下。
+1. 前往 **[!UICONTROL Settings > Privacy]**，然後按 **[!UICONTROL Create Request]** 一下。
 
    ![](assets/privacypage1.png)
 
@@ -76,7 +76,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 
 
-1. 按一 **[!UICONTROL Finish]**下。
+1. 按一 **[!UICONTROL Finish]** 下。
 
    ![](assets/privacypage4.png)
 

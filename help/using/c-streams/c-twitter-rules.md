@@ -26,9 +26,9 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 若要建立Twitter規則，將內容從Twitter動態消息提取至您的應用程式或資料夾，您可以依下列方式進行篩選：
 
 * **[!UICONTROL Keywords]**
-   * 輸入 **[!UICONTROL Keywords]** 在您的Twitter串流中，或排除在外。指定和 **[!UICONTROL Contains any of these words]****[!UICONTROL Does not contain any of these words]** 欄位的值會傳回包含第一個值且不包含第二個推文的推文。可輸入單一欄位的多個值，並傳回包含任何值的結果。若要使用布林運算元AND搜尋推文，請使用兩個以上的字詞，使用兩個&(&)**分隔這兩個字詞。
+   * 輸入 **[!UICONTROL Keywords]** 在您的Twitter串流中，或排除在外。指定和 **[!UICONTROL Contains any of these words]** **[!UICONTROL Does not contain any of these words]** 欄位的值會傳回包含第一個值且不包含第二個推文的推文。可輸入單一欄位的多個值，並傳回包含任何值的結果。若要使用布林運算元AND搜尋推文，請使用兩個以上的字詞，使用兩個&(&)**分隔這兩個字詞。
    * 例如，輸入 **[!UICONTROL Contains any of these words]** 關鍵字Giant、Posey和 **[!UICONTROL Does not contain any of these words]** 關鍵字Dodger時，會傳回所有包含字詞Giant ** 或 *Poise* 且不包含Dodger單字 **的推文。
-若要搜尋 *包含Giant* 和 *Posey*單字的推文，請輸入「giants&& Posey」。只有Twitter規則中的 **[!UICONTROL Contains any of these words]****[!UICONTROL Does not contain any of these words]** 和欄位支援此功能。
+若要搜尋 *包含Giant* 和 *Posey*單字的推文，請輸入「giants&& Posey」。只有Twitter規則中的 **[!UICONTROL Contains any of these words]** **[!UICONTROL Does not contain any of these words]** 和欄位支援此功能。
 
 * **[!UICONTROL Hashtags]**.
    * 輸入 **[!UICONTROL Hashtags]** 在您的Twitter串流中，或排除在外。指定 **[!UICONTROL Contains any of these words]** 和 **[!UICONTROL Does not contain any of these words]** 欄位的值會傳回包含第一個欄位中主題標籤的推文，且在第二個欄位中不包含主題標籤。您可以為單一欄位輸入多個值。串流會傳回包含任何值的結果。
@@ -48,14 +48,14 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
    >對於這兩個欄位，距離會從輸入位置的中心計算。
 
    * 您可以新增多個位置和半徑。您可以按一下方塊中位置名稱旁邊的X來刪除位置。
-   * 結合和 **[!UICONTROL Is near this location]****[!UICONTROL Is not near this location]** 欄位，將內容提取到 **[!UICONTROL Is near this location]** 欄位中位置的位置，但不能提取 **[!UICONTROL Is not near this location]** 欄位中的位置。
+   * 結合和 **[!UICONTROL Is near this location]** **[!UICONTROL Is not near this location]** 欄位，將內容提取到 **[!UICONTROL Is near this location]** 欄位中位置的位置，但不能提取 **[!UICONTROL Is not near this location]** 欄位中的位置。
 
 
 * **[!UICONTROL Additional Filters]**
    * 使用其他篩選器進一步細化您的Twitter規則。定義您是否將：
       * 加入 **[!UICONTROL Replies]** 目標推文(如果串流變成高速，則此功能會自動停用)。
       * 包括推文(從 **[!UICONTROL Verified Twitter accounts only.]**
-      * 包括 **[!UICONTROL All Content]**、 **[!UICONTROL Vines Only]**或或 **[!UICONTROL Images Only.]**
+      * 包括 **[!UICONTROL All Content]**、 **[!UICONTROL Vines Only]** 或或 **[!UICONTROL Images Only.]**
       * 只包含源自所選 **[!UICONTROL Minimum number of followers]** (任何、100、500、1000、10,000或100,000)之帳戶的推文。
 
 如需所有串流規則的其他串流規則選項，請參閱 [所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

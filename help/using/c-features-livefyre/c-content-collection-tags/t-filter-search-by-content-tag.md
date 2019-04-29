@@ -15,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 透過Collection標籤篩選Studio中的內容搜尋。
 
-1. 從 **[!UICONTROL Filter by: Contains]****[!UICONTROL Content]** 面板中選取。
+1. 從 **[!UICONTROL Filter by: Contains]** **[!UICONTROL Content]** 面板中選取。
 1. 輸入標籤。

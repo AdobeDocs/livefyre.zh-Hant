@@ -27,4 +27,4 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 1. 開啓 **[!UICONTROL Rights options]** 視窗。
 1. 選取用於請求權限的帳戶。
 1. (選擇性)編輯請求訊息。如果訊息遺失或必要元素拼錯，會顯示錯誤訊息，指出錯誤或遺失資訊。
-1. 按一下 **[!UICONTROL Send]** ，將請求傳送給內容擁有者。
+1. 按一下 **[!UICONTROL Send]**，將請求傳送給內容擁有者。

@@ -34,12 +34,12 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
    * 禁止使用IP位址 **[!UICONTROL Settings > Bans]**
    * 依要求依國家/地區代碼禁止IP地區。禁止的內容將標示為SPAM。
 
-* 在您的網路或網站下 **[!UICONTROL Settings > Moderation > Rules]** ，建立您認為褻瀆性清單中褻瀆之字詞清單。
+* 在您的網路或網站下 **[!UICONTROL Settings > Moderation > Rules]**，建立您認為褻瀆性清單中褻瀆之字詞清單。
 * 白名單使用者(一律允許來自這些使用者的內容)使用或關閉特定串流、網站或網路的篩選。
 
 在您設定好粗俗清單、SAFE篩選器和規則之後，您可以選擇是否要預先調節內容，並將SAFE篩選器套用在串流中。如需詳細資訊，請參閱 [所有串流規則的串流規則選項](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
 
-Livefyre標記內容， **[!UICONTROL Approved]****[!UICONTROL Pending]**等 **[!UICONTROL Junk]**。取決於內容所在位置、內容的發佈位置，以及您在系統中設定的規則。下表說明Livefyre採取的動作，具體取決於這些因素。
+Livefyre標記內容， **[!UICONTROL Approved]** **[!UICONTROL Pending]** 等 **[!UICONTROL Junk]**。取決於內容所在位置、內容的發佈位置，以及您在系統中設定的規則。下表說明Livefyre採取的動作，具體取決於這些因素。
 
 ## 協調如何運作
 
@@ -99,7 +99,7 @@ Livefyre標記內容， **[!UICONTROL Approved]****[!UICONTROL Pending]**等 **[
 
 * ****[!UICONTROL Trash it:]將標幟的註解傳送至垃圾筒。
 * **[!UICONTROL Bozo it:]** 隱藏所有使用者的標幟留言，但其作者除外，但其作者除外。
-* **[!UICONTROL Pending:]** 將內容設為擱置中。如果您將「預覽」設定為「開啓」， **[!UICONTROL Settings > ModQ]**則它會位於ModQ中。否則，它只會位於「應用程式內容」中。
+* **[!UICONTROL Pending:]** 將內容設為擱置中。如果您將「預覽」設定為「開啓」， **[!UICONTROL Settings > ModQ]** 則它會位於ModQ中。否則，它只會位於「應用程式內容」中。
 
 >[!NOTE]
 >

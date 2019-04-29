@@ -21,7 +21,7 @@ Livefyre與Adobe Target的整合可讓您直接將Livefyre應用程式共用至T
 
 1. 選取您要透過IMS帳戶整合連線至Target的使用者帳戶。
 
-1. 按一 **[!UICONTROL Connect]**下。
+1. 按一 **[!UICONTROL Connect]** 下。
 
 1. 輸入您的IMS認證。
 
@@ -39,7 +39,7 @@ Livefyre與Adobe Target的整合可讓您直接將Livefyre應用程式共用至T
 
 1. 選取您要共用至Adobe Target的應用程式。
 
-1. 按一 **[!UICONTROL Publish]**下。
+1. 按一 **[!UICONTROL Publish]** 下。
 
 1. 在「發佈設定」中，按一下Adobe Target切換器。
 
@@ -49,6 +49,6 @@ Livefyre與Adobe Target的整合可讓您直接將Livefyre應用程式共用至T
 
 ![](assets/livefyre-target-publish.png)
 
-1. 按一 **[!UICONTROL Publish]**下。
+1. 按一 **[!UICONTROL Publish]** 下。
 
 Livefyre應用程式現在可用於您的Target選件庫中。如需發佈應用程式的詳細資訊，請參閱 [Target文件中的發佈內容](/help/using/c-library/t-publish-content.md) 和 [選件](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) 。

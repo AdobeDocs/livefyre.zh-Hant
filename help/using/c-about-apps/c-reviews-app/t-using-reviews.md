@@ -17,8 +17,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 使用者最多可將一個評論張貼至每個評論系列。只有登入的使用者才能張貼評論。
 
-1. 按一 **[!UICONTROL Write review]**下。The Review editor will be displayed.
-1. 輸入 **[!UICONTROL Review Title]**(最多150個字元)。
+1. 按一 **[!UICONTROL Write review]** 下。The Review editor will be displayed.
+1. 輸入 **[!UICONTROL Review Title]** (最多150個字元)。
 1. 輸入( **[!UICONTROL Review Body]** 大約8000個字元)。當您按一下 **[!UICONTROL Review Body]** 欄位時，所有可用功能都會出現在編輯器底部，例如豐富文字格式、朋友提及、社交分享和張貼您的評論。
 1. 按一下 **[!UICONTROL Rating]** 檢閱編輯區域上方的星號即可選擇。
 1. 按一下 **[!UICONTROL Post review]** 可將評論張貼至系列中，並在串流頂端顯示。

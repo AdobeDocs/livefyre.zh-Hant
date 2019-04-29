@@ -17,7 +17,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 指定標記可讓您依據特定標記篩選搜尋，並提取熱索引API的資料。
 
-標記可透過Studio中的和 **[!UICONTROL Content]****[!UICONTROL Collections]** 面板新增，或使用Livefyre初始化或更新Collection時，直接至Collection Metadata(使用CollectionMeta物件)。
+標記可透過Studio中的和 **[!UICONTROL Content]** **[!UICONTROL Collections]** 面板新增，或使用Livefyre初始化或更新Collection時，直接至Collection Metadata(使用CollectionMeta物件)。
 
 使用此功能的應用程式：
 

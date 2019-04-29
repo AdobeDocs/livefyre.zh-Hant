@@ -45,7 +45,7 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 按鈕旁邊會顯示按贊次數和最多四個使用者頭像的 **[!UICONTROL Like]** 次數。
 
-按贊內容時 **[!UICONTROL Like]** ，連結會變更 **[!UICONTROL Unlike]**為。按一下 **[!UICONTROL Unlike]** 會移除該使用者的頭像，並將數目減少1。
+按贊內容時 **[!UICONTROL Like]**，連結會變更 **[!UICONTROL Unlike]** 為。按一下 **[!UICONTROL Unlike]** 會移除該使用者的頭像，並將數目減少1。
 
 ## 編輯 {#section_ubt_qwx_vy}
 
@@ -67,7 +67,7 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 使用者可按一下將滑鼠停留在內容上時顯示 **[!UICONTROL Flag]** 的連結，以標記其他使用者的內容。
 
-按一下此連結會顯示「標記」模式，讓使用者將內容標幟為 **[!UICONTROL Offensive]****[!UICONTROL Disagree]**、 **[!UICONTROL Off Topic]****[!UICONTROL Spam]**或。可使用標幟新增選用的附註和電子郵件地址。
+按一下此連結會顯示「標記」模式，讓使用者將內容標幟為 **[!UICONTROL Offensive]** **[!UICONTROL Disagree]**、 **[!UICONTROL Off Topic]** **[!UICONTROL Spam]** 或。可使用標幟新增選用的附註和電子郵件地址。
 
 使用者不需要登入以標幟注釋，讓任何人加上註解以進行協調，而無需建立帳戶。
 

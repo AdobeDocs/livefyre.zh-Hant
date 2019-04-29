@@ -108,7 +108,7 @@ Livefyre Identity會傳送下列電子郵件：
 1. 在Studio中，按一下齒輪圖示以修改網路設定。
 1. 按一下 **[!UICONTROL Integration Settings > Livefyre Identity]**
 
-1. 導覽 **[!UICONTROL Email Settings]**至。
+1. 導覽 **[!UICONTROL Email Settings]** 至。
 
 1. 按一下 **[!UICONTROL Send Welcome Emails To New Users]** 以啓用電子郵件傳送。
 1. 導覽至 **[!UICONTROL Network Email]** 以設定電子郵件 *標誌*、電子郵件地址作為來自地址的電子郵件地址(**電子郵件寄件者**)，以及用於電子郵件地址的顯示名稱(**電子郵件顯示名稱**)。

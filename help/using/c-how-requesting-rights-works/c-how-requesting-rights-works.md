@@ -16,11 +16,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 下列權限狀態可從資料庫、應用程式內容、ModQ和AEM Commerce取得：
 
-* **[!UICONTROL Granted]**. 當作者授與您重復使用其內容的權限時，資產的狀態會變更 **[!UICONTROL Granted]**為。
+* **[!UICONTROL Granted]**. 當作者授與您重復使用其內容的權限時，資產的狀態會變更 **[!UICONTROL Granted]** 為。
 
 * **[!UICONTROL Expired]**. Livefyre會監視作者的Instagram和Twitter串流，以便回覆14天。在14天後，請求會過期，權限要求狀態會變更為 **[!UICONTROL Expired]**，您可以傳送第二個請求或從書庫中移除該項目。
-* **[!UICONTROL Requested]**. 請求來自資料庫的內容權限。您可以一次對一個或多個資產執行此動作。請求權限後，Livefyre會將資產狀態設 **[!UICONTROL Requested]**為。
-* **[!UICONTROL Needs Review]**. 如果作者回覆的附註未包含您的# Approval Hashtag，則資產變更狀態 **[!UICONTROL Needs Review]**為。
+* **[!UICONTROL Requested]**. 請求來自資料庫的內容權限。您可以一次對一個或多個資產執行此動作。請求權限後，Livefyre會將資產狀態設 **[!UICONTROL Requested]** 為。
+* **[!UICONTROL Needs Review]**. 如果作者回覆的附註未包含您的# Approval Hashtag，則資產變更狀態 **[!UICONTROL Needs Review]** 為。
 
 * **[!UICONTROL Request Failed]**. 無法傳送請求(因為過期的代號等)。
 * **[!UICONTROL Request Pending]**. Queues the Rights Request so that that that not toulds at one time.

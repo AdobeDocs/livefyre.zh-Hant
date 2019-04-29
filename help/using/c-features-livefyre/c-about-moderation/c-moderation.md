@@ -44,7 +44,7 @@ SAFE套用的旗標可與下列Studio元件搭配使用：
 
 SAFE將下列標幟套用至篩選內容，並可用來建立規則並調節Livefyre Studio中的協調內容。
 
-* **[!UICONTROL Profanity List]**：proane內容，由根據一般用途的英文關鍵字所定義。
+* **[!UICONTROL Profanity List]** ：proane內容，由根據一般用途的英文關鍵字所定義。
 
    「嚴格篩選」會根據測試的字詞清單尋找褻瀆語言。如果偵測到，則會標幟內容。
 
@@ -52,20 +52,20 @@ SAFE將下列標幟套用至篩選內容，並可用來建立規則並調節Live
    >
    >Livefyre也提供第二個「褻瀆清單」篩選器，您可以在「網站」和「網路」層級進行自訂。使用Profanity List建立的規則優先於來自SAFE Profanity篩選器的自動化規則。如需詳細資訊，請參閱設定文件中的「褻瀆清單」一節。
 
-* **[!UICONTROL Mild Profanity]**：通常無法接受polite對話中的字詞和片語，但通常可用於隨意對話中。通常網路電視允許這些字詞和片語。
-* **[!UICONTROL Strong Profanity]**：非常強穩的語言，例如網路電視上不允許的詞彙和片語，並可略過R評等影片和成熟的有線電視節目。一般而言，這些字詞不會用於流行對話或隨意對話中，且會出現在充滿影響力的對話中，意圖傷害聆聽者。
-* **[!UICONTROL SPAM]**：未經請求，通常是商業內容。它使用依賴各種功能(包括註解內容和URL)的統計模型，將內容標幟為SPAM。您可以依要求調整垃圾郵件臨界值，自訂網路或網站的SPAM標記比率。
-* **[!UICONTROL Mild Insult]**：孤立內容，由關鍵字和片語模式清單所定義。
-* **[!UICONTROL Strong Insult]**：孤立內容，由關鍵字和片語模式清單所定義。
-* **[!UICONTROL Hate Speech]**：基於性或宗教的侮辱，尤其是當目標群組隸屬於少數族群或受保護時。
-* **[!UICONTROL ALL CAPS]**：所有大寫字母中顯示的文字(以yright為單位)。
-* **[!UICONTROL Mild Threat]**：一種威脅或侮辱，通常包含某種輕微的粗魯導向。此選項會更常標示可能的威脅，但的誤判率也高於 **[!UICONTROL Strong Threat]**。
+* **[!UICONTROL Mild Profanity]** ：通常無法接受polite對話中的字詞和片語，但通常可用於隨意對話中。通常網路電視允許這些字詞和片語。
+* **[!UICONTROL Strong Profanity]** ：非常強穩的語言，例如網路電視上不允許的詞彙和片語，並可略過R評等影片和成熟的有線電視節目。一般而言，這些字詞不會用於流行對話或隨意對話中，且會出現在充滿影響力的對話中，意圖傷害聆聽者。
+* **[!UICONTROL SPAM]** ：未經請求，通常是商業內容。它使用依賴各種功能(包括註解內容和URL)的統計模型，將內容標幟為SPAM。您可以依要求調整垃圾郵件臨界值，自訂網路或網站的SPAM標記比率。
+* **[!UICONTROL Mild Insult]** ：孤立內容，由關鍵字和片語模式清單所定義。
+* **[!UICONTROL Strong Insult]** ：孤立內容，由關鍵字和片語模式清單所定義。
+* **[!UICONTROL Hate Speech]** ：基於性或宗教的侮辱，尤其是當目標群組隸屬於少數族群或受保護時。
+* **[!UICONTROL ALL CAPS]** ：所有大寫字母中顯示的文字(以yright為單位)。
+* **[!UICONTROL Mild Threat]** ：一種威脅或侮辱，通常包含某種輕微的粗魯導向。此選項會更常標示可能的威脅，但的誤判率也高於 **[!UICONTROL Strong Threat]**。
 
-* **[!UICONTROL Strong Threat]**：對一位或多人造成嚴重傷害的嚴重威脅或侮辱，通常具有強烈的褻瀆性。此選項會較少提及可能的威脅，但其誤報率也較 **[!UICONTROL Mild Threat]**低。
+* **[!UICONTROL Strong Threat]** ：對一位或多人造成嚴重傷害的嚴重威脅或侮辱，通常具有強烈的褻瀆性。此選項會較少提及可能的威脅，但其誤報率也較 **[!UICONTROL Mild Threat]** 低。
 
-* **[!UICONTROL Probable Nudity]**：其中可能含有虛名的影像。此選項的匿名度較低，但其誤報率 **[!UICONTROL Possible Nudity]**也較低。
+* **[!UICONTROL Probable Nudity]** ：其中可能含有虛名的影像。此選項的匿名度較低，但其誤報率 **[!UICONTROL Possible Nudity]** 也較低。
 
-* **[!UICONTROL Possible Nudity]**：其中可能含有虛名的影像。此選項會更常提及虛度，但也會比以前更高的誤報率 **[!UICONTROL Probable Nudity]**。
+* **[!UICONTROL Possible Nudity]** ：其中可能含有虛名的影像。此選項會更常提及虛度，但也會比以前更高的誤報率 **[!UICONTROL Probable Nudity]**。
 
 * **[!UICONTROL PII]** (可識別個人身分資訊)：可識別使用者的資訊。其中包括電子郵件地址、實體地址、社交安全號碼(供美國客戶使用)、信用卡號碼、密碼或任何可用於詐欺或取得某人身分的任何項目。
 * **[!UICONTROL Livefyre Recommends Trash]**. 設定當自動協調建議識別拒絕內容時，系統執行的動作。 ![](assets/mod_reco1.png)

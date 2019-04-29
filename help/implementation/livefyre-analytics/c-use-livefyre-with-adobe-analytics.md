@@ -23,7 +23,7 @@ source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 1. 以管理員使用者身分登入Adobe Analytics。
 1. 開啓Adobe Analytics管理報表套裝管理器。
 1. 建立新的報表套裝或選擇現有報表套裝。
-1. 按一下報表套裝以修改報表套裝，然後導覽至 **[!UICONTROL Edit Settings > Conversion > Success Events]**報表套裝。
+1. 按一下報表套裝以修改報表套裝，然後導覽至 **[!UICONTROL Edit Settings > Conversion > Success Events]** 報表套裝。
 1. 將Livefyre事件映射至一或多個自訂成功事件。
 
 ## 步驟2：設定轉換變數
@@ -47,7 +47,7 @@ source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 1. 建立或編輯現有的Adobe Analytics工具。
 1. 如果現有Adobe Analytics工具不存在，請按一下 **[!UICONTROL Add a Tool]** 按鈕。
 為工具設定下列參數：
-* 設 **[!UICONTROL Tool Type]****[!UICONTROL Adobe Analytics]**為。
+* 設 **[!UICONTROL Tool Type]** **[!UICONTROL Adobe Analytics]** 為。
 * 啓用 **[!UICONTROL Automatic Configuration]**。
 * 啓用 **[!UICONTROL Authenticate via Marketing Cloud]**。
 1. 新增或確認具有Livefyre事件的報表套裝名稱至 **[!UICONTROL Report Suites]** 欄位。
@@ -61,12 +61,12 @@ source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 >請勿使用事件型規則或直接呼叫規則。
 
 1. 在DTM中，選取 **[!UICONTROL Rules]** 標籤。
-1. 按一 **[!UICONTROL Page Load Rules]**下。
+1. 按一 **[!UICONTROL Page Load Rules]** 下。
 1. 按一下 **[!UICONTROL Create New Rule]** 按鈕。
-1. 按一下按鈕以開啓 **[!UICONTROL Conditions]** 區段 **[!UICONTROL Plus]** 。
+1. 按一下按鈕以開啓 **[!UICONTROL Conditions]** 區段 **[!UICONTROL Plus]**。
 1. 觸發規則。如果 **[!UICONTROL DOM Ready]** 您想要延遲或以非同步方式實施規則，請選擇或 **[!UICONTROL Onload]** 觸發類型。
 1. (選擇性)新增其他參數以限制顯示Livefyre應用程式的頁面。如需其他設定選項的詳細資訊，請參閱 [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)。
-1. 按 **[!UICONTROL Javascript/ Third Party Tags]**一下 **[!UICONTROL Non-sequential]** 標籤，然後按一 **[!UICONTROL Add New Script]**下。
+1. 按 **[!UICONTROL Javascript/ Third Party Tags]** 一下 **[!UICONTROL Non-sequential]** 標籤，然後按一 **[!UICONTROL Add New Script]** 下。
 1. 選取 **[!UICONTROL Sequential HTML]** 指令碼類型。
 1. 將下列指令碼新增至程式碼編輯器，然後按一下 **[!UICONTROL Save Code]**。
 在Livefyre JavaScript載入後，下列指令碼會呼叫 `livefyre_analytics` 直接呼叫規則。下列指令碼範例每400毫秒檢查一次是否 `livefyre.analytics` 位於頁面上。頁面載入後，livefyre. analytics會傳送追蹤資訊。
@@ -88,8 +88,8 @@ function pollForAnalytics() {
 setTimeout(pollForAnalytics, 400);
 ```
 
-1. 按一 **[!UICONTROL Save Code]**下。
-1. 按一 **[!UICONTROL Save Rule]**下。
+1. 按一 **[!UICONTROL Save Code]** 下。
+1. 按一 **[!UICONTROL Save Rule]** 下。
 
 ## 步驟5：建立直接呼叫規則以建立Livefyre的Adobe Analytics對應設定 {#section_gvp_b1g_pdb}
 

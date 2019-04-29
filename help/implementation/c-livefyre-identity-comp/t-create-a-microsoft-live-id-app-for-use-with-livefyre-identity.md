@@ -29,6 +29,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. 產生新密碼/金鑰配對以取得私密金鑰。
 1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**，switching the **[!UICONTROL Enable Microsoft Live Login]** socialto **[!UICONTROL On]**.
 1. 輸入Microsoft Live Client ID和Microsoft Live Client密碼。
-1. 按一 **[!UICONTROL Save Settings]**下。
+1. 按一 **[!UICONTROL Save Settings]** 下。
 
 完成後，Microsoft Live Identity的應用程式詳細資訊頁面將列出應用程式的用戶端ID(消費者金鑰)和用戶端密碼(消費者密碼)，以便用於Studio的「整合設定」頁面。

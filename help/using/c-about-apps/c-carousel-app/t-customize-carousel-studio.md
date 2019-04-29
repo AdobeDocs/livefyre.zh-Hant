@@ -43,7 +43,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
    * **[!UICONTROL Call-to-action indication text]** 要顯示的文字，提示使用者按下卡片以開啓呼叫動作模式。
    * **[!UICONTROL Call-to-action header text]** 要顯示在內容模型中「呼叫收貨人」按鈕上方標題上方的字詞。預設文字為「Shop these products：「.
    * **[!UICONTROL Call-to-action button text]** 要顯示在內容模型中「呼叫收貨人」按鈕中的字詞。預設文字為「立即購買：「.
-   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]****[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
+   * **[!UICONTROL Product display options]** 選擇是否要顯示和 **[!UICONTROL Photo]** **[!UICONTROL Product name]** 使用「呼叫動作」按鈕。
    >[!NOTE]
    >
    >像片和產品名稱按鈕在啓用時都會反白顯示。

@@ -18,7 +18,7 @@ source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
 
 當您新增資產至程式庫時，資料庫中已包含的資產會標記為核取標記。
 
-1. 導覽 **[!UICONTROL Social Search]**至。
+1. 導覽 **[!UICONTROL Social Search]** 至。
 1. 選擇 **[!UICONTROL Twitter]** 搜尋Twitter內容。
 1. 輸入關鍵字、#主題標籤或@人員。您可以從搜尋列上的右拉選單選取搜尋類型，以調整搜尋。
 
@@ -28,7 +28,7 @@ source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
 
 1. 輸入您的搜尋准則後，按一下以 **[!UICONTROL Show Filter]** 調整您的搜尋。
 
-   * **[!UICONTROL Sort By:]** 可讓您選擇是否要依 **[!UICONTROL Recently Added]**或排序傳回結果 **[!UICONTROL Most Popular]**。
+   * **[!UICONTROL Sort By:]** 可讓您選擇是否要依 **[!UICONTROL Recently Added]** 或排序傳回結果 **[!UICONTROL Most Popular]**。
 
    * **[!UICONTROL Only Include:]** 可讓您限制傳回的內容僅限包含 **[!UICONTROL Links]** 或 **[!UICONTROL Media]**.
 

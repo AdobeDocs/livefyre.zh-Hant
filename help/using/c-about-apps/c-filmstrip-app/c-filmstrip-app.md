@@ -76,7 +76,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## 網站訪客如何得知新產品何時新增？ {#section_ttt_xps_mbb}
 
-您可以選擇新增切換 **[!UICONTROL Show Notifications]** 至 **[!UICONTROL On]**新內容的通知通知。
+您可以選擇新增切換 **[!UICONTROL Show Notifications]** 至 **[!UICONTROL On]** 新內容的通知通知。
 
 ## 使用Studio建立幻燈片 {#section_dwb_glj_yy}
 

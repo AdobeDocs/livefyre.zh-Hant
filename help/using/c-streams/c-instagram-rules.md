@@ -28,7 +28,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 * **[!UICONTROL Words]**
 
-   * 輸入 **[!UICONTROL hashtags]** 在您的Instagram串流中，或排除在外。指定和 **[!UICONTROL Contains]****[!UICONTROL Does not contain]** 欄位的值會傳回包含第一個值且不包含第二個值的影像。
+   * 輸入 **[!UICONTROL hashtags]** 在您的Instagram串流中，或排除在外。指定和 **[!UICONTROL Contains]** **[!UICONTROL Does not contain]** 欄位的值會傳回包含第一個值且不包含第二個值的影像。
 
    * 例如，輸入 **[!UICONTROL Contains]** 關鍵字Giant、Posey和 **[!UICONTROL Does not contain]** 關鍵字Dodger會傳回所有包含字詞Giant或Posey的貼文，且不包含單字Dodger。
 
@@ -52,6 +52,6 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 * **[!UICONTROL Additional Filters]**
 
-   * 選擇您要包含 **[!UICONTROL All Content]**、 **[!UICONTROL Videos Only]**或在串流 **[!UICONTROL Photos Only]** 中。
+   * 選擇您要包含 **[!UICONTROL All Content]**、 **[!UICONTROL Videos Only]** 或在串流 **[!UICONTROL Photos Only]** 中。
 
 如需所有串流規則的其他串流規則選項，請參閱 [所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

@@ -28,9 +28,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. 從「API認證」頁面中，選取 **[!UICONTROL Credentials > New credentials > OAuth]** 用戶端ID。在開啓的 **[!UICONTROL Create client ID]** 頁面中：
 
    * 選取應用程式類型：Web應用程式。
-   * 輸入 **[!UICONTROL Name]****[!UICONTROL Client ID]**a.
+   * 輸入 **[!UICONTROL Name]** **[!UICONTROL Client ID]** a.
    * 保留 **[!UICONTROL Authorized JavaScript origins]** 欄位空白。
-   * 輸入 **[!UICONTROL Authorized redirect URIs]**： `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre` (您的Livefyre提供的網路名稱) **[!UICONTROL {networkName}]** 。例如：** [!UICONTROL labs]** **[!UICONTROL `labs.fyre.co`]**in
+   * 輸入 **[!UICONTROL Authorized redirect URIs]** ： `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre` (您的Livefyre提供的網路名稱) **[!UICONTROL {networkName}]**。例如：** [!UICONTROL labs]** **[!UICONTROL `labs.fyre.co`]** in
    * 按一下 **[!UICONTROL Create]** 以儲存您的憑證。
 
 完成後，Google的API管理員>認證頁面將列出專案的用戶端ID和用戶端密碼，以便用於Studio的「整合設定」頁面。

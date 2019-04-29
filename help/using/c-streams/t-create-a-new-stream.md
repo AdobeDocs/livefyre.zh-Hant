@@ -16,8 +16,8 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 在Livefyre中建立新的串流，將內容新增至應用程式或資料夾。
 
 1. 若要建立新的串流，請按一下 **[!UICONTROL Streams > Create Stream.]**
-1. 輸入 **[!UICONTROL Stream Name]**a.
-1. 選擇一 **[!UICONTROL Stream Destination]**個： **[!UICONTROL App]** 或 **[!UICONTROL Folder]** 選擇串流的目的地。
+1. 輸入 **[!UICONTROL Stream Name]** a.
+1. 選擇一 **[!UICONTROL Stream Destination]** 個： **[!UICONTROL App]** 或 **[!UICONTROL Folder]** 選擇串流的目的地。
 
    * 當您按一下「發佈」時，選取「應用程式」將「串流」中包含的所有內容推送至選取的應用程式。
    * 選取「資料夾」，將「串流」中包含的所有內容持續推送至選取的資料夾。

@@ -5,7 +5,7 @@ seo-title: 手動傳送Instagram權限請求
 title: 手動傳送Instagram權限請求
 uuid: c07b3f6f-c14 c-4e62-b18 b-25934ebe45 bf
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -18,14 +18,14 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 
 * 新增Instagram社交帳戶。如需如何設定社交帳戶的詳細資訊，請參閱 [新增社交帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)。若要傳送手動或部分自動權利要求，您必須設定Instagram業務帳戶。如需Instagram帳戶的詳細資訊，請參閱 [關於Instagram帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
-* 設定Rights Management。如需如何設定權限管理的詳細資訊，請參閱 [請求權限](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works)。
+* 設定Rights Management。如需如何設定權限管理的詳細資訊，請參閱 [請求權限](../c-how-requesting-rights-works/c-how-requesting-rights-works.md)。
 
 若要傳送Instagram內容的手動權限要求：
 
 1. 開啓 **[!UICONTROL Rights options]** 視窗。
 1. 選取用於請求權限的帳戶。帳戶必須是Instagram的商業帳戶。
 1. (選擇性)編輯請求訊息。如果訊息遺失或必要元素拼錯，會顯示錯誤訊息，指出錯誤或遺失資訊。
-1. 按一下 **[!UICONTROL Copy]**，將方塊中的文字複製到剪貼簿中。
+1. 按一下 **[!UICONTROL Copy]** ，將方塊中的文字複製到剪貼簿中。
 
    ![](assets/rr_insta_workaround1.png)
 

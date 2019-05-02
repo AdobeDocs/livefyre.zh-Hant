@@ -3,7 +3,7 @@ product: livefyre
 audience: 使用者
 user-guide-title: Experience Manager Livefyre使用指南
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -208,6 +208,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [設定Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [傳送Twitter權限請求](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
    + [傳送部分自動化Instagram權限請求](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+   + [手動傳送Instagram權限請求](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
    + [檢視權限活動歷史記錄](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用資產庫中的待定權限請求管理內容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [從資產庫手動授予或撤銷資產的權利](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
@@ -251,6 +252,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [隱私權要求常見問答集](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [建立隱私權請求](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
       + [檢視隱私權報告](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
+      + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + 發行說明 {#release-notes}
    + [最新發行說明](c-rn/c-rn.md)
    + 發行說明2019 {#rn2019}

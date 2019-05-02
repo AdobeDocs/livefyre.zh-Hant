@@ -3,7 +3,7 @@ product: livefyre
 audience: 使用者
 user-guide-title: Experience Manager Livefyre實作指南
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -111,6 +111,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
       + [Sitdenes自訂樣式](c-app-integrations/c-sidenotes-integration/r-custom-styles.md)
       + [Sitdones自訂字串](c-app-integrations/c-sidenotes-integration/r-custom-strings.md)
       + [Sitdones實施](c-app-integrations/c-sidenotes-integration/r-sidenotes-implementation.md)
+      + [UpdateCHANchers方法](c-app-integrations/c-sidenotes-integration/update-anchors-method.md)
    + [地圖](c-app-integrations/c-map-integration.md)
    + [Media Wall](c-app-integrations/c-media-wall-integration.md)
    + [趨勢分析](c-app-integrations/c-trending-integration.md)

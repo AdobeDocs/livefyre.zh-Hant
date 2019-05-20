@@ -1,11 +1,12 @@
 ---
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 9bcc55b92463eb9d71076f2349d5756ba94fad13
 translation-type: tm+mt
 
 ---
 # 貢獻文章
 
-我們歡迎社群以及來自文件團隊以外的Adobe員工的捐款。
+我們歡迎我們社群及文件團隊以外的 Adobe 員工貢獻心力。
+
 
 ## Adobe 開放原始碼行為準則
 
@@ -19,13 +20,13 @@ translation-type: tm+mt
 
 ### 微幅變更
 
-如果您要從心滿意足的方式來貢獻次要更新，請造訪文章，然後按一下文章的 **「GitHub」來源中的「編輯** 」連結。然後，只需使用GitHub UI進行更新。如需詳細資訊，請參閱一般 [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 。
+若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的**「編輯」**連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
 ### 由社群成員提出重大變更或新文章
 
-如果您屬於Adobe社群的一部分，而且想要建立新文章或提交重大變更，請使用Git存放庫中的「期刊」索引標籤提交問題，以開始與文件團隊進行對話。在您同意計劃後，您將需要與員工合作，透過公共和私人儲存庫中的作品結合新內容。
+如果您是 Adobe 社群成員，且想建立新文章或提出重大變更，請使用 Git 存放庫中的「問題」索引標籤，提出問題以便與文件團隊開始對話。一旦您同意某項計劃，您將需要與一位員工合作，搭配使用公開和私人存放庫，協力建立新內容。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.

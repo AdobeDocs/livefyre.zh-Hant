@@ -5,7 +5,7 @@ seo-title: 裝置與瀏覽器支援
 title: 裝置與瀏覽器支援
 uuid: 338f78b2-051d-4831-a0 b9-e987 f92660 ce
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: fc4a7e50b936211a6e7c338715b410e221f0b5f7
 
 ---
 
@@ -21,15 +21,15 @@ Livefyre支援下列裝置、作業系統和瀏覽器。
 | **桌面瀏覽器** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE11 | ✓ | ✓ | ✓ | ✓ |
+| IE11 | ✓ | ✓ | X | ✓ |
 | Firefox14+ | ✓ | ✓ | ✓ | ✓ |
 | Safari7.x | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
 | **裝置** |  |  |  |  |
-| Android Browser2.3+ | Limited | Limited | N/A | Limited |
-| Android4.1+上的Google Chrome | Limited | Limited | N/A | Limited |
-| iOS舊版(iPhone4S+/iPad2+) | Limited | Limited | N/A | Limited |
-| iOS目前版本(iPhone4S+/iPad2+) | ✓ | ✓ | N/A | ✓ |
+| Android Browser2.3+ | Limited | Limited | 不適用 | Limited |
+| Android4.1+上的Google Chrome | Limited | Limited | 不適用 | Limited |
+| iOS舊版(iPhone4S+/iPad2+) | Limited | Limited | 不適用 | Limited |
+| iOS目前版本(iPhone4S+/iPad2+) | ✓ | ✓ | 不適用 | ✓ |
 
 >[!NOTE]
 >

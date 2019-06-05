@@ -5,7 +5,7 @@ seo-title: Avatars
 title: Avatars
 uuid: fc20f3bc-3dcc-4e16-a629-3380d1 a7 a3 f
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -29,15 +29,6 @@ Livefyre會非同步載入Avatars。當使用者第一次登入應用程式，�
 ## 墓穴 {#section_mqh_p1f_wy}
 
 Livefyre支援使用墓穴。如果使用者沒有自訂頭像做為其使用者個人資料的一部分，Livefyre將會檢查該使用者的「墓穴」。如果沒有「墓穴」，則會使用預設頭像。
-
-如果使用Livefyre WordPress Plugin內嵌意見，則如果符合下列條件，將會使用使用者的「語法」：
-
-* 已在WordPress管理面板中啓用語法，且
-* 使用者擁有「Gravatar」帳戶，而且
-* 不提供自訂頭像。
-
-如需詳細資訊，請參閱WordPress墓穴文件。
-
 
 
 使用此功能的應用程式：

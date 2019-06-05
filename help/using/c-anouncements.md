@@ -6,14 +6,27 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 2e2c1a018e5ec58a3649bc27679d53390ffcc8ca
+source-git-commit: df47087c69f2bdc8d97226d2013db80703f2e091
 
 ---
 
 
 # 公告{#announcements}
 
-Livefyre和Livefyre Studio的公告。即日起至2018年11月15日。
+Livefyre和Livefyre Studio的公告。即日起至2019年月日。
+
+## 2019年月日
+
+雖然Facebook通常提供變更的進階通知，但他們昨天很快決定停用Livefyre中Facebook和Instagram內容的存取權。由於這項變更，您將無法串流、搜尋或分享Facebook或Instagram內容。我們誠心歉意無法提供您對此項變更的支持。
+
+請記住，目前仍有存取Facebook和Instagram內容的方法：
+
+* 網站上已發佈的內容不受影響
+* 已在您的串流資料夾中的內容仍可供使用
+
+我們正與Facebook密切合作，以恢復此項功能，希望不久能獲得解決方案。感謝您，我知道我是否能回答任何問題。我們希望持續感謝您的耐心與合作關係。
+
+
 
 ## 2018年11月15日 {#section_yx3_hnp_5fb}
 
@@ -43,7 +56,7 @@ Livefyre和Livefyre Studio的公告。即日起至2018年11月15日。
 
    在月24日，我們在Instagram內容的使用權限要求工作流程中，提供手動解決方案。我們會繼續致力於還原自動監視權限要求回應的功能，並更新活動歷史記錄。我們預期此功能將於今夏推出，並將於即時推出時通知您。
 
-## 2018 年 5 月 24 日 {#section_xbk_wvd_ydb}
+## 2018年月24日 {#section_xbk_wvd_ydb}
 
 Instagram內容的使用權限請求工作流程的其中一項更新現已推出。從「應用程式內容」和「資料庫」中，您現在可以複製Livefyre Studio的請求權限訊息，並貼到您要核准的精確Instagram貼文中。在未來版本中將會提供ModQ中的這項功能。在2018年月14日之前，我們將還原自動監視權限要求的功能，並更新活動歷史記錄。
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
+source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
 
 ---
 
@@ -14,6 +14,18 @@ source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
 # 公告{#announcements}
 
 Livefyre和Livefyre Studio的公告。即日起至2019年月日。
+
+## 2019年月日
+
+我們很樂於回報Instagram串流和搜尋已還原至Livefyre。您可以繼續使用Social搜尋Instagram內容，並繼續將Instagram內容串流化至檔案夾和應用程式。若要再次開始串流內容，您必須執行下列步驟：
+* 登入Livefyre
+* 「瀏覽設定」重新授權並重新整理連結至您Instagram業務帳戶的存取Token
+* 等待一到兩小時，讓內容再次串流
+* 連絡支援如果您遇到任何問題
+
+Facebook串流尚未復原，但我們仍積極與Facebook合作，以恢復此項功能，並將盡快更新您。
+
+感謝您持續耐心等待這項意想不到的服務中斷。
 
 ## 2019年月日
 

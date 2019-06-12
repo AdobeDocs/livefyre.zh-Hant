@@ -6,14 +6,18 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
+source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
 
 ---
 
 
 # 公告{#announcements}
 
-Livefyre和Livefyre Studio的公告。即日起至2019年月日。
+## 2019年月11日
+
+很高興通知您Facebook Fanpage內容已繼續串流至Livefyre內的資料夾和應用程式。您不需要採取任何動作來啓用此內容的流程。
+
+在這個意外的中斷期間，我們非常感謝您的耐心等待。
 
 ## 2019年月日
 

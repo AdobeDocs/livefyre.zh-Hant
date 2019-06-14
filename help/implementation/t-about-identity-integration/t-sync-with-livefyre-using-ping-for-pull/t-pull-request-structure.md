@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 提取請求結構
 uuid: bc6b9e45-d08 a-48e6-acc6-e4 fa56428 d25
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
@@ -40,4 +40,3 @@ JSON `lftoken` Web Token是使用您的網路金鑰簽署的， **[!UICONTROL {u
    * `lftoken` 如果未存在或驗證失敗，請勿讓端點回應描述檔資訊。請改為以403(Forbidden)狀態碼回應，並無回應主體。
 
 1. `userAuthToken` 由使用者的Livefyre `buildUserAuthToken` 方法產生，使用者id「system」。此使用者是為每個新網路建立的第一個使用者。
-1. 若要測試您的頁面，請使用我們 [的Ping for Draw](https://livefyre-p4p-wizard.herokuapp.com/home) 測試程式確認所有內容如預期般運作。

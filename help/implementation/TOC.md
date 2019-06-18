@@ -3,7 +3,7 @@ product: livefyre
 audience: 使用者
 user-guide-title: Experience Manager Livefyre實作指南
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + 使用Livefyre身分識別搭配使用社交應用程式 {#use-social-apps-with-livefyre-identity}
       + [建立您的社交應用程式](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [建立Facebook應用程式以搭配Livefyre身分識別](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [建立Google Project以搭配Livefyre身分識別](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
       + [建立Twitter應用程式以搭配Livefyre身分識別](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [建立Yahoo！應用程式搭配Livefyre身分識別](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [建立Microsoft Live Identity App以搭配Livefyre身分識別使用](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
@@ -90,8 +89,8 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
       + [BuildCollection網站方法](c-installing-libraries/r-buildcollection-site-method.md)
       + [Geturn網站方法](c-installing-libraries/r-geturn-site-method.md)
       + [範例](c-installing-libraries/c-libraries-examples.md)
-   + 行動SDK {#mobile-sdks}
-      + [行動SDK](c-mobile-sdks/c-mobile-sdks.md)
+   + 行動 SDK {#mobile-sdks}
+      + [行動 SDK](c-mobile-sdks/c-mobile-sdks.md)
       + [Livefyre iOS SDK](c-mobile-sdks/c-livefyre-ios-sdk.md)
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre. js](c-livefyre.js.md)

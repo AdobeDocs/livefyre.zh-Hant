@@ -4,24 +4,25 @@ seo-description: Adobe Livefyre的最新發行說明。
 seo-title: Adobe Livefyre的最新發行說明
 title: Livefyre的最新發行說明
 translation-type: tm+mt
-source-git-commit: 9500a4ac5d3cdaeb5909c06d406b006108d39fee
+source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
 
 ---
 
 
-# 目前發行說明 {#current-release-notes}
+# Current Release Notes {#current-release-notes}
 
-**2019年月21日更新的發行說明。**
-
->[!NOTE]
->
->Livefyre將於月23日星期四在我們的Production環境中停用HTTP(連接埠80)。This will complete the security updates in compliance with Adobe Security Standards.如果您遇到整合問題，請聯絡 [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) 。
+**2019年月11日更新版本的發行說明。**
 
 ## 增強功能
 
-* 依預設實施啓用「呼叫動作」按鈕。
-
+* 將自動標記模型從v更新為v7.1。
 
 ## 錯誤修正
 
-* 修正ModQ中「未定義」Instagram貼文無法移除的問題。
+* 修正使用者在每個天限制以外搜尋Instagram內容以外的「401未授權」錯誤時，遇到「401未授權」錯誤的問題。
+* 修正了在媒體塗鴉牆上使用產品篩選內容「載入更多」時，會將內容置於頂端，而非預期內容的問題。
+* 修正因過期CDN連結而移除Instagram貼文的問題。
+* 修正民調問答應用程式使用不正確格式顯示民調問答問題和答案選項的問題。
+* 已移除不再支援的Facebook內容匯入說明文件。
+* 修正使用者無法核准Twitter串流前置內容的問題。
+* 修正透過上傳媒體API上傳的視訊從. mp轉換為. undefined的問題。

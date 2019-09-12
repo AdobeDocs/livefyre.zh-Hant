@@ -3,7 +3,7 @@ product: livefyre
 audience: 使用者
 user-guide-title: Experience Manager Livefyre實作指南
 translation-type: tm+mt
-source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
+source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 + [Livefyre實施指南](home.md)
 + 快速入門 {#getting-started}
    + [Livefyre整合快速入門](c-getting-started/c-getting-started.md)
-   + 實作程序 {#implementation-process}
-      + [實作程序](c-getting-started/c-implementation-process/c-implementation-process.md)
+   + 實施程序 {#implementation-process}
+      + [實施程序](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [應用程式整合類型](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [應用程式建置](c-getting-started/designer-app-implementation.md)
       + [使用協力廠商整合實施Livefyre](c-app-integrations/implement-livefyre-3rd-party.md)
@@ -97,9 +97,8 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 + [建立Livefyre Tokens C#](c-creating-livefyre-tokens-c-.md)
 + 應用程式整合 {#app-integrations}
    + [聊天室](c-app-integrations/c-app-integratios-chat.md)
-   + 注釋 {#comments}
-      + [注釋](c-app-integrations/c-comments-integration/c-comments-integration.md)
-      + [注釋中的廣告](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
+   + 意見 {#comments}
+      + [意見](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [即時部落格](c-app-integrations/c-live-blog-integration.md)
    + [評論](c-app-integrations/c-reviews-integration.md)
    + Sitents {#sidenotes}

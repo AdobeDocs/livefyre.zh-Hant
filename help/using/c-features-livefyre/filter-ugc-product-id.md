@@ -1,6 +1,6 @@
 ---
-description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時顯示每個頁面的不同產品特定UGC。
-seo-description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時顯示每個頁面的不同產品特定UGC。
+description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時針對每個頁面顯示不同的產品特定UGC。
+seo-description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時針對每個頁面顯示不同的產品特定UGC。
 seo-title: 依產品ID篩選UGC
 title: 依產品ID篩選UGC
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
@@ -12,35 +12,35 @@ source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
 
 # 依產品ID篩選UGC {#filter-ugc-product-id}
 
-依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時顯示每個頁面的不同產品特定UGC。
+依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時針對每個頁面顯示不同的產品特定UGC。
 
 若要依產品ID篩選UGC，請遵循下列步驟：
 
-1. 在Livefyre Studio中，導覽至 **[!UICONTROL Apps]** 標籤。
+1. 在Livefyre studio中，導覽至標籤 **[!UICONTROL Apps]** 頁。
 
 1. 選取您要修改的應用程式。
 
-1. 選取左側邊欄中的「設計人員」標籤。
+1. 選擇左側導軌中的「設計器」(Designer)頁籤。
 
-1. 啓用 **[!UICONTROL Filter UGC by Product ID]**。
+1. Enable **[!UICONTROL Filter UGC by Product ID]**.
 
 ![](assets/filter-ugc-product-id.png)
 
-1. 選取包含您要依「UGC」篩選的產品或產品的頂層產品資料夾。
-使用CTRL/Command+按一下以選取多個檔案夾。
+1. 選擇頂層產品資料夾，其中包含您要依據篩選UGC的產品或產品。
+使用CTRL/Command +按一下可選擇多個資料夾。
 
-1. 停用 **[!UICONTROL Show related content]**。
-啓用後，會先顯示使用 `data-lf-attr-product` 屬性篩選的內容，然後再顯示應用程式中的所有其他內容。
+1. Disable **[!UICONTROL Show related content]**.
+啟用後，使用屬性篩選的內容會先 `data-lf-attr-product` 顯示，接著是應用程式中的所有其他內容。
 
-1. 按一 **[!UICONTROL Publish]** 下。
+1. Click **[!UICONTROL Publish]**.
 
-1. 將您要篩選的產品ID插入到結果代碼中。
+1. 將您要篩選依據的產品ID插入結果代碼中。
 
 >[!NOTE]
 >
->若要尋找產品ID，請導覽至 **[!UICONTROL Settings > Products]**。找出所需的產品，然後選取ID並顯示ID。
+>若要尋找產品ID，請導覽至 **[!UICONTROL Settings > Products]**。 找出所要的產品並選取它，然後會顯示ID。
 
-例如，針對媒體塗鴉牆應用程式產生下列程式碼：
+例如，會為媒體塗鴉牆應用程式產生下列程式碼：
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -53,9 +53,9 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-若要標記產品，請在 `<product 1>``data-lf-attr-product` 屬性中取代所需的產品ID。您可以新增其他逗號分隔的產品ID，以標記一個或多個產品。產品必須包含在步驟中所選的頂層產品資料夾或資料夾中。
+若要標籤產品，請將屬 `<product 1>` 性中的 `data-lf-attr-product` 產品ID取代為所需的產品。 您可以新增其他以逗號分隔的產品ID，以標籤一或多個產品。 產品必須包含在步驟5中選取的頂層產品資料夾或資料夾中。
 
-修改後的代碼區段會顯示為：
+修改後的程式碼區段會顯示為：
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -68,4 +68,4 @@ Livefyre.js"></script><div class="lf-app-embed" data-lfapp="
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-應用程式現在只會顯示標記的產品ID。
+應用程式現在只會顯示標籤的產品ID。

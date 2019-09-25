@@ -1,6 +1,6 @@
 ---
-description: 允許使用者從單一頁面版面和URL點進系列。
-seo-description: 允許使用者從單一頁面版面和URL點進系列。
+description: 允許使用者從單一頁面版面和URL點進「系列」。
+seo-description: 允許使用者從單一頁面版面和URL點進「系列」。
 seo-title: 變更系列
 solution: Experience Manager
 title: 變更系列
@@ -13,13 +13,13 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 # 變更系列 {#change-collection}
 
-允許使用者從單一頁面版面和URL點進系列。
+允許使用者從單一頁面版面和URL點進「系列」。
 
-使用「變更系列委派」變更頁面上顯示的Collection，而不會變更URL，而Livefyre應用程式已載入。使用此功能可顯示像片或影片收藏館，或其他顯示的「應用程式」在使用者動作後應變更的其他應用程式。
+當Livefyre應用程式已載入時，使用「變更系列委派」來變更頁面上顯示的系列，而不變更URL。 使用此功能可顯示像片或視訊收藏館，或其他應用程式，在使用者動作後顯示的系列應該會變更。
 
-例如，按一下收藏館中的影片或像片會載入特定於該選項的「系列」，而頁面的URL則不會變更。
+例如，按一下圖庫中的影片或像片會載入該選取範圍專屬的「系列」，而頁面的URL則不會變更。
 
-[從單一頁面載入三個系列之一](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count)：
+若要 [從單一頁面載入三個系列中的其中一個](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
 ```
 <html> 

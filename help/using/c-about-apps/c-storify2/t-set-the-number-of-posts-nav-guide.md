@@ -1,19 +1,19 @@
 ---
-description: 設定訪客在導覽指南中可看到多少貼文。
-seo-description: 設定訪客在導覽指南中可看到多少貼文。
-seo-title: 在導覽指南中設定貼文數目
+description: 設定網站訪客在導覽指南中可看見的貼文數。
+seo-description: 設定網站訪客在導覽指南中可看見的貼文數。
+seo-title: 在導覽指南中設定貼文數
 solution: Experience Manager
-title: 在導覽指南中設定貼文數目
-uuid: 8baee47a-7f9f-48dd-ac6 e-a2 f47 f56148 b
+title: 在導覽指南中設定貼文數
+uuid: 8baee47a-7f9f-48dd-ac6e-a2f47f56148b
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 在導覽指南中設定貼文數目{#set-the-number-of-posts-in-the-navigation-guide}
+# 在導覽指南中設定貼文數{#set-the-number-of-posts-in-the-navigation-guide}
 
-設定訪客在導覽指南中可看到多少貼文。
+設定網站訪客在導覽指南中可看見的貼文數。
 
-1. 在Storify App **[!UICONTROL Navigation Guide]** Designer中，切換切換。
-1. 在 **[!UICONTROL Max Number of Guide Posts]** 欄位中輸入數字。如果您未設定此欄位，Livefyre將預設上限為10。
+1. 在Storify 2 App Designer中，開啟切換 **[!UICONTROL Navigation Guide]** 功能。
+1. 在欄位中輸入 **[!UICONTROL Max Number of Guide Posts]** 數字。 如果您未設定此欄位，Livefyre的預設值上限為10。

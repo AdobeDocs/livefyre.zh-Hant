@@ -1,6 +1,6 @@
 ---
-description: 2018年月14日發行的發行說明。
-seo-description: 2018年月14日發行的發行說明。
+description: 2018年6月14日發行說明。
+seo-description: 2018年6月14日發行說明。
 seo-title: 2018年6月14日
 solution: Experience Manager
 title: 2018年6月14日
@@ -11,43 +11,43 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 ---
 
 
-# 2018年月14日{#june}
+# June 14, 2018{#june}
 
-2018年月14日發行的發行說明。
+2018年6月14日發行說明。
 
-## 新特性 {#section_syx_mdt_wcb}
+## 新功能 {#section_syx_mdt_wcb}
 
-**evars. appType javascript變數名稱的變更**
+**evars.appType javascript變數名稱中的變更**
 
-將evar. appType javascript和enter. name的值變更為下表中的外框做為外框：
+將evars.appType javascript和generator.name的值變更為新值，作為下表中的大綱：
 
-## evars. appType變數名稱變更
+## evars.appType變數名稱變更
 
-| 先前名稱 | 新名稱 |
+| 舊名稱 | 新名稱 |
 |---|---|
 | blog-component | 即時部落格 |
-| card-component | 功能卡 |
-| carousel-component | 轉盤 |
+| 卡元件 | 功能卡 |
+| 轉盤元件 | 轉盤 |
 | 聊天元件 | 聊天室 |
-| comment-component | 注釋 |
-| 幻燈片幻燈片 | 幻燈片幻燈片 |
-| masts-component | 地圖 |
-| media-pload | 上傳按鈕 |
-| mosaic-component | Mosaic |
-| 簡化邊欄 | Media Wall |
-| 趨勢元件 | 趨勢分析 |
+| comment-component | 意見 |
+| 幻燈片 | 幻燈片 |
+| maps-component | 地圖 |
+| 媒體上傳 | 上傳按鈕 |
+| 馬賽克分量 | 馬賽克 |
+| 流線輪——壁 | 媒體牆 |
+| trends-component | 趨勢分析 |
 
 ## 問題 {#section_ehw_ndt_wcb}
 
-下列表格中的問題已解決。
+本版本已解決下清單格中的問題。
 
 ## 生產版本
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| Bug | 資料庫/搜尋 | 修正Instagram影片無法在Social搜尋或應用程式內容中正確顯示的問題。 |
-| Bug | 智慧標記 | 修正從Instagram收集到的內容無法顯示智慧標記的問題。 |
+| 錯誤 | 資料庫／搜尋 | 修正Instagram影片無法在「社交搜尋」或「應用程式內容」中正確顯示的問題。 |
+| 錯誤 | 智慧標籤 | 修正智慧型標籤無法針對從Instagram收集的內容顯示的問題。 |
 
-## UAT版本
+## UAT發行
 
-本發行無UAT發行說明。
+本版本沒有UAT發行說明。

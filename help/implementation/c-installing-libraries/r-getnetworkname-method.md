@@ -1,21 +1,21 @@
 ---
-description: 此方法會傳回網路名稱，而沒有fyre. co。
-seo-description: 此方法會傳回網路名稱，而沒有fyre. co。
-seo-title: getPrevikName網路方法
+description: 此方法返回沒有fyre.co的網路名稱。
+seo-description: 此方法返回沒有fyre.co的網路名稱。
+seo-title: getNetworkName Network Method
 solution: Experience Manager
-title: getPrevikName網路方法
-uuid: 3523e5a4-11f4-458d-91e7-a149 d3 afe5 e9
+title: getNetworkName Network Method
+uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# getPrevikName網路方法{#getnetworkname-network-method}
+# getNetworkName Network Method{#getnetworkname-network-method}
 
-此方法會傳回網路名稱，而沒有fyre. co。
+此方法返回沒有fyre.co的網路名稱。
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 network.getNetworkName();
@@ -27,7 +27,7 @@ network.getNetworkName();
 "example" 
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 network.getNetworkName();
@@ -51,7 +51,7 @@ $network->getNetworkName();
 "example" 
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 network.network_name; 
@@ -63,7 +63,7 @@ network.network_name;
 "example" 
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.network_name; 

@@ -1,45 +1,45 @@
 ---
-description: 變更民調問答應用程式的大小、寬度和互動選項。
-seo-description: 變更民調問答應用程式的大小、寬度和互動選項。
-seo-title: 投票自訂
+description: 變更「民調問答」應用程式的大小、寬度和互動選項。
+seo-description: 變更「民調問答」應用程式的大小、寬度和互動選項。
+seo-title: 輪詢自定義
 solution: Experience Manager
-title: 投票自訂
-uuid: 788a4fa7-aafb-4508-b9 c0-cd54 e4 cd9 b86
+title: 輪詢自定義
+uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 投票自訂{#polls-customizations}
+# 輪詢自定義{#polls-customizations}
 
-變更民調問答應用程式的大小、寬度和互動選項。
+變更「民調問答」應用程式的大小、寬度和互動選項。
 
 
 
 * **[!UICONTROL Type]**
 
-   選擇您要建立的民調問答類型。**[!UICONTROL Single image]** 可讓您新增民調問答問題的影像。**[!UICONTROL Multiple image]** 可讓您新增民調問答的答案。**[!UICONTROL Text only]** 建立不含影像的民調問答。
+   選擇要建立的民調問答類型。 **[!UICONTROL Single image]** 可讓您新增投票問題的影像。 **[!UICONTROL Multiple image]** 可讓您新增影像以供民調問答的回答。 **[!UICONTROL Text only]** 建立不含影像的民調問答。
 
-* **[!UICONTROL Question]** *必要項目*
+* **[!UICONTROL Question]**  必 *要*
 
-   輸入將針對您的民調問答顯示的問題。
+   輸入將顯示在民調問答中的問題。
 
-* **[!UICONTROL Choices]** (最少2)
+* **[!UICONTROL Choices]** （最少2個）
 
-   輸入將針對您的民調問答顯示的答案。
+   輸入將顯示於民調問答的答案。
 
 * **[!UICONTROL Display total votes]**
 
-   啓用後，您的民調問答結果會顯示每個選項提交的投票總數。
+   如果啟用，您的民調問答結果會顯示每個選項的投票總數。
 
 * **[!UICONTROL Users may share poll]**
 
-   啓用後，您的民調問答將包含使用者可能共用的連結。
+   如果啟用，您的民調問答將包含使用者可共用的連結。
 
-* **[!UICONTROL Link]** *選用項目*
+* **[!UICONTROL Link]** 可 *選*
 
-   供您的民調問答顯示的連結。
+   您民調問答顯示的連結。
 
 * **[!UICONTROL Link title]**
 
@@ -47,15 +47,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Show poll results]**
 
-   如果啓用，檢視器將能夠查看民調問答結果。如果停用，投票者只會在完成民調問答後看到「感謝您」畫面。
+   如果啟用，檢視器將可檢視民調問答結果。 如果停用，選民在完成民調問答後將只會看到「感謝」畫面。
 
-* **[!UICONTROL Disclaimer]** *選用項目*
+* **[!UICONTROL Disclaimer]** 可 *選*
 
-   以您的民調問答顯示的選擇性免責聲明。
+   與民調問答一起顯示的選擇性免責聲明。
 
-您可以使用下列項目來自訂民調問答：
+您可以使用下列方式自訂民調問答：
 
-* **[!UICONTROL Style]** 以及所有應用程式中的 **[!UICONTROL Config]** 選項 **[!UICONTROL App Designer]**。如需所有應用程式中所有應用程式之標準 **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 選項的詳細資訊，請參閱自訂應用程式 **[!UICONTROL App Designer]**。
+* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。 如需中所有應用程式的標準和選項的詳 **[!UICONTROL Style]** 細資訊， **[!UICONTROL Config]** 請參閱自訂應用程式 **[!UICONTROL App Designer]**。
 
-* 整合工具。如需如何使用「整合工具」自訂應用程式的詳細資訊，請參閱民調問答。
+* 整合工具。 如需如何使用整合工具自訂應用程式的詳細資訊，請參閱民調問答。
 

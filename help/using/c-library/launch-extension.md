@@ -13,6 +13,6 @@ source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
 
 瞭解如何設定Adobe Livefyre Extension for Adobe Launch。
 
-Launch是新一代的網站標籤和Adobe的行動SDK管理功能。Launch為客戶提供一個簡單的方式，來部署和管理所有必要的分析、行銷和廣告整合，以提供強大的客戶體驗。
+Launch 是 Adobe 推出的下一代網頁標籤與行動 SDK 管理功能。Launch為客戶提供簡單的方式，來部署和管理所有必要的分析、行銷和廣告整合，以推動相關的客戶體驗。
 
-Launch可讓任何人建立並維護自己與Launch(稱為擴充功能)的整合。這些擴充功能可透過應用程式商店體驗提供給網路和行動Launch客戶，因此客戶可以快速安裝、設定和部署整合。若要瞭解如何實作和設定Livefyre Extension，請參閱 [Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)的Adobe Launch說明文件。
+此外，Launch 可供任何使用者建置和維護他們與 Launch 的整合 (又稱「延伸模組」)。這些延伸模組能為使用網頁版和行動版的 Launch 客戶提供應用程式商店的使用體驗，讓客戶能快速安裝、設定和部署自己的整合。如要瞭解如何實作及設定Livefyre擴充功能，請參閱 [Livefyre擴充功能的Adobe Launch檔案](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)。

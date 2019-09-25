@@ -1,28 +1,28 @@
 ---
-description: 您可以將您的視訊網域列入白名單。
-seo-description: 您可以將您的視訊網域列入白名單。
-seo-title: userPrivacyVideoHiteList
+description: 您可以使用將視訊網域加入白名單。
+seo-description: 您可以使用將視訊網域加入白名單。
+seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
-title: userPrivacyVideoHiteList
-uuid: adfead18-b73 b-4ac4-97a0-d39 f528 b7606
+title: userPrivacyVideoWhitelist
+uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# userPrivacyVideoHiteList{#userprivacyvideowhitelist}
+# userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
 
-如果您使用自己的自訂視訊和播放器做為Livefyre視覺化應用程式中顯示的視訊的一部分，則可將您的視訊網域列入白名單。為您的自訂影片和播放器刪除視訊網域會移除視訊遮色片。
+如果您使用自己的自訂視訊和播放器，作為Livefyre視覺化應用程式中顯示視訊的一部分，您可以將視訊網域加入白名單。 將視訊網域加入白名單會移除自訂視訊和播放器的視訊遮色片。
 
 >[!NOTE]
 >
->使用特定路徑以確保只有安全的視訊已列入白名單。如果您放置廣泛路徑(例如sampledomain.com)，您可以將不安全的影片列入白名單。
+>使用特定路徑，確保僅將安全的視訊列入白名單。 如果您放入廣泛的路徑（例如sampledomain.com），您可能會將不安全的視訊列入白名單。
 
-* 新增 `userPrivacyVideoWhitelist``userPrivacyOptOut`後，您可以一次將所有Livefyre隱私標幟加入一個Livefyre物件中。
-* `userPrivacyVideoWhitelist` 僅適用於未從社交媒體內嵌的內容。
+* 在之 `userPrivacyVideoWhitelist` 後加 `userPrivacyOptOut`入。 您可以一次新增所有Livefyre隱私權標幟，作為Livefyre物件的一部分。
+* `userPrivacyVideoWhitelist` 僅適用於未內嵌於社交媒體的內容。
 
-在下列範例中，在具有 `sampledomain.com/cdn/videos` 路徑的應用程式中顯示的影片會列入白名單：
+在下列範例中，包含路徑的「應用程式」中顯示的視訊 `sampledomain.com/cdn/videos` 會列入白名單：
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]

@@ -1,6 +1,6 @@
 ---
-description: 使用Livefyre. js自訂日期和時間戳記。
-seo-description: 使用Livefyre. js自訂日期和時間戳記。
+description: 使用Livefyre.js自訂日期和時間戳記。
+seo-description: 使用Livefyre.js自訂日期和時間戳記。
 seo-title: 自訂日期和時間戳記
 solution: Experience Manager
 title: 自訂日期和時間戳記
@@ -13,27 +13,27 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 自訂日期和時間戳記{#customize-the-date-and-time-stamp}
 
-使用Livefyre. js自訂日期和時間戳記。
+使用Livefyre.js自訂日期和時間戳記。
 
-Livefyre應用程式提供選項參數dateTimeFormat，以指定日期格式，如下所述。
+Livefyre應用程式提供選項參數datetimeFormat，以指定日期格式，如下所述。
 
 * [術語](#c_date_time_stamp/section_xsk_jn4_xz)
-* [格式設定](#c_date_time_stamp/section_ynx_gn4_xz)
+* [格式](#c_date_time_stamp/section_ynx_gn4_xz)
 * [符號指定](#c_date_time_stamp/section_inq_2n4_xz)
 
 ## 術語 {#section_xsk_jn4_xz}
 
-* **絕對時間戳記** 定義為精確和特定時間(例如2012年月日12：00pm)
-* **相對時間戳記** 定義為一般和較不精確的時間(例如25秒前、14分鐘前、天前、年前等)。
+* **絕對時間戳記** ，定義為精確和特定時間（例如2012年1月1日12:00pm）
+* **相對時間戳記** (Relative Timestamps)的定義為一般且較不精確的時間（例如25秒前、14分鐘前、1天前、1年前等）
 
-## 格式設定 {#section_ynx_gn4_xz}
+## 格式 {#section_ynx_gn4_xz}
 
-dateTimeFormat參數在沒有引數時具有下列預設行為：
+當未提供引數時，datetimeFormat參數具有以下預設行為：
 
-* 資料時間格式：MMMM d yyyy(2012年月日)
-* 20160分鐘(14天)直到絕對時間(14天)直到相對時間戳記變成絕對時間戳記)
+* 日期時間格式：MMMM d yyyy（2012年1月8日）
+* 20160分鐘（14天），直到絕對時間（14天，直到相對時間戳記變成絕對時間戳記）
 
-dateTimeFormat參數接受三種可能的引數類型：日期時間、格式和字串。
+datetimeFormat參數接受三種可能的參數類型：日期時間、格式和字串。
 
 ```
 // Example 1 (Datetime format string)  
@@ -48,7 +48,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-指定SocialFormat及/或targetSuntiableSolution的物件。使用值-1的SundetSuntilabsolution時間可縮短時間絕對時間。
+指定absoluteFormat和／或minutesUntilAbsoluteTime的對象。 值為-1的minutesUntilAbsoluteTime會使時間絕對時間立即生效。
 
 ```
 // Example 2 (Object)  
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-將「日期」物件視為引數的函數，並傳回要顯示的日期時間字串
+作為Date對象的參數並返回要顯示的日期時間字串的函式
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -85,7 +85,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 ## 符號指定 {#section_inq_2n4_xz}
 
-資料時間格式函數依JDK、ICU和CLDR中定義的模式規格而定，並對JS中的一般用法進行小幅修改。如需詳細資訊，請參閱 [Google關閉資料庫文件](https://developers.google.com/closure/library/docs/overview)。
+按照JDK、ICU和CLDR中定義的模式規範進行日期時間格式設定函式，對JS中的典型用法進行小幅修改。 如需詳細資訊，請參閱 [Google Closure Library檔案](https://developers.google.com/closure/library/docs/overview)。
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
   ''       single quote            (Literal)           'o''clock'
 ```
 
-目前尚未支援標示為'*'的項目。
+尚未支援標有「*」的項目。
 
-標示為「#」的項目與Java不同。
+標有「#」的項目的運作方式與Java不同。
 
-圖樣字母的計數會決定格式。
+模式字母的計數決定格式。
 
-* **文字：** 或以上，使用完整表格。少於4，使用簡短或縮寫表格存在。(例如：「EEE」製作「星期一」，「EEE」製作「Mon」)。
-* **數字：** 最小值。較短的數字會以零填補至此金額(例如：如果「m」產生「6」，「mm」會產生「06」。年度處理；也就是說，如果「y」的計數為2，則「年」將被截斷為位數。(例如：如果「yyyy」產生「1997」，「yy」會產生「97」。)不同於其他欄位，分數秒會以零填補在右側。
-* **文字與數字：** 或以上，使用文字。少於3，使用數字。(例如：「M」製作「1」、「MM」製作「01」、「MMM」產生「Jan」，而「MMMM」製作「一月」。)
+* **** 文字：4或更多，請使用完整表格。 少於4，請使用簡短或縮寫的表單（如果存在）。 (例如："EEE"產生"Monady","EEE"產生"Mon")。
+* **** 編號：最小位數。 較短的數字會以零填充為此數量(例如：如果"m"產生"6","mm"產生"06"。) 年是專門處理的；亦即，如果「y」的計數為2，則「年」將截斷為2位數。 (例如：如果"yyyy"產生"1997","yy"會產生"97")。與其他欄位不同，小數秒在右邊填充為零。
+* **** 文字與編號：3或以上，使用文字。 少於3，請使用數字。 (例如："M"產生"1", "MM"產生"01", "MMM"產生"Jan", "MMM"產生"Jan"。)
 
-未在 [「a」範圍內的任何字元。''」z'] 和 ['A'.''」Z將] 視為引用文字。例如，例如'：'，'.'、'、'#'和'@'會出現在產生的時間文字中，即使不是以單引號也不是。
+圖樣中不在「a」範圍內的任 [何字元。z』] and [『A』..」Z將] 視為引號文字。 例如，字元如「:」、「.」、「『#』和『@」，即使未以單引號括住，也會出現在產生的時間文字中。

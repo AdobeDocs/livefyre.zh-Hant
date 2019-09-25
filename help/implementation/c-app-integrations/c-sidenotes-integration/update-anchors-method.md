@@ -1,24 +1,24 @@
 ---
-description: 用來提升網站上Livefyre能力的核心Livefyre庫。
-seo-description: 用來提升網站上Livefyre能力的核心Livefyre庫。
-seo-title: UpdateCHANchers方法
+description: 用來為您網站上的Livefyre提供動力的核心Livefyre程式庫。
+seo-description: 用來為您網站上的Livefyre提供動力的核心Livefyre程式庫。
+seo-title: updateAnchors方法
 solution: Experience Manager
-title: Livefyre. js
+title: Livefyre.js
 uuid: null
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# UpdateCHANchers方法 {#updateAnchorsMethod}
+# updateAnchors方法 {#updateAnchorsMethod}
 
-使用UpdateCHarchs方法，動態新增已顯示的內容至頁面。
+使用updateAnchors方法，動態地將表示的內容新增至頁面。
 
-此方法對分頁很有用，或在動態消息中動態新增sidenote內容的情況下。此方法會定義符合元素的新錨點，並使用單一引數：新選擇器。
+此方法適用於分頁，或在動態將可顯示內容新增至頁面的其他情況下。 This method defines new anchors for the matched elements, and takes a single argument: newSelectors.
 
-**新選擇器**。要新增至SiteNotes的選擇器。這可以是選擇器字串、jQuery物件或元素陣列(在應用程式建構期間傳遞的選擇器引數所接受的類型中)。
-格式：
+**newSelectors**。 要添加到Sidestrap的選擇器。 這可以是選擇器字串、jQuery物件或元素陣列（應用程式建構期間傳遞的選擇器參數所接受的任何類型）。
+格式:
 
 ```
 app.updateAnchors(newSelectors);

@@ -4,7 +4,7 @@ seo-description: 翻譯集可讓您指定應用程式的替代語言。
 seo-title: 翻譯集
 solution: Experience Manager
 title: 翻譯集
-uuid: 88b705e5-57c8-4065-8a41-a73546 bd929 a
+uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -15,30 +15,30 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 翻譯集可讓您指定應用程式的替代語言。
 
-使用翻譯設定，將各種語言的應用程式當地語系化，或從Studio的一個位置指定多個應用程式的替代文字。例如，您可以確保所有西班牙文語言網站都使用西班牙文語言，適用於所有應用程式欄位。您也可以修改文字，讓所有欄位都符合您網站或網路的語音和感覺。
+使用翻譯設定，將應用程式當地語系化為多種語言，或從Studio中的一個位置為數個應用程式指定替代文字。 例如，您可以確保所有西班牙文網站在所有應用程式欄位都使用西班牙文。 您也可以修改文字，讓所有欄位都符合您網站或網路的語音和感覺。
 
-您可以為所有應用程式指定轉譯設定，但Storify除外。如需您可本地化之欄位的詳細資訊，請參閱 [本地化字串](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings)。
+您可以為所有應用程式（Storify 2除外）指定翻譯設定。 如需您可本地化的欄位的詳細資訊，請參 [閱Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings)。
 
-「留言」、「即時部落格」和「聊天」會在翻譯集中共用同一組字串。
+「注釋」、「即時部落格」和「聊天」在翻譯集內共用相同的字串集。
 
-指定網路、網站、應用程式或使用API的翻譯集。
+指定網路、網站、應用程式或使用API的轉譯集。
 
-不同層級的翻譯集會依照下列模式覆蓋彼此：
+不同級別的翻譯集會按照此模式相互覆蓋：
 
-API轉譯集會覆寫任何層級(應用程式、網路和網站)應用程式翻譯集的任何翻譯集，以覆寫網路層級和網站層級轉譯集。
-網站層級轉譯集會覆寫網路層級轉譯集。
+API轉換集會覆蓋任何層級（應用程式、網路和網站）的任何轉換集應用程式轉換集會覆寫網路層級和網站層級的轉換集。
+站點級翻譯集覆蓋網路級翻譯集。
 
 ## 檢閱文字字串 {#c_review_text_strings}
 
 自訂Livefyre評論的文字字串。
 
-此頁面列出並說明可供「檢閱」應用程式自訂的字串。此處列出的字串除了適用於Livefyre核心應用程式的預設字串外，也包含在字串自訂中。若列出重復項目，這些表格中列出的字串就是「檢閱」應用程式的預設值。
+此頁面列出並說明可在「檢閱」應用程式中自訂的字串。 此處列出的字串除了Livefyre核心應用程式的預設字串外，也會覆寫，列在「字串自訂」中。 其中列出重複項目時，這些表格中列出的字串是「檢閱」應用程式的預設值。
 
-實施審查/分級介面資料作者/內容資訊使用者動作貼文函數錯誤
+實作檢閱／分級介面串流資訊作者／內容資訊使用者動作貼文函式錯誤
 
 ## 實施 {#section-vsy-1k4-xz}
 
-若要實施此功能，請傳遞您要覆寫至Javascript組態物件之字串的1-1物件對應。如果您未提供欄位，則會使用預設文字。
+若要實作此功能，請傳入您要覆寫之字串的1-1物件對應至Javascript設定物件。 如果您未提供欄位，則會使用預設文字。
 
 範例:
 
@@ -53,136 +53,136 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 審查/評分介面 {#section_iyv_zj4_xz}
+## 審查／評分介面 {#section_iyv_zj4_xz}
 
-用於審查和分級使用者介面的字串。
+「檢閱」和「評分」使用者介面的可用字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |--- |--- |--- |
-| 按鈕 | editReviewBTn | 編輯評論 |
-|  | ReviewBTn | 寫作評論 |
-|  | 重新檢視關閉 | 評論已關閉 |
-|  | ShowreviewBtn | 顯示評論 |
-|  | following | 我很感興趣 |
-|  | ShareText | 我剛撰寫了評論。立即查看！ |
-| 評分工具提示 | ratingValues | 陣列。預設= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`； <br>注意：陣列中的值必須重復，以指派每個星號的左側和右側名稱。 |
-| 分級子集 | ratingSubpartpleets | 陣列。預設= [] |
-|  | ratingSubpartitals | 陣列。預設= [] |
-|  | reviewStreamTitle | 預設為空白。評論摘要區段的標題。 |
-| Misc | averagering | 使用者平均評分 |
-|  | 劃分標題 | 排名劃分 |
-|  | 有用 | %s的%s發現實用 |
-|  | HelpFultimultiple | %s的%s發現實用 |
-|  | Out Over | / |
-|  | ratingType | 星形 |
+| 按鈕 | editReviewBtn | 編輯審核 |
+|  | reviewBtn | 撰寫審核 |
+|  | reviewsClosed | 已結束審核 |
+|  | showReviewBtn | 顯示審核 |
+|  | follow | 我感興趣 |
+|  | shareText | 我剛寫了個評論。 看看！ |
+| 評分工具提示 | ratingValues | 陣列. 預設值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`;注 <br>意：必須複製陣列中的值，才能將每個星形的左半部和右半部都指定為相同名稱。 |
+| 分級子部件 | ratingSubpartPlaceholders | 陣列. 預設值 = [] |
+|  | ratingSubpartTitles | 陣列. 預設值 = [] |
+|  | reviewStreamTitle | 預設為空白。 評論摘要部分的標題。 |
+| 其他 | averageRating | 平均使用者評分 |
+|  | breakdownHeader | 分級劃分 |
+|  | 幫助 | 發現%s有幫助 |
+|  | helpedPlural | 發現%s有幫助 |
+|  | outOf | / |
+|  | ratingType | 星星 |
 
 ## 串流資訊 {#section_wmv_yj4_xz}
 
-用於內容串流資訊和顯示的字串。
+可用於內容串流資訊和顯示的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 排序順序 | SortBy | *預設為空白。* |
-|  | SorthigheSoft | [最高評分](https://d.pr/i/huTd) |
-|  | sortloweSoft | [最低評分](https://d.pr/i/huTd) |
-|  | sortmosthelpful | [最實用](https://d.pr/i/huTd) |
-| 串流錯誤。 | 展示更多資訊 | 顯示更多資訊 |
-| 串流高速 | NewComment | 新評論 |
-|  | NewComments | 新評論 |
-| 偵聽程式計數 | ListenerCount | 個人監聽 |
-|  | listenercountmtium | 受眾監聽 |
-| 注釋計數 | 注釋標籤 | LivereViews<strong> | </strong>%s |
-|  | 注釋縮寫 | LivereViews<strong> | </strong>%s |
-| 注釋通知計數 | CommentNotifier | 新評論 |
-|  | comnotifiertimtional | 新評論 |
+| 排序 |  sortBy | *預設為空白。* |
+|  | sortHighestAdied | [最高評分](https://d.pr/i/huTd) |
+|  | sortLeomthAding | [最低評分](https://d.pr/i/huTd) |
+|  | sortMostHappiled | [最有用](https://d.pr/i/huTd) |
+| 串流雜項。 | showMore | 顯示更多 |
+| 流高速 | newComment | 新評論 |
+|  | newComments | 新評論 |
+| 監聽器計數 | listenerCount | 監聽 |
+|  | listenerCountPlural | 傾聽 |
+| 注釋計數 | commentCountLabel | LiveReviews<strong> | </strong>%s |
+|  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
+| 注釋通告程式計數 | 注釋通告程式 | 新評論 |
+|  | commentNotifierPlural | 新評論 |
 
-## 作者/內容資訊 {#section_osx_xj4_xz}
+## 作者／內容資訊 {#section_osx_xj4_xz}
 
-可供作者和個別內容資訊使用。
+可供作者和個別內容資訊參考。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 執行緒劃分 | reviewsContentNotectNotsg | [此評論不再顯示](https://d.pr/i/svXs) |
-|  | 回覆注釋 | 返回評論 |
+| 線程插頭 | reviewsContentNotFoundMsg | [此審閱不再顯示](https://d.pr/i/svXs) |
+|  | backToComments | 返回評論 |
 
 ## 使用者動作 {#section_tlx_wj4_xz}
 
-適用於使用者動作的字串：標記、共用和標示現有內容有幫助。
+用戶操作可用的字串：標幟、共用和標示現有內容有用。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 注釋頁尾 | WasreviewWhilful | [有用嗎？](https://d.pr/i/Q0mA) |
-|  | WasreviewHelpFulmobile | 有用嗎？ |
-|  | ownwasreviewWhelpful | [發現實用。](https://d.pr/i/Q0mA) |
-|  | 評論實用 | [是](https://d.pr/i/Q0mA) |
-|  | HelpFuldi除der | [& amp；vert；](https://d.pr/i/Q0mA) |
-|  | ReviewWarnotElpful | [否](https://d.pr/i/Q0mA) |
-| 投票模式 | VoteTitle | 這項審閱是否有用？ |
-|  | VotteDown投票 | 否 |
-|  | VoterePlyTitle | 這個回覆是否有用？ |
-|  | VoteTitle | 這個注釋是否有用？ |
-|  | VodeUps投票 | 是 |
-| 標幟模型 | 標幟標題 | 標記%s的檢閱 |
-|  | 標幟成功 | 已標示評論。 |
-| 標幟Mobile | 標幟確認訊息 | 將%s的審核視為%s嗎？ |
-| 提及模式 | mentionDefaultText | 我在Livefyre評論中提到了您！ |
-| 共用模型 | ShareTitle | 分享評論 |
+| 注釋頁尾 | wasReviewHappiled | [有用嗎？](https://d.pr/i/Q0mA) |
+|  | wasReviewHampileMobile | 有用嗎？ |
+|  | ownWasReviewHappiled | [發現有幫助。](https://d.pr/i/Q0mA) |
+|  | reviewWasHappiled | [是](https://d.pr/i/Q0mA) |
+|  | libledDiferar | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewWasNotHappiled | [否](https://d.pr/i/Q0mA) |
+| 投票模式 | voteTitle | 此評論有用嗎？ |
+|  | voteDownvote | 無 |
+|  | voteReplyTitle | 這個回覆有用嗎？ |
+|  | voteTitle | 這句評論有用嗎？ |
+|  | voteUpvote | 是 |
+| 標幟模式 | flagTitle | 標籤%s的審核 |
+|  | flagSuccessMsg | 已標籤審核。 |
+| 標幟行動 | flagConfirmationMessage | 是否將%s的審核標幟為%s? |
+| 提及模式 | 提及次數DefaultText | 我在Livefyre評論中提到過你！ |
+| 共用模式 | shareTitle | 分享評論 |
 
-## 貼文函數 {#section_yl1_wj4_xz}
+## 貼文功能 {#section_yl1_wj4_xz}
 
-供使用者張貼評論的字串。
+發佈審核的使用者可使用的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 編輯者 | bodyplaceHolder | 撰寫評論… |
-|  | PostedButton | 編輯 |
-|  | PostedVisitButton | 取消 |
-|  | PostSutton | 貼文審核… |
-|  | PostButton | 貼文審核 |
-|  | PostReplicasButton | 貼文… |
-|  | potreplyButton | 貼文 |
-|  | ShareButton | Share |
-|  | titleplaceHolder | 標題… |
+| 編輯器 | bodyPlaceholder | 撰寫評論…… |
+|  | postEditButton | 編輯 |
+|  | postEditCancelButton | 取消 |
+|  | postAsButton | 將審核貼文為…… |
+|  | postButton | 貼文審核 |
+|  | postReplyAsButton | 張貼為…… |
+|  | postReplyButton | 貼文 |
+|  | shareButton | 共用 |
+|  | titlePlaceholder | 標題… |
 
 ## 錯誤 {#section_jbc_vj4_xz}
 
-一般錯誤訊息的可用字串。
+一般錯誤訊息的字串可用。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 錯誤 | errorAlreadReaded | 您只能張貼一個評論。 |
-|  | errorAutherError | 您無權在此對話中張貼評論 |
-|  | errorcomments Notowed | 目前無法張貼評論 |
-|  | 錯誤收回意見 | 您不喜歡自己的評論 |
-|  | errorDuplicate | 雖然您很喜歡您的評論，但不允許張貼兩次。 |
-|  | erroredDuplicate | 當您編輯時，必須變更評論的內文。 |
-|  | erroredNotAllowed | 您不得編輯此對話的評論。 |
-|  | erroredTimeTimeed | 抱歉，您的評論編輯期間已過期。 |
-|  | errorEmpty | 您似乎嘗試張貼空白審核。 |
-|  | errorEmptyTitle | 您似乎嘗試張貼空白標題 |
-|  | errorfieldering | 星形分級 |
-|  | errorfieldReview | review |
-|  | errorfieldTitle | title |
-|  | errormaxChars | 抱歉，您的評論太長了。請編輯並再試一次。 |
+| 錯誤 | errorAlreadyPosted | 您只能張貼一份審核。 |
+|  | errorAuthError | 您無權對此對話發表評論 |
+|  | errorCommentsNotAllowed | 目前無法張貼評論 |
+|  | errorDislikeOwnComment | 您不能不喜歡自己的評論 |
+|  | errorDuplicate | 雖然您很喜歡您的評論，但是您不得張貼兩次。 |
+|  | errorEditDuplicate | 編輯審閱時，必須更改其正文。 |
+|  | errorEditNotAllowed | 您無法編輯此對話的評論。 |
+|  | errorEditTimeExceeded | 抱歉，您的審核編輯期間已過期。 |
+|  | errorEmpty | 您似乎在嘗試張貼空白的評論。 |
+|  | errorEmptyTitle | 您似乎在嘗試張貼空白標題 |
+|  | errorFieldRating | 星級 |
+|  | errorFieldReview | 審查 |
+|  | errorFieldTitle | title |
+|  | errorMaxChars | 抱歉，您的評論太長了。 請編輯並再試一次。 |
 |  | errorMissingFields | 請輸入 |
-|  | erroratingEmpty | 您無法提交空白評等 |
-|  | erroratingNotSet | 所有評分必須設定 |
-|  | erroratingNotValid | 評分必須是物件 |
-|  | errorShowmore | 載入更多評論時發生錯誤。 |
-|  | errortitlemaChars | 抱歉，您的標題太長。請編輯並再試一次。 |
-|  | errorVOTownment | 您無法自行投票 |
+|  | errorRatingEmpty | 您無法提交空白評分 |
+|  | errorRatingNotSet | 必須設定所有評分 |
+|  | errorRatingNotValid | 分級必須是物件 |
+|  | errorShowMore | 載入更多評論時發生錯誤。 |
+|  | errorTitleMaxChars | 抱歉，您的標題太長。 請編輯並再試一次。 |
+|  | errorVoteOwnComment | 您無法依自己的意見投票 |
 
-## Sites設定文字字串 {#c_sidenotes_text_strings}
+## 字串 {#c_sidenotes_text_strings}
 
-自訂Livefyre SitenDocs的文字字串
+自訂Livefyre Sides的文字字串
 
-此頁面列出並說明所有可在Sitents應用程式中自訂的字串。如需核心Livefyre應用程式可用字串的詳細資訊，請參閱字串自訂。
+本頁列出並說明Sidesars應用程式中可自訂的所有字串。 如需核心Livefyre應用程式可用字串的詳細資訊，請參閱字串自訂。
 
-實作驗證串流資訊作者/內容資訊使用者動作貼文函數協調者介面錯誤
+實作驗證串流資訊作者／內容資訊使用者動作貼文函式協調者介面錯誤
 
 ## 實施 {#section_wp2_ql4_xz}
 
-若要實施此功能，請傳遞您要覆寫至Javascript組態物件之字串的1-1物件對應。如果您未提供欄位，則會使用預設文字。
+若要實作此功能，請傳入您要覆寫之字串的1-1物件對應至Javascript設定物件。 如果您未提供欄位，則會使用預設文字。
 
 範例:
 
@@ -198,121 +198,121 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 驗證身份 {#section_pqf_3l4_xz}
+## 驗證 {#section_pqf_3l4_xz}
 
-用於驗證程序的字串，以及來自已驗證的使用者功能表的字串。
+驗證程式和已驗證用戶菜單中可用的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| Auth功能表字串 | menuAuthSignInBtn | 登入 |
-|  | MenuauthedNedInMsg | 您必須登入{action} |
-|  | menuuseredProfile | 編輯描述檔 |
-|  | Menuusermin | Admin Console |
-|  | 功能表登出 | 登出 |
-|  | MenuuserBackBtn | all |
+| 驗證菜單字串 | menuAuthSignInBtn | 登入 |
+|  | menuAuthSignedInMsg | 您必須登入{action} |
+|  | menuUserEditProfile | 編輯個人資料 |
+|  | menuUserAdmin | Admin Console |
+|  | menuUserLogout | 登出 |
+|  | menuUserBackBtn | 全部 |
 
 ## 串流資訊 {#section_wpy_gl4_xz}
 
-用於內容串流資訊和顯示的字串。
+可用於內容串流資訊和顯示的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 資訊功能表選項 | menuInfocoright | © Livefyre，Inc2014 |
-|  | 功能表說明 | 說明 |
-|  | menuInfoLivefyRelink | 瀏覽Livefyre.com |
+| 資訊選單選項 | menuInfoCopyright | © Livefyre, Inc. 2014 |
+|  | menuInfoHelp | 說明 |
+|  | menuInfoLivefyreLink | 造訪Livefyre.com |
 
-## 作者/內容資訊 {#section_dhb_gl4_xz}
+## 作者／內容資訊 {#section_dhb_gl4_xz}
 
-可供作者和個別內容資訊使用。
+可供作者和個別內容資訊參考。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-|  | commentModerOrtag | Mod |
-|  | 註解標記 | 擱置中 |
-|  | commentReadMoreLink | 閱讀更多資訊 |
-|  | commentReplicLink | 請參閱{number}回覆 |
-|  | CommentReplicyLinkScript | 請參閱回覆 |
-|  | CommentVodeCount | 投票數 |
-|  | commentVoeCountSING | 投票 |
-|  | dateTimeminutePrefix | m |
-|  | dateTimeMonthes | 陣列。Default=[ '月'、'月'、'月'、'月'、'月'、'月'、'月'、'月'、'月'、'11月'、'11月'、'11月'、'12月'、'12月'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'12'、'''、'''、'''、'''、'''、'' ] |
-|  | 問題說明 | 您現在可以直接在句子、段落、影像和報價上閱讀及撰寫注釋。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白標示文字</span> 並按一下 <span class="&rdquo;fycon-write&rdquo;"></span> 圖示，或按一下每個段落結尾處的 <span class="&rdquo;fycon-action-view&rdquo;"></span> 圖示。 |
-|  | QuestionModkText | 「熟悉的」是不正確的，只是因為它是「熟悉」的原因。 |
-|  | QuestionTitle | 甚麼是Sitenote？ |
+|  | commentColdatorTag | 修改 |
+|  | commentPendingTag | 待審 |
+|  | commentReadMoreLink | 瞭解更多 |
+|  | commentReplyLink | 請參閱{number}個回覆 |
+|  | commentReplyLinkSing | 請參閱回覆 |
+|  | commentVoteCount | 投票 |
+|  | commentVoteCountSing | 票 |
+|  | datetimeMinutePrefix | m |
+|  | datetimeMonths | 陣列. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
+|  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白顯示文字</span> ，然後按一 <span class="&rdquo;fycon-write&rdquo;"></span> 下圖示，或按 <span class="&rdquo;fycon-action-view&rdquo;"></span> 一下每個段落結尾的圖示。 |
+|  | questionMockText | 「熟悉」的內容並不是眾所周知的，只是因為「熟悉」。 |
+|  | questionTitle | 什麼是Sidexer? |
 
 ## 使用者動作 {#section_qxd_fl4_xz}
 
-適用於使用者動作的字串：標幟、分享和美化現有內容。
+用戶操作可用的字串：標幟、分享和按贊現有內容。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 回覆功能表選項 | 功能表檢視標題 | 詳細資料 |
-|  | 功能表檢視回覆 | 回覆對話 |
-| 共用選單選項 | MenuShareoptionFacebook | Facebook |
-|  | menuShareoptionTwitter | Twitter |
-|  | MenuShareTitle | Share |
-| 旗標功能表選項 | 功能表選擇不同意 | 不同意 |
-|  | MenustlaoptionAttensive | 侵犯性 |
-|  | MenuFLAoptionOff主題 | 關閉主題 |
-|  | MenuFLAoptionSpam | 垃圾訊息發送者 |
-|  | 功能表標題 | 標幟為… |
-|  | FacebookShaRerection | Sitdents on「{title}」 |
-| 行動使用者選項 | 投影片注釋 | of |
-|  | SliderInviteRead | Read |
-|  | 投影片編寫 | 寫入 |
-|  | 投影片載入 | 正在載入… |
-|  | SliderWriteExt | 您想甚麼？點選以寫入。 |
+| 回覆功能表選項 | menuRepliesViewTitle | 詳細資料 |
+|  | menuRepliesViewReply | 回覆對話 |
+| 共用功能表選項 | menuShareOptionFacebook | Facebook |
+|  | menuShareOptionTwitter | Twitter |
+|  | menuShareTitle | 共用 |
+| 標籤菜單選項 | menuFlagOptionDisproover | 不同意 |
+|  | menuFlagOptionOffension | 進攻性 |
+|  | menuFlagOptionOffTopic | 關閉主題 |
+|  | menuFlagOptionSpam | 垃圾訊息 |
+|  | menuFlagTitle | 標幟為…… |
+|  | facebookShareCaption | 「{title}」上的字型大小 |
+| 行動使用者選項 | sliderCommentTally | 的 |
+|  | sliderInviteRead | 已讀取 |
+|  | sliderInviteWrite | 寫 |
+|  | sliderLoading | 正在載入… |
+|  | sliderWriteText | 你覺得呢？ 點選以寫入。 |
 
-## 貼文函數 {#section_xzf_2l4_xz}
+## 貼文功能 {#section_xzf_2l4_xz}
 
-適用於張貼內容的使用者可用字串。
+可供發佈內容之使用者使用的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-|  | editoredBtn | 儲存 |
-|  | editoredPoking | 儲存… |
-|  | editoredReplicyTitle | 編輯回覆 |
-|  | editoredTitle | 編輯Sitenote |
-|  | editorPlaceHolder | 您想甚麼？ |
-|  | editorPostBtn | Post Sidenote |
-|  | editorPostBnobile | 貼文 |
-|  | editorPosting | 張貼… |
-|  | editorRebytn | 貼文回覆 |
-|  | editorReplicyTitle | 寫入回覆 |
-|  | editorTitle | Write Sitenote |
-|  | EmptyImageBocktXT | 您想甚麼？ |
-|  | EmptyTextBlockXT | + |
-|  | ReplicTBN | 回覆 |
-|  | PublishRebtn | 回覆對話 |
-| 刪除功能表選項 | menuConfirmAccept | 是的，{action} |
-|  | MenuConfirmCancel | 取消 |
-|  | menuConfirmTitle | 您確定嗎？ |
-| 功能表選項 | 功能表內容核准 | 批准 |
-|  | menueToptionDelete | 刪除 |
-|  | menueToptionEdit | 編輯 |
-|  | menueToptionFlag | 旗標 |
-|  | menueToptionShare | Share |
-|  | MenuetcPostStedat | 張貼於{date} |
-|  | menuetCit標題 | 更多 |
+|  | editorEditBtn | 儲存 |
+|  | editorEditPosting | 正在保存…… |
+|  | editorEditReplyTitle | 編輯回覆 |
+|  | editorEditTitle | 編輯字型大小 |
+|  | editorPlaceholder | 你覺得呢？ |
+|  | editorPostBtn | 貼文字型大小 |
+|  | editorPostBtnMobile | 貼文 |
+|  | editorPosting | 發佈… |
+|  | editorReplyBtn | 公佈回覆 |
+|  | editorReplyTitle | 寫回覆 |
+|  | editorTitle | 寫字型大小 |
+|  | emptyImageBlockTxt | 你覺得呢？ |
+|  | emptyTextBlockTxt | + |
+|  | replyBtn | 回覆 |
+|  | threadReplyBtn | 回覆對話 |
+| 刪除菜單選項 | menuConfirmAccept | 是，{action} |
+|  | menuConfirmCancel | 取消 |
+|  | menuConfirmTitle | 是否確定? |
+| Etc功能表選項 | menuEtcOptionApprove | 核准 |
+|  | menuEtcOptionDelete | 刪除 |
+|  | menuEtcOptionEdit | 編輯 |
+|  | menuEtcOptionFlag | 標幟 |
+|  | menuEtcOptionShare | 共用 |
+|  | menuEtcPostedAt | 張貼於{date} |
+|  | menuEtcTitle | 更多 |
 
 ## 協調者介面 {#section_o5f_dl4_xz}
 
-用戶驗證的協調者介面可用字串。
+用戶驗證的協調器介面可用的字串。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 來自「更多」功能表的確認訊息 | notificationApproved | 已核准 |
-|  | notifications已刪除 | 已刪除 |
-|  | 通知標幟 | 已標記 |
+| 從「更多」功能表確認訊息 | notificationApproved | 已核准 |
+|  | notificationDeleted | 已刪除 |
+|  | notificationTaged | 已標記 |
 
 ## 錯誤 {#section_gtk_cl4_xz}
 
-一般錯誤訊息的可用字串。
+一般錯誤訊息的字串可用。
 
-| 元素 | 索引鍵 | 預設文字 |
+| 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-|  | errorConnection | 嗯h-h.您似乎沒有良好的聯繫。 |
-|  | errorDuplicate | 我們也喜歡您的注意事項，但無法張貼兩次。 |
-|  | errorGeneral | 發生錯誤。請再試一次。 |
-|  | errorServer | 我們的伺服器發生錯誤。再試一次嗎？ |
+|  | errorConnection | 哦。 您似乎沒有良好的關聯。 |
+|  | errorDuplicate | 我們也喜歡您的註解，但您不能再張貼。 |
+|  | errorGeneral | 發生錯誤. 請再試一次。 |
+|  | errorServer | 我們的伺服器出了問題。 再試一次？ |
 

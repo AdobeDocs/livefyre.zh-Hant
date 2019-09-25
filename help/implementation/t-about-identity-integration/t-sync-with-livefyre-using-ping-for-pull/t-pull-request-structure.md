@@ -1,10 +1,10 @@
 ---
-description: 建立提取請求結構，以接收並回應存取使用者身分系統的請求。
-seo-description: 建立提取請求結構，以接收並回應存取使用者身分系統的請求。
+description: 建立拉式要求結構，以接收並回應存取您使用者識別系統的要求。
+seo-description: 建立拉式要求結構，以接收並回應存取您使用者識別系統的要求。
 seo-title: 提取請求結構
 solution: Experience Manager
 title: 提取請求結構
-uuid: bc6b9e45-d08 a-48e6-acc6-e4 fa56428 d25
+uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
 translation-type: tm+mt
 source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
@@ -13,30 +13,30 @@ source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 # 提取請求結構{#pull-request-structure}
 
-建立提取請求結構，以接收並回應存取使用者身分系統的請求。
+建立拉式要求結構，以接收並回應存取您使用者識別系統的要求。
 
-Livefyre會對您的端點URL發出提取請求。
+Livefyre會向您的端點URL發出「提取」請求。
 
-例如，如果您的提取端點URL為：
+例如，如果您的Pull端點URL是：
 
 ```
 https://example.yoursite.com/some_path/?id={id}
 ```
 
-對此端點的Livefyre提取請求如下：
+對此端點的Livefyre Pull請求將是：
 
 ```
 https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 ```
 
-JSON `lftoken` Web Token是使用您的網路金鑰簽署的， **[!UICONTROL {userAuthToken}]** 且是Livefyre產生的使用者驗證Token。
+其中 `lftoken` 是使用您的網路金鑰簽署的JSON Web Token, **[!UICONTROL {userAuthToken}]** 而是Livefyre產生的使用者驗證Token。
 
-1. 用 `lftoken` 以驗證對您的「提取URL」的要求是由Livefyre傳送，而非惡意代理。
-1. 對於所有傳入的請求：
+1. 使用 `lftoken` 以驗證Livefyre（而非惡意代理）傳送給您Ping for Pull URL的請求。
+1. 對於所有傳入請求：
 
-   * 確定請求中出現 `lftoken` 查詢字串。
-   * 請在Livefyre程式庫中使用此 `validateLivefyreToken` 方法，以確保 `lftoken` 使用您的網路金鑰簽署。
+   * 請確定 `lftoken` 請求上有查詢字串。
+   * 使用Livefyre `validateLivefyreToken` 程式庫中的方法，確保已使 `lftoken` 用您的網路金鑰簽署。
 
-   * `lftoken` 如果未存在或驗證失敗，請勿讓端點回應描述檔資訊。請改為以403(Forbidden)狀態碼回應，並無回應主體。
+   * 如果 `lftoken` 不存在或驗證失敗，請勿允許端點以描述檔資訊回應。 請改為使用403（禁止）狀態碼回覆，且無回覆主體。
 
-1. `userAuthToken` 由使用者的Livefyre `buildUserAuthToken` 方法產生，使用者id「system」。此使用者是為每個新網路建立的第一個使用者。
+1. `userAuthToken` 是由Livefyre方法為使 `buildUserAuthToken` 用者產生，使用者ID為"system"。 此用戶是為每個新網路建立的第一個用戶。

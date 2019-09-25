@@ -1,53 +1,53 @@
 ---
-description: 顯示應用程式中25個人氣最高的線程，依人氣排序。
-seo-description: 顯示應用程式中25個人氣最高的線程，依人氣排序。
-seo-title: 熱門話題
+description: 顯示應用程式內25個最熱門的執行緒，依人氣排序。
+seo-description: 顯示應用程式內25個最熱門的執行緒，依人氣排序。
+seo-title: 熱線程
 solution: Experience Manager
-title: 熱門話題
-uuid: 0011f769-6712-48e9-bb10-a431010 fef595
+title: 熱線程
+uuid: 0011f769-6712-48e9-bb10-a43610fef595
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 熱門話題{#hot-threads}
+# 熱線程{#hot-threads}
 
-顯示應用程式中25個人氣最高的線程，依人氣排序。
+顯示應用程式內25個最熱門的執行緒，依人氣排序。
 
-「熱門話題」檢視會顯示應用程式中25個人氣最高的執行緒，依人氣排序。這包括應用程式中的所有內容，包括手動貼文、來自Social的內容以及來自串流的內容。
+「作用線程」檢視會顯示應用程式中25個最熱門的線程，依人氣高低排列。 這包括應用程式中的所有內容，包括手動貼文、SocialSync的內容以及串流的內容。
 
 >[!NOTE]
 >
->「注釋」可在留言上使用，但不適用於Live部落格或聊天。
+>「熱線程」可用於「注釋」，但不可用於「即時部落格」或「聊天」。
 
-如需啓用「熱門話題」檢視的詳細資訊，請參閱「Studio>網路設定」。
+有關啟用「熱線程」視圖的詳細資訊，請參閱Studio &gt;網路設定。
 
 ## 預覽 {#section_xhh_2dl_wy}
 
-按 **[!UICONTROL Hot Threads]** 一下串流頂端的最多25thread，並預覽應用程式中最高「人氣分數」的「應用程式」內容。使用Livefyre的專利和進化演算法，計算每個執行緒的人氣分數。預覽會顯示頂層留言，以及最多個熱門回覆，以及這些前五大回覆的直接父級。
+按一 **[!UICONTROL Hot Threads]** 下串流頂端的「人氣分數」，會以最多25個執行緒的預覽來取代應用程式的內容。 使用Livefyre的專屬演算法和演變演算法，計算每個執行緒的人氣分數。 預覽會顯示最上層的註解，以及最多5個最受歡迎的回覆，以及這5個回覆中每個回覆的直接父項。
 
-If there are no threads in the stream with a popularity score, no comments will be displayed, and users will see the message **[!UICONTROL There are not enough threads yet]** and a link to **[!UICONTROL See what’s new]**.
+如果串流中沒有具有人氣分數的執行緒，則不會顯示任何評論，而使用者會看到訊息 **[!UICONTROL There are not enough threads yet]** 和連結 **[!UICONTROL See what’s new]**。
 
-「熱門話題」清單不是即時的，而且只會在頁面重新整理或其他檢視(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]** )時更新。(如果評論已協調且Botzo「d」或「破折號」，則會立即從清單中移除。)
+熱線程清單不是即時的，只有在刷新頁面或選擇其他視圖(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]**)時更新。 （如果評論被協調，且Bozo已處理或已處理，則會立即從清單中移除。）
 
-## 劃分檢視 {#section_zmf_ddl_wy}
+## Breakout View {#section_zmf_ddl_wy}
 
-在預覽中，按一下以 **[!UICONTROL Show entire Thread]** 取代「Hot Threads」(作用緒)檢視，並在內容中包含執行緒檢視(包括該串連內的每個回覆)。(無法在劃分檢視中顯示其他執行緒。)按一下 **[!UICONTROL Hot Threads]** 返回「熱門話題」檢視。
+在預覽中，按一下 **[!UICONTROL Show entire Thread]** 以將「熱線程」視圖替換為上下文中線程的分段視圖，包括該線程內的每個回覆。 （分組視圖中不顯示其他線程。）按一下 **[!UICONTROL Hot Threads]** 返回「熱線程」視圖。
 
-協調者可以檢視劃分檢視中所有擱置中的內容，並提供內嵌協調。按贊、回覆、編輯和調節動作會繼續在劃分檢視中即時串流。
+協調者可以在分類檢視中檢視所有待審內容，而內嵌協調則可供使用。 「按贊」、回覆、編輯和協調動作將會在突破檢視中繼續即時串流。
 
-## 從「熱門話題」檢視中張貼 {#section_bmv_bdl_wy}
+## 從「熱線程」視圖張貼 {#section_bmv_bdl_wy}
 
-從「熱門話題」檢視的頂端留言方塊張貼留言，會將使用者切換回最新的檢視。
+從「熱線程」檢視的頂端註解方塊張貼註解，會將使用者切換回「最新」檢視。
 
-張貼於「熱門話題」檢視中的「回覆」或「按贊」會出現在串流中，而不會變更檢視。排序選項和註解通知無法在「熱門字串」檢視中使用。
+張貼在「作用線程」檢視中的回覆或按贊會顯示在串流中，而不會變更檢視。 排序選項和注釋通告程式在「熱線程」視圖中不可用。
 
-為了最佳化效能，Livefyre快取資料長達分鐘。最新的「熱門熱門話題」中可能會有些許延遲。
+為了最佳化效能，Livefyre最多可快取2分鐘的資料。 最近出現的熱線程可能略有延遲。
 
 
 
 使用此功能的應用程式：
 
-* [注釋](/help/using/c-about-apps/c-comments/c-comments.md)
+* [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 

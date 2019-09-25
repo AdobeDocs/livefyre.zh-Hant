@@ -1,20 +1,20 @@
 ---
-description: Livefyre需要提供增效模組，可讓驗證Janrain Backflane巴士。
-seo-description: Livefyre需要提供增效模組，可讓驗證Janrain Backflane巴士。
-seo-title: 使用AuthDelegate將Janrain與Livefyre連結
-title: 使用AuthDelegate將Janrain與Livefyre連結
-uuid: 9d56e3f4-960a-4108-aab5-2795b0 e71 c88
+description: Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
+seo-description: Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
+seo-title: 使用AuthDelegate將Janrain連線至Livefyre
+title: 使用AuthDelegate將Janrain連線至Livefyre
+uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 使用AuthDelegate將Janrain與Livefyre連結{#connecting-janrain-to-livefyre-using-authdelegate}
+# 使用AuthDelegate將Janrain連線至Livefyre{#connecting-janrain-to-livefyre-using-authdelegate}
 
-Livefyre需要提供增效模組，可讓驗證Janrain Backflane巴士。
+Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
 
-在Backflight頻道上廣播身分/登入訊息時，將會呼叫使用者的Livefyre驗證Token。您仍必須實作AuthDelegate。
+當在底板頻道上廣播身分／登入訊息時，將會使用使用者的Livefyre驗證Token來呼叫auth.authenticate()。 您仍必須實作AuthDelegate。
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -29,19 +29,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->您必須先在頁面上定義windows. backflight物件，再使用Livefyre Backflane外掛程式呼叫auth. plugin。若要確保Backflight物件可供使用，請從onReady回呼呼叫Livefyre重新整理代碼。請洽詢您的Janlin聯絡人以判斷其他應用程式何時可能使用Backflane物件。
+>在使用Livefyre Backplane外掛程式呼叫auth.plugin之前，必須先在您的頁面上定義window.Backplane物件。 若要確定Backplane物件可用，請從onReady回呼呼叫Livefyre實例化程式碼。 請洽詢您的Janrain聯繫人，以確定其他應用程式何時可以使用底板對象。
 
-以下舉例說明Auth委派如何尋找Janrain Capture整合。
+以下是驗證委派如何尋找Janrain Capture整合的一些範例。
 
 >[!NOTE]
 >
->您的驗證委派將視您的Janrain例項而有所不同。
+>您的驗證委派會視您的Janrain例項而有所不同。
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-* 傳遞回您的驗證委派的回呼方法
-* 您的Janrain擷取變數參考。
-* ：反向平面物件的參考。
+* 傳遞給驗證委派登入方法的回呼
+* Janrain捕獲變數的引用。
+* :對底板對象的引用。
 
 ```
 /** 
@@ -76,9 +76,9 @@ authDelegate.login = function(finishLogin) {
 
 登出
 
-* **FinishLogout：** 傳遞回您的驗證委派的回呼方法。
+* **** finishLogout:傳遞給驗證委派登入方法的回呼。
 
-* **window. backflight：** 反向平面物件的參考。
+* **** window.底板：對底板對象的引用。
 
 ```
 /** 
@@ -94,9 +94,9 @@ authDelegate.logout = function(finishLogout) {
 }; 
 ```
 
-編輯描述檔
+編輯個人資料
 
-這可以連結至您希望使用者瀏覽的網站部分，以檢視其個人資料頁面。此範例只會列印傳入的作者物件。
+這可以連結至您希望使用者瀏覽網站的任何部分，以檢視其個人檔案頁面。 此範例僅列印傳入的作者物件。
 
 ```
 /** 
@@ -108,9 +108,9 @@ authDelegate.editProfile = function(user) {
 }; 
 ```
 
-檢視描述檔
+檢視設定檔
 
-如同編輯設定檔，這應該連結至與目前登入使用者不同的使用者頁面。您可以視需要實作此項目。此範例只會將作者參數記錄至主控台。
+如同「編輯設定檔」，這應該會連結至與目前登入使用者不同的使用者頁面。 不論您認為適合，都可實作此項目。 此範例只會將作者參數記錄至主控台。
 
 ```
 /** 

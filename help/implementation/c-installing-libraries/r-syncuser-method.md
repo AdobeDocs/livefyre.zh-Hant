@@ -1,9 +1,9 @@
 ---
-description: 通知Livefyre從先前設定的使用者同步URL提取使用者資訊。傳回布林值。
-seo-description: 通知Livefyre從先前設定的使用者同步URL提取使用者資訊。傳回布林值。
-seo-title: SyncUser Network方法
+description: 通知Livefyre從先前設定的使用者同步URL提取使用者資訊。 傳回布林值。
+seo-description: 通知Livefyre從先前設定的使用者同步URL提取使用者資訊。 傳回布林值。
+seo-title: syncUser Network Method
 solution: Experience Manager
-title: SyncUser Network方法
+title: syncUser Network Method
 uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,15 +11,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# SyncUser Network方法{#syncuser-network-method}
+# syncUser Network Method{#syncuser-network-method}
 
-通知Livefyre從先前設定的使用者同步URL提取使用者資訊。傳回布林值。
+通知Livefyre從先前設定的使用者同步URL提取使用者資訊。 傳回布林值。
 
-| 變數 | Type | 說明 |
+| 變數 | 類型 | 說明 |
 |--- |--- |--- |
-| userId | 字串 | 與Livefyre同步的使用者ID。在呼叫此方法之前，您必須先與Livefyre同步URL設定。 |
+| userId | 字串 | 要與Livefyre同步的使用者ID。 您必須先將使用者同步URL與Livefyre設定，才能呼叫此方法。 |
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 network.syncUser(userId); 
@@ -31,7 +31,7 @@ network.syncUser(userId);
 true
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 network.syncUser(userId); 
@@ -55,7 +55,7 @@ $network->syncUser(userId);
 true
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 network.sync_user(userId) 
@@ -67,7 +67,7 @@ network.sync_user(userId)
 True
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.sync_user(userId) 

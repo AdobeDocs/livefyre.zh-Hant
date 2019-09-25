@@ -1,6 +1,6 @@
 ---
-description: 在您的伺服器上建立唯一代號，以識別您所建立的每個系列。
-seo-description: 在您的伺服器上建立唯一代號，以識別您所建立的每個系列。
+description: 在您的伺服器上建立唯一Token，用以識別您建立的每個系列。
+seo-description: 在您的伺服器上建立唯一Token，用以識別您建立的每個系列。
 seo-title: CollectionMeta Token
 solution: Experience Manager
 title: CollectionMeta Token
@@ -13,23 +13,23 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # CollectionMeta Token{#collectionmeta-token}
 
-在您的伺服器上建立唯一代號，以識別您所建立的每個系列。
+在您的伺服器上建立唯一Token，用以識別您建立的每個系列。
 
-Livefyre會為您建立的每個系列指派唯一識別碼。Livefyre會指派標題、URL和其他參數，包括：
+Livefyre會為您建立的每個系列指派唯一識別碼。 Livefyre會指派標題、URL和其他參數，包括：
 
-## CollectionMeta Token參數
+## collectionMeta Token參數
 
-| 參數 | Type | 說明 |
+| 參數 | 類型 | 說明 |
 |--- |--- |--- |
-| socialName | 字串(選用) | Livefyre網路的名稱(可從{！UICCOHTROL Studio>設定>整合設定>認證]。使用程式庫建立CollectionMeta Token時，這是選擇性的。 |
-| SocialKey | 字串(選用) | 特定網路的秘密金鑰(可從「Studio>設定>整合設定>認證」取得)。使用程式庫建立CollectionMeta Token時，這是選擇性的。 |
-| SiteID | 字串(選用) | 網站的ID(可從 [!UICONTROL Studio > Settings > Integration Settings > Credentials] 中取得)。在使用程式庫建立CollectionMeta Token時可選用。 |
-| SiteKey | 字串(選用) | 網站的秘密金鑰(可從{！UICCOHTROL Studio>設定>整合設定>認證]。 |
-| articleID | 字串(選用) | 系列的唯一ID。 |
-| title | 字串(選用) | 您要套用至系列的標題。通常，這會對應顯示應用程式之頁面的標題。<br>例如：「整合真是太有趣了！」<br>注意：標題的字元長度上限為255個字元。標題欄位不支援HTML實體。請使用UTF-8編碼特殊字元。 |
-| url | 字串(選用) | 您要附加至此系列的標準絕對URL。此URL將用來從Facebook和Twitter上共用的內容、電子郵件通知和Livefyre Studio產生連結回應用程式。<br>注意：如果測試本機，請使用有效的基本URL網域(例如：有效： `https://customer.com`；無效： `https://localhost:5995`)。 |
-| 標記 | 字串(選用) | 以逗號分隔的單一關鍵字或片語清單。使用Studio依標記搜尋系列。</br>注意：標記不能包含空格。如果您希望空間出現在UI中，請使用底線。 |
-| 擴充功能 | JSON(選用) | 要傳遞至系列的JSON格式參數集。 |
+| networkName | 字串（選用） | Livefyre網路的名稱（可從{!UICONCONTROL Studio &gt;設定&gt;整合設定&gt;認證]取得）。 當使用程式庫建立collectionMetaToken時，這是選用的。 |
+| networkKey | 字串（選用） | 特定網路的機密金鑰（可從「Studio &gt;設定&gt;整合設定&gt;認證」取得）。 當使用程式庫建立collectionMetaToken時，這是選用的。 |
+| siteId | 字串（選用） | 網站的ID(可從 [!UICONTROL Studio > Settings > Integration Settings > Credentials] 取得)。 使用程式庫建立collectionMetaToken時為選用。 |
+| siteKey | 字串（選用） | 網站的機密金鑰（可從{!UICONCONTROL Studio &gt;設定&gt;整合設定&gt;認證]取得）。 |
+| articleId | 字串（選用） | 系列的唯一ID。 |
+| title | 字串（選用） | 您要套用至系列的標題。 通常，這會對應顯示應用程式之頁面的標題。 <br>例如：「整合太有趣了！」<br>注意： 標題的字元長度上限為255個字元。 標題欄位不支援HTML實體。 請使用UTF-8編碼特殊字元。 |
+| url | 字串（選用） | 您要附加至此系列的標準絕對URL。 此URL將用來從Facebook和Twitter上分享的內容、電子郵件通知和Livefyre studio產生回應用程式的連結。 <br>注意： 如果在本機測試，請使用有效的基本URL網域(例如：有效： `https://customer.com`;無效： `https://localhost:5995`)。 |
+| 標籤 | 字串（選用） | 以逗號分隔的單一關鍵字或片語清單。 使用Studio依標籤搜尋系列。  </br>注意： 標籤不能包含空格。 如果您希望在UI中顯示空格，請使用底線。 |
+| extensions | JSON（選用） | 要傳遞至系列的JSON格式參數集。 |
 
 ## Java {#section_orz_m4n_sz}
 
@@ -97,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance=「high」}
+>[!NOTE] {imporication="high"}
 >
->Livefyre會接收您建立的CollectionMeta代號，並結合SiteID(提供的)和ArticleId(客戶指定)來判斷唯一性。
+>Livefyre會接收您建立的collectionMeta Token，並結合siteId（提供Livefyre）和articleId（客戶指定）以判斷其獨特性。
 

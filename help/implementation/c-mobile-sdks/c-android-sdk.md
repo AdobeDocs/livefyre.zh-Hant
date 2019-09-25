@@ -1,10 +1,10 @@
 ---
-description: 建立由Livefyre提供支援的Android應用程式。
-seo-description: 建立由Livefyre提供支援的Android應用程式。
+description: 建立採用Livefyre架構的Android應用程式。
+seo-description: 建立採用Livefyre架構的Android應用程式。
 seo-title: Android SDK
 solution: Experience Manager
 title: Android SDK
-uuid: 68793fa-9ea1-4890-b36 d-b631 f1 c6 f7 de
+uuid: 68793fa9-3ea1-4890-b36d-b631f1c6f7de
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,54 +13,54 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Android SDK{#android-sdk}
 
-建立由Livefyre提供支援的Android應用程式。
+建立採用Livefyre架構的Android應用程式。
 
-使用此資料庫將Livefyre服務整合到您的原生Android應用程式中。[Livefyre StreamHub Android SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 可根據Gradle/Android Studio開發環境，以我們常用的API機制為基礎，提供一個精簡的圖層。
+使用此程式庫，將Livefyre服務整合至您的原生Android應用程式。 Livefyre [StreamHub Android SDK](https://github.com/Livefyre/StreamHub-Android-SDK) ，以Gradle/Android studio開發環境為基礎，針對我們常用的API機制提供精簡的層。
 
-Livefyre也根據此SDK提供 [評論](https://github.com/Livefyre/StreamHub-iOS-Reviews-App) 範例應用程式。
+Livefyre也提供以此SDK [為基礎的](https://github.com/Livefyre/StreamHub-iOS-Reviews-App) 「評論」範例應用程式。
 
-此Livefyre Android SDK可用於Eclipse和Android Studio。
+此Livefyre Android SDK可同時用於Eclipse和Android Studio。
 
 >[!NOTE]
 >
->在安裝Livefyre Android SDK之前，您必須在環境中安裝 [Android SDK](https://developer.android.com/sdk/index.html) 。如Android Developer docs>所述，您也必須包含一些額外的Android SDK套件。
+>在安裝Livefyre Android SDK之前，您必須先在您的 [環境中安裝Android SDK](https://developer.android.com/sdk/index.html) 。 您也必須包含一些額外的Android SDK套件，如「Android開發人員檔案&gt;」所述。
 >[新增SDK套件](https://developer.android.com/sdk/installing/adding-packages.html)
 
-使用Android SDK Manager(從Android Studio或Eclipse工具列取得)來安裝所有建議的套件。請確定也包含Android支援存放庫。
+使用Android SDK Manager（可從Android studio或Eclipse工具列取得）來安裝所有建議的套件。 Be certain to also include the Android Support Repository.
 
 ## Eclipse {#section_dtm_slv_zz}
 
-若要在Eclipse中新增Livefyre Android SDK至您的專案：
+若要在Eclipse中將Livefyre Android SDK新增至您的專案：
 
-1. 從GitHub取得最新 [的StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 。
-1. 從現有專案開始，或建立新專案。
-1. 若要將StreamHub-Android-SDK匯入工作區 **[!UICONTROL File > Import > General > Existing Project into Workspace]**，請前往。
-1. 瀏覽並選擇StreamHub-Android-SDK；現在應該會顯示在套件總管中。
-1. 在專案上按一下滑鼠右鍵，然後選取 **[!UICONTROL Properties,]** 「Android」索引標籤。
-1. 在「Library」(資料庫)區段下方，選取 **[!UICONTROL Add button,]** 「StreamHub-Android-SDK(從資料庫清單中選取)」。
+1. 從GitHub取得 [最新的StreamHub-Android](https://github.com/Livefyre/StreamHub-Android-SDK) -SDK。
+1. 從現有專案開始或建立新專案。
+1. 若要將StreamHub-Android-SDK匯入您的工作區，請至 **[!UICONTROL File > Import > General > Existing Project into Workspace]**。
+1. 瀏覽並選取StreamHub-Android-SDK;它現在應該會顯示在套件檔案總管中。
+1. 在專案上按一下滑鼠右鍵，然後選 **[!UICONTROL Properties,]** 取「Android」標籤。
+1. 在「程式庫」區段下，選 **[!UICONTROL Add button,]** 取「程式庫」清單中的「StreamHub-Android-SDK」。
 1. 按一下 **[!UICONTROL Apply]** 和 **[!UICONTROL OK]**。
 
 ## Android Studio {#section_vpw_klv_zz}
 
-若要在Android Studio中新增Livefyre Android SDK至您的專案：
+若要將Livefyre Android SDK新增至Android studio的專案：
 
-1. 從GitHub取得最新 [的StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 。
-1. 從現有專案開始，或建立新專案。
-1. 在專案上按一下滑鼠右鍵，然後選取 **[!UICONTROL Open Module Settings]**。
-1. 選取視窗左上角的 **[!UICONTROL +]** 按鈕。
-1. 選取 **[!UICONTROL Import Existing Project.]** (在新版本Android工作室中，您可以找到 **[!UICONTROL Import Existing Project]** **[!UICONTROL More Modules]** )。
+1. 從GitHub取得 [最新的StreamHub-Android](https://github.com/Livefyre/StreamHub-Android-SDK) -SDK。
+1. 從現有專案開始或建立新專案。
+1. 在您的專案上按一下滑鼠右鍵，然後選取 **[!UICONTROL Open Module Settings]**。
+1. 選擇 **[!UICONTROL +]** 窗口左上角的按鈕。
+1. 選 **[!UICONTROL Import Existing Project.]** 取(在新版Android Studio中，您可在下 **[!UICONTROL Import Existing Project]** 方找 **[!UICONTROL More Modules]**&#x200B;到)。
 
-1. 瀏覽並選擇StreamHub-Android-SDK。
+1. 瀏覽並選取StreamHub-Android-SDK。
 
-Android Studio可能會要求您將SDK轉換為gradle版本；如果發生這種 **[!UICONTROL next]** **[!UICONTROL finish]** 情況，請選取。
+Android studio可能會要求您將SDK轉換為Gradle版本；如果發生此情況，請選 **[!UICONTROL next]** 擇 **[!UICONTROL finish]**。
 
-前往 **專案檔案夾> app檔案夾> build. gradle** 檔案underend相ies以新增下列相依性：
+移至相 **依項下的專案資料夾&gt;應用程式資料夾&gt; build.gradle** 檔案，以新增下列相依項：
 
 ```
 dependencies {   compile project(':streamHubAndroidSDK') } 
 ```
 
-請確定下列行位於 **您的專案檔案夾> settings. gradle** 檔案中：
+請確定下列行位於您的專 **案資料夾&gt; settings.gradle** 檔案中：
 
 ```
 include ':streamHubAndroidSDK' 
@@ -68,17 +68,17 @@ include ':streamHubAndroidSDK'
 
 >[!NOTE]
 >
->您可以自訂Config. java中的設定。
+>您可以從Config.java中自訂設定。
 
 ## 客戶 {#section_yfq_blv_zz}
 
-StreamHub Android SDK顯示幾個client類別，可用來請求Livefyre API端點：
+StreamHub Android SDK公開數個可用來要求Livefyre API端點的用戶端類別：
 
-* **SocialClient** 交換使用者驗證Token以取得使用者資訊、金鑰和其他中繼資料。
+* **AdminClient** 針對使用者資訊、金鑰和其他中繼資料交換使用者驗證Token。
 
-* **BootstraPCLient** 取得關於特定系列的最近內容和中繼資料。
+* **BootstrapClient** 取得特定系列的最新內容和中繼資料。
 
-* **StreamClient** 輪詢系列的串流以擷取新的、更新和刪除的內容。
+* **StreamClient** 輪詢系列的串流，以擷取新、更新和刪除的內容。
 
-* **WriteClient** 貼文、標幟和贊系列中的內容。
+* **WriteClient** Post、標幟和贊系列中的內容。
 

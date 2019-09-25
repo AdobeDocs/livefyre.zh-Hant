@@ -1,19 +1,19 @@
 ---
-description: 使用Livefyre程式庫建立結帳。
-seo-description: 使用Livefyre程式庫建立結帳。
-seo-title: 建立檢查加總
+description: 使用Livefyre程式庫建立校驗和。
+seo-description: 使用Livefyre程式庫建立校驗和。
+seo-title: 建立校驗和
 solution: Livefyre
-title: 建立檢查加總
-uuid: ddddaha-7a6d-434a-8db8-dc179935 f810
+title: 建立校驗和
+uuid: 2dddedaa-7a6d-434a-8db8-dc179935f810
 translation-type: tm+mt
 source-git-commit: 6545445016517af1f1bbb071761d773ba5a9a597
 
 ---
 
 
-# 建立檢查加總 {#creating-a-checksum}
+# 建立校驗和 {#creating-a-checksum}
 
-使用Livefyre程式庫建立結帳。
+使用Livefyre程式庫建立校驗和。
 
 ## Java {#section_pfr_lqj_tz}
 

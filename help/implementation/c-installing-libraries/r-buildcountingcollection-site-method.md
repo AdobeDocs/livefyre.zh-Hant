@@ -1,8 +1,8 @@
 ---
-description: 傳回做為計算類型的系列物件。從Collection物件執行_ or_ update()以完成建置程序。
-seo-description: 傳回做為計算類型的系列物件。從Collection物件執行_ or_ update()以完成建置程序。
-seo-title: BuildIdentijectCollection網站方法
-title: BuildIdentijectCollection網站方法
+description: 傳回實例化為計數類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
+seo-description: 傳回實例化為計數類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
+seo-title: buildCountingCollection網站方法
+title: buildCountingCollection網站方法
 uuid: e293d66a-0025-4230-997e-295ce4625713
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -10,23 +10,23 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# BuildIdentijectCollection網站方法{#buildcountingcollection-site-method}
+# buildCountingCollection網站方法{#buildcountingcollection-site-method}
 
-傳回做為計算類型的系列物件。從Collection物件執行_ or_ update()以完成建置程序。
+傳回實例化為計數類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
 
-| 變數 | Type | 說明 |
+| 變數 | 類型 | 說明 |
 |--- |--- |--- |
 | title | 字串 | 系列的標題。 |
-| articleID | 字串 | 您選擇在您的網站內識別系列的唯一文章ID。 |
+| articleId | 字串 | 您選擇用來識別網站內系列的唯一文章ID。 |
 | url | 字串 | 此系列的標準絕對URL。 |
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 Collection collection = site.buildCountingCollection(title, articleId, url); 
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 var collection = site.buildCountingCollection(title, articleId, url); 
@@ -38,13 +38,13 @@ var collection = site.buildCountingCollection(title, articleId, url);
 $collection = site->buildCountingCollection(title, articleId, url); 
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 collection = site.build_counting_collection(title, articleId, url) 
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_counting_collection(title, articleId, url) 

@@ -15,16 +15,16 @@ source-git-commit: c5fd168c0ed74dada9fb85423c92cf6955c4b8c9
 
 使用Livefyre使用自訂視覺化來組織和顯示UGC。
 
-1. [在Studio中建立視覺效果應用程式](/help/using/c-about-apps/c-create-an-app.md)。
+1. [在Studio中建立視覺化應用程式](/help/using/c-about-apps/c-create-an-app.md)。
 
-1. [設定串流並新增規則，將UGC組織至應用程式](/help/using/c-streams/c-streams.md)。
+1. [設定串流和新增規則，將UGC組織至應用程式](/help/using/c-streams/c-streams.md)。
 
-若要觀看如何串流UGC的訓練影片，請參閱 [「在Adobe Experience Manager Livefyre中建立自動內容串流及搜尋社交內容](https://helpx.adobe.com/experience-manager/tutorials.html)」。
+若要觀看有關如何串流UGC的訓練影片，請參 [閱Adobe Experience Manager Livefyre中的「建立自動內容串流並搜尋社交內容」](https://helpx.adobe.com/experience-manager/tutorials.html)。
 
-1. 使用Bootstrap和Stream API建立自訂體驗和資料視覺化。
+1. 使用引導和串流API建立自訂的體驗和資料視覺化。
 
-1. 使用 [貼文API張貼新內容](https://api.livefyre.com/docs/apis/by-category/collection-content#operation=urn:livefyre:apis:quill:operations:api:v3.0:collection:post:method=post)。
+1. 使用貼文API張貼 [新內容](https://api.livefyre.com/docs/apis/by-category/collection-content#operation=urn:livefyre:apis:quill:operations:api:v3.0:collection:post:method=post)。
 
-## 客戶實例 {#customerexample}
+## 客戶範例 {#customerexample}
 
 [Tourism Australia](https://www.australia.com/en-us)

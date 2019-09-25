@@ -1,41 +1,41 @@
 ---
-description: 2018年11月日發行的發行說明。
-seo-description: 2018年11月日發行的發行說明。
-seo-title: 2018年11月日
+description: 2018年11月1日發行說明。
+seo-description: 2018年11月1日發行說明。
+seo-title: 2018 年 11 月 1 日
 solution: Experience Manager
-title: 2018年11月日
-uuid: ed1a3bf1-b3 f1-4746-8462-072823ba62
+title: 2018 年 11 月 1 日
+uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# 2018年11月日{#november}
+# 2018 年 11 月 1 日{#november}
 
-2018年11月日發行的發行說明。
+2018年11月1日發行說明。
 
-## 新特性 {#section_syx_mdt_wcb}
+## 新功能 {#section_syx_mdt_wcb}
 
-此發行版本中發行了下列新功能：
+此版本的生產版本中已發佈下列新功能：
 
-* 視訊智慧標記
+* 視訊智慧型標籤
 
-   運用Adobe Sensei提供的藝術電腦願景技術，在將視訊內容儲存至資料庫時，自動標記視訊內容。「智慧標記」可協助您更有效地管理UGC，但也能建立超級精確的組織規則(串流)，以根據視訊中的內容收集內容，而不僅是文字，讓您更能協調不想要的內容。
+   運用Adobe Sensei支援的最新電腦視覺技術，在您將視訊內容儲存至資料庫時自動標籤視訊內容。 智慧型標籤可協助您更有效率地管理UGC，同時建立超精確的組織規則（串流），以根據視訊中的內容（而非僅是文字）收集內容，為您節省大量的心力來協調不想要的內容。
 
    功能詳細資訊：
 
-   * 智慧標記會自動新增至從Social搜尋、串流和上傳的視訊檔案中所取得的影片中。檢視個別視訊資產詳細資料中的標記
-   * 標記. MP4、. MOV和AVI格式中的視訊
-   * 標記視訊高達60秒或50MB
-   * 兩種智慧標籤類別適用於視訊：功能(動物、物件、地點等)和動作(執行、行走、唱歌等)
-   如需詳細資訊，請參閱 [智慧標記](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
+   * 智慧型標籤會自動新增至從「資料庫」中的社交搜尋、串流和上傳的視訊檔案所取得的視訊。 在個別視訊的資產詳細資料中檢視標籤
+   * 以。MP4、.MOV和AVI格式標籤視訊
+   * 將視訊標籤為高達60秒或50MB
+   * 智慧標籤有兩類套用至視訊：功能（動物、物件、地點等）和動作（跑步、走路、唱歌等）
+   For more information see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
-* Instagram比率限制
+* Instagram速率限制
 
-   Instagram已變更任何使用Instagram API(包括Livefyre)的公司，可從每個代號每小時要求到200個要求每個代號要求一小時的要求數。這稱為 *比率限制*。如需詳細資訊，請參閱 [Instagram比率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
+   Instagram已將任何使用Instagram API（包括Livefyre）的公司，每小時每個Token可發出5,000個請求，變更為每小時每Token發出200個請求。 這稱為速率 *限制*。 如需詳細資訊，請參 [閱Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
 
-* 程式庫中的音訊檔案
+* 資料庫中的音訊檔案
 
    您現在可以從程式庫面板對音訊檔案執行下列功能：
 
@@ -47,16 +47,16 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## 問題 {#section_ehw_ndt_wcb}
 
-此發行版本中未解決新的問題。請參閱 [上述章節](#c_rn/section_syx_mdt_wcb)。
+本版本的生產版本未解決任何新問題。 請參 [閱上節](#c_rn/section_syx_mdt_wcb)。
 
-## UAT版本 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT發行 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
-下列表格中的問題已在此版本的UAT版本中獲得解決。
+下表中的問題已在此版本的UAT版本中解決。
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| 增強功能 | GDPR | 將刪除Analytics中舊客戶的所有資料。 |
-| Bug | Library | 已修正上傳至「資料庫」的視訊，然後在資產詳細資料中檢視的問題無法正確顯示的問題。 |
-| Bug | Mosaic | 修正Mosaic會將Instagram轉盤中的最後一部分內容顯示為縮圖，而非卡片的問題。 |
-| Bug | 社交搜尋 | 已修正Instagram社交搜尋無法如預期運作的問題。 |
+| 增強功能 | GDPR | Analytics中前客戶的所有資料都將被刪除。 |
+| 錯誤 | 庫 | 已修正視訊上傳至「資料庫」，接著以資產詳細資料檢視的問題，此問題無法正確顯示。 |
+| 錯誤 | 馬賽克 | 修正Mosaic將Instagram轉盤上最後一段內容顯示為縮圖而非卡片的問題。 |
+| 錯誤 | 社交搜尋 | 修正Instagram社交搜尋無法如預期般運作的問題。 |
 

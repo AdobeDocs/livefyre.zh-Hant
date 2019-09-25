@@ -1,25 +1,25 @@
 ---
-description: 擷取在索引頁面上顯示特定系列的貼文和留言計數。
-seo-description: 擷取在索引頁面上顯示特定系列的貼文和留言計數。
-seo-title: 顯示註解計數
+description: 擷取特定系列的貼文和留言計數，以便顯示在索引頁面上。
+seo-description: 擷取特定系列的貼文和留言計數，以便顯示在索引頁面上。
+seo-title: 顯示注釋計數
 solution: Experience Manager
-title: 顯示註解計數
-uuid: 0f39b25e-11e0-4945-be71-55fb4798 b6 c7
+title: 顯示注釋計數
+uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
 source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
 ---
 
 
-# 顯示註解計數{#display-comment-count}
+# 顯示注釋計數{#display-comment-count}
 
-擷取在索引頁面上顯示特定系列的貼文和留言計數。
+擷取特定系列的貼文和留言計數，以便顯示在索引頁面上。
 
-Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖然應用程式會顯示目前系列的註解計數，但在您的網站上進行這些計算可能會很有用。如果您不保存資料庫中的內容(或您的CMS資料庫與Livefyre同步)，此功能特別有用。
+Livefyre可讓 `CommentCount.js` 您擷取網站上系列的內容計數。 雖然「應用程式」會顯示目前系列的注釋計數，但讓這些計數在您的網站上匯集是很有用的。 如果您未保存資料庫中的內容（或CMS資料庫未與Livefyre同步），此功能特別有用。
 
 1. 載入JavaScript。
 
-   若要使用 `CommentCount.js`，請先將JavaScript檔案內嵌在您想要使用之頁面或範本 `<head>` 區段中。
+   若要使 `CommentCount.js`用，請先將JavaScript檔案內嵌 `<head>` 至您要使用的頁面或範本區段。
 
    ```
    <script 
@@ -31,7 +31,7 @@ Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖�
 
 1. 系結HTML元素。
 
-   載入指令碼後，會嘗試在具有類別名稱的頁面上尋找其他元素 `livefyre-commentcount`。對於這些元素，指令碼會尋找 `data-lf-site-id``data-lf-article-id` 和HTML屬性，並使用這些屬性從Livefyre擷取內容，並使用最新值更新每個元素。
+   載入指令碼後，它會嘗試在頁面上尋找其他類別名稱為的元素 `livefyre-commentcount`。 針對這些元素，指令碼會尋找 `data-lf-site-id` 和 `data-lf-article-id` HTML屬性，並使用這些屬性從Livefyre擷取內容，並以最新值更新每個元素。
 
    例如，下列元素將會更新：
 
@@ -41,11 +41,11 @@ Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖�
    </span>
    ```
 
-   >[!NOTE] {importance=「high」}
+   >[!NOTE] {imporication="high"}
    >
-   >`CommentCount.js` 程式碼會檢查數值是否以實際計數更新。請確定標籤之間包含數值。
+   >程式 `CommentCount.js` 碼會檢查數值，以便與實際計數一起更新。 請確定在標籤之間包含數值。
 
-   **範例(** 使用URL做為文章ID)：
+   **範例1** （使用URL做為文章ID）:
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="https://mikesoldner.com/blog.php">  
@@ -53,7 +53,7 @@ Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖�
    </span>
    ```
 
-   **範例(** 使用編號系統做為文章ID)：
+   **範例2** （使用編號系統做為文章ID）:
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="25"> 0 Comments </span>
@@ -61,18 +61,18 @@ Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖�
 
 1. 設定選項。
 
-   為進一步控制如何取代內容計數，請呼叫並 `LF.CommentCount()` 傳入包含設定選項的物件。請務必呼叫函數之後，所有需要取代的元素都位於DOM中。呼叫此方法最好的地方就在頁尾，如此當DOM載入時，就會發生在文件和視窗就緒事件之前。
+   若要進一步控制內容計數的取代方式，請呼 `LF.CommentCount()` 叫並傳入包含設定選項的物件。 請確定在DOM中所有需要取代的元素之後，呼叫函式。 呼叫此方法的最佳位置在頁尾，因此在載入DOM時，但在檔案和視窗就緒事件之前就會發生。
 
-   我們允許下列組態選項：
+   我們允許下列配置選項：
 
-* **取代程式：** 函數或Regex用來取代每個內容計數的文字。
+* **** 替換器：用來取代每個內容計數的文字的函式或Regex。
 
-* **函數：** 用於取代每個元素。函數的引數為：
+* **** 函式：用於替換每個元素。 函式的引數為：
 
-   **元素：** 正在更新的HTML元素。
-   **計數：** 此元素的內容計數。
+   **** 元素：正在更新的HTML元素。
+   **** 計數：此元素的內容計數。
 
-* **regex：** 用於判斷元素文字的哪一部分應由計數取代。
+* **** regex:用來判斷應由計數取代元素文字的哪一部分。
 
    **範例**:
 
@@ -87,4 +87,4 @@ Livefyre可 `CommentCount.js` 讓您擷取網站上系列的內容計數。雖�
 
    >[!NOTE]
    >
-   >使用取代程式來自訂或國際化注釋計數訊息。
+   >使用替換器定制或國際化注釋計數消息。

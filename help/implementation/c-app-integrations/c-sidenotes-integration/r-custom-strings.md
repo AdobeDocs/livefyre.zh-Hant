@@ -1,18 +1,18 @@
 ---
-description: null
-seo-description: null
-seo-title: Sitdones自訂字串
-title: Sitdones自訂字串
-uuid: 73745273-d3 fb-4569-8910-d149 fb37 a7 b
+description: 'null'
+seo-description: 'null'
+seo-title: Siestroms自訂字串
+title: Siestroms自訂字串
+uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 
 
-# Sitdones自訂字串{#sidenotes-custom-strings}
+# Siestroms自訂字串{#sidenotes-custom-strings}
 
-自訂字串會透過插入到Sitdones建構函式中的物件套用，並覆寫應用程式所使用的預設字串。這些功能可用來自訂語言的任何部分，以符合您的樣式或語言規格。字串會自動與預設合併。
+自訂字串會透過插入Sides建構函式的物件套用，並覆寫透過應用程式使用的預設字串。 這些可用來自訂語言的任何部分，以符合您的樣式或語言規格。 字串會自動與預設值合併。
 
 ```
 var customStrings = { 
@@ -23,78 +23,78 @@ new Livefyre.Sidenotes({
 });
 ```
 
-| 索引鍵 | 預設值 |
+| 金鑰 | 預設值 |
 |---|---|
-| AppName | Sitents |
-| commentModerOrtag | Mod |
-| 註解標記 | 擱置中 |
-| commentReadMoreLink | 閱讀更多資訊 |
-| commentReplicLink | 請參閱{number}回覆 |
-| CommentReplicyLinkScript | 請參閱回覆 |
-| CommentVodeCount | 投票數 |
-| commentVoeCountSING | 投票 |
-| editorPlaceHolder | 您想甚麼？ |
-| editorPostBtn | Post Sidenote |
-| editorPostBnobile | 貼文 |
-| editorPosting | 張貼… |
-| editorRebytn | 貼文回覆 |
-| editorReplicyTitle | 寫入回覆 |
-| editorTitle | 寫入附註 |
-| EmptyImageBocktXT | 您想甚麼？ |
-| EmptyTextBlockXT | + |
-| errorConnection | 嗯h-h.您似乎沒有良好的聯繫。 |
-| errorDuplicate | 我們也喜歡您的注意事項，但無法張貼兩次。 |
-| errorGeneral | 發生錯誤。請再試一次。 |
-| errorServer | 我們的伺服器發生錯誤。再試一次嗎？ |
-| FacebookShaRerection | SiteNotes on「{title}」 |
-| MenuauthedNedInMsg | 您必須登入{action} |
+| appName | Siesors |
+| commentColdatorTag | 修改 |
+| commentPendingTag | 待審 |
+| commentReadMoreLink | 瞭解更多 |
+| commentReplyLink | 請參閱{number}個回覆 |
+| commentReplyLinkSing | 請參閱回覆 |
+| commentVoteCount | 投票 |
+| commentVoteCountSing | 票 |
+| editorPlaceholder | 你覺得呢？ |
+| editorPostBtn | 貼文字型大小 |
+| editorPostBtnMobile | 貼文 |
+| editorPosting | 發佈… |
+| editorReplyBtn | 公佈回覆 |
+| editorReplyTitle | 寫回覆 |
+| editorTitle | 寫注 |
+| emptyImageBlockTxt | 你覺得呢？ |
+| emptyTextBlockTxt | + |
+| errorConnection | 哦。 您似乎沒有良好的關聯。 |
+| errorDuplicate | 我們也喜歡您的註解，但您不能再張貼。 |
+| errorGeneral | 發生錯誤. 請再試一次。 |
+| errorServer | 我們的伺服器出了問題。 再試一次？ |
+| facebookShareCaption | 「{title}」上的SideNotes |
+| menuAuthSignedInMsg | 您必須登入{action} |
 | menuAuthSignInBtn | 登入 |
-| MenuBackBtn | Back |
-| menuConfirmAccept | 是的，{action} |
-| MenuConfirmCancel | 取消 |
-| menuConfirmTitle | 您確定嗎？ |
-| 功能表內容核准 | 批准 |
-| menueToptionDelete | 刪除 |
-| menueToptionEdit | 編輯 |
-| menueToptionFlag | 旗標 |
-| menueToptionShare | Share |
-| MenuetcPostStedat | 張貼於{date} |
-| menuetCit標題 | 更多 |
-| 功能表選擇不同意 | 不同意 |
-| MenustlaoptionAttensive | 侵犯性 |
-| MenuFLAoptionOff主題 | 關閉主題 |
-| MenuFLAoptionSpam | 垃圾訊息發送者 |
-| 功能表標題 | 標幟為… |
-| menuInfocoright | © Livefyre，Inc2014 |
-| 功能表說明 | 說明 |
-| menuInfoLivefyRelink | 瀏覽Livefyre.com |
-| 功能表檢視回覆 | 回覆對話 |
-| 功能表檢視標題 | 詳細資料 |
-| MenuShareoptionFacebook | Facebook |
-| 功能表分享連結 | 複製永久連結 |
-| menuShareoptionlinplete | 已複製 |
-| menuShareoptionlink失敗 | 複製失敗 |
-| menuShareoptionTwitter | Twitter |
-| MenuShareTitle | Share |
+| menuBackBtn | 上一步 |
+| menuConfirmAccept | 是，{action} |
+| menuConfirmCancel | 取消 |
+| menuConfirmTitle | 是否確定? |
+| menuEtcOptionApprove | 核准 |
+| menuEtcOptionDelete | 刪除 |
+| menuEtcOptionEdit | 編輯 |
+| menuEtcOptionFlag | 標幟 |
+| menuEtcOptionShare | 共用 |
+| menuEtcPostedAt | 張貼於{date} |
+| menuEtcTitle | 更多 |
+| menuFlagOptionDisproover | 不同意 |
+| menuFlagOptionOffension | 進攻性 |
+| menuFlagOptionOffTopic | 關閉主題 |
+| menuFlagOptionSpam | 垃圾訊息 |
+| menuFlagTitle | 標幟為…… |
+| menuInfoCopyright | © Livefyre, Inc. 2014 |
+| menuInfoHelp | 說明 |
+| menuInfoLivefyreLink | 造訪Livefyre.com |
+| menuRepliesViewReply | 回覆對話 |
+| menuRepliesViewTitle | 詳細資料 |
+| menuShareOptionFacebook | Facebook |
+| menuShareOptionLink | Copy Permalink |
+| menuShareOptionLinkComplete | 已複製 |
+| menuShareOptionLinkFailed | 複製失敗 |
+| menuShareOptionTwitter | Twitter |
+| menuShareTitle | 共用 |
 | notificationApproved | 已核准 |
-| notifications已刪除 | 已刪除 |
-| 通知標幟 | 已標記 |
-| PermalinkBackTn | all |
-| permalinkTitle | 永久連結 |
-| 問題說明 | 您現在可以直接在句子、段落、影像和報價上閱讀及撰寫注釋。<br><br>反白顯示文字並按一下「fycon-write」圖示，或按一下每個段落結尾的「fycon-action-view」圖示。 |
-| QuestionModkText | 「熟悉的」是不正確的，只是因為它是「熟悉」的原因。 |
-| QuestionTitle | 甚麼是Sitenote？ |
-| QueuedCommoScript | {number} New Sitents |
-| QueuedCommpsExcle | 1New Sitenote |
-| QueuedRepliceSimplum | {number}新回覆 |
-| QueuedReplicisingRular | 新回覆 |
-| ReplicTBN | 回覆 |
-| SignintoPost | 登入以寫入sidenote |
-| 投影片注釋 | of |
-| SliderInviteRead | Read |
-| 投影片編寫 | 寫入 |
-| SliderWriteExt | 您想甚麼？點選以寫入 |
-| SocialCollapsBtn | 收合功能 |
-| ThreadXpandBntimum | 展開{number}回覆 |
-| ThreadXPandBntNess | 展開回覆 |
-| PublishRebtn | 回覆對話 |
+| notificationDeleted | 已刪除 |
+| notificationTaged | 已標記 |
+| permalinkBackBtn | 全部 |
+| permalinkTitle | 佩馬林克 |
+| questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br>反白標示文字，然後按一下「fycon-write」圖示，或按一下每個段落結尾的「fycon-action-view」圖示。 |
+| questionMockText | 「熟悉」的內容並不是眾所周知的，只是因為「熟悉」。 |
+| questionTitle | 什麼是Sidexer? |
+| queuedCommentsPlural | {number}新大小表示 |
+| queuedCommentsSingular | 1個新字型大小 |
+| queuedRepliesPlural | {number}新回覆 |
+| queuedRepliesSingular | 1個新回覆 |
+| replyBtn | 回覆 |
+| signInToPost | 登入以撰寫字型大小 |
+| sliderCommentTally | 的 |
+| sliderInviteRead | 已讀取 |
+| sliderInviteWrite | 寫 |
+| sliderWriteText | 你覺得呢？ 點選以寫入 |
+| threadCollapseBtn | 收合 |
+| threadExpandBtnPlural | 展開{number}個回覆 |
+| threadExpandBtnSingular | 展開1個回覆 |
+| threadReplyBtn | 回覆對話 |

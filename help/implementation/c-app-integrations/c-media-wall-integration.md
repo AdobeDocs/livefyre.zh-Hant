@@ -1,39 +1,39 @@
 ---
-description: 建立媒體塗鴉牆，即時進行內容串流。
-seo-description: 建立媒體塗鴉牆，即時進行內容串流。
-seo-title: Media Wall
+description: 建立即時串流內容的媒體牆。
+seo-description: 建立即時串流內容的媒體牆。
+seo-title: 媒體牆
 solution: Experience Manager
-title: Media Wall
-uuid: c6087c80-a35 b-44d2-9dd4-ba9 cd471172 d
+title: 媒體牆
+uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Media Wall{#media-wall}
+# 媒體牆{#media-wall}
 
-建立媒體塗鴉牆，即時進行內容串流。
+建立即時串流內容的媒體牆。
 
-Media Wall可讓您建立網站的即時社交牆。使用Livefyre JavaScript SDK的簡化套件，將Livefyre社交饋送顯示為視覺吸引人、全螢幕、拼貼的內容體驗，這種體驗非常適合用於涵蓋即時活動、代管像片比賽以及賦予網站的社交區段。
+「媒體塗鴉牆」可讓您為網站建立即時的社交塗鴉牆。 使用Livefyre JavaScript SDK的串流桌布套件，將Livefyre社交動態消息顯示為視覺化、全螢幕、並排的內容體驗，非常適合於報導即時活動、主持像片競賽，並為您網站的社交區段提供動力。
 
 ## 整合 {#section_jfm_bwb_c1b}
 
-新增Media塗鴉牆最快的方法，就是使用Livefyre的CDN代管的版本。
+新增媒體塗鴉牆最快的方式，就是使用Livefyre CDN上代管的內建版本。
 
-首先，將 [Livefyre. js](https://github.com/Livefyre/Livefyre.js) 新增至您的網站。
+首先，將 [Livefyre.js新增至您的網站](https://github.com/Livefyre/Livefyre.js) 。
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-然後，定位Media塗鴉牆所在的元素。
+然後，定位將顯示介質牆的元素。
 
 ```
 <div id="wall"></div>
 ```
 
-最後，使用 `Livefyre.require` 建構元件。
+最後，使 `Livefyre.require` 用來構建元件。
 
 ```
 <script> 
@@ -52,19 +52,19 @@ Livefyre.require([
 </script>
 ```
 
-您現在有了塗鴉牆！在 [此範例](https://codepen.io/gobengo/pen/dFwDL)中檢視這一切的實際運作。
+你現在有牆了！ 請在此範例中檢視這些 [動作](https://codepen.io/gobengo/pen/dFwDL)。
 
-**點擊錯誤？** 請檢查以確定您傳遞正確的環境參數。選項包括 `livefyre.com` (生產)或 `t402.livefyre.com` (UAT)。
+**是否點擊錯誤？** 請檢查，以確定您正在傳遞正確的環境參數。 選項包 `livefyre.com` 括（生產） `t402.livefyre.com` 或(UAT)。
 
 >[!NOTE]
 >
->您的媒體塗鴉牆應用程式演算推文的任何樣式自訂，都必須依照Twitter [的顯示需求](https://dev.twitter.com/terms/display-requirements)進行。
+>您的「媒體塗鴉牆應用程式」轉譯之推文的任何樣式自訂都必須依照Twitter的「顯示 [要求」](https://dev.twitter.com/terms/display-requirements)。
 
-## 設定選項 {#section_ucv_qvb_c1b}
+## 配置選項 {#section_ucv_qvb_c1b}
 
 `columns`
 
-可讓您定義「媒體牆」建立塗鴉牆時的欄數。如果設定此選項，每欄的寬度會自動配合Media塗鴉牆的容器大小調整，同時維持指定的欄數。
+可讓您在建立塗鴉牆時，定義媒體牆的欄數。 如果設定此選項，則每欄的寬度會自動調整為媒體塗鴉牆的容器大小，同時維持指定的欄數。
 
 ```
 var wallView = new MediaWall({ 
@@ -75,7 +75,7 @@ var wallView = new MediaWall({
 
 `initial`
 
-在頁面載入時演算的內容項目數目。預設為50。
+載入頁面時要演算的內容項目數。 預設為50。
 
 ```
 var wallView = new MediaWall({ 
@@ -86,11 +86,11 @@ var wallView = new MediaWall({
 
 `minContentWidth`
 
-可讓您為媒體塗鴉牆物件元素內的每個欄設定最低(像素)寬度。(您的Media Wall會根據容器元素的寬度自動選取適當的欄數。依預設，Media Wall的寬度除以最低內容寬度(300px(若未定義)會決定欄數)。
+可讓您在「媒體牆」容器元素中設定每欄的最小（像素）寬度。 (您的「媒體牆」會根據容器元素的寬度自動選取適當的欄數。 依預設，「媒體牆」的寬度除以最小內容寬度（若未定義，則為300像素）會決定欄數。)
 
 >[!NOTE]
 >
->請勿搭配欄選項使用此選項。
+>請勿將此選項與columns選項組合使用。
 
 ```
 var wallView = new MediaWall({ 
@@ -101,7 +101,7 @@ var wallView = new MediaWall({
 
 `modal`
 
-依預設，當內容有附件時，媒體塗鴉牆會顯示可點按的縮圖。在按下後，應用程式會開啓一個模型，顯示像片/視訊附件完整顯示。若要停用此選項，請將模式設為false。
+依預設，當內容有附件時，「媒體牆」會顯示可點選的縮圖。 當按一下時，應用程式會開啟一個模型，顯示整個像片／視訊附件。 若要停用此選項，請將modal設為false。
 
 ```
 var wallView = new MediaWall({ 
@@ -113,15 +113,15 @@ var wallView = new MediaWall({
 
 `postButton`
 
-定義 [!UICONTROL Post Content] 按鈕顯示在您的塗鴉牆上。此選項需要您傳入，並新增Livefyre. js `opts.collection`Ath整合至頁面。
+定義要 [!UICONTROL Post Content] 出現在塗鴉牆上的按鈕。 This option requires that you pass in `opts.collection`, and add a Livefyre.js Auth integration to the page.
 
-`postButton` 參數：
+`postButton` 參數:
 
-* `false` (預設)：不要顯示「貼文內容」按鈕。(建立唯讀媒體塗鴉牆)。
-* `true` (或 `LiveMediaWall.postButtons.contentWithPhotos`)：加入一個按鈕，讓使用者新增文字內容，並加上附加的像片。
+* `false` （預設值）:請勿顯示「貼文內容」按鈕。 （建立只讀介質牆。）
+* `true` (或 `LiveMediaWall.postButtons.contentWithPhotos`):加入按鈕，讓使用者可新增文字內容及附加的像片。
 
-* `LiveMediaWall.postButtons.content`：包含可讓使用者新增文字內容但不附加像片的按鈕。
-* `LiveMediaWall.postButtons.photo`：包含可讓使用者新增像片但沒有文字的按鈕。
+* `LiveMediaWall.postButtons.content`:加入可讓使用者新增文字內容，但不附加像片的按鈕。
+* `LiveMediaWall.postButtons.photo`:加入可讓使用者新增像片但無文字的按鈕。
 
 ```
 var wallView = new MediaWall({ 
@@ -134,7 +134,7 @@ var wallView = new MediaWall({
 
 `showMore`
 
-定義 [!UICONTROL Show More] 按下按鈕時，內容項目要新增至塗鴉牆的次數。
+定義當按下按鈕時要新增至塗鴉牆的內 [!UICONTROL Show More] 容項目數。
 
 ```
 var wallView = new LiveMediaWall({ 
@@ -145,7 +145,7 @@ var wallView = new LiveMediaWall({
 
 ## 樣式設定選項 {#section_ztv_dvb_c1b}
 
-此外，Media Wall還提供一些設定選項，可讓您自訂文字色彩、樣式和大小。若要實施這些選項，請使用下列語法：
+Media Wall也提供數種設定選項，可讓您自訂文字色彩、樣式和大小。 若要實作這些選項，請使用下列語法：
 
 ```
 var wall2 = window.wall2 = new MediaWall({ 
@@ -163,42 +163,42 @@ var wall2 = window.wall2 = new MediaWall({
 }); 
 ```
 
-如需有效輸入，請參閱W3C標準系列 [](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family)、 [字體大小](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)、 [線條高度和](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height)[色彩](https://www.w3.org/TR/css3-color/#colorunits) 屬性的W3C標準。
+如需有效輸入，請參閱CSS字型系列、字型大小 [、行高](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family)、色彩屬性的W3C [](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)[](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height)[](https://www.w3.org/TR/css3-color/#colorunits) 標準。
 
-* **boyFontSize***(CSS字型大小字串)* 內容內文文字的字型大小。
+* **bodyFontSize** （CSS字型大小字串） ** ，內容內文的字型大小。
 
-* **bodyLinheight***(CSS線條高度字串)* 內容內文文字的線條高度。
+* **bodyLineHeight** （CSS Line Height字串） ** ：內容內文的行高。
 
-* **按鈕activeBackgroundColor***(CSS色彩字串)**作用中按鈕背景的顏色。
+* **buttonActiveBackgroundColor** (CSS Color String) ***作用中按鈕背景的顏色。
 
-* **按鈕BorderColor***(CSS色彩字串)**按鈕邊框的顏色。
+* **buttonBorderColor** （CSS顏色字串） ***按鈕邊框的顏色。
 
-* **按鈕hoverbackgroundColor***(CSS色彩字串)* 滑鼠停留時按鈕背景的顏色。
+* **buttonHoverBackgroundColor** （CSS色彩字串） ** Hover上按鈕背景的色彩。
 
-* **按鈕textColor***(CSS色彩字串)* 按鈕標籤的顏色。
+* **buttonTextColor** （CSS顏色字串） ** ，按鈕標籤的顏色。
 
-* **CardbackgroundColor***(CSS色彩字串)* 媒體塗鴉牆中內容卡片的背景顏色。
+* **cardBackgroundColor** (CSS Color String) ** ：媒體塗鴉牆中內容卡片的背景顏色。
 
-* **DisplayNameColor***(CSS色彩字串)* 在署名中顯示名稱的顏色。
+* **displayNameColor** (CSS顏 *色字串)* ，位元中顯示名稱的顏色。
 
-* **FontFamily***(CSS字型系列字串)* 內文的字體系列。
+* **fontFamily** (CSS字 *體系列字串)* -內文字的字型系列。
 
-* **頁尾色彩(***CSS色彩字串)* 次要文字的顏色(例如頁尾文字，以及署名中的使用者名稱)。
+* **footerTextColor** （CSS色彩字串） ** 次要文字的色彩（例如頁尾文字和位元中的使用者名稱）。
 
-* **linktachmentBackgroundColor***(CSS色彩字串)* 連結附件(堆疊附件)的背景顏色。
+* **linkAttachmentBackgroundColor** （CSS色彩字串） ** 連結附件（堆疊附件）的背景色彩。
 
-* **linkAttachmentBorderColor***(CSS色彩字串)* 連結附件的邊框顏色(堆疊附件)。
+* **linkAttachmentBorderColor** （CSS色彩字串） ** 連結附件（堆疊附件）的邊框色彩。
 
-* **linktachmentTextColor***(CSS色彩字串)* 連結附件文字的顏色。
+* **linkAttachmentTextColor** （CSS色彩字串） ** 連結附件文字的色彩。
 
-* **linkColor***(CSS色彩字串)* 超連結的顏色(例如內文中的連結，以及顯示名稱連結)。
+* **linkColor** (CSS色 ** 彩字串)超連結的色彩（例如內文中的連結和顯示名稱連結）。
 
-* **TextColor***(CSS色彩字串)* 內文文字的顏色。
+* **textColor** (CSS顏 *色字串)* -內文的顏色。
 
-* **titleFontSize***(CSS字型大小字串)* 內容標題的字型大小。
+* **titleFontSize** (CSS字型大 *小字串)* 內容標題的字型大小。
 
-* **titleHeight***(CSS線條高度字串)* 內容標題的線條高度。
+* **titleLineHeight** (CSS Line Height字 *串)* ，內容標題的行高。
 
-* **SourceLogocolor***(CSS色彩字串)* 來源標誌的顏色。
+* **sourceLogoColor** （CSS顏色字串） ** ：來源標誌的顏色。
 
-* **usernameColor***(CSS色彩字串)* 在署名中的使用者名稱顏色。
+* **usernameColor** (CSS顏色 *字串)* ，位元中使用者名稱的顏色。

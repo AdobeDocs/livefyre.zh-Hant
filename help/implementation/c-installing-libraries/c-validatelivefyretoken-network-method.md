@@ -1,25 +1,25 @@
 ---
-description: 檢查Livefyre代號是否仍適用於此網路。傳回布林值。
-seo-description: 檢查Livefyre代號是否仍適用於此網路。傳回布林值。
-seo-title: validateLiveRetoken網路方法
+description: 檢查Livefyre Token是否仍對此網路有效。 傳回布林值。
+seo-description: 檢查Livefyre Token是否仍對此網路有效。 傳回布林值。
+seo-title: validateLivefyreToken網路方法
 solution: Experience Manager
-title: validateLiveRetoken網路方法
-uuid: 2bac11de-d6 c4-419f-9c7 b-92brec541 d07 e
+title: validateLivefyreToken網路方法
+uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# validateLiveRetoken網路方法{#validatelivefyretoken-network-method}
+# validateLivefyreToken網路方法{#validatelivefyretoken-network-method}
 
-檢查Livefyre代號是否仍適用於此網路。傳回布林值。
+檢查Livefyre Token是否仍對此網路有效。 傳回布林值。
 
-| 變數 | Type | 說明 |
+| 變數 | 類型 | 說明 |
 |---|---|---|
-| *`lfToken`* | 字串 | 驗證的Livefyre Token。 |
+| *`lfToken`* | 字串 | 要驗證的Livefyre Token。 |
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 network.validateLivefyreToken(lfToken); 
@@ -31,7 +31,7 @@ network.validateLivefyreToken(lfToken);
 true 
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 network.validateLivefyreToken(lfToken); 
@@ -55,7 +55,7 @@ $network->validateLivefyreToken(lfToken);
 true 
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 network.validate_livefyre_token(lfToken) 
@@ -67,7 +67,7 @@ network.validate_livefyre_token(lfToken)
 true 
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.validate_livefyre_token(lfToken) 

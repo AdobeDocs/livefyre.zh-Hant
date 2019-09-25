@@ -1,25 +1,25 @@
 ---
-description: 通知Livefyre，將網路使用者同步URL更新為所提供的URL。傳回布林值。
-seo-description: 通知Livefyre，將網路使用者同步URL更新為所提供的URL。傳回布林值。
-seo-title: setUserSyncURL網路方法
+description: 通知Livefyre將網路的使用者同步URL更新至提供的URL。 傳回布林值。
+seo-description: 通知Livefyre將網路的使用者同步URL更新至提供的URL。 傳回布林值。
+seo-title: setUserSyncUrl網路方法
 solution: Experience Manager
-title: setUserSyncURL網路方法
-uuid: cd067e90-a2 da-4e3 d-8e60-7eabfd86 fc7 f
+title: setUserSyncUrl網路方法
+uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# setUserSyncURL網路方法{#setusersyncurl-network-method}
+# setUserSyncUrl網路方法{#setusersyncurl-network-method}
 
-通知Livefyre，將網路使用者同步URL更新為所提供的URL。傳回布林值。
+通知Livefyre將網路的使用者同步URL更新至提供的URL。 傳回布林值。
 
-| 變數 | Type | 說明 |
+| 變數 | 類型 | 說明 |
 |--- |--- |--- |
-| URLTemplate | 字串 | 用Livefyre註冊使用者ID的URL。需要「`{id}`」做為所提供URL字串的一部分。 |
+| urlTemplate | 字串 | 要向Livefyre註冊以同步使用者ID的URL。 需要`{id}`""作為提供之URL字串的一部分。 |
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 network.setUserSyncUrl(urlTemplate); 
@@ -31,7 +31,7 @@ network.setUserSyncUrl(urlTemplate);
 true
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 network.setUserSyncUrl(urlTemplate); 
@@ -55,7 +55,7 @@ $network->setUserSyncUrl(urlTemplate);
 true
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 network.set_user_sync_url(urlTemplate) 
@@ -67,7 +67,7 @@ network.set_user_sync_url(urlTemplate)
 True
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.set_user_sync_url(urlTemplate) 

@@ -1,66 +1,66 @@
 ---
-description: 將Livefyre新增至您的原生行動應用程式。
-seo-description: 將Livefyre新增至您的原生行動應用程式。
-seo-title: 行動SDK
+description: 將Livefyre新增至原生行動應用程式。
+seo-description: 將Livefyre新增至原生行動應用程式。
+seo-title: 行動 SDK
 solution: Experience Manager
-title: 行動SDK
-uuid: 84c7ca1c-3401-492a-bfa5-62b996947 a44
+title: 行動 SDK
+uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 行動SDK{#mobile-sdks}
+# 行動 SDK{#mobile-sdks}
 
-將Livefyre新增至您的原生行動應用程式。
+將Livefyre新增至原生行動應用程式。
 
-行動實作有幾個可用選項，視您打算進行的自訂程度而定：
+行動裝置實作有幾種可用的選項，視您計畫進行的自訂程度而定：
 
-* 行動網頁應用程式
-* Livefyre Android或iOS SDK
+* 行動網路應用程式
+* Livefyre android或iOS SDK
 * HTTP API
 
-## 行動網頁應用程式 {#section_t2k_vpb_11b}
+## 行動網路應用程式 {#section_t2k_vpb_11b}
 
-在行動裝置上開啓網頁的客戶會自動取得已針對行動裝置最佳化的Livefyre內容串流，包括樣式，以符合螢幕大小和修改來處理觸控事件。
+在行動裝置上開啟網頁的客戶會自動取得針對行動裝置最佳化的Livefyre內容串流，包括可符合螢幕大小的樣式，以及可處理觸控事件的修改。
 
 >[!NOTE]
 >
->在Android WebView中使用Livefyre應用程式時，Android [WebSettings. setDomStoreEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) 參數必須設為true。如果localStorage未啓用，Livefyre將無法將使用者記錄至Livefyre應用程式。
+>在Android webView中使用Livefyre應用程式時，Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) 參數必須設為true。 如果未啟用localStorage,Livefyre將無法將使用者登入Livefyre應用程式。
 
-若要針對行動裝置最佳化，Livefyre會限制「注釋」、「即時部落格」和「聊天應用程式」功能集，以包括：
+為了針對行動裝置最佳化，Livefyre將「註解」、「即時部落格」和「聊天應用程式」功能集限制為：
 
 * 貼文
 * 編輯
-* 旗標
-* 贊
+* 標幟
+* 讚
 * 回覆
-* 偵聽程式計數
+* 監聽器計數
 * 注釋計數
-* 內嵌協調
-* 暫存卡片
+* 內嵌待定協調
+* 氣墊船
 * 熱門意見
-* 熱門話題
-* 佇列註解
+* 熱線程
+* 佇列注釋
 
-在「行動Web應用程式」中，按一下作者的名稱會開啓新頁面中的暫存卡片資訊。
+在「行動網路應用程式」中，按一下作者的名稱會開啟新頁面中的懸浮卡片資訊。
 
 ## Livefyre Android SDK或iOS SDK {#section_zdz_spb_11b}
 
-Livefyre也提供兩種行動SDK：iOS SDK和Android SDK。這些SDK會包住我們的HTTP端點，以提供更輕鬆的方式來傳送和接收資料。這些SDK不提供介面，因此可提供更大的彈性，讓您運用內容在行動應用程式中顯示和使用的方式。
+Livefyre也提供兩種行動SDK:iOS SDK和Android SDK。 這些SDK是HTTP端點的包裝函式，旨在提供更輕鬆的資料傳送和接收方法。 這些SDK不提供介面，讓您在行動應用程式中顯示和使用內容時有更大的彈性。
 
-Android和iOS SDK支援「注釋」、「即時部落格」和「聊天」的下列功能：
+Android和iOS SDK支援下列注釋、即時部落格和聊天功能：
 
 | iOS功能： | Android功能： |
 |--- |--- |
-| <ul><li> 貼文 </li><li>編輯 </li><li>旗標 </li><li>贊 </li><li>回覆 </li><li>熱門話題</li></ul> | <ul><li>貼文 </li><li>編輯 </li><li>贊 </li><li>回覆 </li><li>熱門話題</li></ul> |
+| <ul><li> 貼文 </li><li>編輯 </li><li>標幟 </li><li>讚 </li><li>回覆 </li><li>熱線程</li></ul> | <ul><li>貼文 </li><li>編輯 </li><li>讚 </li><li>回覆 </li><li>熱線程</li></ul> |
 
 ## HTTP API {#section_yqb_qpb_11b}
 
-HTTP API是可讓您在Livefyre平台上建立對話和內容的端點群組。它還能讓所有Livefyre擺脫包裝串流的束縛。雖然此解決方案需要從您的工程團隊獲得更多的開發時間，但在使用Livefyre產品套件時提供更大的彈性，並允許原生行動整合。
+HTTP API是端點群組，可讓您在Livefyre平台上建立對話和內容。 此外，它還可讓所有Livefyre立即可用的串流加電。 雖然此解決方案需要工程團隊投入更多的開發時間，但在使用Livefyre產品套件時，卻能提供更大的彈性，並可進行原生行動整合。
 
 >[!IMPORTANT]
 >
->**請勿** 在行動用戶端建立使用者驗證Token，因為這會要求您在不安全的應用程式中公開Livefyre機密網路金鑰。如需更強穩且安全的解決方案，請參閱「使用者驗證預付碼」區段。
+>**請勿在行動用戶端中** ，建立使用者驗證Token，因為這需要您在不安全的應用程式中公開您的Livefyre機密網路金鑰。 如需更強穩且安全的解決方案，請參閱「使用者驗證Token」區段。
 

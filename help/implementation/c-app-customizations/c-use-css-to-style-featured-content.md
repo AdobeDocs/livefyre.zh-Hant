@@ -1,30 +1,30 @@
 ---
-description: 使用可用的CSS類別來建立不同於應用程式中其他內容的精選內容。
-seo-description: 使用可用的CSS類別來建立不同於應用程式中其他內容的精選內容。
-seo-title: 使用CSS至樣式特色內容
+description: 使用可用的CSS類別，將「精選」內容與應用程式中的其他內容設定不同的樣式。
+seo-description: 使用可用的CSS類別，將「精選」內容與應用程式中的其他內容設定不同的樣式。
+seo-title: 使用CSS來設定特色內容的樣式
 solution: Experience Manager
-title: 使用CSS至樣式特色內容
-uuid: c4ab648c-d81 f-41b9-9773-ef919749 cc46
+title: 使用CSS來設定特色內容的樣式
+uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 使用CSS至樣式特色內容{#use-css-to-style-featured-content}
+# 使用CSS來設定特色內容的樣式{#use-css-to-style-featured-content}
 
-使用可用的CSS類別來建立不同於應用程式中其他內容的精選內容。
+使用可用的CSS類別，將「精選」內容與應用程式中的其他內容設定不同的樣式。
 
-所有評論CSS類別也可能套用至精選內容。
+所有注釋CSS類別也可套用至「精選」內容。
 
-以下類別可用於精選內容。
+下列類別可供「精選」內容使用。
 
 | 類別 | 說明 |
 |---|---|
-| . fyre-professional-content-blogper | 讀者的容器div。 |
-| . fyre-profeatures-header | 領先標題列。 |
-| . fyre-profeatures-header-icon | 標題的問題圖示。 |
-| . fyre-profetional-title | 標題文字。 |
-| . fyre-professional-body | 讀者中精選內容的容器div。 |
-| . fyre-profeatures-quote | 開始每個內容項目的引號圖示。 |
+| .fyre-featured-content-wrapper | 讀者的容器div。 |
+| .fyre-featured-header | 前導標題列。 |
+| .fyre-featured-header-icon | 標題的箭頭圖示。 |
+| .fyre-featured-title | 標題文字。 |
+| .fyre-featureed-body | 讀者中精選內容的容器div。 |
+| .fyre-feature-quote | 開始每個內容項目的引號圖示。 |
 

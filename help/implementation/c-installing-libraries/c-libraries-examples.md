@@ -1,10 +1,10 @@
 ---
-description: 關於使用程式庫的一些範例。
-seo-description: 關於使用程式庫的一些範例。
+description: 有關使用程式庫的一些範例。
+seo-description: 有關使用程式庫的一些範例。
 seo-title: 範例
 solution: Experience Manager
 title: 範例
-uuid: 94e38dab-6234-43a2-a840-13a87 f0237 f1
+uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 範例{#examples}
 
-關於使用程式庫的一些範例。
+有關使用程式庫的一些範例。
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 package com.example; 
@@ -103,7 +103,7 @@ public static void main(String...args) {
 }
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 var Livefyre = require('./lib/livefyre');
@@ -280,7 +280,7 @@ class LivefyreExample {
 }
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 from livefyre import Livefyre 
@@ -358,7 +358,7 @@ class LivefyreExample(object):
       collection_urn = sidenotes_collection.urn
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 require 'livefyre' 

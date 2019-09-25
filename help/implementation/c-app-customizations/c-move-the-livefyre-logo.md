@@ -1,6 +1,6 @@
 ---
-description: 重新定位頁面上的Livefyre標誌。
-seo-description: 重新定位頁面上的Livefyre標誌。
+description: 在您的頁面上重新定位Livefyre標誌。
+seo-description: 在您的頁面上重新定位Livefyre標誌。
 seo-title: 移動Livefyre標誌
 solution: Experience Manager
 title: 移動Livefyre標誌
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 移動Livefyre標誌{#move-the-livefyre-logo}
 
-重新定位頁面上的Livefyre標誌。
+在您的頁面上重新定位Livefyre標誌。
 
-如果您與Livefyre的合約允許，您可以將Livefyre標誌從內容串流頂端移至底部。
+如果您與Livefyre的合約允許，您可將Livefyre標誌從內容串流的頂端移至底部。
 
 例如，在包含Livefyre應用程式的元素後面，立即新增下列HTML至您的頁面：
 

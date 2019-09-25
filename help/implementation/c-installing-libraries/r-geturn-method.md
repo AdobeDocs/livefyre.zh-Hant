@@ -1,21 +1,21 @@
 ---
-description: 此方法會傳回此網路的URN。
-seo-description: 此方法會傳回此網路的URN。
-seo-title: Geturn Network方法
+description: 此方法返回此網路的URN。
+seo-description: 此方法返回此網路的URN。
+seo-title: getUrn網路方法
 solution: Experience Manager
-title: Geturn Network方法
-uuid: e525bc54-d4 df-490f-bd6 a-f524 f7 f211
+title: getUrn網路方法
+uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Geturn Network方法{#geturn-network-method}
+# getUrn網路方法{#geturn-network-method}
 
-此方法會傳回此網路的URN。
+此方法返回此網路的URN。
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 network.getUrn(); 
@@ -27,7 +27,7 @@ network.getUrn();
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 network.getUrn(); 
@@ -51,7 +51,7 @@ $network->getUrn();
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 network.urn 
@@ -63,7 +63,7 @@ network.urn
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.urn 

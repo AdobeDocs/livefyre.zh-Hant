@@ -1,27 +1,27 @@
 ---
-description: 您可以變更使用視訊遮色片上顯示的警告文字。
-seo-description: 您可以變更使用視訊遮色片上顯示的警告文字。
+description: 您可以使用。
+seo-description: 您可以使用。
 seo-title: userPrivacyMaskDelegate
 solution: Experience Manager
 title: userPrivacyMaskDelegate
-uuid: 8e5a2750-bb45-4e70-a5 f9-37f5 e7 c61 f8 e
+uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
 # userPrivacyMaskDelegate{#userprivacymaskdelegate}
 
-您可以變更使用視訊遮色片上顯示的警告文字。
+您可以使用。
 
-此文字適用於遵循GDPR法規。如果來源不支援Proxy，則Livefyre會在內容上顯示此文字和遮罩，除非使用者按一下視訊並核准來源的潛在追蹤。
+本文旨在符合GDPR規則。 如果來源不支援Proxy，則Livefyre會在內容上顯示此文字和遮色片，除非使用者點按視訊並核准來自該來源的潛在追蹤。
 
-如果您未使用 `userPrivacyMaskDelegate`，則會顯示下列預設文字：
+如果您不使用， `userPrivacyMaskDelegate`會顯示下列預設文字：
 
-新增 `userPrivacyMaskDelegate``userPrivacyOptOut`後，您可以一次將所有Livefyre隱私標幟加入一個Livefyre物件中。
+在之 `userPrivacyMaskDelegate` 後加 `userPrivacyOptOut`入。 您可以一次新增所有Livefyre隱私權標幟，作為Livefyre物件的一部分。
 
-以下是如何使用 `userPrivacyMaskDelegate`的範例：
+以下是如何使用的範例 `userPrivacyMaskDelegate`:
 
 ```
 userPrivacyMaskDelegate: function () { 

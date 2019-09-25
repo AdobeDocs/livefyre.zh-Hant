@@ -1,37 +1,37 @@
 ---
-description: 瞭解如何監視和儲存流經Livefyre系統的使用者產生的內容。
-seo-description: 瞭解如何監視和儲存流經Livefyre系統的使用者產生的內容。
-seo-title: 活動資料流
+description: 瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
+seo-description: 瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
+seo-title: 活動串流
 solution: Experience Manager
-title: 活動資料流
-uuid: f40dec1-58ab-41c9-aac4-d2 d8 d8 c9192 bb9
+title: 活動串流
+uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 活動資料流 {#activity-stream}
+# 活動串流 {#activity-stream}
 
-瞭解如何監視和儲存流經Livefyre系統的使用者產生的內容。
+瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
 
-使用Activity Stream API，使用使用者產生的資料來瀏覽您網路或網站上的Livefyre系統。例如：使用此API的資料來根據評分更新您的搜尋索引，或根據第三方系統來管理使用者的標章。
+使用Activity Stream API來使用使用者產生的資料，這些資料會流經您網路或網站上的Livefyre系統。 例如：使用此API的資料，根據評分來更新您的搜尋索引，或根據使用者的活動在第三方系統中管理使用者的標章。
 
-Activity Stream API：
+活動串流API:
 
-有關可用端點的完整清單，請參閱「Livefyre API參考」區段。
+如需可用端點的完整清單，請參閱Livefyre API參考區段。
 
 ## 資源 {#section_aql_n4l_b1b}
 
-有兩個端點，一個用於測試環境，另一個用於生產環境。
+有兩個端點，一個用於測試環境，另一個用於生產。
 
-### 測試階段
+### 測試
 
 ```
 GET https://bootstrap.t402.livefyre.com/api/v3.1/activity/ 
 ```
 
-### Production
+### 生產
 
 ```
 GET https://bootstrap.livefyre.com/api/v3.1/activity/ 
@@ -39,38 +39,38 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### 參數
 
-* **資源：***字串* 的字串A URN，用於請求活動資料。
+* **** 資源：字 *串* ：您要為其請求活動資料之物件的URN。
 
-* **因為：***整數* A64位元整數，代表您最後收到之事件的ID。如果您沒有舊資料，請指定「0」。
+* **** 自：整 *數* 64位元整數，代表您上次收到之事件的ID。 如果您沒有先前的資料，請指定「0」。
 
 ## URN字串 {#section_skl_q4l_b1b}
 
 範例:
 
-* **urn：livefyre：**`example.fyre.co` 活動的活動串流 `example.fyre.co`。
-* **urn：livefyre：**`example.fyre.co:site=54321``example.fyre.co` 網路下網站54321的活動串流。
+* **** urn:livefyre:的 `example.fyre.co` 活動流 `example.fyre.co`。
+* **** urn:livefyre:網 `example.fyre.co:site=54321` 路下網站54321的活動 `example.fyre.co` 串流。
 
-## Token政策 {#section_nwh_c5j_11b}
+## 代號原則 {#section_nwh_c5j_11b}
 
-Activity Stream API使用OAuth Beader Token進行驗證。Bearer Token是OAuth2.0規格的一部分，並正式說明 [](https://tools.ietf.org/html/rfc6750#section-1.2)。
+活動串流API使用OAuth載體Token進行驗證。 載體Token是OAuth 2.0規格的一部分，並在此處正式 [說明](https://tools.ietf.org/html/rfc6750#section-1.2)。
 
-Token包含幾個項目：
+Token包含數項內容：
 
-* 建立代號的對象。
-* 有人收到代號。
-* 不再有效的時間。
-* 我們正在進行的工作。
-* 已授予的權限清單。
+* 代號的建立者。
+* 誰得到了代號。
+* 它不再有效的時間。
+* 我們正在做的事。
+* 已授予權限的清單。
 
 ### 步驟
 
-建立OAuth Beader Token的步驟包括：
+建立OAuth承載Token的步驟包括：
 
-* 建立包含發行商、對象、主旨、有效期和範圍的地圖/字典。
-* 使用JWT程式庫(含您的機密)來編碼JWT Token。
-* 新增「驗證：您的HTTP要求。
+* 建立地圖／字典，其中包含發行者、對象、主旨、有效期和範圍。
+* 使用JWT程式庫（含您的機密）來編碼JWT Token。
+* 添加「驗證：Bearer」。
 
-下面的程式碼範例顯示Python中的上述步驟：
+下面的程式碼範例說明Python中的上述步驟：
 
 ```
 import time 
@@ -93,13 +93,13 @@ data = dict(iss=network_urn, aud=network_urn, sub=network_urn, scope=api_urn, ex
 token = jwt.encode(data, key=network_secret)
 ```
 
-定位代碼金鑰的定義如下：
+其中，載體令牌鍵的定義如下：
 
-* **iss***(發行商)* 具有產生Token權限的實體。這可能是Livefyre、網站或網路。(如果是遲到的注意事項，則是您的家長。)
-* **ad***(對象)* 產生此代號的人員。如果您要自行建立代號，則是網站或網路。
-* **子***(主旨)* 要授予權限的主旨。例如，如果您要在系列上作業，主旨必須是系列的識別碼。(在學校的範例中，就是您。)
-* **exp***(過期)* 的時間點，該點不會再有效。
-* **範圍***(範圍)* 這是主旨授予的權限清單。範例為「遲到」。API的名稱就是另一個範例。
+* **iss** (發 *行者)* -具有產生Token權限的實體。 這可能是Livefyre、網站或網路。 （如果要留到上學的時間，請由您的父母來填。）
+* **aud** （觀眾） ** ，產生此Token的人員。 如果您是自行建立代號，則代號是網站或網路。
+* **sub** (主 *體)* ：要授予權限的主體。 例如，如果您正在操作系列，則主題必須是系列的識別碼。 （在校方範例的附註中，您就是您。）
+* **exp** ( *過期)* Token不再有效的時間點。
+* **範圍** (范 *圍)* ：這是對主題授予的權限清單。 「上學遲到」就是一個例子。 API的名稱是另一個範例。
 
 ## 範例 {#section_dhl_ytj_11b}
 
@@ -246,7 +246,7 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 } 
 ```
 
-自上次請求以來的新資料回應：
+自上次請求以來新資料的回應：
 
 ```
 { 
@@ -272,9 +272,9 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 
 ## 附註 {#section_hj3_crj_11b}
 
-* 成功呼叫API將會產生HTTP200狀態代碼。所有其他狀態代碼都應視為錯誤。
-* 如果非null，請將值當做 `data.meta.cursor.next` 下一個請求 `since` 的參數使用。
-* 如果值是 `data.meta.cursor.next` 空值，表示沒有要使用的新資料。您應稍後再重新要求 `since` ，以查看新資料是否已送達。
-* 實際上，如果 `data.meta.cursor.next` 值為非null，您應立即請求更多資料。
-* 在生產中，最新的資料大約需要小時。
-* 您應設定程序，經常在cron工作上輪詢此端點，以避免遺失資料。在大多數實施中，分鐘間隔應非常適當。
+* 成功呼叫API將會產生HTTP 200狀態碼。 所有其他狀態代碼應視為錯誤。
+* 如果為非空值，請將中的值 `data.meta.cursor.next` 用作下 `since` 一個請求的參數。
+* 如果值的 `data.meta.cursor.next` 值為null，表示沒有新資料可使用。 您稍後應以相同的值重新請求，以 `since` 查看新資料是否已送達。
+* 實際上，如果值非空值，您應立即要求 `data.meta.cursor.next` 更多資料。
+* 透過此API在生產環境中提供大約兩小時的最新資料。
+* 您應設定進程以頻繁輪詢cronjob上的此端點，以避免丟失資料。 間隔5分鐘應完全適合大多數實施。

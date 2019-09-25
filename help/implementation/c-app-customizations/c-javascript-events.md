@@ -1,27 +1,25 @@
 ---
-description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript
-  的事件。
-seo-description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript
-  的事件。
-seo-title: JavaScript事件定義和範例
+description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript 的事件。
+seo-description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript 的事件。
+seo-title: JavaScript事件定義與範例
 solution: Experience Manager
-title: JavaScript事件定義和範例
-uuid: 61da2e2e-8fcd-482d-93df-c946 f0475277
+title: JavaScript事件定義與範例
+uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# JavaScript事件定義和範例{#javascript-events-definitions-and-examples}
+# JavaScript事件定義與範例{#javascript-events-definitions-and-examples}
 
 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript 的事件。
 
-Livefyre提供JavaScript事件來追蹤Livefyre應用程式中的使用者活動。例如，您可能想要在使用者按贊或分享內容至Twitter或Facebook時更新頁面，或是在張貼新內容時更新頁面。
+Livefyre提供JavaScript事件，可追蹤Livefyre應用程式中的使用者活動。 例如，當使用者按贊或分享內容至Twitter或Facebook，或是張貼新內容時，您可能想要更新頁面。
 
-Livefyre也可讓您將事件新增至第三方分析整合(Adobe Analytics JS、Google Analytics、動態標籤管理等)來追蹤應用程式事件。如需詳細資訊，請與第三方整合管理員合作以提供正確的事件。
+Livefyre也可讓您將事件新增至協力廠商分析整合（Adobe Analytics JS、Google Analytics、動態標籤管理等），以追蹤應用程式事件。 如需詳細資訊，請與您的協力廠商整合管理員合作，以提供正確的事件。
 
-若要系結至這些事件，請在頁面上實例化您的應用程式時，將下列程式碼新增至頁面。取代以下項目的事件名稱 `{eventName}`：
+若要系結至這些事件，請在頁面上實例化您的應用程式時，將下列程式碼新增至頁面。 將事件名稱替換為 `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -35,15 +33,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->資料物件是針對所有事件處理常式提供。資料物件範例會遵循每個事件。
+>所有事件處理常式都提供資料物件。 每個事件後面都會顯示範例資料物件。
 
-## 注釋 {#section_qfr_51p_xz}
+## commentPosted {#section_qfr_51p_xz}
 
-使用者張貼了評論。
+一位使用者張貼了評論。
 
-* null的父項為新留言。
-* 父項的父項是已編輯的留言。
-* 父項的數字是回覆的父ID。
+* null的父代是新注釋。
+* 「無」的父項是已編輯的注釋。
+* 父代的編號是回覆的父ID。
 
 ```
 data = { 
@@ -58,9 +56,9 @@ data = {
 } 
 ```
 
-## 註解已標記 {#section_szy_s1p_xz}
+## commentStaged {#section_szy_s1p_xz}
 
-使用者標幟了評論。
+使用者已標籤留言。
 
 ```
 data = { 
@@ -70,9 +68,9 @@ data = {
 }
 ```
 
-## 評論贊 {#section_vc1_r1p_xz}
+## commentLiked {#section_vc1_r1p_xz}
 
-使用者喜歡評論。
+使用者對留言按贊。
 
 ```
 data = { 
@@ -82,9 +80,9 @@ data = {
 } 
 ```
 
-## CommentShared {#section_nqb_31p_xz}
+## commentShared {#section_nqb_31p_xz}
 
-使用者從串流共用評論。(當使用者從「留言」編輯器共用時，此事件不會引發。)按一下「共用」按鈕時，會觸發此事件。
+使用者從串流共用註解。 （當使用者從「注釋」編輯器共用時，不會觸發此事件。）當按一下「共用」按鈕時，會觸發此事件。
 
 ```
 data = { 
@@ -94,9 +92,9 @@ data = {
 }
 ```
 
-## 注釋日期 {#section_qdq_f1p_xz}
+## commentCountUpdated {#section_qdq_f1p_xz}
 
-此對話中的可見留言總數已變更(增量或遞減)。
+此對話中可見留言的總數已變更（增加或減少）。
 
 ```
 data: 34 // The total number of visible comments in the conversation (integer). 
@@ -104,7 +102,7 @@ data: 34 // The total number of visible comments in the conversation (integer).
 
 ## userLoggedIn {#section_yjt_vz4_xz}
 
-使用者登入。
+使用者已登入。
 
 ```
 data = { 
@@ -122,9 +120,9 @@ data = {
 
 資料未定義。
 
-## SocialReference {#section_a1w_tz4_xz}
+## socialTurnits {#section_a1w_tz4_xz}
 
-使用者在評論中包含@提及。傳回下列陣列：
+使用者在留言中加入@提及。 傳回下列陣列：
 
 ```
 data = { 
@@ -136,9 +134,9 @@ data = {
 } 
 ```
 
-## 評論證言
+## commentFeatured
 
-協調者使用者專題評論。傳回下列陣列：
+協調者使用者提供評論。 傳回下列陣列：
 
 ```
 data = { 
@@ -150,19 +148,19 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-評論串流已載入，並從伺服器擷取初始內容集，並向使用者顯示。
+注釋串流已載入，而初始內容集已從伺服器擷取並顯示給使用者。
 
 資料未定義。
 
-## 展示更多資訊 {#section_pqg_nz4_xz}
+## showMore {#section_pqg_nz4_xz}
 
-使用者按下 **[!UICONTROL Show More]** 按鈕。
+使用者按一下按 **[!UICONTROL Show More]** 鈕。
 
 資料未定義。
 
-## 使用者關注 {#section_xxw_jz4_xz}
+## userFlowded {#section_xxw_jz4_xz}
 
-當使用者按下 **[!UICONTROL Follow]** 按鈕時傳回true，當內容張貼至串流時，則會傳回false。
+當使用者按一下按鈕時傳回 **[!UICONTROL Follow]** true，當內容張貼至串流時傳回false。
 
 ```
 data = { 
@@ -171,9 +169,9 @@ data = {
 }
 ```
 
-## 使用者後續 {#section_wm1_gz4_xz}
+## userUnflocked {#section_wm1_gz4_xz}
 
-當使用者按一下 **「取消關注** 」按鈕時傳回true，而內容張貼至串流時則會傳回true。
+當使用者按一下「取消關注」 **按鈕時傳回true** ，當內容張貼至串流時傳回false。
 
 ```
 data = { 

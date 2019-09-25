@@ -1,41 +1,41 @@
 ---
-description: 建立CollectionMeta和驗證Token的指南。
-seo-description: 建立CollectionMeta和驗證Token的指南。
-seo-title: 建置伺服器端Token
+description: 建立collectionMeta和auth Token的指南。
+seo-description: 建立collectionMeta和auth Token的指南。
+seo-title: 建立伺服器端Token
 solution: Experience Manager
-title: 建置伺服器端Token
-uuid: 8313f26e-5ceb-414e-a61 a-480bb7 a8 ba66
+title: 建立伺服器端Token
+uuid: 8313f26e-5ceb-414e-a61a-480bb7a8ba66
 translation-type: tm+mt
 source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 
 
-# 建置伺服器端Token{#build-server-side-tokens}
+# 建立伺服器端Token{#build-server-side-tokens}
 
-建立CollectionMeta和驗證Token的指南。
+建立collectionMeta和auth Token的指南。
 
-建立Livefyre用來驗證請求的Token，確保只有您可以更新Livefyre網路。
+建立Livefyre用來驗證請求的Token，可確保只有您才能更新Livefyre網路。
 
 ## CollectionMeta Token
 
-瞭解如何建立Token來建立新的和顯示現有的對話。
+瞭解如何建立代號以建立新對話並顯示現有對話。
 
-## Auth Token
+## 驗證Token
 
-瞭解如何建立Token來驗證使用者，這是如果您不使用Janrain Capture進行使用者管理的必要步驟。
+瞭解如何建立用於驗證使用者的Token，這是整合程式中的必要步驟（如果您不使用Janrain Capture來管理使用者）。
 
 ## 使用者驗證Token {#section_l5l_hwt_bbb}
 
-本節說明如何產生userAuth JSON物件，以建立使用者登入您應用程式所需的使用者驗證Token。
+本節說明如何產生UserAuth JSON物件，以建立使用者登入應用程式所需的使用者驗證Token。
 
-若要建立Token，請使用您偏好的語言庫傳遞下列參數：
+若要建立Token，請使用您偏好的語言庫來傳入下列參數：
 
-| 參數 | Type | 說明 |
+| 參數 | 類型 | 說明 |
 |---|---|---|
-| socialName | *需要字串* | Livefyre網路的名稱(由Livefyre提供)。 |
-| SocialKey | *需要字串* | 此特定網路的秘密金鑰(由Livefyre提供)。 |
-| userId | *需要字串* | 使用者登入的ID會儲存在使用者管理系統中(僅允許英數、破折號、底線和點字元： `[a-zA-Z0-9_-.]`)。**注意：** userId必須是唯一的。 |
-| 過期 | Integer *required* | Token從現在起過期(以秒為單位)。**注意：** 此值也可以傳遞為浮動值。產生的JSON網頁代號將會在UNIX週期中儲存此值。 |
-| DisplayName | *需要字串* | 在UI和留言中識別此使用者的文字。(字元數目上限：50.) |
+| networkName | 需要字 *串* | Livefyre網路的名稱（由Livefyre提供）。 |
+| networkKey | 需要字 *串* | 此特定網路的機密金鑰（由Livefyre提供）。 |
+| userId | 需要字 *串* | 以儲存在您的使用者管理系統中的方式登入的使用者ID（僅允許使用英數字元、破折號、底線和點字元）: `[a-zA-Z0-9_-.]`)。 **** 注意：userId必須是唯一的。 |
+| 過期 | 需要整 *數* | Token應從現在開始過期（以秒為單位）。 **** 注意：此值也可以作為浮點數傳遞。 產生的JSON網頁Token會在UNIX紀元時間中儲存此值。 |
+| displayName | 需要字 *串* | 在UI和注釋中識別此使用者的文字。 (字元數上限：50.) |
 

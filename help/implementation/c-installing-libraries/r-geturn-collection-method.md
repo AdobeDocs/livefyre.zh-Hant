@@ -1,21 +1,21 @@
 ---
-description: 此方法會傳回此系列的URN。執行此方法之前，您必須先執行CreateOrdUpdate()。
-seo-description: 此方法會傳回此系列的URN。執行此方法之前，您必須先執行CreateOrdUpdate()。
-seo-title: Geturn Collection方法
+description: 此方法會傳回此集合的URN。 您必須先執行createOrUpdate()，才能執行此方法。
+seo-description: 此方法會傳回此集合的URN。 您必須先執行createOrUpdate()，才能執行此方法。
+seo-title: getUrn收集方法
 solution: Experience Manager
-title: Geturn Collection方法
-uuid: 2f4d7796-2ae5-4b74-a958-40825c6 bff16
+title: getUrn收集方法
+uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Geturn Collection方法{#geturn-collection-method}
+# getUrn收集方法{#geturn-collection-method}
 
-此方法會傳回此系列的URN。執行此方法之前，您必須先執行CreateOrdUpdate()。
+此方法會傳回此集合的URN。 您必須先執行createOrUpdate()，才能執行此方法。
 
-## Java範例 {#section_nyl_ycs_rz}
+## Java示例 {#section_nyl_ycs_rz}
 
 ```
 collection.getUrn(); 
@@ -27,7 +27,7 @@ collection.getUrn();
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
 
-## nodeJS範例 {#section_xkd_gds_rz}
+## NodeJS範例 {#section_xkd_gds_rz}
 
 ```
 collection.getUrn(); 
@@ -51,7 +51,7 @@ $collection->getUrn();
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
 
-## Python範例 {#section_dwg_gds_rz}
+## Python示例 {#section_dwg_gds_rz}
 
 ```
 collection.urn() 
@@ -63,7 +63,7 @@ collection.urn()
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
 
-## Ruby範例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection.urn

@@ -1,93 +1,93 @@
 ---
-description: Livefyre垃圾郵件與濫用篩選引擎(Saupar Filter Engine，SAFE)是一種背景程序，可分析所有傳入內容，並為所有Livefyre客戶啓用。
-seo-description: Livefyre垃圾郵件與濫用篩選引擎(Saupar Filter Engine，SAFE)是一種背景程序，可分析所有傳入內容，並為所有Livefyre客戶啓用。
-seo-title: SAFE規則
-title: SAFE規則
-uuid: 2f91d0d4-dffe-4651-88af-79bbb96 c1 b5 c
+description: Livefyre垃圾訊息和濫用篩選引擎(SAFE)是分析所有傳入內容的背景程式，已針對所有Livefyre客戶啟用。
+seo-description: The Livefyre Spam and Abuse Filtering Engine (SAFE), is a background process that analyzes all incoming content, and is enabled for all Livefyre customers.
+seo-title: 安全規則
+title: SAFE Rules
+uuid: 2f91d0d4-dffe-4651-88af-79bbb96c1b5c
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# SAFE規則{#safe-rules}
+# 安全規則{#safe-rules}
 
-Livefyre垃圾郵件與濫用篩選引擎(Saupar Filter Engine，SAFE)是一種背景程序，可分析所有傳入內容，並為所有Livefyre客戶啓用。
+Livefyre垃圾訊息和濫用篩選引擎(SAFE)是分析所有傳入內容的背景程式，已針對所有Livefyre客戶啟用。
 
 
 
-SAFE使用模式規則以及統計模型來偵測垃圾郵件、濫用、褻瀆和大量(重復)貼文。您會在其他Livefyre產品中不時看到它，尤其是內容調節工具和ModQ。
+SAFE使用模式規則和統計模型來偵測垃圾訊息、濫用、褻瀆和大量（重複）貼文。 您會在其他Livefyre產品中不時看到它，尤其是內容協調工具和ModQ。
 
 >[!NOTE]
 >
->SAFE僅提供英文版，但大量郵寄分類除外。如果您需要其他語言的支援，請聯絡您的策略帳戶管理員。
+>SAFE僅提供英文版，但大量郵寄分類除外。 如果您需要其他語言的支援，請連絡您的策略客戶經理。
 
 ## 使用SAFE的Studio元件 {#section_k34_4tx_vy}
 
-SAFE套用的旗標可與下列Studio元件搭配使用：
+SAFE所套用的標幟可與下列Studio元件搭配使用：
 
 * 規則
 
-   您可以定義SAFE規則以自動標幟內容並定義標幟內容應如何處理 **[!UICONTROL Network Settings]**。
+   您可以定義SAFE規則，以自動標幟內容，並定義在中如何處理標幟內容 **[!UICONTROL Network Settings]**。
 
-   例如，網站可能會對Profanity造成非常低的容限，並定義SAFE規則，將所有標示為Propane的內容設為botzo'd'。其他網站可能會定義規則，在進入串流之前先預先協調Proane內容。
+   例如，網站可能會設定Profanity的低容忍度，並定義SAFE規則，將所有標幟為Profane的內容設定為Bozo』d。其他網站可定義規則，規則會在輸入串流前，先將Profane內容設定為預先協調。
 
 * ModQ
 
-   您可以協調SAFE規則標幟的內容，以及其他預先協調規則(例如SPAM、褻瀆等)，在ModQ中。
+   您可以在ModQ中協調由SAFE規則和其他預先協調規則（例如，SPAM、profity等）標幟的內容。
 
 * 資料庫中的應用程式內容
 
-   SAFE標幟的內容會列在 **[!UICONTROL Library]** 索引標籤中的應用程式內容中。您可以依標幟篩選內容，以協調內容。
+   標幟為SAFE的內容會列在標籤的「應用程式內容」 **[!UICONTROL Library]** 中。 您可以依標幟篩選內容，以協調內容。
 
 ## 安全篩選選項 {#section_pg5_ttx_vy}
 
-SAFE將下列標幟套用至篩選內容，並可用來建立規則並調節Livefyre Studio中的協調內容。
+SAFE會將下列標幟套用至篩選的內容，並可用於從Livefyre studio中建立規則和協調內容。
 
-* **[!UICONTROL Profanity List]** ：proane內容，由根據一般用途的英文關鍵字所定義。
+* **[!UICONTROL Profanity List]**:Profane內容，如英文關鍵字清單所定義，以常用為基礎。
 
-   「嚴格篩選」會根據測試的字詞清單尋找褻瀆語言。如果偵測到，則會標幟內容。
-
-   >[!NOTE]
-   >
-   >Livefyre也提供第二個「褻瀆清單」篩選器，您可以在「網站」和「網路」層級進行自訂。使用Profanity List建立的規則優先於來自SAFE Profanity篩選器的自動化規則。如需詳細資訊，請參閱設定文件中的「褻瀆清單」一節。
-
-* **[!UICONTROL Mild Profanity]** ：通常無法接受polite對話中的字詞和片語，但通常可用於隨意對話中。通常網路電視允許這些字詞和片語。
-* **[!UICONTROL Strong Profanity]** ：非常強穩的語言，例如網路電視上不允許的詞彙和片語，並可略過R評等影片和成熟的有線電視節目。一般而言，這些字詞不會用於流行對話或隨意對話中，且會出現在充滿影響力的對話中，意圖傷害聆聽者。
-* **[!UICONTROL SPAM]** ：未經請求，通常是商業內容。它使用依賴各種功能(包括註解內容和URL)的統計模型，將內容標幟為SPAM。您可以依要求調整垃圾郵件臨界值，自訂網路或網站的SPAM標記比率。
-* **[!UICONTROL Mild Insult]** ：孤立內容，由關鍵字和片語模式清單所定義。
-* **[!UICONTROL Strong Insult]** ：孤立內容，由關鍵字和片語模式清單所定義。
-* **[!UICONTROL Hate Speech]** ：基於性或宗教的侮辱，尤其是當目標群組隸屬於少數族群或受保護時。
-* **[!UICONTROL ALL CAPS]** ：所有大寫字母中顯示的文字(以yright為單位)。
-* **[!UICONTROL Mild Threat]** ：一種威脅或侮辱，通常包含某種輕微的粗魯導向。此選項會更常標示可能的威脅，但的誤判率也高於 **[!UICONTROL Strong Threat]**。
-
-* **[!UICONTROL Strong Threat]** ：對一位或多人造成嚴重傷害的嚴重威脅或侮辱，通常具有強烈的褻瀆性。此選項會較少提及可能的威脅，但其誤報率也較 **[!UICONTROL Mild Threat]** 低。
-
-* **[!UICONTROL Probable Nudity]** ：其中可能含有虛名的影像。此選項的匿名度較低，但其誤報率 **[!UICONTROL Possible Nudity]** 也較低。
-
-* **[!UICONTROL Possible Nudity]** ：其中可能含有虛名的影像。此選項會更常提及虛度，但也會比以前更高的誤報率 **[!UICONTROL Probable Nudity]**。
-
-* **[!UICONTROL PII]** (可識別個人身分資訊)：可識別使用者的資訊。其中包括電子郵件地址、實體地址、社交安全號碼(供美國客戶使用)、信用卡號碼、密碼或任何可用於詐欺或取得某人身分的任何項目。
-* **[!UICONTROL Livefyre Recommends Trash]**. 設定當自動協調建議識別拒絕內容時，系統執行的動作。 ![](assets/mod_reco1.png)
+   「粗體篩選」會根據經測試的字詞清單來尋找粗體語言。 如果偵測到，內容會標幟為Profane。
 
    >[!NOTE]
    >
-   >若要開啓「協調建議」，請聯絡您的Adobe Livefyre支援專業人員。
+   >Livefyre也提供第二個「Profity List」篩選器，您可在「網站」和「網路」層級自訂。 使用「檔案清單」建立的規則優先於「SAFE檔案清單」篩選器所產生的自動化規則。 如需詳細資訊，請參閱「設定」檔案中的「Profity List」一節。
 
-## 處理未被SAFE擷取的內容 {#section_pjy_5tx_vy}
+* **[!UICONTROL Mild Profanity]**:在禮貌的交談中，通常不能接受詞語和短語，但在閒聊中，通常可以接受。 一般而言，這些字詞和片語都可在網路電視上播放。
+* **[!UICONTROL Strong Profanity]**: Very strong language, such as expletives and phrases not allowed on network television and used sparingly in R-rated movies and mature cable TV shows. Generally these words are not used in polite or casual conversation and are said in an impolite conversation with an intent to harm the listener.
+* **[!UICONTROL SPAM]**:未經請求，通常是商業內容。 它使用依賴多種功能（包括註解內容和URL）的統計模型，將內容標幟為SPAM。 您可以根據請求調整垃圾郵件閾值以自定義網路或站點的垃圾郵件標籤率。
+* **[!UICONTROL Mild Insult]**:侮辱性內容，由關鍵字和片語模式清單定義。
+* **[!UICONTROL Strong Insult]**:侮辱性內容，由關鍵字和片語模式清單定義。
+* **[!UICONTROL Hate Speech]**:基於種族或宗教的侮辱，特別是當目標群體屬於少數或受保護時。
+* **[!UICONTROL ALL CAPS]**:以所有大寫字母（讀作吼叫）呈現的案文。
+* **[!UICONTROL Mild Threat]**:這種威脅或侮辱通常包括對他人的輕度褻瀆。 此選項會更常標示可能的威脅，但假陽性率也比它高 **[!UICONTROL Strong Threat]**。
 
-有幾種方法可有效處理此篩選器未擷取到的內容。以下選項會列在建議的程序順序中。
+* **[!UICONTROL Strong Threat]**:一種嚴重威脅或侮辱，提到對一個或多個人可採取行動的人身傷害，這種傷害往往帶有強烈的褻瀆。 此選項標籤可能威脅的頻率較低，但誤報率也低於此選項 **[!UICONTROL Mild Threat]**。
 
-1. 做為協調者，移除串流中的內容。
-1. 建立「標記規則」，表示如果某個內容被五個使用者標幟為垃圾訊息或冒犯性內容，將其設為Botzo。
-1. 禁止張貼不需要內容的使用者，讓他們的所有內容直接進入Botzo狀態。
-1. 新增應一律篩選至您的粗俗清單的特定字詞。
+* **[!UICONTROL Probable Nudity]**:可能有裸體的影像。 這個選項標示裸度的頻率比較低，但假陽性率也比較低 **[!UICONTROL Possible Nudity]**。
+
+* **[!UICONTROL Possible Nudity]**:可能有裸體的影像。 這個選項會更常標示裸體，但假陽性率也比它高 **[!UICONTROL Probable Nudity]**。
+
+* **[!UICONTROL PII]** （個人識別資訊）:可識別使用者的資訊。 這可能包括電子郵件地址、實體地址、社交安全號碼（針對美國客戶）、信用卡號碼、密碼，或可用於詐騙或取得某人身分的任何資訊。
+* **[!UICONTROL Livefyre Recommends Trash]**. 設定當自動協調建議識別要拒絕的內容時系統所執行的動作。  ![](assets/mod_reco1.png)
+
+   >[!NOTE]
+   >
+   >若要開啟「協調建議」，請連絡您的Adobe Livefyre支援專業人員。
+
+## 處理SAFE未捕獲的內容 {#section_pjy_5tx_vy}
+
+有數種方法可有效處理未被此篩選器擷取的內容。 以下選項依建議的程式順序列出。
+
+1. 身為協調者，從串流移除內容。
+1. 建立標幟規則，指出如果有五個使用者將某個內容標幟為「垃圾訊息」或「冒犯性」，請將其設為Bozo。
+1. 禁止張貼不想要內容的使用者，因此其所有內容都會直接進入Bozo狀態。
+1. 將應一律篩選的特定字詞新增至您的粗細清單。
 
 >[!NOTE]
 >
->如果協調者貼文內容被「垃圾郵件篩選」所捕獲，則仍會標示為垃圾郵件，但會自動「核准」，且不會設為「波佐」。
+>如果協調者張貼被我們的垃圾訊息篩選器擷取的內容，該內容仍會標幟為垃圾訊息，但會自動「核准」，且不會設為Bozo。
 
-如果您注意到未被SAFE發現的內容趨勢或模式，請使用注釋ID和文字來電子郵件。
+如果您注意到SAFE未捕捉到的內容趨勢或模式，請以注釋ID和文字寄送電子郵件給您的CSM。
 
 
 
@@ -95,13 +95,13 @@ SAFE將下列標幟套用至篩選內容，並可用來建立規則並調節Live
 
 * [轉盤](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [聊天室](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [注釋](/help/using/c-about-apps/c-comments/c-comments.md)
+* [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 * [功能卡](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [地圖](/help/using/c-about-apps/c-map-app/c-map-app.md#c_map_app)
-* [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
-* [Mosaic](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
+* [媒體牆](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
+* [馬賽克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sitents](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-* [Storify2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
+* [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 

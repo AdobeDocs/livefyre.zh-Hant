@@ -1,27 +1,27 @@
 ---
-description: null
-seo-description: null
-seo-title: 搭配其他Analytics工具使用Livefyre
+description: 'null'
+seo-description: 'null'
+seo-title: 搭配使用Livefyre和其他Analytics工具
 solution: Experience Manager
-title: 搭配其他Analytics工具使用Livefyre
-uuid: 26c835f6-aced-41f7-aobe-418afce8 a829
+title: 搭配使用Livefyre和其他Analytics工具
+uuid: 26c835f6-aced-41f7-aabe-418afce8a829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 搭配其他Analytics工具使用Livefyre{#use-livefyre-with-other-analytics-tool}
+# 搭配使用Livefyre和其他Analytics工具{#use-livefyre-with-other-analytics-tool}
 
-您可以使用分析工具來收集使用者與Livefyre應用程式互動的資料。您可以使用Adobe Analytics或您選擇的工具。
+您可以使用分析工具收集使用者與Livefyre應用程式互動的資料。 您可以使用Adobe Analytics或您選擇的工具。
 
-若要搭配您選擇的工具使用Livefyre(而非Adobe Analytics)，請遵循本頁所述的程序。
+若要搭配您選擇的工具（而非Adobe Analytics）使用Livefyre，請依照本頁所述的程式進行。
 
-## 步驟1：設定事件處理常式 {#section_ngm_gzl_pdb}
+## 步驟1:設定事件處理常式 {#section_ngm_gzl_pdb}
 
-在您使用Livefyre應用程式的頁面上設定事件處理常式。這可讓您從該頁面上的應用程式收集資料，以便用於分析。
+在您使用Livefyre應用程式的頁面上設定事件處理常式。 這可讓您從該頁面上的「應用程式」收集資料，以便用於分析。
 
-將Livefyre. js新增至頁面以設定事件處理常式。Livefyre. js會非同步載入。為了減少檔案大小並改善載入效能，無法立即使用分析。您必須先輪詢分析物件，直到資料可用為止。將此指令檔置於頁面上的任何位置，或將它整合在您自己編譯的指令碼中。
+將Livefyre.js新增至頁面以設定事件處理常式。 Livefyre.js以非同步方式載入。 為了減少檔案大小並改善載入效能，無法立即使用分析。 您必須輪詢分析物件，直到資料可供使用為止。 將此指令碼放在頁面上的任意位置，或將它整合在您自己編譯的指令碼中。
 
 ```
 /** 
@@ -51,11 +51,11 @@ function pollForAnalytics() {
 pollForAnalytics(); 
 ```
 
-## 步驟2：實作處理常式函數
+## 步驟2:實作處理常式函式
 
-在頁面上提供Livefyre. analytics功能後，請實作AnalyticsAndler函數，將接收的事件傳送給您所選擇的分析提供者。
+在頁面上提供Livefyre.analytics功能後，請實作analyticsHandler函式，將收到的事件傳送給您選擇的分析提供者。
 
-1. 分析處理常式會接收一系列事件，這些事件必須經過重復並個別傳送，如果您的提供者支援，則加以傳送。
-1. 將處理常式收到的事件資料對應至分析提供者所需的格式。
-1. 傳送資料給您的分析供應商。
+1. 分析處理常式會接收必須經過迭代並個別傳送的事件陣列，或是以批次形式傳送（如果您的提供者支援）。
+1. 將處理常式接收的事件資料對應至您的分析提供者所要求的格式。
+1. 傳送資料給您的分析提供者。
 

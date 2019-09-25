@@ -4,7 +4,7 @@ seo-description: 限制進入應用程式串流的媒體類型。
 seo-title: 限制媒體
 solution: Experience Manager
 title: 限制媒體
-uuid: c470c985-d221-4f39-4bd4-4e44 ec14 db95
+uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,13 +15,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 限制進入應用程式串流的媒體類型。
 
-依預設，所有媒體附件都可以內嵌在應用程式中。Livefyre可讓您變更此選項，以防止使用者將選取的附件類型張貼至您的應用程式。
+依預設，所有媒體附件都可內嵌至「應用程式」中。 Livefyre可讓您變更此選項，以防止使用者將選取的附件類型張貼至您的應用程式。
 
 >[!NOTE]
 >
->Livefyre合作夥伴與媒體整合。如需詳細資訊，請參閱「內容整合>電子郵件異常整合」。有關連結擴充或來源的問題，請連絡您的Technical帳戶管理員。
+>Livefyre與Embedly合作，以整合媒體。 如需詳細資訊，請參閱「內容整合&gt;內嵌整合」。 如需連結擴充或來源的相關問題，請連絡您的技術客戶經理。
 
-此範例將YouTube和Vimeo內嵌從您的留言串流中封鎖：
+此範例會封鎖YouTube和Vimeo內嵌於您的留言串流：
 
 ```
 var attachmentDelegate = function(embedObj) { 

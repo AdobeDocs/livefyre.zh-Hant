@@ -1,73 +1,73 @@
 ---
-description: 使用Janrain Capture和Backflight的客戶可使用Livefyre Auth for Single登入(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
-seo-description: 使用Janrain Capture和Backflight的客戶可使用Livefyre Auth for Single登入(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
-seo-title: Janrain Capture/Backflight
+description: 使用Janrain Capture和Backplane的客戶可能會使用Livefyre Auth for Single Sign On(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
+seo-description: 使用Janrain Capture和Backplane的客戶可能會使用Livefyre Auth for Single Sign On(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
+seo-title: Janrain Capture/底板
 solution: Experience Manager
-title: Janrain Capture/Backflight
-uuid: 776e9626-db04-4c34-adfe-681a71 b552 c
+title: Janrain Capture/底板
+uuid: 776e9626-db04-4c34-adfe-681a71b552c5
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Janrain Capture/Backflight{#janrain-capture-backplane}
+# Janrain Capture/底板{#janrain-capture-backplane}
 
-使用Janrain Capture和Backflight的客戶可使用Livefyre Auth for Single登入(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
+使用Janrain Capture和Backplane的客戶可能會使用Livefyre Auth for Single Sign On(SSO)，讓使用者在登入您的網站時立即與您的Livefyre應用程式互動。
 
-若要從內建Capture/Backflane整合中獲益，您必須對Capture應用程式和Livefyre. js整合進行組態變更。
+若要受益於此內建的Capture/Backplane整合，您必須對Capture應用程式和Livefyre.js整合進行設定變更。
 
 >[!NOTE]
 >
->如果您未使用Janrain Capture，請跳過此章節。
+>如果您不使用Janrain Capture，請略過本節。
 
-如需詳細資訊，請參閱 [Janrain的Backflane文件](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/)。
+如需詳細資訊，請 [參閱Janrain的底板檔案](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/)。
 
-1. [設定Capture。](#c_janrain_capture_backplane/section_r2f_kxt_bbb)
-1. (選擇性) [將Livefyre預設新增至您的Capture App](#c_janrain_capture_backplane/section_z2s_txt_bbb)。
-1. [建立authDelegate物件。](#c_janrain_capture_backplane/section_asv_vyt_bbb)
-1. [同步至Livefyre，並使用Ping for Draw。](#c_janrain_capture_backplane/section_ilv_bzt_bbb)
+1. [設定捕獲。](#c_janrain_capture_backplane/section_r2f_kxt_bbb)
+1. （可選）將 [Livefyre預設值新增至您的Capture應用程式](#c_janrain_capture_backplane/section_z2s_txt_bbb)。
+1. [建立AuthDelegate物件。](#c_janrain_capture_backplane/section_asv_vyt_bbb)
+1. [使用Ping for Pull同步至Livefyre。](#c_janrain_capture_backplane/section_ilv_bzt_bbb)
 
-## 步驟1：設定擷取 {#section_r2f_kxt_bbb}
+## 步驟1:設定捕獲 {#section_r2f_kxt_bbb}
 
-Livefyre需要您的Janrain Capture應用程式的特定認證。
+Livefyre需要您Janrain Capture應用程式的特定認證。
 
 1. 設定Janrain Capture應用程式。
 1. 收集Livefyre的下列資訊：
 
    * 存取您的Janrain Capture實例。
-   * 存取您的Janrain Engagement儀表板。
+   * 存取您的Janrain Engage儀表板。
    * 您的Capture設定和認證。
    * 您的參與認證。
    * 您的身分URL。
 
 >[!NOTE]
 >
->Livefyre直接從CNAME接收資料；因此，此識別URL無法為可解析Janrain Capture實際CNAME的CNAME記錄(虛名URL CNAME)。
+>Livefyre直接從CNAME接收資料；因此，此識別URL不能是解析為Janrain Capture實際CNAME的CNAMEd記錄（虛名URL CNAME）。
 
-## 步驟2：(選擇性)將Livefyre預設新增至您的Capture App {#section_z2s_txt_bbb}
+## 步驟2:（選用）將Livefyre預設值新增至您的Capture應用程式 {#section_z2s_txt_bbb}
 
-將Livefyre預設為儲存在Capture應用程式中的使用者，讓您可以傳送使用者電子郵件通知，或允許他們自動遵循使用者評論的對話。
+將Livefyre預設值新增至儲存在Capture應用程式中的使用者，讓您傳送電子郵件通知給使用者，或讓使用者自動關注使用者評論的對話。
 
-1. 完成 [步驟1：設定Capture](#c_janrain_capture_backplane/section_r2f_kxt_bbb)。
-1. 新增下列Livefyre預設欄位。所有欄位皆為選用欄位。
+1. 完 [整步驟1:設定捕獲](#c_janrain_capture_backplane/section_r2f_kxt_bbb)。
+1. 新增下列Livefyre預設欄位。 所有欄位皆為選填欄位。
 
-| 參數 | Type | 說明 |
+| 參數 | 類型 | 說明 |
 |---|---|---|
-| **[!UICONTROL livefyre_comments]** | 字串 | 當使用者在文章上留言時通知使用者。可以立即、經常或永不完成。 |
-| **[!UICONTROL livefyre_likes]** | 字串 | 當某人喜歡其中一個貼文時通知使用者。可以立即、經常或永不完成。 |
-| **[!UICONTROL livefyre_replies]** | 字串 | 當某人回覆其中一個貼文時通知使用者。可以立即、頻繁或永不通知使用者。 |
-| **[!UICONTROL livefyre_moderator_comments]** | 字串 | 通知協調者有關他們正在協調的對話的對話者。可以立即、經常或永不。 |
-| **[!UICONTROL livefyre_moderator_flags]** | 字串 | 當有人在他們協調的對話中標幟貼文時通知協調者。可以立即、頻繁或永不。 |
-| **[!UICONTROL livefyre_autofollow_conversations]** | 布林值 | 讓使用者在離開貼文時自動進行對話。可以是true或false。 |
+| **[!UICONTROL livefyre_comments]** | 字串 | 當有人對文章提出意見時，通知使用者他們正在關注。 可以立即、經常或永遠不能。 |
+| **[!UICONTROL livefyre_likes]** | 字串 | 當有人按贊其其中一篇貼文時，通知使用者。 可以立即、經常或永遠不能。 |
+| **[!UICONTROL livefyre_replies]** | 字串 | 當有人回覆其貼文時通知使用者。可以立即、經常或永遠不可以。 |
+| **[!UICONTROL livefyre_moderator_comments]** | 字串 | 當某人對對對話留言時通知協調者他們正在協調。可以立即、經常或永遠不要。 |
+| **[!UICONTROL livefyre_moderator_flags]** | 字串 | 當某人標籤對話中的貼文時，通知協調者他們正在協調。可以立即、經常或永遠不會。 |
+| **[!UICONTROL livefyre_autofollow_conversations]** | 布林值 | 讓使用者在離開貼文時自動追蹤對話。 可以是true或false。 |
 
-## 步驟3：建立適用於Janrain整合的AuthDelegate物件 {#section_asv_vyt_bbb}
+## 步驟3:建立Janrain整合的AuthDelegate物件 {#section_asv_vyt_bbb}
 
-Livefyre需要提供增效模組，可讓驗證Janrain Backflane巴士。
+Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
 
 ### 登入 {#login}
 
-在Backflight頻道上廣播身分/登入訊息時，將會呼叫使用者的Livefyre驗證Token。您仍必須實作AuthDelegate。
+當在底板頻道上廣播身分／登入訊息時，將會使用使用者的Livefyre驗證Token來呼叫auth.authenticate()。 您仍必須實作AuthDelegate。
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -82,19 +82,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->您必須先在頁面上定義windows. backflight物件，再使用Livefyre Backflane外掛程式呼叫auth. plugin。若要確保Backflight物件可供使用，請從onReady回呼呼叫Livefyre重新整理代碼。請洽詢您的Janlin聯絡人以判斷其他應用程式何時可能使用Backflane物件。
+>在使用Livefyre Backplane外掛程式呼叫auth.plugin之前，必須先在您的頁面上定義window.Backplane物件。 若要確定Backplane物件可用，請從onReady回呼呼叫Livefyre實例化程式碼。 請洽詢您的Janrain聯繫人，以確定其他應用程式何時可以使用底板對象。
 
 
 
 >[!NOTE]
 >
->您的驗證委派將視您的Janrain例項而有所不同。
+>您的驗證委派會視您的Janrain例項而有所不同。
 
-以下舉例說明Auth委派如何尋找Janrain Capture整合。
+以下是驗證委派如何尋找Janrain Capture整合的一些範例。
 
-* `errback`：傳遞回您的驗證委派的回呼方法
-* `janrain`：您的Janrain擷取變數參考。
-* `window.Backplane`：反向平面物件的參考。
+* `errback`:傳遞給驗證委派登入方法的回呼
+* `janrain`:Janrain捕獲變數的引用。
+* `window.Backplane`:對底板對象的引用。
 
 ```
 /** 
@@ -129,9 +129,9 @@ authDelegate.login = function(finishLogin) {
 
 ### 登出 {#logout}
 
-* `finishLogout`：傳遞回您的驗證委派的回呼方法。
+* `finishLogout`:傳遞給驗證委派登入方法的回呼。
 
-* `window.Backplane`：反向平面物件的參考。
+* `window.Backplane`:對底板對象的引用。
 
 ```
 /** 
@@ -147,9 +147,9 @@ authDelegate.logout = function(finishLogout) {
 }; 
 ```
 
-### 編輯描述檔 {#editprofile}
+### 編輯個人資料 {#editprofile}
 
-這可以連結至您希望使用者瀏覽的網站部分，以檢視其個人資料頁面。此範例只會列印傳入的作者物件。
+這可以連結至您希望使用者瀏覽網站的任何部分，以檢視其個人檔案頁面。 此範例僅列印傳入的作者物件。
 
 ```
 /** 
@@ -161,9 +161,9 @@ authDelegate.editProfile = function(user) {
 }; 
 ```
 
-### 檢視描述檔 {#viewprofile}
+### 檢視設定檔 {#viewprofile}
 
-如同編輯設定檔，這應該連結至與目前登入使用者不同的使用者頁面。您可以視需要實作此項目。此範例只會將作者參數記錄至主控台。
+如同「編輯設定檔」，這應該會連結至與目前登入使用者不同的使用者頁面。 不論您認為適合，都可實作此項目。 此範例只會將作者參數記錄至主控台。
 
 ```
 /** 
@@ -175,39 +175,39 @@ authDelegate.viewProfile = function(user) {
 };
 ```
 
-## 步驟4：同步至Livefyre與Ping for Janrain整合 {#section_ilv_bzt_bbb}
+## 步驟4:與Ping for Pull for Janrain整合同步至Livefyre {#section_ilv_bzt_bbb}
 
-與Capture使用者管理系統同步的Livefyre遠端描述檔包含一系列稱為「Ping for Draw」的步驟。此程序要求您從Janrain取得有效的存取Token，然後將該代號傳遞至以下步驟中所指定的端點。
+讓Livefyre遠端設定檔與您的Capture使用者管理系統同步，需要執行一系列步驟，稱為Ping for Pull。 此程式要求您從Janrain取得有效的存取Token，然後將該Token傳遞至以下步驟3中指定的端點。
 
 1. 從Janrain取得存取程式碼。
 
-   若要取得存取代碼，請提供必要的認證、指定user_ type作為「user」，以及uuid作為目前使用者的uuid進行更新。如需詳細資訊，請參閱 [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)。
+   若要取得存取程式碼，請提供必要的憑證、將user_type指定為"user"，以及uuid指定為目前使用者的uuid以進行更新。 如需詳細資訊，請參 [閱https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)。
 
-1. 交易存取代碼以取得存取Token。提供必要的認證、從步驟接收的存取代碼，並將rangrant_ type指定為「authorization_ code」。
+1. 將存取程式碼換成存取Token。 提供必要的憑證、從步驟1接收的存取碼，並將grant_type指定為"authorization_code"。
 
-   如需詳細資訊，請參閱 [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)。
+   如需詳細資訊，請參 [閱https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)。
 
-1. 按一下Livefyre「Ping to Rull Capture」端點。
+1. 按一下Livefyre的「Ping to Pull Capture」端點。
 
-   端點URL： [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] 其中 ***{publishName}*** 是Livefyre提供給您的網路名稱，而jrten是在步驟中從Janrain收到的Token。
+   端點URL:其 [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] 中{ ***networkName}*** }是Livefyre提供給您的網路名稱，而jrtoken是在步驟2中從Janrain接收的代號。
 
-   當您點擊此端點後，就會收到202回應，Livefyre會開始非同步程序。
+   一旦您到達此端點，就會收到202回應，Livefyre就會開始非同步程式。
 
-## 所有運作方式 {#concept_mty_f31_2cb}
+## How It All Works {#concept_mty_f31_2cb}
 
-為了從內建Capture/Backflane整合中獲益，您必須對Capture應用程式和Livefyre. js整合進行一些組態變更。
+若要受益於此內建的Capture/Backplane整合，您必須對Capture應用程式和Livefyre.js整合進行一些設定變更。
 
-Janrain會透過「Backflight」(背景)匯出程式，傳送成功的登入/登出訊息，在適當設定時，Livefyre應用程式會偵聽。這些訊息包含顯示應用程式使用者登入或登出所需的所有資訊。開發人員可檢視瀏覽器開發人員主控台中的「網路」索引標籤，以檢視「回溯」巴士訊息。
+Janrain會透過底板匯流排傳送成功的登入／登出訊息，當Livefyre應用程式正確設定時，會在底板匯流排上監聽。 這些訊息包含顯示應用程式使用者已登入或已登出時所需的所有資訊。 開發人員可在瀏覽器的開發人員主控台中檢查「網路」標籤，以檢視底板匯流排訊息。
 
 ## 登入代碼範例 {#section_ftt_tvp_mz}
 
-要求：
+請求:
 
 ```
 https://backplane1.janrainbackplane.com//bus/{CUSTOMER_NAME}/channel/{CHANNEL}?callback=Backplane.response&rnd=0.15930617856793106
 ```
 
-回應：
+回應:
 
 ```
 Backplane.response([{ 
@@ -264,24 +264,24 @@ Backplane.response([{
 ]);
 ```
 
-空白回應：
+空回應：
 
 ```
 Backplane.response([]);
 ```
 
-## 登出代碼範例 {#section_t52_svp_mz}
+## 註銷代碼示例 {#section_t52_svp_mz}
 
-要求：
+請求:
 
 ```
 https://backplane1.janrainbackplane.com/v1.2/bus/{CUSTOMER}/channel/new?callback=Backplane.finishInit&amp;rnd=0.1057701709214598
 ```
 
-回應：
+回應:
 
 ```
 Backplane.finishInit("{CHANNEL}");
 ```
 
-如果這些訊息未出現在您的網路要求中，Livefyre將不會察覺登入/登出嘗試，因此Livefyre將無法將使用者整合至應用程式。
+如果這些訊息未出現在您的網路要求中，Livefyre將不會察覺登入／登出嘗試，因此Livefyre將無法將使用者整合至應用程式。

@@ -1,28 +1,28 @@
 ---
-description: Sitents應用程式為您的網站提供這些功能。
-seo-description: Sitents應用程式為您的網站提供這些功能。
-seo-title: Sitents功能
+description: 「Sidesors應用程式」為您的網站提供這些功能。
+seo-description: 「Sidesors應用程式」為您的網站提供這些功能。
+seo-title: Sides Features
 solution: Experience Manager
-title: Sitents功能
-uuid: f175c1a7-2cb-43f9-bc21-cc21-cc418
+title: Sides Features
+uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Sitents功能{#sidenotes-features}
+# Sides Features{#sidenotes-features}
 
-Sitents應用程式為您的網站提供這些功能。
+「Sidesors應用程式」為您的網站提供這些功能。
 
 
 
-* 回應段落的任何部分，反白標示他們想要評論的文字，然後按一下鉛筆圖示以編寫其Sitenote。
-* 按一下段落結尾出現的SitedNets圖示，然後新增他們的備注，將Sitdandes新增至段落。
-* 按一下影像角落的Sidents圖示，然後新增他們的注釋，以注釋影像。
-* 透過選取文字，然後按一下「分享至Facebook」或「分享至Twitter」圖示，將文字分享到Facebook或Twitter。分享反白顯示的內容可讓使用者編輯將共用的文字，並與共用內容傳送連結至原始內容。
-* 按一下「Livefyre」思考泡泡，以顯示頁面任何部分所包含的注釋數目，以閱讀別人的留言。
-* 回覆現有的SiteNotes。
-* 對註解的協助進行投票，並將更實用的註解推播至註解清單中。
-* 按一下出現在附註上方時出現的橢圓形，將特定的Sitdandes分享至Facebook或Twitter。
+* 回應段落的任何部分，反白標示要加上註解的文字，然後按一下鉛筆圖示來編寫字型大小。
+* 在段落中添加「字元號」，方法是按一下出現在段落末尾的「字元號」表徵圖，然後添加其注釋。
+* 在影像上加上註解，方法是按一下影像角落的「表示」圖示，然後新增其註解。
+* 透過選取文字，然後按一下「分享至Facebook」或「分享至Twitter」圖示，將文字分享至Facebook或Twitter。 共用反白顯示的內容可讓使用者編輯要共用的文字，並透過共用傳送原始內容的連結。
+* 按一下Livefyre思考泡泡，顯示頁面任何部分包含的留言數，以閱讀其他人的留言。
+* 回覆現有的Sides。
+* 對注釋的有益性進行投票，從而將更有用的注釋置於注釋清單的頂部。
+* 按一下將滑鼠暫留在附註上時出現的省略號，將特定的Siders共用給Facebook或Twitter。
 

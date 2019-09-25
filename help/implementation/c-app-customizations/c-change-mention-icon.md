@@ -4,22 +4,22 @@ seo-description: 在「@提及功能下拉式選單」中變更 Livefyre 使用�
 seo-title: 變更 @提及功能的圖示
 solution: Experience Manager
 title: 變更 @mention 圖示
-uuid: a395f4ff-a774-454a-8d94-4a3371 d8 c
+uuid: a395f4ff-a774-454a-8d94-4a3371d8cc2c
 translation-type: tm+mt
 source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
 
 ---
 
 
-# 變更 `@mention` 圖示 {#change-mention-icon}
+# 變更圖 `@mention` 示 {#change-mention-icon}
 
-變更 `@mention` 下拉式選單中Livefyre使用者的顯示圖示。
+Change the icon displayed for Livefyre users in the `@mention` pulldown menu.
 
-將 `@mention` 下拉式選單中使用的Livefyre圖示變更為您所選擇的圖示，讓您可以用自己的圖示指出社群成員。
+將下拉式選單中使用的Livefyre `@mention` 圖示變更為您選擇的圖示，讓您使用自己的圖示來指出您的社群成員。
 
 ## 範例
 
-若要變更此圖示，請將下列CSS新增至您的樣式表。將<*您的資源*> URL取代為所選影像的URL，以取代預設的Livefyre徽章。
+若要變更此圖示，請新增下列CSS至您的樣式表。 將&lt;*您的資源*&gt; URL取代為選取以取代預設Livefyre標章之影像的URL。
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

@@ -6,12 +6,18 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
+source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ---
 
 
 # 公告{#announcements}
+
+## 2019 年 10 月 25 日
+
+在2019年9月4日，Facebook意外地從Livefyre工作流程移除了對特定權限和功能的存取權，這中斷了搜尋或串流Facebook內容的功能。 如果您的應用程式需要取得publish_pages、user_friends或page public content存取權，請透過現有的應用程式審核程式來要求。 我們已正式要求恢復這些權限的存取權，並正在等待Facebook的核准。 一旦核准並再次提供內容，我們會立即通知您。
+
+已發佈至您網站的內容將不會受到影響。
 
 ## 2019年6月11日
 
@@ -54,7 +60,7 @@ Facebook串流尚未復原，但我們仍在積極與Facebook合作，以恢復�
 
 * **自動監控商業帳戶搜尋的使用權要求回應**
 
-   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動、剪下和貼上功能，讓客戶能夠繼續追蹤使用權限核准，並維護稽核記錄。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
+   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動剪下和貼上功能，讓客戶能夠繼續追蹤使用權審批並維護記錄以供稽核。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
 
 ## 2018 年 6 月 22 日 {#section_k1t_vmv_g2b}
 

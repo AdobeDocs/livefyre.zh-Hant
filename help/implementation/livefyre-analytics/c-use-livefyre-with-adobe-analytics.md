@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: 搭配Adobe Analytics和動態標籤管理器(DTM)lk xavvn vefyre搭配Adobe Analytics和動態標籤管理器(DTM)使用Livefyre
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
 translation-type: tm+mt
-source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
+source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 
 ---
 
@@ -46,9 +46,10 @@ source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 1. 建立或編輯現有的Adobe Analytics工具。
 1. 如果現有的Adobe Analytics工具不存在，請按一下按 **[!UICONTROL Add a Tool]** 鈕。
 為工具設定以下參數：
-* Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-* Enable **[!UICONTROL Automatic Configuration]**.
-* Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
+
+   * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+   * Enable **[!UICONTROL Automatic Configuration]**.
+   * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. 新增或確認含有Livefyre事件的報表套裝名稱至欄位 **[!UICONTROL Report Suites]** 。
 
 ## 步驟4:設定頁面載入規則以設定Analytics處理 {#section_jfj_j3d_4cb}
@@ -68,24 +69,24 @@ source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 1. 在下 **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;方，按一下 **[!UICONTROL Non-sequential]** 標籤，然後按一下 **[!UICONTROL Add New Script]**。
 1. 選擇 **[!UICONTROL Sequential HTML]** 作為指令碼類型。
 1. 將下列指令碼新增至程式碼編輯器，然後按一下 **[!UICONTROL Save Code]**。
-下列指令碼在Livefyre JavaScript `livefyre_analytics` 載入後呼叫直接呼叫規則。 以下指令碼範例會每400毫秒檢查一次，以檢 `livefyre.analytics` 查頁面上是否有。 頁面載入後，livefyre.analytics會傳送追蹤資訊。
 
-```
-/** 
-* Poll for Livefyre.analytics object to exist since it gets loaded via the 
-* Livefyre.js JavaScript file. Depending on the timing, this could already 
-* exist or need a little time. 
-*/ 
-function pollForAnalytics() {  
- if (Livefyre.analytics) { 
-   _satellite.track('livefyre_analytics'); 
-     return true; 
+   下列指令碼在Livefyre JavaScript `livefyre_analytics` 載入後呼叫直接呼叫規則。 以下指令碼範例會每400毫秒檢查一次，以檢 `livefyre.analytics` 查頁面上是否有。 頁面載入後，livefyre.analytics會傳送追蹤資訊。
+
+   ```
+   /** 
+   * Poll for Livefyre.analytics object to exist since it gets loaded via the 
+   * Livefyre.js JavaScript file. Depending on the timing, this could already 
+   * exist or need a little time. 
+   */ 
+   function pollForAnalytics() {  
+   if (Livefyre.analytics) { 
+     _satellite.track('livefyre_analytics'); 
+       return true; 
+     } 
+     setTimeout(pollForAnalytics, 400); 
    } 
-   setTimeout(pollForAnalytics, 400); 
-} 
-  
-setTimeout(pollForAnalytics, 400);
-```
+   setTimeout(pollForAnalytics, 400);
+   ```
 
 1. Click **[!UICONTROL Save Code]**.
 1. Click **[!UICONTROL Save Rule]**.
@@ -166,119 +167,145 @@ setTimeout(pollForAnalytics, 400);
      console.log('linkTrackEvents:',  s.linkTrackEvents);  
      console.log('events:', s.events); 
      s.tl(); 
-    } 
-   ]
+     } 
+     ]
    
-   /** 
+     /** 
    ```
 
-* 新增Livefyre中所有分析事件的分析處理常式。 對於每個事件，它都會在全域物件上設定資料，然後調度事件。
+   * 新增Livefyre中所有分析事件的分析處理常式。 對於每個事件，它都會在全域物件上設定資料，然後調度事件。
 
    ```
    */ 
-    function addAnalyticsHandler() {  
-      Livefyre.analytics.addHandler(function (events) { 
-        (events || []).forEach(function (data) {  
-          console.log('Event handled:', data.type);  
-          trackLivefyreEvent(data); 
-        }); 
-      }); 
-    } 
-    addAnalyticsHandler(); 
-   
-```
-1. Click on **Save Rule**.
+   function addAnalyticsHandler() {  
+     Livefyre.analytics.addHandler(function (events) { 
+       (events || []).forEach(function (data) {  
+         console.log('Event handled:', data.type);  
+         trackLivefyreEvent(data); 
+       }); 
+     }); 
+   } 
+   addAnalyticsHandler();  
+   ```
 
-## Step 6: Approve changes for Page Load Rule {#section_pxc_11t_ycb}
+1. 按一下「 **儲存規則**」。
 
-1. Go to **[!UICONTROL Approvals]** tab.
+## 步驟6:批准頁面載入規則的變更 {#section_pxc_11t_ycb}
+
+1. 轉到 **[!UICONTROL Approvals]** 頁籤。
 1. Click **[!UICONTROL Approve]**.
-1. Click **[!UICONTROL Yes, approve]** to confirm your approval.
-1. Go to **[!UICONTROL Overview > Publish Queue]**.
-1. Select the Rule to publish.
+1. 按一 **[!UICONTROL Yes, approve]** 下以確認您的核准。
+1. 前往 **[!UICONTROL Overview > Publish Queue]**.
+1. 選取要發佈的規則。
 1. Click **[!UICONTROL Publish Selected]**.
-1. Click **[!UICONTROL Publish]** to confirm that you want to publish.
+1. 按一 **[!UICONTROL Publish]** 下以確認您要發佈。
 
-## Script {#section_xkb_vft_mcb}
+## 指令碼 {#section_xkb_vft_mcb}
 
-The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre conversion variable ( `eVar`) name (for example, `appId`) maps to the name you set up in the Report Suite Manager (for example, `eVar81`). Change the `eVar` names in this script to the custom conversion variables.
-```
+下列范常式式碼會將特定eVar對應至可用的Livefyre eVar。 Livefyre轉換變數( `eVar`)名稱(例如 `appId`)會對應至您在「報表套裝管理員」中設定的名稱(例如 `eVar81`)。 將此腳 `eVar` 本中的名稱變更為自訂轉換變數。
 
-var s = _satellite.getToolsByType`('sc')[0]`.getS();var evarMap = {appId:'eVar81',appType:'eVar82'};
 
 ```
-The following sample code maps the specific events you set up in the Report Suite Manager with available Livefyre events. In this example, `event82` is set up as any user interaction event without differentiating which kind of user interaction event (for example, liking or sharing content). This is an efficient way to record all user interaction information in a block. You can also map the events in the DTM Analytics UI with Data Element referencing.
+var s = _satellite.getToolsByType`('sc')[0]`.getS(); 
+var evarMap = { 
+  appId: 'eVar81', 
+  appType: 'eVar82' 
+};
 ```
 
-var eventMap = {FlagCancel:'event82',\
-FlagClick:'event82',\
-FlagSappore:'event82',\
-FlagOffension:'event82',\
-FlagOffTopic:'event82',\
-FlagSpam:'event82',\
-贊：'event82'，載入：'event81',\
-請求更多：'event82',\
-ShareButtonClick:'event82',\
-ShareFacebook:'event82',\
-ShareOnPostClick:'event82',\
-ShareTwitter:'event82',\
-ShareURL:'event82',\
-SortStream:'event82',\
-TwitterLikeClick:'event82',TwitterReplyClick:'event82',\
-TwitterRetweetClick:'event82',\
-Twitter使用者關注：'event82'};
+下列范常式式碼會將您在「報表套裝管理員」中設定的特定事件與可用的Livefyre事件對應。 在此範例中， `event82` 會設定為任何使用者互動事件，而不會區分哪些類型的使用者互動事件（例如按贊或分享內容）。 這是記錄區塊中所有使用者互動資訊的有效方式。 您也可以使用資料元素參考來對應DTM Analytics UI中的事件。
 
 ```
-The following sample states that if there isn't an event in this list, don't do anything. You do not need to modify this section of code.
+var eventMap = { 
+  FlagCancel: 'event82',  
+  FlagClick: 'event82',  
+  FlagDisagree: 'event82',  
+  FlagOffensive: 'event82',  
+  FlagOffTopic: 'event82',  
+  FlagSpam: 'event82',  
+  Like: 'event82', 
+  Load: 'event81',  
+  RequestMore: 'event82',  
+  ShareButtonClick: 'event82',  
+  ShareFacebook: 'event82',  
+  ShareOnPostClick: 'event82',  
+  ShareTwitter: 'event82',  
+  ShareURL: 'event82',  
+  SortStream: 'event82',  
+  TwitterLikeClick: 'event82', 
+  TwitterReplyClick: 'event82',  
+  TwitterRetweetClick: 'event82',  
+  TwitterUserFollow: 'event82' 
+};
 ```
 
-函式trackLivefyreEvent(data){\
-var event =[eventMapdata.type];console.log('Track:', data.type, event);
-
-if(!event){console.warn（data.type, '未映射至AA中的事件）;\
-退貨；}
+下列範例指出，如果此清單中沒有事件，則不要執行任何動作。 您不需要修改此程式碼區段。
 
 ```
-The following code differentiates the event types that `event82` records. The conversion variable, `eVar83` records the type of user interaction, and the script sets up `eVar83` to separate the user interaction data by type. So `eVar83` allows you to break out the recorded data into specific types of user interactions.
+function trackLivefyreEvent(data) {  
+  var event = eventMap[data.type]; 
+  console.log('Track:', data.type, event); 
+   
+  if (!event) { 
+    console.warn(data.type, 'is not mapped to an event in AA');  
+    return; 
+  }
 ```
 
-var vars = ['events];\
-switch(event){case 'event82':s.eVar83 = data.type;\
-vars.push('eVar83');\
-中斷；預設值：}
+下列程式碼會區分記錄的事件 `event82` 類型。 轉換變數會記 `eVar83` 錄使用者互動的類型，指令碼會設定為依 `eVar83` 類型分隔使用者互動資料。 因此 `eVar83` ，您可以將記錄的資料分為特定類型的使用者互動。
 
-['generator'、'evars'].forEach(function(type){\
-var obj =數[據類型];for（obj中的var d）{if(obj.hasOwnProperty(d)&amp;&amp;[evarMapd]){\
-s[[evarMapd]] =[objd];\
-vars.push([evarMapd]);}});
-
-s.linkTrackVars = vars.join(',');\
-s.linkTrackEvents = event;\
-s.events = event;
-
-console.log('linkTrackVars:', s.linkTrackVars);\
-console.log('linkTrackEvents:', s.linkTrackEvents);\
-console.log('events:', s.events);
-
-s.tl();
+```
+  var vars = ['events'];  
+  switch (event) { 
+    case 'event82': s.eVar83 = data.type;  
+      vars.push('eVar83');  
+      break; 
+    default: 
+  } 
+   
+  ['generator', 'evars'].forEach(function (type) {  
+    var obj = data[type]; 
+    for (var d in obj) { 
+      if (obj.hasOwnProperty(d) && evarMap[d]) {  
+        s[evarMap[d]] = obj[d];  
+        vars.push(evarMap[d]); 
+      } 
+    } 
+  }); 
+   
+  s.linkTrackVars = vars.join(',');  
+  s.linkTrackEvents = event;  
+  s.events = event; 
+   
+  console.log('linkTrackVars:', s.linkTrackVars);  
+  console.log('linkTrackEvents:', s.linkTrackEvents);  
+  console.log('events:', s.events); 
+   
+  s.tl(); 
 }
-
-```
-The following code sample adds a handler to listen to all the events that happen. It uses the page load rule on load, waits for events to exist, then sets up handler for all events from the App and tracks them. You do not need to modify this code.
 ```
 
-/**
-* 新增Livefyre中所有分析事件的分析處理常式。 對於每個事件，它都會在全域物件上設定資料，然後調度事件。
-
-*/function addAnalyticsHandler(){Livefyre.analytics.addHandler(function(events){(events)}|| [])。forEach(function(data){console.log('Event handled:', data.type);trackLivefyreEvent(data);});});}
+下列程式碼範例會新增一個處理常式，以監聽所有發生的事件。 它會在載入時使用頁面載入規則，等待事件存在，然後為應用程式中的所有事件設定處理常式並追蹤它們。 您不需要修改此程式碼。
 
 ```
-## More Info
+/** 
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+*/ 
+function addAnalyticsHandler() { 
+  Livefyre.analytics.addHandler(function (events) { 
+    (events || []).forEach(function (data) { 
+      console.log('Event handled:', data.type); 
+      trackLivefyreEvent(data); 
+    }); 
+  }); 
+}
+```
 
-For more information on the topics discussed on this page, see:
+## 更多資訊
 
-* [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+如需本頁所討論主題的詳細資訊，請參閱：
+
+* [報告套裝管理員](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
 * [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)
-* [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [規則](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
-

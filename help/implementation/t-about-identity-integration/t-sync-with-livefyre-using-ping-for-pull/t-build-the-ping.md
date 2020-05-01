@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 建立Ping
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
 
 ---
 
@@ -23,12 +23,12 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 1. 將程式碼新增至您的頁面，讓使用者在更新其描述檔時ping Livefyre。 以此方式建構URL:
 
-```
- POSThttps://{networkName}.quill.fyre.co/api/v3.0/user/{user_id}/refresh?lftoken={token}
-```
+   ```
+   POSThttps://{networkName}.quill.fyre.co/api/v3.0/user/{user_id}/refresh?lftoken={token}
+   ```
 
-* **[!UICONTROL networkName:]** 您的Livefyre提供的網路名稱。
-* **[!UICONTROL user_id:]** 您的使用者ID。
-* **[!UICONTROL token:]** 有效的系統Token。
+   * **[!UICONTROL networkName:]** 您的Livefyre提供的網路名稱。
+   * **[!UICONTROL user_id:]** 您的使用者ID。
+   * **[!UICONTROL token:]** 有效的系統Token。
 
 1. 提取請求結構。

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre Analytics事件
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics中報表套裝的詳細資訊，請參閱報 [表套裝管理器](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
+下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics中報表套裝的詳細資訊，請參閱報 [表套裝管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 
@@ -53,10 +53,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | 初始化 | 載入至少包含一個Livefyre應用程式的頁面時 |
 | 載入 | 任何時候，無論使用者檢視為何，應用程式都會載入頁面 |
 | 檢視 | 當應用程式第一次進入檢視區時。 |
-| 貼文 | 每當使用者張貼評論或內容時，包括：頂層貼文、回覆、評論、媒體塗鴉牆上傳 |
+| 貼文 | 每當使用者張貼評論或內容時，包括： 頂層貼文、回覆、評論、媒體塗鴉牆上傳 |
 | 已張貼 | 當貼文成功時。 |
 | Twitter_Reply | 只要使用者在Twitter上回覆 |
-| Twitter_Like | 將內容共用給的位置：回推 |
+| Twitter_Like | 將內容共用給的位置： 回推 |
 | Livefyre_Like | 只要Livefyre贊功能在應用程式中使用， |
 | Livefyre_Niliked | 只要使用者不喜歡Livefyre, |
 | ShareOnPost | 每當使用者張貼內容並使用分享貼文功能時 |
@@ -76,8 +76,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | UnfollowCollection | 取消對話時 |
 | 請求更多 | 每當使用者在應用程式中載入更多內容時（也需要高速度） |
 | ModalView | 只要使用者按一下以檢視模式中的內容， |
-| TwitterRetweetClick | 將內容共用給的位置：回推 |
-| PostButtonClick | 當使用者按一下貼文時（「您在想什麼？」）按鈕 |
+| TwitterRetweetClick | 將內容共用給的位置： 回推 |
+| PostButtonClick | 當使用者按一下貼文時（「您在想什麼？」） 按鈕 |
 | 登入 | 任何使用者登入 |
 | 登出 | 任何使用者登出時 |
 
@@ -97,7 +97,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 如需本頁所討論主題的詳細資訊，請參閱：
 
-* [報表套裝管](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[理器DTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [報表套裝管](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[理器DTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
-* [規則](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [規則](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

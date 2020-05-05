@@ -1,17 +1,17 @@
 ---
-description: Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
-seo-description: Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
+description: Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
+seo-description: Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
 seo-title: 搭配Adobe Target使用Adobe Experience Manager Livefyre
 title: 搭配Adobe Target使用Adobe Experience Manager Livefyre
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
-source-git-commit: 78399019741620ad8e16d2ba04db7f766631fe74
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
 # 搭配Adobe Target使用Adobe Experience Manager Livefyre {#livefyre-target}
 
-Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
+Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
 
 ## 將Livefyre例項與Target連線 {#connect-livefyre-target}
 
@@ -21,7 +21,7 @@ Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Targ
 
 1. 選取您要透過IMS帳戶整合連線至Target的使用者帳戶。
 
-1. Click **[!UICONTROL Connect]**.
+1. 按一下 **[!UICONTROL Connect]**.
 
 1. 輸入您的IMS認證。
 
@@ -33,13 +33,13 @@ Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Targ
 
 ## 與Adobe Target共用Livefyre應用程式 {#share-livefyre-target}
 
-直接與Adobe Target共用在Livefyre studio中建立的應用程式。
+直接與Adobe Target共用在Livefyre Studio中建立的應用程式。
 
 1. 在Livefyre Studio中，按一下標 **[!UICONTROL Apps]** 簽。
 
 1. 選取您要共用至Adobe Target的應用程式。
 
-1. Click **[!UICONTROL Publish]**.
+1. 按一下 **[!UICONTROL Publish]**.
 
 1. 在「發佈設定」中，按一下Adobe Target切換器。
 
@@ -49,6 +49,6 @@ Livefyre與Adobe target整合可讓您直接將Livefyre應用程式共用至Targ
 
 ![](assets/livefyre-target-publish.png)
 
-1. Click  **[!UICONTROL Publish]**.
+1. 按一下  **[!UICONTROL Publish]**.
 
-Livefyre應用程式現在可供您在Target選件程式庫中使用。 如需發佈應用程式的詳細資訊，請參 [閱Target檔案中的](/help/using/c-library/t-publish-content.md)[「發佈內容](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) 」和「選件」。
+Livefyre應用程式現在可供您在Target選件程式庫中使用。 如需發佈應用程式的詳細資訊，請參 [閱Target檔案中的](/help/using/c-library/t-publish-content.md)[「發佈內容](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) 」和「選件」。

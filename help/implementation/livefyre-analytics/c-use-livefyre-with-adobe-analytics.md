@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: 搭配Adobe Analytics和動態標籤管理器(DTM)lk xavvn vefyre搭配Adobe Analytics和動態標籤管理器(DTM)使用Livefyre
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
 translation-type: tm+mt
-source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -13,11 +13,11 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 
 設定Adobe Analytics和動態標籤管理器(DTM)以收集Livefyre應用程式的資料。
 
-## 步驟1:在Adobe Analytics中設定事件 {#section_iks_kgd_4cb}
+## 步驟1: 在Adobe Analytics中設定事件 {#section_iks_kgd_4cb}
 
 將Livefyre事件對應至Adobe Analytics報表套裝管理員中的一或多個自訂成功事件。
 
-如需「報表套裝管理員」的詳細資訊，請參 [閱報表套裝管理員](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。
+如需「報表套裝管理員」的詳細資訊，請參 [閱報表套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
 
 1. 以管理員使用者身分登入Adobe Analytics。
 1. 開啟Adobe Analytics管理報表套裝管理員。
@@ -25,7 +25,7 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 1. 按一下要修改的報表套裝，然後導覽至，以編輯報表套裝 **[!UICONTROL Edit Settings > Conversion > Success Events]**。
 1. 將Livefyre事件對應至一或多個自訂成功事件。
 
-## 步驟2:設定轉換變數
+## 步驟2: 設定轉換變數
 
 將Livefyre轉換變數(eVar)對應至Adobe Analytics管理報表套裝管理員中的轉換變數。 轉換變數的作用類似排序函式，可決定您打算如何識別從Livefyre事件收集的資料。
 
@@ -36,9 +36,9 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 * 為轉換變數指定類型
 1. 儲存自訂轉換變數。
 
-## 步驟3:使用DTM將報表套裝與Livefyre事件一起新增 {#section_t15_2hd_4cb}
+## 步驟3: 使用DTM將報表套裝與Livefyre事件一起新增 {#section_t15_2hd_4cb}
 
-將Adobe Analytics新增至DTM，讓Analytics運作。 若要這麼做，請建立新屬性和工具，並新增包含Livefyre事件的報表套裝至屬性。 如需DTM的詳細資訊，請參閱 [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)。
+將Adobe Analytics新增至DTM，讓Analytics運作。 若要這麼做，請建立新屬性和工具，並新增包含Livefyre事件的報表套裝至屬性。 如需DTM的詳細資訊，請參閱 [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
 
 如果您已針對使用Livefyre事件設定的報表套裝設定屬性或工具，則不需要執行此步驟。
 
@@ -48,11 +48,11 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 為工具設定以下參數：
 
    * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-   * Enable **[!UICONTROL Automatic Configuration]**.
-   * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
+   * 啟用 **[!UICONTROL Automatic Configuration]**.
+   * 啟用 **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. 新增或確認含有Livefyre事件的報表套裝名稱至欄位 **[!UICONTROL Report Suites]** 。
 
-## 步驟4:設定頁面載入規則以設定Analytics處理 {#section_jfj_j3d_4cb}
+## 步驟4: 設定頁面載入規則以設定Analytics處理 {#section_jfj_j3d_4cb}
 
 設定頁面載入規則以提取所有資料。 「頁面載入規則」可讓您將自訂javascript放入規則中，以記錄頁面載入時的事件。
 
@@ -61,11 +61,11 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 >請勿使用事件型規則或直接呼叫規則。
 
 1. 在DTM中，選取 **[!UICONTROL Rules]** 標籤。
-1. Click **[!UICONTROL Page Load Rules]**.
+1. 按一下 **[!UICONTROL Page Load Rules]**.
 1. 按一下按 **[!UICONTROL Create New Rule]** 鈕。
 1. 按一下 **[!UICONTROL Conditions]** 按鈕以開啟區 **[!UICONTROL Plus]** 段。
 1. 觸發規則。 如果您 **[!UICONTROL DOM Ready]** 要非 **[!UICONTROL Onload]** 同步地延遲或實作規則，請選擇或觸發類型。
-1. （可選）新增其他參數以限制顯示Livefyre應用程式的頁面。 如需其他設定選項的詳細資訊，請參 [閱DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)。
+1. （可選）新增其他參數以限制顯示Livefyre應用程式的頁面。 如需其他設定選項的詳細資訊，請參 [閱DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
 1. 在下 **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;方，按一下 **[!UICONTROL Non-sequential]** 標籤，然後按一下 **[!UICONTROL Add New Script]**。
 1. 選擇 **[!UICONTROL Sequential HTML]** 作為指令碼類型。
 1. 將下列指令碼新增至程式碼編輯器，然後按一下 **[!UICONTROL Save Code]**。
@@ -88,10 +88,10 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
    setTimeout(pollForAnalytics, 400);
    ```
 
-1. Click **[!UICONTROL Save Code]**.
-1. Click **[!UICONTROL Save Rule]**.
+1. 按一下 **[!UICONTROL Save Code]**.
+1. 按一下 **[!UICONTROL Save Rule]**.
 
-## 步驟5:建立直接呼叫規則以建構Livefyre的Adobe Analytics對應設定 {#section_gvp_b1g_pdb}
+## 步驟5: 建立直接呼叫規則以建構Livefyre的Adobe Analytics對應設定 {#section_gvp_b1g_pdb}
 
 有其他方式可透過使用自訂事件、DTM內的Adobe Analytics UI欄位和資料元素，將Livefyre與DTM一起實作。 本檔案使用自訂Javascript來達成相同的效果。
 
@@ -173,7 +173,7 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
      /** 
    ```
 
-   * 新增Livefyre中所有分析事件的分析處理常式。 對於每個事件，它都會在全域物件上設定資料，然後調度事件。
+   * 新增Livefyre所有分析事件的分析處理常式。 對於每個事件，它都會在全域物件上設定資料，然後調度事件。
 
    ```
    */ 
@@ -190,14 +190,14 @@ source-git-commit: 987482066f1ca3c021a5c9f0fc0109edff616c0a
 
 1. 按一下「 **儲存規則**」。
 
-## 步驟6:批准頁面載入規則的變更 {#section_pxc_11t_ycb}
+## 步驟6: 批准頁面載入規則的變更 {#section_pxc_11t_ycb}
 
 1. 轉到 **[!UICONTROL Approvals]** 頁籤。
-1. Click **[!UICONTROL Approve]**.
+1. 按一下 **[!UICONTROL Approve]**.
 1. 按一 **[!UICONTROL Yes, approve]** 下以確認您的核准。
 1. 前往 **[!UICONTROL Overview > Publish Queue]**.
 1. 選取要發佈的規則。
-1. Click **[!UICONTROL Publish Selected]**.
+1. 按一下 **[!UICONTROL Publish Selected]**.
 1. 按一 **[!UICONTROL Publish]** 下以確認您要發佈。
 
 ## 指令碼 {#section_xkb_vft_mcb}
@@ -252,7 +252,7 @@ function trackLivefyreEvent(data) {
   }
 ```
 
-下列程式碼會區分記錄的事件 `event82` 類型。 轉換變數會記 `eVar83` 錄使用者互動的類型，指令碼會設定為依 `eVar83` 類型分隔使用者互動資料。 因此 `eVar83` ，您可以將記錄的資料分為特定類型的使用者互動。
+下列程式碼會區分記錄的事件 `event82` 類型。 轉換變數會 `eVar83` 記錄使用者互動的類型，指令碼會設定為依 `eVar83` 類型分隔使用者互動資料。 因此 `eVar83` ，您可以將記錄的資料分為特定類型的使用者互動。
 
 ```
   var vars = ['events'];  
@@ -305,7 +305,7 @@ function addAnalyticsHandler() {
 
 如需本頁所討論主題的詳細資訊，請參閱：
 
-* [報告套裝管理員](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
-* [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)
-* [規則](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [報告套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)
+* [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)
+* [規則](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

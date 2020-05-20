@@ -4,16 +4,19 @@ solution: Experience Manager
 title: Livefyre使用指南
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
 
-# Experience Manager Livefyre使用指南 {#livefyre-help}
+# Livefyre使用指南 {#livefyre-help}
 
-使用Livefyre studio建立應用程式、收集使用者產生的內容並協調內容。
+使用Livefyre Studio建立應用程式、收集使用者產生的內容並協調內容。
 
-如需如何使用開發人員工具在您的網站上實作和自訂Livefyre應用程式的詳細資訊，請參閱 [*Adobe Experience Manager Livefyre實作指南*](/help/implementation/home.md)。
+如需如何使用開發人員工具在您的網站上實作和自訂Livefyre應用程式的詳細資訊，請參閱 [*Adobe Experience Manager Livefyre實作指南&#x200B;*](/help/implementation/home.md)。
 
 ## 熱門主題
 
@@ -21,7 +24,7 @@ source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
 
 * [關於Livefyre](c-product.md#c_product)
 
-   使用Livefyre studio來管理應用程式、使用者和內容。
+   使用Livefyre Studio來管理應用程式、使用者和內容。
 
 * [使用應用程式](c-about-apps/c-about-apps.md#c_about_apps)
 

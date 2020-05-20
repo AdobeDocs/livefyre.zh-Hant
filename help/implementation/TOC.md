@@ -1,14 +1,17 @@
 ---
 product: livefyre
-audience: 最終用戶
-user-guide-title: Experience Manager Livefyre實施指南
+audience: end-user
+user-guide-title: Livefyre實施指南
 translation-type: tm+mt
-source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
 
-# Experience Manager Livefyre實施指南 {#implementation}
+# Livefyre實施指南 {#implementation}
 
 + [Livefyre實施指南](home.md)
 + 快速入門 {#getting-started}

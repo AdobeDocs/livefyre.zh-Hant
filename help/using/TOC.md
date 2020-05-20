@@ -1,14 +1,17 @@
 ---
 product: livefyre
-audience: 最終用戶
-user-guide-title: Experience Manager Livefyre使用指南
+audience: end-user
+user-guide-title: Livefyre檔案
 translation-type: tm+mt
-source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 5%
 
 ---
 
 
-# Experience Manager Livefyre使用指南 {#using}
+# Livefyre檔案 {#using}
 
 + [Livefyre說明](home.md)
 + [公告](c-anouncements.md)
@@ -56,7 +59,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + 民調 {#polls}
       + [民調](c-about-apps/c-polls-app/c-polls-app.md)
       + [將民調問答新增至留言或即時部落格應用程式](c-about-apps/c-polls-app/t-integrate-poll-site.md)
-      + [將影像新增至民調問答](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
+      + [新增影像至民調問答](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [輪詢自定義](c-about-apps/c-polls-app/r-polls-customizations.md)
    + 評論 {#reviews}
       + [評論](c-about-apps/c-reviews-app/c-reviews-app.md)
@@ -212,8 +215,8 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [查看權限活動歷史記錄](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用資產庫的待定權限請求管理內容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [從資產庫人工授與或撤銷資產的權限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ 使用者：管理Studio和Livefyre網路使用者 {#users-managing}
-   + [使用者：管理Studio和Livefyre網路使用者](c-users/c-users.md)
++ 使用者： 管理Studio和Livefyre網路使用者 {#users-managing}
+   + [使用者： 管理Studio和Livefyre網路使用者](c-users/c-users.md)
    + [搜尋使用者](c-users/t-search-for-users.md)
    + [檢視帳戶詳細資訊](c-users/c-viewing-account-details.md)
    + [禁止使用者](c-users/t-ban-a-user.md)
@@ -221,8 +224,8 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [連結使用者帳戶](c-users/t-link-user-accounts.md)
    + [用戶交換網路](c-users/c-users-switching-networks.md)
    + [使用者同步](c-users/t-set-up-user-sync.md)
-+ 使用者：建立用戶帳戶 {#users-creating-accounts}
-   + [使用者：建立用戶帳戶](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
++ 使用者： 建立用戶帳戶 {#users-creating-accounts}
+   + [使用者： 建立用戶帳戶](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [邀請使用者建立Studio帳戶](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [接受建立Studio帳戶的邀請](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [登入Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
@@ -232,7 +235,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [新增Social帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [關於Instagram帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [重新整理社交帳戶的Token](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定：其他 {#settings-other}
++ 設定： 其他 {#settings-other}
    + [設定認證](c-settings-other/t-set-up-credentials.md)
    + [將站點添加到網路](c-settings-other/t-add-a-site.md)
    + 翻譯集 {#translation-sets}

@@ -5,7 +5,10 @@ seo-title: 使用ModQ協調內容
 title: 使用ModQ協調內容
 uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 0%
 
 ---
 
@@ -21,28 +24,28 @@ ModQ會建立網站或網路上所有符合您所定義之預先協調規則之�
 ModQ允許您：
 
 * 在內容中協調、檢視整個執行緒，並按一下「核准」、「垃圾桶」或「Bozo」，即可檢視個別內容片段或完成執行緒。
-* 提高工作流程的速度與效率。
+* 提高工作流程的速度和效率。
 * 回覆內容，以增加您對社群的參與。
 * 讓多位協調者可以處理內容，毋需重複彼此的工作。
 
-Livefyre content is listed in ModQ for up to 6 weeks, and premoderated streams content that has not been addressed is listed in ModQ for 90 days.
+Livefyre內容會列在ModQ中長達6週，而未處理的預先協調串流內容則會列在ModQ中90天。
 
 >[!NOTE]
 >
->如果單一內容符合ModQ中要包含的多個規則，則可多次列出該內容。 For example, if a piece of content triggers a user flag rule for Offensive, then later triggers another rule for Profane, it will be listed in ModQ twice.
+>如果單一內容符合ModQ中要包含的多個規則，則可多次列出該內容。 例如，如果某個內容觸發Offension的使用者標幟規則，接著又觸發Profane的其他規則，則會在ModQ中列出兩次。
 
-Content that is not displayed in ModQ includes:
+ModQ中未顯示的內容包括：
 
-* Trashed content.
-* Content approved by a moderator.
-* Content posted by a banned user, or user flags applied by a banned user.
+* 垃圾內容。
+* 協調者核准的內容。
+* 禁止使用者張貼的內容，或禁止使用者套用的使用者標幟。
 
-## Navigating ModQ {#section_uv4_db2_yy}
+## 導覽ModQ {#section_uv4_db2_yy}
 
-ModQ is split into two tabbed panels:
+ModQ分為兩個標籤式面板：
 
-* **[!UICONTROL Items]** lists all Livefyre-native and SocialSync content slated for moderation. This tab includes any Social Search or Stream content which has been flagged or edited after moderation.
-* **[!UICONTROL Streams Premoderation]** lists all content entering your Apps from Streams with Premoderate enabled. (For more information, see Creating Streams.)
+* **[!UICONTROL Items]** 列出所有預定要進行協調的Livefyre原生和SocialSync內容。 此標籤包含任何在協調後已標幟或編輯過的社交搜尋或串流內容。
+* **[!UICONTROL Streams Premoderation]** 列出從串流進入您應用程式且啟用「預先協調」的所有內容。 （如需詳細資訊，請參閱建立串流。）
 
 這兩個標籤都提供許多相同的篩選器和協調工具。
 
@@ -70,10 +73,10 @@ ModQ is split into two tabbed panels:
 * **[!UICONTROL Timestamp:]** 內容建立時的相對時間戳記。 預覽Studio的「應用程式內容」頁面中的內容片段。
 * **[!UICONTROL Flag Type:]** 冒犯性、不同意、垃圾郵件等
 
-   * 安全標幟：垃圾訊息和大量散發。
-   * 您的網路和網站屬性清單所套用的旗標：粗俗。
-   * SAFE所套用的標幟：仇恨言論、個人識別資訊(PII)、侮辱和褻瀆。
-   * 使用者標幟：垃圾訊息、非主題、冒犯性和不同意見。
+   * 安全標幟： 垃圾訊息和大量散發。
+   * 您的網路和網站屬性清單所套用的旗標： 粗俗。
+   * SAFE所套用的標幟： 仇恨言論、個人識別資訊(PII)、侮辱和褻瀆。
+   * 使用者標幟： 垃圾訊息、非主題、冒犯性和不同意見。
 
 * **[!UICONTROL Flag origin:]** 列出旗標的來源。 可能是SAFE、使用者名稱或Livefyre。
 * **[!UICONTROL More info:]** 列出內容的詳細資訊，包括按贊次數、使用者標幟、回覆和套用至內容的任何標籤。 按一下「網站」會開啟內容所在網站的頂層頁面。 按一下時間戳記會開啟頁面上內容的串接檢視。
@@ -86,10 +89,10 @@ ModQ is split into two tabbed panels:
 
 ModQ的下列選項可在和下 **[!UICONTROL Items]** 面 **[!UICONTROL Streams Premoderation]**:
 
-* **[!UICONTROL App]**. 使用「搜尋應用程式」欄位，依應用程式篩選結果。 可以選取多個應用程式。
-* **[!UICONTROL System Flags]**. 依「垃圾訊息」、「褻瀆」、「安全」和「預先協調」規則等規則篩選內容。
+* **[!UICONTROL App]**。使用「搜尋應用程式」欄位，依應用程式篩選結果。 可以選取多個應用程式。
+* **[!UICONTROL System Flags]**。依「垃圾訊息」、「褻瀆」、「安全」和「預先協調」規則等規則篩選內容。
 
-   * 選擇 **[!UICONTROL Spam]** 將列出SAFE標籤為垃圾郵件的所有內容。
+   * 選擇 **[!UICONTROL Spam]** 將列出由SAFE標籤為垃圾郵件的所有內容。
    * 選取 **[!UICONTROL Profanity]** 會列出您的網路或網站檔案清單所標籤之所有Profane內容。
    * 選擇 **[!UICONTROL SAFE]** 將列出輸入ModQ的所有內容，這是您的SAFE規則的結果。
    * 選取 **[!UICONTROL Premoderation]** 會列出您的「網路」、「串流」或「應用程式設定」標籤為「預協調」的所有內容。
@@ -104,7 +107,7 @@ ModQ的下列選項可用於 **[!UICONTROL Streams Premoderation]**:
 
 ModQ的下列選項可用於 **[!UICONTROL Items]**:
 
-**[!UICONTROL Moderation Recommendations]**. 依自動協調建議所提供的建議篩選內容。
+**[!UICONTROL Moderation Recommendations]**。依自動協調建議所提供的建議篩選內容。
 
 下列影像顯示ModQ中的「協調建議」外觀：  ![](assets/mod_reco1.png)
 
@@ -136,7 +139,7 @@ ModQ的下列選項可用於 **[!UICONTROL Items]**:
 
 >[!NOTE]
 >
->串流內容可能不是Bozo的。刪除串流內容會永久從串流中移除，且無法復原。
+>串流內容可能不是Bozo的。 刪除串流內容會永久從串流中移除，且無法復原。
 
 內容協調後，就會從協調者的ModQ中移除，其作者也無法再從串流中編輯內容。 如果協調者關閉項目，或使用者刪除其注釋，則其他協調者佇列中會即時顯示為灰色。 當內容呈灰色顯示時， **[!UICONTROL Clear Moderated]** 按鈕會顯示在頁面上，讓協調者將其從清單中移除，而且不論其他協調者活動為何，都能維持其在頁面上的位置。
 
@@ -152,11 +155,11 @@ ModQ的下列選項可用於 **[!UICONTROL Items]**:
 
 ## 在ModQ中更改用戶狀態 {#section_tmw_lg1_z1b}
 
-按一下「用 **[!UICONTROL User actions]** 戶摘要」面板中的按鈕，將用戶靜音、禁止或白名單列出。
+按一下「 **[!UICONTROL User actions]** 使用者摘要」面板中的按鈕，以「靜音」、「禁止」或「允許」列出使用者。
 
 * **[!UICONTROL Mute:]** 可讓您將標籤所列內容之使用者的「靜音旗標」。 使用這個選項，可將使用者的旗標從您的預先協調篩選中排除。 他們標幟的內容不會因為標幟而進入ModQ，其標幟也不會包含在標幟規則中。
 * **[!UICONTROL Ban:]** 允許您禁止列出的用戶訪問您的站點或網路。 （只有Studio管理員或使用者管理員才能透過網路禁止使用者。）
-* **[!UICONTROL Whitelist:]** 允許您將您網站或網路的所列用戶列入白名單。 （只有Studio管理員或使用者管理員才能將使用者加入網路白名單。）
+* **[!UICONTROL Whitelist:]** 允許您列出您的站點或網路的列出用戶。 （只有Studio管理員或使用者管理員才能透過網路允許列出使用者。）
 
 
 

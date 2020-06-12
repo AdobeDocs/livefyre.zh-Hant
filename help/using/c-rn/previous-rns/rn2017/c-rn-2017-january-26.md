@@ -5,7 +5,10 @@ seo-title: 2017 年 1 月 26 日
 title: 2017 年 1 月 26 日
 uuid: 5a04d31d-a26d-4369-8deb-adc3e28dfece
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 8%
 
 ---
 
@@ -38,5 +41,5 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 錯誤 | 串流 | 透過HTTPS提供電子郵件串流規則的增強內容（影像和視訊）。 |
 | 增強功能 | 串流 | 已對「僅驗證帳戶」選項的設定進行調整，預設為停用。 |
 | 錯誤 | 串流 | 修正「預先協調」和「媒體預先協調」設定傳遞至新建立之串流規則的錯誤。 |
-| 增強功能 | 串流 | 新增新功能，允許內容類別（透過串流規則）列入白名單並略過協調。 |
+| 增強功能 | 串流 | 新增允許內容類別（透過串流規則）允許列出和略過協調的新功能。 |
 

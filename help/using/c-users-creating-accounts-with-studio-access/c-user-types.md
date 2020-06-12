@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 使用者角色和權限
 uuid: d9261cfd-ae60-40d8-9816-25aef541506f
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
@@ -40,9 +43,9 @@ Studio提供下列使用者角色和列出的存取權限：
 
 * **使用者管理員**
    * 檢視和編輯使用者帳戶詳細資訊
-   * 禁止或白名單使用者
+   * 禁止或允許列出用戶
 
-* **** 資料管理員：授與使用Livefyre Analytics控制面板的存取權。
+* **資料管理員：** 授與使用Livefyre Analytics控制面板的存取權。
 * **App Manager**
    * 建立和編輯應用程式
    * 建立和編輯指向應用程式的串流

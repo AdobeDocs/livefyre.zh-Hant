@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Livefyre檔案
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -220,7 +220,7 @@ ht-degree: 5%
    + [搜尋使用者](c-users/t-search-for-users.md)
    + [檢視帳戶詳細資訊](c-users/c-viewing-account-details.md)
    + [禁止使用者](c-users/t-ban-a-user.md)
-   + [用戶白名單](c-users/t-whitelist-a-user.md)
+   + [允許列出用戶](c-users/allow-list-a-user.md)
    + [連結使用者帳戶](c-users/t-link-user-accounts.md)
    + [用戶交換網路](c-users/c-users-switching-networks.md)
    + [使用者同步](c-users/t-set-up-user-sync.md)

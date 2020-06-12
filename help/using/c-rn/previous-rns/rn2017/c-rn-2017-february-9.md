@@ -5,7 +5,10 @@ seo-title: 2017 年 2 月 9 日
 title: 2017 年 2 月 9 日
 uuid: cbbf10f3-d8ca-4c10-849e-fa7208f987be
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ## 適用於Twitter的SocialSync {#section_nv4_yry_wy}
 
-SocialSync for twitter多年來一直是我們核心功能的一部分。 但是，隨著我們產品的發展與成長，SocialSync for twitter已成為我們一小部分客戶群目前使用的低價值功能。 為改善Livefyre對客戶的整體體驗，並將開發資源集中在最有價值的領域，我們將於2月24日中止SocialSync for twitter功能。 SocialSync for facebook不會受此更新影響。 如果您對此更新有任何疑問或顧慮，請聯絡您的Livefyre CSM。
+SocialSync for Twitter多年來一直是我們核心功能的一部分。 但是，隨著我們產品的發展與成長，SocialSync for Twitter已成為我們一小部分客戶群目前使用的低價值功能。 為改善Livefyre對客戶的整體體驗，並將開發資源集中在最有價值的領域，我們將於2月24日中止SocialSync for Twitter功能。 SocialSync for Facebook不會受此更新影響。 如果您對此更新有任何疑問或顧慮，請聯絡您的Livefyre CSM。
 
 ## 生產版本 {#section_r24_1m2_wy}
 
@@ -31,7 +34,7 @@ SocialSync for twitter多年來一直是我們核心功能的一部分。 但是
 | 錯誤 | 串流 | 修正Tumblr串流規則無法儲存的錯誤。 |
 | 錯誤 | 串流 | 修正RSS饋送的Collection JSON中產生錯誤產生器ID的錯誤。 |
 | 增強功能 | 串流 | 已對「僅驗證帳戶」選項的設定進行調整，預設為停用。 |
-| 增強功能 | 串流 | 新增新功能，允許內容類別（透過串流規則）列入白名單並略過協調。 |
+| 增強功能 | 串流 | 新增允許內容類別（透過串流規則）允許列出和略過協調的新功能。 |
 | 錯誤 | 串流 | 修正「預先協調」和「媒體預先協調」設定傳遞至新建立之串流規則的錯誤。 |
 
 ## UAT發行 {#section_dyx_yl2_wy}

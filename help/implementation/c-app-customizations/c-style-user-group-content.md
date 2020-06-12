@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 使用者群組內容的樣式
 uuid: 2205d2c9-1892-427d-a289-bab0bf1dfe19
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 4%
 
 ---
 
@@ -29,4 +32,4 @@ Livefyre提供自訂樣式功能，可讓您自訂由特定使用者類型（例
 
 使用者群組和使用者標籤在Studio中是相等的。 將使用者新增至使用者群組會附加使用者標籤至其帳戶，您可使用Livefyre CSS自訂設定來設定其樣式。
 
-所有已將內容張貼至系列的使用者皆可透過Studio新增至一或多個使用者群組。 這包括禁止和列入白名單的使用者，以及源自SocialSync和Coruate的內容。
+所有已將內容張貼至系列的使用者皆可透過Studio新增至一或多個使用者群組。 這包括禁止和允許列出的使用者，以及以SocialSync和Coruate原始的內容。

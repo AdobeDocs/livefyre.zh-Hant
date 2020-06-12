@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 檢視帳戶詳細資訊
 uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
@@ -47,6 +50,6 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
 
-## 白名單使用者 {#section_kr4_ptp_vz}
+## 允許列出使用者 {#section_kr4_ptp_vz}
 
-白名單使用者可讓他們直接張貼至您的應用程式。 白名單使用者張貼的內容不會透過Livefyre的SAFE、粗俗或預先協調篩選，而且會自動核准並新增至應用程式。
+允許清單使用者可讓他們直接張貼至您的應用程式。 由允許列出的使用者張貼的內容不會透過Livefyre的SAFE、粗俗或預先協調篩選，而且會自動核准並新增至應用程式。

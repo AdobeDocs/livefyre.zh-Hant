@@ -5,7 +5,10 @@ seo-title: ModQ鍵盤快速鍵
 title: ModQ鍵盤快速鍵
 uuid: fc4e7796-b6b5-4782-a0fc-b2326ca56d66
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +27,6 @@ ModQ中的協調者可使用下列鍵盤快速鍵。
 | 佇列頂端 | 跳至佇列頂端的第一個項目 | l |  |
 | 靜音或取消靜音標幟 | 從所選用戶靜音或取消靜音標誌 | Shift + M |  |
 | 禁止使用者 | 僅禁止該網站的所選使用者 | Shift + B |  |
-| 白名單用戶 | 僅將該站點的選定用戶列入白名單 | Shift + W |  |
+| 白名單用戶 | 僅允許列出該站點的選定用戶 | Shift + W |  |
 | 清除網站篩選 | 顯示網路中的所有項目 | Shift + Q |  |
 

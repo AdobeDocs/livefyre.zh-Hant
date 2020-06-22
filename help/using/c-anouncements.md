@@ -1,17 +1,38 @@
 ---
-description: Livefyre和Livefyre studio的公告。 截至2018年11月15日為止。
-seo-description: Livefyre和Livefyre studio的公告。 截至2018年11月15日為止。
+description: Livefyre和Livefyre Studio的公告。 截至2018年11月15日為止。
+seo-description: Livefyre和Livefyre Studio的公告。 截至2018年11月15日為止。
 seo-title: 公告
 solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
+source-git-commit: 7a36b890dd828b0da2c95acce5a074eeacb7ea5d
+workflow-type: tm+mt
+source-wordcount: '1587'
+ht-degree: 0%
 
 ---
 
 
 # 公告{#announcements}
+
+## 2020 年 6 月 22 日
+
+我們想提供您有關使用者產生內容(UGC)動態變化的更新，以及此內容對產品中Facebook和Twitter內容的影響。
+
+去年，Facebook已停用「公開動態消息API」。 我們一直在交談，試圖找到前進的路。 我們被要求從Livefyre產品移除Facebook資料。 我們遵守Facebook的要求，而Adobe也在盡快努力確保我們保護客戶。
+
+請注意，在未來幾週內，將會移除對新Facebook和已儲存內容的存取權。
+
+* 2020年6月22日： 在Livefyre中搜尋新Facebook內容的功能將會結束。
+* 2020年7月7日： 存取Livefyre資產庫和應用程式內容中儲存的內容將會結束。
+* 2020年8月10日： 將移除發佈在Livefyre視覺化網站（例如媒體塗鴉牆、功能卡、拼貼、轉盤等）上的Facebook內容。
+
+這項變更不會影響Instagram內容，這些內容仍可在Livefyre中存取。
+
+我們也想要分享此資訊，因為客戶對Twitter內容的需求有限，所以Twitter的存取權將於明年5月3日從Livefyre移除。 在此日期之前，您仍可以完整存取新的和儲存的Twitter內容。
+
+除此之外，所有其他功能（包括評分與評論、注釋、網站和即時部落格）都將繼續提供。 Adobe也將繼續持續提供錯誤修正、作業系統與安全性更新的支援。
 
 ## 2019 年 10 月 25 日
 
@@ -27,7 +48,7 @@ source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ## 2019 年 6 月 7 日
 
-我們很高興地回報，Instagram串流和搜尋已在Livefyre中恢復。 您可以繼續使用Social Search搜尋Instagram內容，並將Instagram內容串流至資料夾和應用程式。 若要重新開始串流內容，您必須執行下列步驟：
+我們很高興地回報，Instagram串流和搜尋已在Livefyre中恢復。 您可以使用Social Search來繼續使用Instagram內容，並將Instagram內容串流至資料夾和應用程式。 若要重新開始串流內容，您必須執行下列步驟：
 * 登入Livefyre
 * 造訪設定，重新授權並重新整理您與Instagram商業帳戶連結的存取Token
 * 等待一至兩小時，讓內容再次開始串流
@@ -35,7 +56,7 @@ source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 Facebook串流尚未復原，但我們仍在積極與Facebook合作，以恢復這項功能，並會在我們瞭解更多資訊後立即更新您。
 
-感謝您對服務中斷的持續耐心。
+感謝您對服務意外中斷的持續耐心。
 
 ## 2019 年 6 月 5 日
 
@@ -60,7 +81,7 @@ Facebook串流尚未復原，但我們仍在積極與Facebook合作，以恢復�
 
 * **自動監控商業帳戶搜尋的使用權要求回應**
 
-   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動剪下和貼上功能，讓客戶能夠繼續追蹤使用權審批並維護記錄以供稽核。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
+   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動、剪下和貼上功能，讓客戶能夠繼續追蹤使用權限核准，並維護稽核記錄。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
 
 ## 2018 年 6 月 22 日 {#section_k1t_vmv_g2b}
 
@@ -117,7 +138,7 @@ Instagram內容的使用權要求工作流程的兩個更新中，現在已推�
 
 * **使用者搜尋與串流工作流程- 2018年6月14日**
 
-   雖然您仍可以依主題標籤和關鍵字進行搜尋，但搜尋個人Instagram帳戶的能力已經被淘汰。 Livefyre也提供另一種方式，可讓您搜尋並串流來自商業帳戶的內容。 如果您使用Livefyre來搜尋並串流您組織的Instagram內容，請務必升級至 [商業帳戶](https://help.instagram.com/502981923235522?helpref=search&sr=2&query=change%20personal%20account%20to%20business%20account) ，以運用這項功能。
+   雖然您仍可以依主題標籤和關鍵字進行搜尋，但搜尋個人Instagram帳戶的能力已經被淘汰。 Livefyre也提供另一種方式，可讓您搜尋並串流來自商業帳戶的內容。 如果您使用Livefyre來搜尋並串流您組織的Instagram內容，請務必升級至 [商業帳戶](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account) ，以運用這項功能。
 
 **我們將繼續評估解決方案，以瞭解我們無法在短期內取代的下列功能：**
 

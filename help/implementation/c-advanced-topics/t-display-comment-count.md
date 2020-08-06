@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 顯示注釋計數
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ Livefyre可讓 `CommentCount.js` 您擷取網站上系列的內容計數。 雖�
    </span>
    ```
 
-   >[!NOTE] {imporication="high"}
+   >[!NOTE]
    >
    >程式 `CommentCount.js` 碼會檢查數值，以便與實際計數一起更新。 請確定在標籤之間包含數值。
 
@@ -65,14 +68,14 @@ Livefyre可讓 `CommentCount.js` 您擷取網站上系列的內容計數。 雖�
 
    我們允許下列配置選項：
 
-* **** 替換器：用來取代每個內容計數的文字的函式或Regex。
+* **替換器：** 用來取代每個內容計數的文字的函式或Regex。
 
-* **** 函式：用於替換每個元素。 函式的引數為：
+* **函式：** 用於替換每個元素。 函式的引數為：
 
-   **** 元素：正在更新的HTML元素。
-   **** 計數：此元素的內容計數。
+   **元素：** 正在更新的HTML元素。
+   **計數：** 此元素的內容計數。
 
-* **** regex:用來判斷應由計數取代元素文字的哪一部分。
+* **regex:** 用來判斷應由計數取代元素文字的哪一部分。
 
    **範例**:
 

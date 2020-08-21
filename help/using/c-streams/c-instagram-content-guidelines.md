@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Instagram內容准則
 uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 您必須設定 *Instagram商業帳戶* ，才能使用欄位從其他特定Instagram商業帳戶建立Instagram **[!UICONTROL By Author]** 串流。 您在欄位中識別的使 **[!UICONTROL By Author]** 用者帳戶必須是商業帳戶。
 
-如需如何在Livefyre中設定Instagram商業帳戶的詳細資訊，請參閱關於 [Instagram帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。]
+如需如何在Livefyre中設定Instagram商業帳戶的詳細資訊，請參閱關於 [Instagram帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 Instagram會強制下列規則從其平台取得內容：
 
@@ -38,4 +41,4 @@ Instagram和其他品牌一樣，也有使用其品牌資產的要求。 例如�
 * 提供Instagram歸因給內容擁有者。
 * 與其他網路媒體一起顯示時，可與其他社交媒體內容明顯區隔。
 
-如需詳細資訊，請參閱Instagram的檔案：使 [用Instagram品牌資產](https://help.instagram.com/304689166306603)。
+如需詳細資訊，請參閱Instagram的檔案： [使用Instagram品牌資產](https://help.instagram.com/304689166306603)。

@@ -189,7 +189,7 @@ authDelegate.viewProfile = function(user) {
 
 1. 按一下Livefyre的「Ping to Pull Capture」端點。
 
-   端點URL:其 [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] 中{ ***networkName}*** }是Livefyre提供給您的網路名稱，而jrtoken是在步驟2中從Janrain接收的代號。
+   端點URL:其 [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] 中 ***{networkName}*** 是Livefyre提供給您的網路名稱，而jrtoken是在步驟2中從Janrain接收的代號。
 
    一旦您到達此端點，就會收到202回應，Livefyre就會開始非同步程式。
 

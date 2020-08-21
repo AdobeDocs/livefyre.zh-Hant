@@ -25,7 +25,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. 前往https://apps.twitter.com/ [](https://apps.twitter.com/)，並登入您的Twitter帳戶以建立新的應用程式，或選取現有的應用程式以搭配Livefyre Identity使用。
 1. 從應用程式的「設定」頁面：
 
-   * 輸 **[!UICONTROL Callback URL:]** 入( `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/twitter_fyre` 其中{networkName} **** }是Livefyre提供的網路名稱。 For example:** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
+   * 輸 **[!UICONTROL Callback URL:]** 入( `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/twitter_fyre` 其中 **{networkName}** 是Livefyre提供的網路名稱。 For example:** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
    * 取消選 **[!UICONTROL Enable Callback Locking]**&#x200B;擇。
    * Select **[!UICONTROL Allow this application to be used to Sign in with Twitter]**.
 

@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 發行說明
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 7%
 
 ---
 
@@ -43,15 +46,15 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
-| 問題 | AppService: Livefyre Identity | 修正按一下 [! UICONTROL重設為預設] (Reset to Default)未將Studio >整合設定> Livefyre Identity中「登入模式」下的標誌重設為預設影像。 |
+| 問題 | AppService:Livefyre Identity | 修正按一下時，Studio > [!UICONTROL Reset to Default] 整合設定> Livefyre Identity中「登入模式」下的標誌未重設為預設影像的問題。 |
 | 問題 | 庫 | 已修正視訊上傳至「資料庫」，接著以資產詳細資料檢視的問題，此問題無法正確顯示。 |
 | 問題 | 串流 | 修正產品無法顯示在串流規則中的問題。 |
 | 問題 | 串流 | 修正產品標籤無法用於串流規則的問題。 |
 | 增強功能 | Studio | 修正Livefyre Studio中未顯示產品ID的問題。 |
-| 問題 | Studio: ModQ | 修正已刪除的內容刪除後仍顯示在ModQ中的問題。 |
+| 問題 | Studio:ModQ | 修正已刪除的內容刪除後仍顯示在ModQ中的問題。 |
 
 ### UAT發行
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| 問題 | 社交元件： 轉盤 | 修正IE11和Mozilla Firefox中未回應並複製URL的問題。 |
+| 問題 | 社交元件：轉盤 | 修正IE11和Mozilla Firefox中未回應並複製URL的問題。 |

@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre檔案
+user-guide-title: Livefyre指南
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Livefyre檔案 {#using}
+# Livefyre指南 {#using}
 
 + [Livefyre說明](home.md)
 + [公告](c-anouncements.md)
@@ -203,7 +203,7 @@ ht-degree: 5%
    + [RSS規則](c-streams/c-rss-rules-streams.md)
    + [Tumblr規則](c-streams/c-tumblr-rules.md)
    + [Twitter規則](c-streams/c-twitter-rules.md)
-   + [推文的調節與頻率](c-streams/c-throttling-and-frequency-of-tweets.md)
+   + [調節推文與頻率](c-streams/c-throttling-and-frequency-of-tweets.md)
    + [YouTube規則](c-streams/c-youtube-rules/c-youtube-rules.md)
 + 權限請求 {#rights-requests}
    + [請求權利](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
@@ -215,8 +215,8 @@ ht-degree: 5%
    + [查看權限活動歷史記錄](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用資產庫的待定權限請求管理內容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [從資產庫人工授與或撤銷資產的權限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ 使用者： 管理Studio和Livefyre網路使用者 {#users-managing}
-   + [使用者： 管理Studio和Livefyre網路使用者](c-users/c-users.md)
++ 使用者：管理Studio和Livefyre網路使用者 {#users-managing}
+   + [使用者：管理Studio和Livefyre網路使用者](c-users/c-users.md)
    + [搜尋使用者](c-users/t-search-for-users.md)
    + [檢視帳戶詳細資訊](c-users/c-viewing-account-details.md)
    + [禁止使用者](c-users/t-ban-a-user.md)
@@ -224,8 +224,8 @@ ht-degree: 5%
    + [連結使用者帳戶](c-users/t-link-user-accounts.md)
    + [用戶交換網路](c-users/c-users-switching-networks.md)
    + [使用者同步](c-users/t-set-up-user-sync.md)
-+ 使用者： 建立用戶帳戶 {#users-creating-accounts}
-   + [使用者： 建立用戶帳戶](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
++ 使用者：建立用戶帳戶 {#users-creating-accounts}
+   + [使用者：建立用戶帳戶](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [邀請使用者建立Studio帳戶](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [接受建立Studio帳戶的邀請](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [登入Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
@@ -235,7 +235,7 @@ ht-degree: 5%
       + [新增Social帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [關於Instagram帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [重新整理社交帳戶的Token](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定： 其他 {#settings-other}
++ 設定：其他 {#settings-other}
    + [設定認證](c-settings-other/t-set-up-credentials.md)
    + [將站點添加到網路](c-settings-other/t-add-a-site.md)
    + 翻譯集 {#translation-sets}

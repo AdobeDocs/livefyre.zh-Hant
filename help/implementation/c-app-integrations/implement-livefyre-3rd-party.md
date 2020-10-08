@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 將Livefyre整合至CMS
 uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
 translation-type: tm+mt
-source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
+source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ b.使用Livefyre.js內嵌程式碼結構，將Livefyre應用程式整合至網�
 
    * 如需如何整合聊天應用程式的詳細資訊，請參閱 [聊天](/help/using/c-about-apps/c-chat-app/c-chat-app.md)。
 
-   * 如需如何整合即時部落格應用程式的詳細資訊，請參閱 [即時部落格](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md)。
+   * 如需如何整合即時部落格應用程式的詳細資訊，請參 [閱即時部落格](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md)。
 
    * 如需如何整合Siestroms應用程式的詳細資訊，請參閱 [Siestroms](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)。
 
@@ -60,4 +63,5 @@ b.整合協力廠商使用者和驗證平台。 如需支援平台的清單，�
 >[!NOTE]
 >
 >Livefyre不支援使用Livefyre.js的Carousel、Filmstrip、Storify、Feature Card、Mosaic和Pols Apps。
+
 使用「建立應用程式」 [程式整合這些應用程式](/help/using/c-about-apps/c-create-an-app.md) 。

@@ -1,18 +1,18 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre指南
-user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
+user-guide-title: Livefyre 指南
+user-guide-description: 使用 Livefyre Studio 來建立應用程式、收集使用者產生的內容並審核內容。
 translation-type: tm+mt
 source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '855'
+ht-degree: 7%
 
 ---
 
 
-# Livefyre指南 {#using}
+# Livefyre 指南 {#using}
 
 + [Livefyre說明](home.md)
 + [公告](c-anouncements.md)
@@ -62,8 +62,8 @@ ht-degree: 5%
       + [將民調問答新增至留言或即時部落格應用程式](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [新增影像至民調問答](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [輪詢自定義](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + 篩選 {#reviews}
-      + [篩選](c-about-apps/c-reviews-app/c-reviews-app.md)
+   + 評論 {#reviews}
+      + [評論](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [建立審核應用程式](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [張貼評論](c-about-apps/c-reviews-app/t-using-reviews.md)
    + Siesors {#sidenotes}

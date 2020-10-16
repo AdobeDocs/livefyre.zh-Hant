@@ -6,12 +6,15 @@ solution: Experience Manager
 title: Livefyre Analytics事件
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
 
-# Livefyre Analytics事件 {#livefyre-analytics-events}
+# Livefyre Analytics事件
 
 ## 事件對象定義 {#section_dh1_yhn_pdb}
 
@@ -53,10 +56,10 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 | 初始化 | 載入至少包含一個Livefyre應用程式的頁面時 |
 | 載入 | 任何時候，無論使用者檢視為何，應用程式都會載入頁面 |
 | 檢視 | 當應用程式第一次進入檢視區時。 |
-| 貼文 | 每當使用者張貼評論或內容時，包括： 頂層貼文、回覆、評論、媒體塗鴉牆上傳 |
+| 貼文 | 每當使用者張貼評論或內容時，包括：頂層貼文、回覆、評論、媒體塗鴉牆上傳 |
 | 已張貼 | 當貼文成功時。 |
 | Twitter_Reply | 只要使用者在Twitter上回覆 |
-| Twitter_Like | 將內容共用給的位置： 回推 |
+| Twitter_Like | 將內容共用給的位置：回推 |
 | Livefyre_Like | 只要Livefyre贊功能在應用程式中使用， |
 | Livefyre_Niliked | 只要使用者不喜歡Livefyre, |
 | ShareOnPost | 每當使用者張貼內容並使用分享貼文功能時 |
@@ -76,7 +79,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 | UnfollowCollection | 取消對話時 |
 | 請求更多 | 每當使用者在應用程式中載入更多內容時（也需要高速度） |
 | ModalView | 只要使用者按一下以檢視模式中的內容， |
-| TwitterRetweetClick | 將內容共用給的位置： 回推 |
+| TwitterRetweetClick | 將內容共用給的位置：回推 |
 | PostButtonClick | 當使用者按一下貼文時（「您在想什麼？」） 按鈕 |
 | 登入 | 任何使用者登入 |
 | 登出 | 任何使用者登出時 |

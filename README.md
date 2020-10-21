@@ -1,15 +1,18 @@
 ---
-source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
+source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '517'
 ht-degree: 6%
 
 ---
 # Contribute文章
 
-我們歡迎來自社群的貢獻，以及來自檔案團隊以外的Adobe員工。
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
+我們歡迎來自社群的貢獻，以及來自檔案團隊以外的Adobe員工。
 
 ## Adobe開放原始碼行為准則
 
@@ -56,5 +59,5 @@ If you submit a pull request with significant changes to documentation and code 
 
 在公共儲存庫中，會自動分配標籤來提取請求，以幫助我們管理提取請求工作流，並幫助您瞭解提取請求的進行情況：
 
-* **變更已傳送至作者**: 提交者已收到擱置中提取請求的通知。
-* **準備合併**: 我們的拉式要求審閱團隊可隨時進行審閱。
+* **變更已傳送至作者**:提交者已收到擱置中提取請求的通知。
+* **準備合併**:我們的拉式要求審閱團隊可隨時進行審閱。

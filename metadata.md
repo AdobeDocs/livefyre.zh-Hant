@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+solution: Experience Manager
 solution-title: 學習與支援
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 solution-icon: assets/experience-cloud-logo-24.png
@@ -7,10 +8,13 @@ getting-started-title: 快速入門
 getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementation/c-getting-started/implementation-process/c-implementation-process.html
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-mini-toc-levels: '2'
-git-repo: https://github.com/AdobeDocs/livefyre.en
+mini-toc-levels: 2
+git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.zh-Hant
 translation-type: tm+mt
-source-git-commit: 170fa6b446345d5e2e272294a3267d1ebbb0cd09
+source-git-commit: deae9c7c98fa0417f1ed553239da630817c13f02
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 170fa6b446345d5e2e272294a3267d1ebbb0cd09
 
 metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至回購中的使用者指南TOC.md檔案。 如果您想要變更任何使用指南的metadata.md內容，請在任何TOC.md檔案中進行變更。
 
-| metadata | 它的功能 |
+| 中繼資料 | 它的功能 |
 |--- |--- |
 | 解決方案標題 | 在文章標題中用作連結 |
 | solution-hub-url | 開啟幫助中心頁 |

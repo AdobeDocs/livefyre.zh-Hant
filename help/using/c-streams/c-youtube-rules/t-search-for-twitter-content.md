@@ -5,7 +5,10 @@ seo-title: 搜尋Twitter內容
 title: 搜尋Twitter內容
 uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
 translation-type: tm+mt
-source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
+source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
       >[!NOTE]
       >
       >Social Search支援複雜的Twitter搜尋查詢，以及所有標準Twitter語法輸入。 依預設，多個字串會視為AND查詢。 按一下按 **[!UICONTROL info]** 鈕，以檢視有效輸入的範例。
-
->=傳回的結果會從最近到最少列出。
+      >
+      >=傳回的結果會從最近到最少列出。
 
 符合您搜尋的項目會顯示在格線檢視中。 將滑鼠指標暫留在項 **[!UICONTROL View Details]**&#x200B;目上，將項目新增至資產庫或 **[!UICONTROL Publish]** 應用程式。

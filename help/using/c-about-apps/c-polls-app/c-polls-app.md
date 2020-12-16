@@ -7,11 +7,14 @@ title: 民調
 uuid: 19264eb2-53f8-4a66-a265-38efb634a207
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
 
-# 民調{#polls}
+# 輪詢{#polls}
 
 讓客戶即時發表意見。
 

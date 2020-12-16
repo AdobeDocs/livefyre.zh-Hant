@@ -18,7 +18,7 @@ ht-degree: 0%
 
 使用「協調」索引標籤來設定傳入內容的預先協調規則，包括褻瀆清單、標幟規則和禁止的IP位址。
 
-## 協調的運作方式 {#section_kyf_gvc_t1b}
+## 協調的運作方式{#section_kyf_gvc_t1b}
 
 您可以以下列方式協調內容：
 
@@ -31,18 +31,18 @@ ht-degree: 0%
 
 * 設定規則以自動標籤特定類型的內容：
 
-   * 為網站訪客標幟的內容設定標幟規則，使用 **[!UICONTROL Settings > Moderation > Rules]**
-   * 使用 **[!UICONTROL Settings > Moderation > Rules]**
-   * 禁止特定Twitter使用者使用 **[!UICONTROL Settings > Streams]**
-   * 禁止使用 **[!UICONTROL Settings > Bans]**
+   * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;為網站訪客標幟的內容設定標幟規則
+   * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;設定SAFE規則
+   * 禁止使用&#x200B;**[!UICONTROL Settings > Streams]**&#x200B;的特定Twitter使用者
+   * 使用&#x200B;**[!UICONTROL Settings > Bans]**&#x200B;禁止IP位址
    * 依要求依國家／地區代碼禁止IP地區。 禁止的內容將標籤為垃圾郵件。
 
-* 在「網路」或「網站」下方的「粗細清單」中，建立您認為 **[!UICONTROL Settings > Moderation > Rules]** 粗細的字詞清單。
+* 在您的「網路」或「網站」的&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;下，建立您在「剖析清單」中認為有瑕疵的字詞清單。
 * 使用或關閉特定串流、網站或網路的篩選條件，允許清單使用者（一律允許顯示這些使用者的內容）。
 
-在設定了您的褻瀆清單、SAFE篩選器和規則後，您可以選擇是否預先協調內容並在串流中套用SAFE篩選器。 如需詳細資訊，請參 [閱所有串流規則的串流規則選項](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+在設定了您的褻瀆清單、SAFE篩選器和規則後，您可以選擇是否預先協調內容並在串流中套用SAFE篩選器。 如需詳細資訊，請參閱[所有串流規則的串流規則選項](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
 
-Livefyre將內容標 **[!UICONTROL Approved]**&#x200B;示為 **[!UICONTROL Pending]**、 **[!UICONTROL Junk]**&#x200B;等。 視內容的來源、發佈位置，以及您在系統中設定的規則而定。 下表詳細說明Livefyre採取的動作（視這些因素而定）。
+Livefyre將內容標示為&#x200B;**[!UICONTROL Approved]**、**[!UICONTROL Pending]**、**[!UICONTROL Junk]**&#x200B;等。 視內容的來源、發佈位置，以及您在系統中設定的規則而定。 下表詳細說明Livefyre採取的動作（視這些因素而定）。
 
 ## 協調的運作方式
 
@@ -50,13 +50,13 @@ Livefyre將內容標 **[!UICONTROL Approved]**&#x200B;示為 **[!UICONTROL Pendi
 |--- |--- |--- |
 | 庫 | 應用程式 | 內容已核准 |
 | 社交搜尋 | 應用程式 | 內容已核准 |
-| 串流規則 | 應用程式 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？ <br><ul><li>否——串流至應用程式協調工作流程</li><li>是——內容被刪除</li></ul> |
+| 串流規則 | 應用程式 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？<br><ul><li>否——串流至應用程式協調工作流程</li><li>是——內容被刪除</li></ul> |
 | 庫 | 資料夾 | 無狀態（在資料夾中、未發佈、未刪除） |
 | 社交搜尋 | 資料夾 | 無狀態（在資料夾中、未發佈、未刪除） |
-| 串流規則 | 資料夾 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？ <br><ul><li>否——無狀態（在資料夾中、未發佈、未刪除）</li><li>是——內容被刪除</li></ul> |
-| 應用程式貼文 | 應用程式 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？ <br><ul><li>否——貼文至應用程式協調工作流程</li><li>是——內容被刪除</li></ul> |
+| 串流規則 | 資料夾 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？<br><ul><li>否——無狀態（在資料夾中、未發佈、未刪除）</li><li>是——內容被刪除</li></ul> |
+| 應用程式貼文 | 應用程式 | 內容是否標示為「By SAFE（安全性）」篩選器的垃圾？<br><ul><li>否——貼文至應用程式協調工作流程</li><li>是——內容被刪除</li></ul> |
 
-## 串流至應用程式協調工作流程 {#section_z5z_w4d_t1b}
+## 串流至應用程式協調工作流程{#section_z5z_w4d_t1b}
 
 ![](assets/stream_to_app_workflow.png)
 
@@ -72,7 +72,7 @@ Livefyre將內容標 **[!UICONTROL Approved]**&#x200B;示為 **[!UICONTROL Pendi
 1. 如果SAFE標示內容，而您設定了SAFE規則，Livefyre會檢查您是否為串流設定了SAFE規則。
 1. 如果您為串流設定SAFE規則，Livefyre會核准內容並將內容發佈至應用程式。 如果您未為串流設定SAFE規則，Livefyre會使用協調SAFE規則來決定如何處理內容（傳送至ModQ、垃圾筒等）。
 
-## 應用程式貼文協調工作流程 {#section_fwn_w4d_t1b}
+## 應用程式貼文協調工作流程{#section_fwn_w4d_t1b}
 
 ![](assets/post_to_app_workflow.png)
 
@@ -83,7 +83,7 @@ Livefyre將內容標 **[!UICONTROL Approved]**&#x200B;示為 **[!UICONTROL Pendi
 1. 如果未開啟預先協調，Livefyre會檢查SAFE是否標籤內容。 如果沒有，Livefyre會核准內容，並將內容發佈至應用程式。
 1. 如果SAFE標示內容並您設定SAFE規則，Livefyre會使用SAFE規則來決定如何處理內容（傳送至ModQ、垃圾筒等）。 如果SAFE標示內容，而您未設定SAFE規則，則Livefyre會核准內容並將內容發佈至應用程式。
 
-## 大量篩選 {#section_lyk_ktx_vy}
+## 批量過濾器{#section_lyk_ktx_vy}
 
 「大量篩選」會尋找在短時間內發佈至所有Livefyre網路的重複性內容。 如果偵測到此內容，則會標幟為「大量」，然後依預設進行轉譯。 雖然大量內容可能是使用者產生的（例如「觸及式降低！」） 在熱門的足球賽中，多次張貼在「聊天」中)，大部分都源自垃圾訊息宣傳。 此篩選器與語言無關，可與任何語言搭配使用。 若要自訂大量篩選，您必須聯絡Livefyre支援。
 
@@ -100,35 +100,35 @@ Livefyre將內容標 **[!UICONTROL Approved]**&#x200B;示為 **[!UICONTROL Pendi
 
 可用動作：
 
-* **[!UICONTROL Trash it:]**將標幟的留言傳送至垃圾筒。
+* **[!UICONTROL Trash it:]**會將標幟的留言傳送至垃圾筒。
 * **[!UICONTROL Bozo it:]** 隱藏已標幟的留言，讓除其寫入者外的所有使用者看得到。
-* **[!UICONTROL Pending:]** 將內容設為待定。 如果您在下方將「預協調」設 **[!UICONTROL Settings > ModQ]**&#x200B;為「開啟」，則會在「ModQ」中。 否則，它只會出現在「應用程式內容」中。
+* **[!UICONTROL Pending:]** 將內容設為待定。如果您在&#x200B;**[!UICONTROL Settings > ModQ]**&#x200B;下方將「預協調」設為「開啟」，則預協調會位於「ModQ」中。 否則，它只會出現在「應用程式內容」中。
 
 >[!NOTE]
 >
 >Livefyre建議您建立規則給被5位使用者標幟為「垃圾訊息」或「冒犯性」的Bozo留言。
 
-## 協調建議 {#section_ec3_vr3_2cb}
+## 協調建議{#section_ec3_vr3_2cb}
 
 您可以使用協調建議來協助您判斷如何協調網站訪客在Livefyre應用程式中張貼的內容。 「協調建議指標」會根據您先前對類似內容採取的動作，建議您何時可能刪除某段內容。 若要使用協調建議：
 
 1. 聯絡您的Adobe Livefyre支援專業人員，以開啟「協調建議」功能。
 1. 在網路設定中設定協調建議。
 
-   使用下方的設定設定 **[!UICONTROL Livefyre Recommends Trash]** 協調建議 **[!UICONTROL Network Settings]**。
+   使用&#x200B;**[!UICONTROL Network Settings]**&#x200B;下的&#x200B;**[!UICONTROL Livefyre Recommends Trash]**&#x200B;設定協調建議。
 
    ![](assets/image_mod_reco_trash.png)
 
-1. 設定SAFE規則，告訴Livefyre如何處理協調建議識別為可能被轉換的內容。 如需如何為選項設定SAFE規則的詳細資訊，請參 **[!UICONTROL Livefyre Recommends Trash]** 閱協 [調](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)。
+1. 設定SAFE規則，告訴Livefyre如何處理協調建議識別為可能被轉換的內容。 有關如何為&#x200B;**[!UICONTROL Livefyre Recommends Trash]**&#x200B;選項設定SAFE規則的詳細資訊，請參閱[協調](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)。
 
    ![](assets/modreco4.png)
 
-1. 使用ModQ **[!UICONTROL Moderation Recommendation Indicator]** 或「應用程式內容」中的，篩選協調建議識別為可能被轉換的內容。
+1. 使用ModQ或「應用程式內容」中的&#x200B;**[!UICONTROL Moderation Recommendation Indicator]**&#x200B;來篩選協調建議識別為可能被轉換的內容。
 
-   在ModQ中，指示器如下所示：  ![](assets/mod_reco1.png)
+   在ModQ中，指示器如下所示： ![](assets/mod_reco1.png)
 
-   如需如何使用協調建議來協調ModQ中內容的詳細資訊，請參 [閱ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
+   如需如何使用協調建議來協調ModQ中內容的詳細資訊，請參閱[ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
 
-   在「應用程式內容」中，協調建議的外觀如下：  ![](assets/modreco3.png)
+   在「應用程式內容」中，協調建議的外觀如下： ![](assets/modreco3.png)
 
-   如需如何在應用程式內容中使用協調建議的詳細資訊，請參閱「使用應 [用程式內容協調內容」](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
+   如需如何在應用程式內容中使用協調建議的詳細資訊，請參閱[使用應用程式內容協調內容](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。

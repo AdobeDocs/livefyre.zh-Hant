@@ -6,11 +6,14 @@ title: 2017 年 4 月 27 日
 uuid: 30284115-92c0-4a85-acdb-adc70605ed5f
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 8%
 
 ---
 
 
-# April 27, 2017{#april}
+# 2017 年 4 月 27 日{#april}
 
 2017年4月27日發行說明。
 
@@ -19,7 +22,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 應用程式設計人員 | 修正無法在Designer中的各種應用程式上儲存新「應用程式標題」名稱的錯誤。 |
-| 錯誤 | App Manager | 改進在App manager中依「文章ID」搜尋時的搜尋結果。 |
+| 錯誤 | App Manager | 改進在App Manager中依「文章ID」搜尋時的搜尋結果。 |
 | 錯誤 | 資產庫 | 修正在「資料庫」中檢視資產的詳細資訊時，造成Unicode內容無法呈現的錯誤。 |
 | 增強功能 | 馬賽克 | 新增可設定在Designer中設定或透過SDK執行個體化的Mosaic應用程式，以按一下內容卡上的任何位置以開啟模型的功能。 Mosaic目前有3種動畫類型：翻轉、淡化及按一下。 |
 | 增強功能 | 評論 | 在「審核」中新增功能，以區隔「撰寫審核」和「顯示我的審核」，讓客戶在自訂應用程式時有更大的彈性。 |

@@ -6,11 +6,14 @@ title: Siestroms自訂字串
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 12%
 
 ---
 
 
-# Siestroms自訂字串{#sidenotes-custom-strings}
+# Siestrops Custom Strings{#sidenotes-custom-strings}
 
 自訂字串會透過插入Sides建構函式的物件套用，並覆寫透過應用程式使用的預設字串。 這些可用來自訂語言的任何部分，以符合您的樣式或語言規格。 字串會自動與預設值合併。
 

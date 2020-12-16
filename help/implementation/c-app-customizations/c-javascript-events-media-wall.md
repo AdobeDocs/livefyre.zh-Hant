@@ -7,6 +7,9 @@ title: 媒體塗鴉牆的Javascript事件
 uuid: 8afc0529-4640-476a-b207-91b2c70101f0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Livefyre提供JavaScript事件，可追蹤Livefyre應用程式中的使用者活動。 例如，當使用者按贊或分享內容至Twitter或Facebook，或是張貼新內容時，您可能想要更新頁面。
 
-以下是如何接收事件的範例。 以您 `console.log` 的程式碼取代，將事件對應並傳送至您的分析整合（動態標籤管理、Adobe Analytics JS、Google Analytics等）:
+以下是如何接收事件的範例。 將`console.log`取代為您的程式碼，以映射事件並傳送至您的分析整合（動態標籤管理、Adobe Analytics JS、Google Analytics等）:
 
 ```
 document.body.addEventListener('insights', function (data) { 
@@ -38,7 +41,7 @@ document.body.addEventListener('insights', function (data) {
 | `TwitterReplyClick` | 當使用者從「媒體塗鴉牆」按一下「Twitter回覆」按鈕時。 |
 | `TwitterRetweetClick` | 當使用者從「媒體塗鴉牆」按一下「Twitter回推」按鈕時。 |
 | `TwitterLikeClick` | 當使用者按一下「媒體塗鴉牆」中的「Twitter贊」/「我的最愛」按鈕時。 |
-| `ModalView` | 當使用者按一下以在較大的模型視窗中檢視「媒體牆」內容時。 |
+| `ModalView` | 當使用者按一下以在較大的模式視窗中檢視「媒體牆」內容時。 |
 | `Like` | 當使用者按一下「媒體塗鴉牆」上的「贊」按鈕時。 |
 | `ShareButtonClick` | 只要使用者按一下「媒體牆」卡上的分享按鈕， |
 | `ShareURL` | 從「媒體塗鴉牆」中選取／複製「共用至URL」文字區域時。 |

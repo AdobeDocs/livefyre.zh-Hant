@@ -6,11 +6,14 @@ title: 2017 年 9 月 7 日
 uuid: a736cc77-8989-4066-b19c-8cac7bf6d7f9
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 6%
 
 ---
 
 
-# September 7, 2017{#september}
+# 2017 年 9 月 7 日{#september}
 
 2017年9月7日發行說明。
 
@@ -25,7 +28,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 錯誤 | 串流 | 已修正允許儲存Instagram串流規則的錯誤，該規則包含「這些作者中任何人未張貼」欄位中的項目。 |
 | 錯誤 | Studio | 已修正錯誤，可依「大部分參與者」和「大部分項目」進行排序。 |
 | 錯誤 | Studio | 修正造成應用程式時間戳記在表格中顯示錯誤建立日期的錯誤。 |
-| 錯誤 | Studio | 已修正App manager中「最近」和「最舊」篩選器的排序順序錯誤。 |
+| 錯誤 | Studio | 已修正App Manager中「最近」和「最舊」篩選器的排序順序錯誤。 |
 | 錯誤 | Studio | 已修正在網路描述檔切換器中隱藏其他連線網路的錯誤。 |
 
 ## UAT發行

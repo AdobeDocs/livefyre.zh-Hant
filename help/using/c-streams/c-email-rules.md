@@ -7,6 +7,9 @@ title: 電子郵件規則
 uuid: 3cd27d28-b7c0-4cbc-bae3-e2ef7beacba9
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 傳送後，電子郵件的欄位將用來填入內容的下列項目：
 
-* **[!UICONTROL From:]** 當使用者帳戶存在時，用作內容的作者。 如果傳送者沒有帳戶，則作者會列為匿名者。
+* **[!UICONTROL From:]** 當使用者帳戶存在時，用作內容的作者。如果傳送者沒有帳戶，則作者會列為匿名者。
 * **[!UICONTROL Subject:]** 用於內容的標題。
 * **[!UICONTROL Body:]** 用於在Studio中填入內容詳細資訊。
-* **[!UICONTROL Attachments:]** 媒體檔案必須附加，否則電子郵件將被忽略。 支援的檔案類型包括3GP、ASF、AVI、DV、GIF、JPG、MOV、MP4、MPEG、MPG、PNG、QT和WMV。 所有附件的總大小必須低於25MB的檔案大小。
+* **[!UICONTROL Attachments:]** 媒體檔案必須附加，否則電子郵件將被忽略。支援的檔案類型包括3GP、ASF、AVI、DV、GIF、JPG、MOV、MP4、MPEG、MPG、PNG、QT和WMV。 所有附件的總大小必須低於25MB的檔案大小。
 
-如需所有串流規則的其他串流規則選項，請參 [閱所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+如需所有串流規則的其他串流規則選項，請參閱[所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

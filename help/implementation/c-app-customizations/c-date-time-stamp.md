@@ -7,6 +7,9 @@ title: 自訂日期和時間戳記
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +26,10 @@ Livefyre應用程式提供選項參數datetimeFormat，以指定日期格式，�
 
 ## 術語 {#section_xsk_jn4_xz}
 
-* **絕對時間戳記** ，定義為精確和特定時間（例如2012年1月1日12:00pm）
-* **相對時間戳記** (Relative Timestamps)的定義為一般且較不精確的時間（例如25秒前、14分鐘前、1天前、1年前等）
+* **絕對** 時間戳記定義為精確和特定時間（例如2012年1月1日12:00pm）
+* **相對** 時間戳記定義為一般且不精確的時間（例如25秒前、14分鐘前、1天前、1年前等）
 
-## 格式 {#section_ynx_gn4_xz}
+## 格式{#section_ynx_gn4_xz}
 
 當未提供引數時，datetimeFormat參數具有以下預設行為：
 
@@ -83,9 +86,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## 符號指定 {#section_inq_2n4_xz}
+## 符號標識{#section_inq_2n4_xz}
 
-按照JDK、ICU和CLDR中定義的模式規範進行日期時間格式設定函式，對JS中的典型用法進行小幅修改。 如需詳細資訊，請參閱 [Google Closure Library檔案](https://developers.google.com/closure/library/docs/overview)。
+按照JDK、ICU和CLDR中定義的模式規範進行日期時間格式設定函式，對JS中的典型用法進行小幅修改。 如需詳細資訊，請參閱[Google Closure Library Documentation](https://developers.google.com/closure/library/docs/overview)。
 
 ```
   Symbol Meaning Presentation        Example 
@@ -125,8 +128,8 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 模式字母的計數決定格式。
 
-* **** 文字：4或更多，請使用完整表格。 少於4，請使用簡短或縮寫的表單（如果存在）。 (例如："EEE"產生"Monady","EEE"產生"Mon")。
-* **** 編號：最小位數。 較短的數字會以零填充為此數量(例如：如果"m"產生"6","mm"產生"06"。) 年是專門處理的；亦即，如果「y」的計數為2，則「年」將截斷為2位數。 (例如：如果"yyyy"產生"1997","yy"會產生"97")。與其他欄位不同，小數秒在右邊填充為零。
-* **** 文字與編號：3或以上，使用文字。 少於3，請使用數字。 (例如："M"產生"1", "MM"產生"01", "MMM"產生"Jan", "MMM"產生"Jan"。)
+* **文字：** 4或更多，請使用完整表格。少於4，請使用簡短或縮寫的表單（如果存在）。 (例如：&quot;EEE&quot;產生&quot;Monady&quot;,&quot;EEE&quot;產生&quot;Mon&quot;)。
+* **數字：** 最小位數。較短的數字會以零填充為此數量(例如：如果&quot;m&quot;產生&quot;6&quot;,&quot;mm&quot;產生&quot;06&quot;。) 年是專門處理的；亦即，如果「y」的計數為2，則「年」將截斷為2位數。 (例如：如果&quot;yyyy&quot;產生&quot;1997&quot;,&quot;yy&quot;會產生&quot;97&quot;)。 與其他欄位不同，小數秒在右邊填充為零。
+* **文字與數字：** 3或以上，使用文字。少於3，請使用數字。 (例如：&quot;M&quot;產生&quot;1&quot;, &quot;MM&quot;產生&quot;01&quot;, &quot;MMM&quot;產生&quot;Jan&quot;, &quot;MMM&quot;產生&quot;Jan&quot;。)
 
-圖樣中不在「a」範圍內的任 [何字元。z』] and [『A』..」Z將] 視為引號文字。 例如，字元如「:」、「.」、「『#』和『@」，即使未以單引號括住，也會出現在產生的時間文字中。
+模式中不在[『a』...」範圍內的任何字元z』]和[『A』..」Z』]將被視為引號文字。 例如，字元如「:」、「.」、「『#』和『@」，即使未以單引號括住，也會出現在產生的時間文字中。

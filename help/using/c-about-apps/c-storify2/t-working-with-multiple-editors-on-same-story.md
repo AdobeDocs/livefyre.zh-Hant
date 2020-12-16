@@ -7,11 +7,14 @@ title: 在同一個故事上與多位編輯合作
 uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
 
-# 在同一個故事上與多位編輯合作{#working-with-multiple-editors-on-the-same-story}
+# 在相同內文上與多位編輯合作{#working-with-multiple-editors-on-the-same-story}
 
 Storify可同時管理多個編輯器，防止意外覆寫或遺失編輯。
 

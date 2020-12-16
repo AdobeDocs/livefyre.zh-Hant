@@ -24,9 +24,9 @@ ht-degree: 0%
 
 請注意，在未來幾週內，將會移除對新Facebook和已儲存內容的存取權。
 
-* 2020年6月22日： 在Livefyre中搜尋新Facebook內容的功能將會結束。
-* 2020年7月7日： 存取Livefyre資產庫和應用程式內容中儲存的內容將會結束。
-* 2020年8月10日： 將移除發佈在Livefyre視覺化網站（例如媒體塗鴉牆、功能卡、拼貼、轉盤等）上的Facebook內容。
+* 2020年6月22日：在Livefyre中搜尋新Facebook內容的功能將會結束。
+* 2020年7月7日：存取Livefyre資產庫和應用程式內容中儲存的內容將會結束。
+* 2020年8月10日：將移除發佈在Livefyre視覺化網站（例如媒體塗鴉牆、功能卡、拼貼、轉盤等）上的Facebook內容。
 
 這項變更不會影響Instagram內容，這些內容仍可在Livefyre中存取。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 2019 年 6 月 7 日
 
-我們很高興地回報，Instagram串流和搜尋已在Livefyre中恢復。 您可以使用Social Search來繼續使用Instagram內容，並將Instagram內容串流至資料夾和應用程式。 若要重新開始串流內容，您必須執行下列步驟：
+我們很高興地回報，Instagram串流和搜尋已在Livefyre中恢復。 您可以繼續使用Social Search搜尋Instagram內容，並將Instagram內容串流至資料夾和應用程式。 若要重新開始串流內容，您必須執行下列步驟：
 * 登入Livefyre
 * 造訪設定，重新授權並重新整理您與Instagram商業帳戶連結的存取Token
 * 等待一至兩小時，讓內容再次開始串流
@@ -81,13 +81,13 @@ Facebook串流尚未復原，但我們仍在積極與Facebook合作，以恢復�
 
 * **自動監控商業帳戶搜尋的使用權要求回應**
 
-   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動、剪下和貼上功能，讓客戶能夠繼續追蹤使用權限核准，並維護稽核記錄。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
+   Facebook也移除了Adobe等合作夥伴代表其客戶從Instagram傳送版權要求訊息的能力，讓Livefyre無法完全自動化版權管理。 5月，我們提供手動剪下和貼上功能，讓客戶能夠繼續追蹤使用權審批並維護記錄以供稽核。 目前，僅針對商業帳戶搜尋，可自動監控權限要求的回應，並更新Livefyre中的活動記錄。
 
 ## 2018 年 6 月 22 日 {#section_k1t_vmv_g2b}
 
 我們很高興宣佈，Instagram中搜尋視訊內容的功能已恢復。
 
-## June 14, 2018 {#section_kk5_qpz_d2b}
+## 2018 年 6 月 14 日 {#section_kk5_qpz_d2b}
 
 請閱讀與Instagram API取代相關功能狀態的最新更新：
 
@@ -99,13 +99,13 @@ Facebook串流尚未復原，但我們仍在積極與Facebook合作，以恢復�
 
    5月24日，我們針對Instagram內容的使用權要求工作流程提供手動解決方案。 我們會繼續致力於還原自動監控您權限要求回應並更新活動記錄的功能。 我們預計這項功能將於今年夏天晚些時候推出，並會在推出時立即通知您。
 
-## May 24, 2018 {#section_xbk_wvd_ydb}
+## 2018 年 5 月 24 日 {#section_xbk_wvd_ydb}
 
 Instagram內容的使用權要求工作流程的兩個更新中，現在已推出其中一項。 從「應用程式內容」和「資料庫」，您現在可以複製Livefyre Studio的請求權限訊息，並貼到您正在尋求核准使用的Instagram貼文。 在ModQ中執行此動作的能力將在未來版本中提供。 到2018年6月14日，我們將恢復自動監控您權限要求回應並更新活動記錄的功能。
 
-請閱讀2018 [年5月24日的發行說明](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) ，以取得更多使用此功能的資訊和指示。
+請閱讀[2018年5月24日的發行說明](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn)，以取得有關如何使用此功能的詳細資訊和指示。
 
-## May 17, 2018 {#section_hwb_1qz_wdb}
+## 2018 年 5 月 17 日 {#section_hwb_1qz_wdb}
 
 我們很高興通知您，Livefyre中的下列Instagram功能可再次使用：
 
@@ -138,12 +138,12 @@ Instagram內容的使用權要求工作流程的兩個更新中，現在已推�
 
 * **使用者搜尋與串流工作流程- 2018年6月14日**
 
-   雖然您仍可以依主題標籤和關鍵字進行搜尋，但搜尋個人Instagram帳戶的能力已經被淘汰。 Livefyre也提供另一種方式，可讓您搜尋並串流來自商業帳戶的內容。 如果您使用Livefyre來搜尋並串流您組織的Instagram內容，請務必升級至 [商業帳戶](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account) ，以運用這項功能。
+   雖然您仍可以依主題標籤和關鍵字進行搜尋，但搜尋個人Instagram帳戶的能力已經被淘汰。 Livefyre也提供另一種方式，可讓您搜尋並串流來自商業帳戶的內容。 如果您使用Livefyre來搜尋並串流您組織的Instagram內容，請務必[upgrade](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account)至商業帳戶，以運用此功能。
 
 **我們將繼續評估解決方案，以瞭解我們無法在短期內取代的下列功能：**
 
-* **依URL搜尋**。 無法再透過URL搜尋特定媒體。
-* **視訊內容**。 視訊內容將不再透過Instagram搜尋呈現。
+* **依URL搜尋**。無法再透過URL搜尋特定媒體。
+* **視訊內容**。視訊內容將不再透過Instagram搜尋呈現。
 
 若要進一步瞭解Facebook的平台變更，請前往以下網址：
 

@@ -7,6 +7,9 @@ title: 2018 年 11 月 1 日
 uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -29,11 +32,12 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
    * 以。MP4、.MOV和AVI格式標籤視訊
    * 將視訊標籤為高達60秒或50MB
    * 智慧標籤有兩類套用至視訊：功能（動物、物件、地點等）和動作（跑步、走路、唱歌等）
-   For more information see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
+
+   如需詳細資訊，請參閱[智慧型標籤](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
 * Instagram速率限制
 
-   Instagram已將任何使用Instagram API（包括Livefyre）的公司，每小時每個Token可發出5,000個請求，變更為每小時每Token發出200個請求。 這稱為速率 *限制*。 如需詳細資訊，請參 [閱Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
+   Instagram已將任何使用Instagram API（包括Livefyre）的公司，每小時每個Token可發出5,000個請求，變更為每小時每Token發出200個請求。 這稱為&#x200B;*速率限制*。 如需詳細資訊，請參閱[Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
 
 * 資料庫中的音訊檔案
 
@@ -47,9 +51,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## 問題 {#section_ehw_ndt_wcb}
 
-本版本的生產版本未解決任何新問題。 請參 [閱上節](#c_rn/section_syx_mdt_wcb)。
+本版本的生產版本未解決任何新問題。 請參閱上述[節。](#c_rn/section_syx_mdt_wcb)
 
-## UAT發行 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
 下表中的問題已在此版本的UAT版本中解決。
 

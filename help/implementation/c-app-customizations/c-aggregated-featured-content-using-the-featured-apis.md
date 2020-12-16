@@ -7,15 +7,18 @@ title: 使用精選API匯總精選內容
 uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 1%
 
 ---
 
 
-# 使用精選API匯總精選內容{#aggregated-featured-content-using-the-featured-apis}
+# 使用「精選API」匯總「精選內容」{#aggregated-featured-content-using-the-featured-apis}
 
 Livefyre提供4個精選API，可讓您擷取輸入網路、網站或系列的50個最新精選內容項目，或輸入系列頂端的兩個精選內容。
 
-## 功能（網路） {#section_cgm_1nw_xz}
+## 功能（網路）{#section_cgm_1nw_xz}
 
 擷取輸入網路的50個最新精選內容（及其作者）。 （使用分頁來傳回所有內容，而非僅傳回最近50個內容）。
 
@@ -151,7 +154,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## 精選（網站） {#section_lq5_ymw_xz}
+## 精選（網站）{#section_lq5_ymw_xz}
 
 傳回輸入網站的50個最新精選內容（及其作者）。 （使用分頁來傳回所有內容，而非僅傳回最近50個內容）。
 
@@ -253,7 +256,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
 }
 ```
 
-## 精選（系列） {#section_kgc_xmw_xz}
+## 精選（系列）{#section_kgc_xmw_xz}
 
 傳回輸入「系列」的50個最新精選內容（及其作者）。 （使用分頁來傳回所有內容，而非僅傳回最近50個內容）。
 
@@ -355,7 +358,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## 精選(Head) {#section_n4b_lmw_xz}
+## 功能(Head){#section_n4b_lmw_xz}
 
 傳回輸入Collection中最近兩個「精選」內容片段。
 

@@ -6,15 +6,18 @@ title: 初始化Livefyre身分
 uuid: 9365d827-2734-4a84-bfe7-9be573b2b03e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
 
-# 初始化Livefyre身分{#initialize-livefyre-identity}
+# 初始化Livefyre Identity{#initialize-livefyre-identity}
 
 Livefyre.js Auth套件可確保頁面上的所有社交元件都能發現單一驗證整合。
 
-Livefyre提供可 `lfep-auth-delegate` 為您建立適當驗證委派的套件。 必須提供AuthDelegate物件，以瞭解如何執行驗證動作，例如登入和登出。
+Livefyre提供`lfep-auth-delegate`套件，可為您建立適當的驗證委派。 必須提供AuthDelegate物件，以瞭解如何執行驗證動作，例如登入和登出。
 
 1. 將Livefyre.js新增至您的網頁。
 1. 若要告訴Auth將這些動作委派至Livefyre Identity，請新增下列項目：

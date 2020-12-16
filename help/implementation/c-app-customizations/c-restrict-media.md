@@ -7,11 +7,14 @@ title: 限制媒體
 uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
 
-# 限制媒體{#restrict-media}
+# 限制介質{#restrict-media}
 
 限制進入應用程式串流的媒體類型。
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 >[!NOTE]
 >
->Livefyre與Embedly合作，以整合媒體。 如需詳細資訊，請參閱「內容整合&gt;內嵌整合」。 如需連結擴充或來源的相關問題，請連絡您的技術客戶經理。
+>Livefyre與Embedly合作，以整合媒體。 如需詳細資訊，請參閱「內容整合>內嵌整合」。 如需連結擴充或來源的相關問題，請連絡您的技術客戶經理。
 
 此範例會封鎖YouTube和Vimeo內嵌於您的留言串流：
 

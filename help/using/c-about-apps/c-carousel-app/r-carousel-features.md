@@ -7,11 +7,14 @@ title: 轉盤功能
 uuid: c5c95675-d7ca-4677-b293-16de5ccf0022
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
 
-# 轉盤功能 {#carousel-features}
+# 轉盤功能{#carousel-features}
 
 轉盤應用程式為您的網站提供這些功能。
 

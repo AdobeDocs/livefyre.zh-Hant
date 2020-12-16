@@ -13,7 +13,7 @@ ht-degree: 5%
 ---
 
 
-# February 9, 2017{#february}
+# 2017 年 2 月 9 日{#february}
 
 2017年2月9日發行說明。
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 SocialSync for Twitter多年來一直是我們核心功能的一部分。 但是，隨著我們產品的發展與成長，SocialSync for Twitter已成為我們一小部分客戶群目前使用的低價值功能。 為改善Livefyre對客戶的整體體驗，並將開發資源集中在最有價值的領域，我們將於2月24日中止SocialSync for Twitter功能。 SocialSync for Facebook不會受此更新影響。 如果您對此更新有任何疑問或顧慮，請聯絡您的Livefyre CSM。
 
-## 生產版本 {#section_r24_1m2_wy}
+## 生產版本{#section_r24_1m2_wy}
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ SocialSync for Twitter多年來一直是我們核心功能的一部分。 但是
 | 增強功能 | 串流 | 新增允許內容類別（透過串流規則）允許列出和略過協調的新功能。 |
 | 錯誤 | 串流 | 修正「預先協調」和「媒體預先協調」設定傳遞至新建立之串流規則的錯誤。 |
 
-## UAT發行 {#section_dyx_yl2_wy}
+## UAT版本{#section_dyx_yl2_wy}
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |

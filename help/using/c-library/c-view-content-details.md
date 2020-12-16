@@ -6,15 +6,18 @@ title: 檢視內容詳細資訊
 uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
 
-# 檢視內容詳細資訊{#view-content-details}
+# 檢視內容詳細資料{#view-content-details}
 
 在發佈內容之前，請檢視內容詳細資訊以收集內容的詳細資訊。
 
-將滑鼠指標暫留在傳回的內容上，然後選 **[!UICONTROL View Details]** 取以檢視資產的詳細資訊。
+將滑鼠指標暫留在傳回的內容上，然後選取&#x200B;**[!UICONTROL View Details]**&#x200B;以檢視資產的詳細資訊。
 
 **[!UICONTROL Tweets]** 顯示：
 

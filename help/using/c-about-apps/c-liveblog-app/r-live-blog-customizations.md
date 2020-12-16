@@ -7,6 +7,9 @@ title: 即時部落格自訂
 uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Comments appear in cards]**
 
-   如果啟用，貼文會以周圍方塊顯示，並套用「主題」選取範圍所指 **定的** 背景顏色。
+   如果啟用，貼文會以周圍方塊顯示，並套用&#x200B;**主題**&#x200B;選取範圍所指示的背景顏色。
 
 * **[!UICONTROL Nest levels for replies]**
 
@@ -41,7 +44,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL User tags]**
 
-   啟用後，使用者標籤會與張貼的內容一起顯示。
+   如果啟用，使用者標籤會與張貼的內容一起顯示。
 
 * **[!UICONTROL User avatars]**
 
@@ -57,11 +60,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Users may share comments]**
 
-   啟用後，使用者可以將張貼的內容分享到Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定&gt;整合設定&gt;社交共用」。
+   啟用後，使用者可以將張貼的內容分享到Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
 
 您可以使用下列項目來自訂即時部落格：
 
-* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。 如需中所有應用程式的標準和選項的詳 **[!UICONTROL Style]** 細資訊， **[!UICONTROL Config]** 請參閱自訂應用程式 **[!UICONTROL App Designer]**。
+* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式。
 
 * 整合工具。 如需如何使用整合工具自訂應用程式的詳細資訊，請參閱即時部落格。
 

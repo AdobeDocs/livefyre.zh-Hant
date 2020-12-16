@@ -7,6 +7,9 @@ title: 馬賽克
 uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 馬賽克以統一格點顯示方式顯示最新的Livefyre和Stream內容。 若要建立更順暢的視覺體驗，內容資訊只會顯示在滑鼠上。 新項目可用時，舊項目會被移除並放回佇列中。
 
-## 我可以在Mosaic中發佈何種內容？ {#section_b5h_qlj_yy}
+## 我可以在Mosaic中發佈何種內容？{#section_b5h_qlj_yy}
 
-Supported content containing:
+支援的內容包含：
 
 * 相片
 * 影片
@@ -44,27 +47,27 @@ Supported content containing:
 
 您不能只將包含文字的內容發佈至Mosaic，除非它是像片或視訊貼文的一部分。
 
-## 網站訪客如何看到Mosaic中的內容？ {#section_w5c_plj_yy}
+## 網站訪客如何看到Mosaic中的內容？{#section_w5c_plj_yy}
 
 網站訪客會從Studio串流或Social搜尋中，看到從Studio填入Mosaic的內容。 如果新內容在網站訪客在頁面上發佈至應用程式，新內容會立即顯示，並即時將舊內容下推，而使用者不需重新整理其頁面。
 
-## 當網站訪客點按Mosaic中的項目時，會發生什麼情況？ {#section_cvz_nlj_yy}
+## 當網站訪客點按Mosaic中的項目時，會發生什麼情況？{#section_cvz_nlj_yy}
 
 * 在案頭上，您可以將滑鼠指標暫留在資訊卡上，以翻轉資訊卡並顯示展開圖示。 按一下展開圖示可檢視較大的影像、觀看影片，或在內容中檢視多個媒體項目。
 * 在行動裝置上，您可以按一下卡片來檢視較大的影像、觀看影片，或在內容中檢視多個媒體項目。
 
-## 網站訪客可以分享Mosaic的內容嗎？ {#section_zzz_mlj_yy}
+## 網站訪客可以分享Mosaic的內容嗎？{#section_zzz_mlj_yy}
 
 是。網站訪客可以共用Mosaic上的所有內容類型：
 
 * 在案頭上，將滑鼠指標暫留在資訊卡上，然後按一下共用圖示。
 * 在行動裝置上，按一下資訊卡以開啟資訊卡，然後按一下共用圖示。
 
-## 這些片段在卡片中旋轉的頻率為何？ {#section_hpx_llj_yy}
+## 這些片段在卡片中旋轉的頻率為何？{#section_hpx_llj_yy}
 
 每10秒新增一個內容。
 
-## 如何將新內容新增至Mosaic? {#section_f4w_klj_yy}
+## 如何將新內容新增至Mosaic?{#section_f4w_klj_yy}
 
 透過下列方式將內容新增至Mosaic:
 
@@ -72,27 +75,27 @@ Supported content containing:
 * 設定要自動發佈的串流。
 * 使用上傳按鈕（如果已啟用）。
 
-## 僅文字內容在應用程式中如何顯示？ {#section_h31_klj_yy}
+## 僅文字內容在應用程式中如何顯示？{#section_h31_klj_yy}
 
 Mosaic不會顯示純文字內容。 Mosaic僅會顯示影像和視訊。
 
-## 我為什麼有時會在馬賽克中看到灰色方塊？ {#section_i5c_jlj_yy}
+## 我為什麼有時會在馬賽克中看到灰色方塊？{#section_i5c_jlj_yy}
 
 Mosaic最適合搭配不斷有新內容的系列。 如果您的應用程式內容少於25個，您會看到灰色方塊來補足其他位置。 將更多內容填入馬賽克(Mosaic)，以防止顯示灰色方塊。 計畫在應用程式中放入至少32個內容，讓內容如設計般顯示。
 
-## 為什麼我的某些內容即使顯示在Studio中，也不會顯示在我的網站上？ {#section_upr_hlj_yy}
+## 為什麼我的某些內容即使顯示在Studio中，也不會顯示在我的網站上？{#section_upr_hlj_yy}
 
 馬賽克會以完美的格線顯示內容。 如果您有25個內容片段，則容器寬度必須符合5個內容片段，才能顯示所有25個內容：五塊，五塊。
 
 如果您的容器寬度只適合四個方塊來製作完美的格線，但您有25個內容，Mosaic會將額外的一個內容分類為異常值，而不會在應用程式中顯示。 一個異常內容片段不會旋轉，因為技術上說，它位於應用程式中，但不會顯示。 如果容器寬度符合7，則只會顯示21個，因為4個是離群點，不會形成完美的格線。
 
-有時候，內容不會顯示，因為您已開啟 **[!UICONTROL Require rights]**。 如果您開啟此功能，您必須授與應用程式中所有內容的權限。 如果某段內容的權限狀態未「授與」，則不會顯示在應用程式中。
+有時，由於您開啟了&#x200B;**[!UICONTROL Require rights]**，所以無法顯示內容。 如果您開啟此功能，您必須授與應用程式中所有內容的權限。 如果某段內容的權限狀態未「授與」，則不會顯示在應用程式中。
 
-## 使用Studio建立馬賽克 {#section_dwb_glj_yy}
+## 使用Studio {#section_dwb_glj_yy}建立馬賽克
 
-您可以以相同的方式在Livefyre studio中建立所有應用程式。 如需如何使用標準程式在Studio中建立Mosaic應用程式的詳細資訊，請參閱建立應用程式。
+您可以以相同的方式在Livefyre Studio中建立所有應用程式。 如需如何使用標準程式在Studio中建立Mosaic應用程式的詳細資訊，請參閱建立應用程式。
 
-## 將馬賽克語系化 {#section_lnv_clj_yy}
+## 將Mosaic {#section_lnv_clj_yy}當地語系化
 
 Mosaic已提供本地化。 您可以:
 

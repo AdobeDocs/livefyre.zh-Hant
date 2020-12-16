@@ -7,6 +7,9 @@ title: 內容行為功能
 uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用程式內容的方式。
 
-## 即時串流 {#section_emd_syl_d1b}
+## 串流即時{#section_emd_syl_d1b}
 
 從Studio或內容串流手動發佈內容時，Livefyre應用程式會即時串流內容。 這表示新發佈的內容會顯示在應用程式中，而使用者不需要重新整理應用程式頁面。
 
@@ -31,7 +34,7 @@ Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趨勢分析](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 
-## 編頁 {#section_mb5_lzl_d1b}
+## 編頁{#section_mb5_lzl_d1b}
 
 選擇要在應用程式中顯示的內容片段數。 對於某些應用程式，您可以選擇是使用「顯示更多」按鈕，還是允許連續捲動內容。
 
@@ -43,7 +46,7 @@ Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 
-## 要載入的項目 {#section_q5w_mzl_d1b}
+## 要載入的項目{#section_q5w_mzl_d1b}
 
 能夠在檢視應用程式時，將初始項目設定為要載入的項目數。
 
@@ -54,7 +57,7 @@ Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用
 * [媒體牆](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [馬賽克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 
-## 佇列注釋 {#section_p21_bbm_d1b}
+## 隊列注釋{#section_p21_bbm_d1b}
 
 停止即時串流，並在串流頂端排列內容，以控制高速對話。
 
@@ -67,7 +70,7 @@ Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用
 * [聊天室](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 
-## 限制內容 {#section_d5c_2bm_d1b}
+## 調節內容{#section_d5c_2bm_d1b}
 
 使用智慧規則來控制高速對話，以節制內容。
 

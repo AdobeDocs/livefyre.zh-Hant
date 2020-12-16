@@ -7,6 +7,9 @@ title: RSS規則
 uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +40,4 @@ Livefyre會根據下列RSS規格剖析RSS饋送：
 
 Livefyre不會閱讀不符合這些規格的動態消息，而且其內容不會提取到您的串流中。 使用WC3饋送驗證服務來檢查RSS饋送的語法，並確定其有效。
 
-如需所有串流規則的其他串流規則選項，請參 [閱所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+如需所有串流規則的其他串流規則選項，請參閱[所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

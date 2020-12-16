@@ -7,11 +7,14 @@ title: 變更系列
 uuid: 81c8a554-375f-4659-9e25-5b3618824633
 translation-type: tm+mt
 source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 
-# 變更系列 {#change-collection}
+# 變更系列{#change-collection}
 
 允許使用者從單一頁面版面和URL點進「系列」。
 
@@ -19,7 +22,7 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 例如，按一下圖庫中的影片或像片會載入該選取範圍專屬的「系列」，而頁面的URL則不會變更。
 
-若要 [從單一頁面載入三個系列中的其中一個](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
+若要從單一頁面[載入三個系列中的其中一個](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
 ```
 <html> 

@@ -4,20 +4,29 @@ seo-description: 自訂Livefyre評論的文字字串。
 seo-title: 檢閱文字字串
 solution: Experience Manager
 title: 檢閱文字字串
-uuid: 86251e49-bc73-4ec-9f9b-b4b0a5b42099
+uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 5%
 
 ---
 
 
-# 檢閱文字字串{#review-text-strings}
+# 查看文本字串{#review-text-strings}
 
 自訂Livefyre評論的文字字串。
 
 此頁面列出並說明可在「檢閱」應用程式中自訂的字串。 此處列出的字串除了Livefyre核心應用程式的預設字串外，也會覆寫，列在「字串自訂」中。 其中列出重複項目時，這些表格中列出的字串是「檢閱」應用程式的預設值。
 
-實作檢閱／分級介面串流資訊作者／內容資訊使用者動作貼文函式錯誤
+實作
+審查／評分介面
+串流資訊
+作者／內容資訊
+使用者動作
+貼文功能
+錯誤
 
 ## 實施 {#section-vsy-1k4-xz}
 
@@ -36,7 +45,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 審查／評分介面 {#section_iyv_zj4_xz}
+## 審查／評分介面{#section_iyv_zj4_xz}
 
 「檢閱」和「評分」使用者介面的可用字串。
 
@@ -48,7 +57,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | showReviewBtn | [顯示審核](https://d.pr/i/onxU) |
 |  | follow | 我感興趣 |
 |  | shareText | 我剛寫了個評論。 看看！ |
-| 評分工具提示 | ratingValues | 陣列. 預設值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`;注 <br>意：必須複製陣列中的值，才能將每個星形的左半部和右半部都指定為相同名稱。 |
+| 評分工具提示 | ratingValues | 陣列. 預設值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`;<br>注意：必須複製陣列中的值，才能將每顆星的左半部和右半部都指定相同的名稱。 |
 | 分級子部件 | ratingSubpartPlaceholders | 陣列. 預設值 = `[]` |
 |  | ratingSubpartTitles | 陣列. 預設值 = `[]` |
 |  | reviewStreamTitle | 預設為空白。 評論摘要部分的標題。 |
@@ -59,13 +68,13 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | outOf | / |
 |  | ratingType | 星星 |
 
-## 串流資訊 {#section_wmv_yj4_xz}
+## 串流資訊{#section_wmv_yj4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
 | 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 排序 |  sortBy | 預設為空白。 |
+| 排序 | sortBy | 預設為空白。 |
 |  | sortHighestAdied | [最高評分](https://d.pr/i/huTd) |
 |  | sortLeomthAding | [最低評分](https://d.pr/i/huTd) |
 |  | sortMostHappiled | [最有用](https://d.pr/i/huTd) |
@@ -79,7 +88,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 注釋通告程式計數 | 注釋通告程式 | 新評論 |
 |  | commentNotifierPlural | 新評論 |
 
-## 作者／內容資訊 {#section_osx_xj4_xz}
+## 作者／內容資訊{#section_osx_xj4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -88,7 +97,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 線程插頭 | reviewsContentNotFoundMsg | [此審閱不再顯示](https://d.pr/i/svXs) |
 |  | backToComments | 返回評論 |
 
-## 使用者動作 {#section_tlx_wj4_xz}
+## 用戶操作{#section_tlx_wj4_xz}
 
 用戶操作可用的字串：標幟、共用和標示現有內容有用。
 
@@ -111,7 +120,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 提及模式 | 提及次數DefaultText | 我在Livefyre評論中提到過你！ |
 | 共用模式 | shareTitle | 分享評論 |
 
-## 貼文功能 {#section_yl1_wj4_xz}
+## 貼文函式{#section_yl1_wj4_xz}
 
 發佈審核的使用者可使用的字串。
 

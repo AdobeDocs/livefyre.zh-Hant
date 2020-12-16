@@ -7,11 +7,14 @@ title: Sides Features
 uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
-# Sides Features{#sidenotes-features}
+# Siestr Features{#sidenotes-features}
 
 「Sidesors應用程式」為您的網站提供這些功能。
 

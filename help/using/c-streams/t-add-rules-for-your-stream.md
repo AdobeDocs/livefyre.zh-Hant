@@ -7,6 +7,9 @@ title: 新增串流規則
 uuid: 7a3fb400-95e4-49f9-ae39-90654df14665
 translation-type: tm+mt
 source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 1. 建立或開啟串流。
 1. 新增規則。
 1. 選擇規則類型。
-1. 填寫資訊。 您填寫的資訊類型取決於擷取內容的網站或方法。 如需串流規則選項的詳細資訊，請參 [閱所有串流規則的串流](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)規則選項以及每個網路的檔案。
+1. 填寫資訊。 您填寫的資訊類型取決於擷取內容的網站或方法。 有關流規則選項的詳細資訊，請參閱[所有流規則的流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)以及每個網路的文檔。
 
    * [Facebook 頁面](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
    * [電子郵件](../c-streams/c-email-rules.md#c_email_rules)

@@ -7,6 +7,9 @@ title: 使用串流將社交內容新增至您的動態
 uuid: 4999c880-a896-4ad2-bf8f-3fd9736a64d6
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 在「網路設定」中啟用「SAFE規則」時，串流內容將會透過「SAFE」篩選。 「串流」標籤中會防止顯示不安全的內容。
 
-若要編輯或關閉串流，請前往Livefyre Engagement cloud的「串流」區段。 如需如何編輯、刪除和關閉串流的詳細資訊，請參閱管理串流。
+若要編輯或關閉串流，請前往Livefyre Engagement Cloud的「串流」區段。 如需如何編輯、刪除和關閉串流的詳細資訊，請參閱管理串流。
 
 使用內文中的串流可：
 

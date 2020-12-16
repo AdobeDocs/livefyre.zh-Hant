@@ -7,17 +7,20 @@ title: 2018 年 8 月 23 日
 uuid: 668058d8-cd31-416e-afc3-eaf158109e3e
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 8%
 
 ---
 
 
-# August 23, 2018{#august}
+# 2018 年 8 月 23 日{#august}
 
 2018年8月23日發行說明。
 
 ## 新功能 {#section_syx_mdt_wcb}
 
-* 已新增智慧型標籤功能至透過FileStack（「所有資產」中的上傳功能）上傳至Livefyre Studio Library的內容。
+* 已新增智慧型標籤功能至透過FileStack（所有資產中的上傳功能）上傳至Livefyre Studio Library的內容。
 * 已新增「安全工作」(SFW)和「不安全工作」(NSFW)切換至「串流」。
 
 ## 問題 {#section_ehw_ndt_wcb}

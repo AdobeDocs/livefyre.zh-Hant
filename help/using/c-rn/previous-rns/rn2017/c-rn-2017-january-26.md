@@ -13,11 +13,11 @@ ht-degree: 8%
 ---
 
 
-# January 26, 2017{#january}
+# 2017 年 1 月 26 日{#january}
 
 2017年1月26日發行說明。
 
-## 生產版本 {#section_r24_1m2_wy}
+## 生產版本{#section_r24_1m2_wy}
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 8%
 | 錯誤 | Studio | 增強的資料庫資產搜尋功能，以支援日文字元。 |
 
 
-## UAT發行 {#section_dyx_yl2_wy}
+## UAT版本{#section_dyx_yl2_wy}
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |

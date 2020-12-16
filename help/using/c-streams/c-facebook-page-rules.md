@@ -7,6 +7,9 @@ title: Facebook頁面規則
 uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
@@ -21,12 +24,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Facebook Page]**
 
-   * 輸入頁 **[!UICONTROL Name]** 面的。 僅輸入URL的尾隨文字。 **** 例如：若要從新增 `https://facebook.com/KellysSuperFunFanPage`內容，請 *在欄位中輸入***[!UICONTROL Name]** KellysSuperFunFanPage。
+   * 為頁面輸入&#x200B;**[!UICONTROL Name]**。 僅輸入URL的尾隨文字。 **例如：若要** 從新增內容， `https://facebook.com/KellysSuperFunFanPage`請在欄位中 ** 輸入KellysSuperFunFanPage **[!UICONTROL Name]** 。
 
-   * 如果 **[!UICONTROL Include Facebook Comments for each post]** 您想要將使用者留言加入「頁面」貼文，請開啟。
-   * 如果 **[!UICONTROL Only Show Author Posts]** 您想要排除其他使用者的貼文，請開啟。
+   * 如果您想要將使用者留言加入「頁面」貼文，請切換&#x200B;**[!UICONTROL Include Facebook Comments for each post]**。
+   * 如果您想要從其他使用者排除貼文，請將&#x200B;**[!UICONTROL Only Show Author Posts]**&#x200B;切換為開。
 
-如需所有串流規則的其他串流規則選項，請參 [閱所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+如需所有串流規則的其他串流規則選項，請參閱[所有串流規則的串流規則選項](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
 
 >[!NOTE]
 >

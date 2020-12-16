@@ -6,15 +6,18 @@ title: Sidesirs自訂樣式
 uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 
-# Sidesirs自訂樣式{#sidenotes-custom-styles}
+# Siestrops Custom Styles{#sidenotes-custom-styles}
 
 自訂樣式會透過插入Sidesors建構函式的物件套用。
 
-"keys"是代表DOM元素的物件索引鍵，而"properties"則是特定索引鍵的支援CSS屬性。 例如，要自定義blockBtn的樣式（即啟動Sidespover的按鈕），可以構建一個對象，例如：
+&quot;keys&quot;是代表DOM元素的物件索引鍵，而&quot;properties&quot;則是特定索引鍵的支援CSS屬性。 例如，要自定義blockBtn的樣式（即啟動Sidespover的按鈕），可以構建一個對象，例如：
 
 ```
 var styles = { 
@@ -40,8 +43,8 @@ new Livefyre.Sidenotes({
 | `commentDownvote` | 「fontColor」、「fontSize」 | 註解上的下投按鈕。 |
 | `commentReplyExpand` | 「backgroundColor」、「borderColor」、「borderWidth」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 用於擴展具有大量回覆的線程的按鈕。 |
 | `commentTags` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 註解上的使用者標籤。 |
-| `commentUpvote` | 「fontColor」、「fontSize」 | 附註上的上投按鈕。 |
-| `editorTextarea` | 「height」、「width」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 用於留言的Textarea輸入框。 |
+| `commentUpvote` | 「fontColor」、「fontSize」 | 註解上投票按鈕。 |
+| `editorTextarea` | 「height」、「width」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 用於留言的文字區域輸入框。 |
 | `mediaBlockBtn` | 「fontColor」、「fontSize」、「left」、「position」、「right」、「top」 | 媒體啟動程式圖示(在媒體項目（img、視訊）上方時)。 |
 | `mediaBlockBtnActive` | 「fontColor」、「fontSize」、「left」、「position」、「right」、「top」 | 處於活動狀態的媒體啟動器表徵圖。 |
 | `numSidenotes` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」、「backgroundColor」、「borderColor」、「borderWidth」、「height」、「width」 | 可點按的按鈕，顯示系列中的字型大小數。 |

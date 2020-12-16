@@ -22,10 +22,10 @@ ht-degree: 0%
 >
 >使用特定路徑，確保僅允許列出安全的視訊。 如果您放入廣泛的路徑（例如sampledomain.com），則可能允許列出不安全的視訊。
 
-* 在之 `userPrivacyVideoWhitelist` 後加 `userPrivacyOptOut`入。 您可以一次新增所有Livefyre隱私權標幟，作為Livefyre物件的一部分。
+* 在`userPrivacyOptOut`後面添加`userPrivacyVideoWhitelist`。 您可以一次新增所有Livefyre隱私權標幟，作為Livefyre物件的一部分。
 * `userPrivacyVideoWhitelist` 僅適用於未內嵌於社交媒體的內容。
 
-在下列範例中，含路徑的「應用程式」中顯 `sampledomain.com/cdn/videos` 示的視訊是允許列出的：
+在下列範例中，「應用程式」中顯示具有`sampledomain.com/cdn/videos`路徑的視訊會允許列出：
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]

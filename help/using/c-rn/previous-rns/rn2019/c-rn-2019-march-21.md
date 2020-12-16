@@ -6,6 +6,9 @@ solution: Experience Manager
 title: 2019年3月21日的Livefyre發行說明
 translation-type: tm+mt
 source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
 
 >[!NOTE]
 >
->Livefyre將於5月23日星期四在我們的生產環境中停用HTTP（連接埠80）。  這將符合Adobe安全性標準，完成安全性更新。  如果您在整 [合中遇到任何問題](mailto:prioritysupport@livefyre.com) ，請聯絡prioritysupport@livefyre.com。
+>Livefyre將於5月23日星期四在我們的生產環境中停用HTTP（連接埠80）。  這將符合Adobe安全性標準，完成安全性更新。  如果您在整合中遇到任何問題，請連絡[prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com)。
 
 ## 增強功能
 

@@ -7,6 +7,9 @@ title: 網路方法
 uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Network類方法的說明。
 
-The following methods are available for the Network object:
+Network對象可使用以下方法：
 
 * [setSSL網路方法](#r_setssl_method)
 * [buildLivefyreToken網路方法](#r_buildlivefyretoken_method)

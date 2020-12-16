@@ -7,6 +7,9 @@ title: 驗證功能
 uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 您可以選擇網站訪客登入您的應用程式是否及方式。
 
-使用livefyre.js設定驗證。 如需詳細資訊，請 [參閱「使用Livefyre.js將驗證新增至應用程式」](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+使用livefyre.js設定驗證。 如需詳細資訊，請參閱「使用Livefyre.js[將驗證新增至應用程式」](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 使用此功能的應用程式：
 

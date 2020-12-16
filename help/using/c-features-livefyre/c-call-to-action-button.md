@@ -6,15 +6,18 @@ title: 自訂動作呼叫按鈕
 uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
 
 # 自訂動作呼叫按鈕{#custom-call-to-action-button}
 
-## 自訂動作呼叫按鈕 {#topic_EBE23A0F827645E0A0C619DCF3872EE5}
+## 自訂動作呼叫按鈕{#topic_EBE23A0F827645E0A0C619DCF3872EE5}
 
-自訂動作呼叫(CTA)按鈕是可新增至Livefyre studio中任何資產的按鈕，讓內容可以運作。 他們可以將使用者引薦至任何自訂的URL，例如社交媒體頁面或購物車。 CTA按鈕可在Livefyre的多個位置建立，但是可在Livefyre studio的區 **[!UICONTROL Settings]** 段中管理。
+自訂動作呼叫(CTA)按鈕是可新增至Livefyre Studio中任何資產的按鈕，讓內容可以運作。 他們可以將使用者引薦至任何自訂的URL，例如社交媒體頁面或購物車。 CTA按鈕可在Livefyre的多個位置建立，但是在Livefyre Studio的&#x200B;**[!UICONTROL Settings]**&#x200B;區段中管理。
 
 使用自訂CTA，您可以：
 
@@ -23,33 +26,33 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 * 在「設定」和「資料庫」中建立、管理及重複使用自訂CTA按鈕。
 * 使用Adobe Analytics來測量點進率。
 
-## 建立自訂的動作呼叫按鈕 {#task_C61B4A8E66F24AC19C833612E596B736}
+## 建立自訂動作呼叫按鈕{#task_C61B4A8E66F24AC19C833612E596B736}
 
 任務上下文
 
-1. 在Livefyre Studio中，按一下 **[!UICONTROL Settings]**。
-1. 在左側導軌中，按一下 **[!UICONTROL CTAs]**。
+1. 在Livefyre Studio中，按一下&#x200B;**[!UICONTROL Settings]**。
+1. 在左側導軌中，按一下&#x200B;**[!UICONTROL CTAs]**。
 
-   CTA程式庫隨即出現，您可在其中建立CTA並組織在資料夾中。 1. Click **[!UICONTROL Create CTA]**.
+   CTA程式庫隨即出現，您可在其中建立CTA並組織在資料夾中。 1.按一下&#x200B;**[!UICONTROL Create CTA]**。
 1. 填入所需的自訂項目欄位，按鈕預覽就會在「建立CTA」畫面底部呈現。
 
    ![](assets/cta-button-create.png)
 
-1. Click **[!UICONTROL Create]**.
+1. 按一下 **[!UICONTROL Create]**.
 
    CTA按鈕現在可以新增至任何資產。
 
-## 新增自訂動作呼叫按鈕至資產 {#task_36190DD1C8204C7793CB7EEA379C2155}
+## 新增自訂動作呼叫按鈕至資產{#task_36190DD1C8204C7793CB7EEA379C2155}
 
-將CTA按鈕新增至Livefyre studio中的任何內容。
+將CTA按鈕新增至Livefyre Studio中的任何內容。
 
-1. 在Livefyre Studio中，導覽至 **[!UICONTROL Library]** &gt; **[!UICONTROL All Assets]**。
+1. 在Livefyre Studio中，導覽至&#x200B;**[!UICONTROL Library]** > **[!UICONTROL All Assets]**。
 1. 在要新增CTA按鈕的一或多個資產上選取。
-1. Click **[!UICONTROL CTAs]**.
+1. 按一下 **[!UICONTROL CTAs]**.
 
    ![](assets/cta-button-create2.png)
 
-1. 從清單中選取所需的CTA按鈕，然後按一下 **[!UICONTROL Add]**。
+1. 從清單中選取所需的CTA按鈕，然後按一下&#x200B;**[!UICONTROL Add]**。
 
    CTA按鈕現在會顯示在選取的資產上。
 

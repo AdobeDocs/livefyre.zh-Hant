@@ -18,9 +18,9 @@ ht-degree: 0%
 
 從Instagram組織內容時，您必須遵循其准則和最佳實務。
 
-您必須設定 *Instagram商業帳戶* ，才能使用欄位從其他特定Instagram商業帳戶建立Instagram **[!UICONTROL By Author]** 串流。 您在欄位中識別的使 **[!UICONTROL By Author]** 用者帳戶必須是商業帳戶。
+您必須設定&#x200B;*Instagram商業帳戶*，才能使用&#x200B;**[!UICONTROL By Author]**&#x200B;欄位從其他特定Instagram商業帳戶建立Instagram串流。 您在&#x200B;**[!UICONTROL By Author]**&#x200B;欄位中識別的使用者帳戶必須是商業帳戶。
 
-如需如何在Livefyre中設定Instagram商業帳戶的詳細資訊，請參閱關於 [Instagram帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
+如需如何在Livefyre中設定Instagram商業帳戶的詳細資訊，請參閱[關於Instagram帳戶](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 Instagram會強制下列規則從其平台取得內容：
 
@@ -41,4 +41,4 @@ Instagram和其他品牌一樣，也有使用其品牌資產的要求。 例如�
 * 提供Instagram歸因給內容擁有者。
 * 與其他網路媒體一起顯示時，可與其他社交媒體內容明顯區隔。
 
-如需詳細資訊，請參閱Instagram的檔案： [使用Instagram品牌資產](https://help.instagram.com/304689166306603)。
+如需詳細資訊，請參閱Instagram的檔案：[使用Instagram品牌資產](https://help.instagram.com/304689166306603)。

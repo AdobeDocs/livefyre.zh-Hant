@@ -6,11 +6,14 @@ title: 使用者標章
 uuid: ff1451e1-7eb3-45dc-8c5a-1a6d1313e344
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
 
-# 使用者標章{#user-badges}
+# 用戶標章{#user-badges}
 
 使用CSS搭配使用者標籤，為社群成員建立使用者標章。
 

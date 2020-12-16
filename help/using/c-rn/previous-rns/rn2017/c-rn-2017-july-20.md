@@ -6,17 +6,20 @@ title: 2017 年 7 月 20 日
 uuid: 550815a9-a6e2-4e98-b5d6-7f4897373716
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 7%
 
 ---
 
 
-# July 20, 2017{#july}
+# 2017年7月20日{#july}
 
 2017年7月20日發行說明。
 
 ## 新功能 {#section_swl_jsm_p1b}
 
-UGC商務可讓您直接從Livefyre應用程式新增「行動要求」按鈕。 如需UGC商務的詳細資訊，請參閱 [UGC商務](../../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)。
+UGC商務可讓您直接從Livefyre應用程式新增「行動要求」按鈕。 如需UGC商務的詳細資訊，請參閱[UGC商務](../../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)。
 
 ## 發行說明 {#section_bjq_3sm_p1b}
 
@@ -26,7 +29,7 @@ UGC商務可讓您直接從Livefyre應用程式新增「行動要求」按鈕。
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
-| 增強功能 | 全部 | 推出Livefyre的全新UGC商務計畫。 這包括：  <br><ul><li>將轉換按鈕新增至Mosaic和Media Wall。 </li><li>Mosaic、Media Wall和兩個應用程式的內容模式的UI增強功能。 </li><li>能夠在「網路設定」中將產品上傳至Studio。</li><li> 能夠將內容與Studio Library、App Content和ModQ中的產品建立關聯。</li><li> 能夠將產品與串流規則建立關聯，以便自動標籤。</li></ul> |
+| 增強功能 | 全部 | 推出Livefyre的全新UGC商務計畫。 這包括： <br><ul><li>將轉換按鈕新增至Mosaic和媒體塗鴉牆。 </li><li>Mosaic、Media Wall和兩個應用程式的內容模式的UI增強功能。 </li><li>能夠在「網路設定」中將產品上傳至Studio。</li><li> 能夠將內容與Studio Library、App Content和ModQ中的產品建立關聯。</li><li> 能夠將產品與串流規則建立關聯，以便自動標籤。</li></ul> |
 | 錯誤 | 驗證 | 已修正在Livefyre應用程式中驗證時，解碼JSON網頁Token的錯誤。 |
 | 增強功能 | 意見 | 已新增增強功能，讓「注釋排序順序」標籤符合ADA。 |
 | 錯誤 | 媒體牆 | 已修正「媒體牆」中，共用按鈕無法在Firefox中正常運作的錯誤。 |

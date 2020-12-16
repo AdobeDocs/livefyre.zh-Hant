@@ -7,6 +7,9 @@ title: 壓力測試政策
 uuid: f2d49b55-f4fc-485f-9aea-a17ce64813ee
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 對Livefyre平台執行壓力測試。
 
-本檔案提供針對Livefyre平台執行壓力測試的指引。 嚴禁客戶在未通知的情況下進行臨機測試。 針對禁止和允 [許的更多活動](#c_stress_test_policy/section_mhs_bfz_vdb)。
+本檔案提供針對Livefyre平台執行壓力測試的指引。 嚴禁客戶在未通知的情況下進行臨機測試。 關於[禁止和允許的活動](#c_stress_test_policy/section_mhs_bfz_vdb)的更多資訊。
 
 >[!NOTE]
 >
@@ -39,11 +42,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * 您必須先取得Adobe技術顧問的明確書面核准，才能開始測試3週或更久。
 * **您只能對UAT網路執行測試。**
-* 您必須針對真實的情境進行測試。 例如，您可能不會假設您的屬性每天會為數百萬 *個貼文請求* ，因為這並非現實情形。 如果您需要協助來判斷您的藍本是否真實，請洽詢您的Livefyre客戶成功專員或Adobe技術顧問。
+* 您必須針對真實的情境進行測試。 例如，您不得假設您的屬性每天會為&#x200B;*millyns*&#x200B;貼文要求提供服務，因為這並非現實情形。 如果您需要協助來判斷您的藍本是否真實，請洽詢您的Livefyre客戶成功專員或Adobe技術顧問。
 * 測試應在太平洋標準時區\(UTC -7\)的工作時間內進行。
 * 您可能需要製作測試的資料和推理。
 
-## 治理 {#section_mhs_bfz_vdb}
+## 治理{#section_mhs_bfz_vdb}
 
 如果您執行下列測試，Livefyre保留隨時終止測試的權利：
 
@@ -51,4 +54,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 * 未事先取得Adobe技術顧問的明確書面同意，請提前三週或更久。
 * 面對不真實的場景。
 
-Livefyre會封鎖對API的存取、停用Livefyre網路，並拒絕不符合要求的載入測試要求，以終止測試。
+Livefyre會封鎖對API的存取、停用Livefyre網路，以及拒絕不符合要求的載入測試要求，以終止測試。

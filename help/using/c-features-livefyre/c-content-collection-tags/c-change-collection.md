@@ -7,6 +7,9 @@ title: 變更系列
 uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 例如，按一下圖庫中的影片或像片會載入該選取範圍專屬的「系列」，而頁面的URL則不會變更。
 
-若要從單一備注計數頁面載入三個系列中 [的一個](/help/implementation/c-advanced-topics/t-display-comment-count.md) :
+若要從單一[注釋計數](/help/implementation/c-advanced-topics/t-display-comment-count.md)頁面載入三個系列中的其中一個：
 
 ```
 <html> 

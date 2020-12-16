@@ -7,11 +7,14 @@ title: CSS類別
 uuid: 8714e7e5-3858-458f-a464-de87fd2f0ff0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 1%
 
 ---
 
 
-# CSS類別{#css-classes}
+# CSS類{#css-classes}
 
 使用可用的CSS類別自訂您的應用程式顯示。
 
@@ -89,8 +92,8 @@ HTML結構：
 
 | 類別 | 說明 |
 |---|---|
-| .fyre-comment-author-tag- *`custom tag name`* | Livefyre會針對透過Livefyre的Studio（描述檔同步）新增的每個使用者標籤，以此格式建立 [CSS類別](/help/implementation/t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)。 此類別可用來為使用者帳戶張貼的任何內容（包括該標籤）設定背景樣式。 |
-| .fyre-tag-content-icon- *`tag name`* | Livefyre會針對透過Livefyre [Studio新增的每個內容標籤，以此格式建立CSS類別](/help/implementation/c-app-customizations/c-adding-users-to-groups.md)。 此類別可用於設定您新增標籤之任何內容的樣式。 |
+| .fyre-comment-author-tag- *`custom tag name`* | Livefyre會針對透過Livefyre的Studio [描述檔同步](/help/implementation/t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)新增的每個使用者標籤，以此格式建立CSS類別。 此類別可用來為使用者帳戶張貼的任何內容（包括該標籤）設定背景樣式。 |
+| .fyre-tag-content-icon- *`tag name`* | Livefyre會針對透過Livefyre [Studio](/help/implementation/c-app-customizations/c-adding-users-to-groups.md)新增的每個內容標籤，以此格式建立CSS類別。 此類別可用於設定您新增標籤之任何內容的樣式。 |
 | .fyre-comment-user | 包含使用者描述檔圖片的邊界方框。 |
 | .fyre-comment-username | 使用者名稱。 |
 | .fyre協調者 | 協調者邊界方框。 |
@@ -117,7 +120,7 @@ HTML結構：
 | .fyre-featureed-body | 讀者中精選內容的容器div。 |
 | .fyre-feature-quote | 開始每個內容項目的引號圖示。 |
 
-## 封存的注釋CSS {#section_bs5_lrh_xz}
+## 封存的註解CSS {#section_bs5_lrh_xz}
 
 >[!NOTE]
 >

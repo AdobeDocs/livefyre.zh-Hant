@@ -11,7 +11,7 @@ ht-degree: 4%
 ---
 
 
-# Livefyre實施指南 {#implementation}
+# Livefyre實施指南{#implementation}
 
 + [Livefyre實施指南](home.md)
 + 快速入門 {#getting-started}
@@ -29,15 +29,15 @@ ht-degree: 4%
       + [使用者驗證Token](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [使用CollectionMeta Token建立系列](t-create-a-collectionmeta-token.md)
       + [建立校驗和](c-creating-a-checksum.md)
-+ 身分整合 {#identity-integration}
++ 身分整合{#identity-integration}
    + [身分整合](t-about-identity-integration/t-about-identity-integration.md)
    + [驗證套件](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegate物件](t-about-identity-integration/c-building-an-auth-delegate.md)
    + [將用戶權限發佈到外部系統（可選）](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-   + 實作SSO {#implementing-sso}
+   + 實施SSO {#implementing-sso}
       + [實作SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
       + [除錯驗證委派](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-   + 與Livefyre同步 {#sync-ping-for-pull}
+   + 與Livefyre {#sync-ping-for-pull}同步
       + [使用Ping for Pull與Livefyre同步](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
       + [構建拉式端點](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
       + [向Studio註冊端點](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
@@ -47,11 +47,11 @@ ht-degree: 4%
 + Livefyre Identity {#livefyre-identity}
    + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [啟用Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + 搭配Livefyre身分使用社交應用程式 {#use-social-apps-with-livefyre-identity}
+   + 搭配Livefyre身分識別使用社交應用程式{#use-social-apps-with-livefyre-identity}
       + [建立您的社交應用程式](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [建立Facebook應用程式以搭配Livefyre身分識別使用](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [建立Twitter應用程式以搭配Livefyre身分識別使用](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
-      + [建立Yahoo! 與Livefyre Identity搭配使用的應用程式](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
+      + [建立Yahoo!與Livefyre Identity搭配使用的應用程式](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
       + [建立Livefyre身分識別的LinkedIn應用程式](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
       + [建立GitHub身分識別應用程式，以便與Livefyre身分識別搭配使用](c-livefyre-identity-comp/c-create-a-github-identity.md)
@@ -98,13 +98,13 @@ ht-degree: 4%
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [建立Livefyre Token C#](c-creating-livefyre-tokens-c-.md)
-+ 應用程式整合 {#app-integrations}
++ 應用程式整合{#app-integrations}
    + [聊天室](c-app-integrations/c-app-integratios-chat.md)
    + 意見 {#comments}
       + [意見](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [即時部落格](c-app-integrations/c-live-blog-integration.md)
    + [評論](c-app-integrations/c-reviews-integration.md)
-   + Siesors {#sidenotes}
+   + Siestras {#sidenotes}
       + [Sides Integration](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [將字元號新增至頁面](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidesars應用程式事件](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -116,7 +116,7 @@ ht-degree: 4%
    + [地圖](c-app-integrations/c-map-integration.md)
    + [媒體牆](c-app-integrations/c-media-wall-integration.md)
    + [趨勢分析](c-app-integrations/c-trending-integration.md)
-+ 應用程式自訂 {#app-customizations}
++ 應用程式自訂{#app-customizations}
    + [應用程式自訂](c-app-customizations/c-app-customizations.md)
    + [變更顯示選項](c-app-customizations/c-change-display-options.md)
    + [CSS類別](c-app-customizations/c-css-classes.md)
@@ -128,7 +128,7 @@ ht-degree: 4%
    + [變更 @mention 圖示](c-app-customizations/c-change-mention-icon.md)
    + [反白顯示內容](c-app-customizations/c-highlight-content.md)
    + [自訂日期和時間戳記](c-app-customizations/c-date-time-stamp.md)
-   + 功能內容 {#feature-content}
+   + 功能內容{#feature-content}
       + [功能內容](c-app-customizations/t-feature-content.md)
       + [在Studio中啟用內容特色](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [從應用程式選取內容以加入功能](c-app-customizations/t-select-content-to-feature.md)
@@ -137,13 +137,13 @@ ht-degree: 4%
       + [功能API](c-app-customizations/c-feature-apis.md)
    + [使用AuthDelegate將Janrain連線至Livefyre](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [使用精選API匯總精選內容](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + 樣式內容 {#style-content}
+   + 樣式內容{#style-content}
       + [使用者群組內容的樣式](c-app-customizations/c-style-user-group-content.md)
       + [新增使用者至群組](c-app-customizations/c-adding-users-to-groups.md)
-   + 套用自訂樣式 {#apply-custom-styles}
+   + 套用自訂樣式{#apply-custom-styles}
       + [套用自訂樣式](c-app-customizations/c-applying-custom-styles-.md)
       + [新增自訂按鈕](c-app-customizations/t-add-custom-buttons.md)
-   + Javascript事件 {#javascript-events}
+   + Javascript事件{#javascript-events}
       + [JavaScript事件定義與範例](c-app-customizations/c-javascript-events.md)
       + [視覺化應用程式的Javascript事件](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [媒體塗鴉牆的Javascript事件](c-app-customizations/c-javascript-events-media-wall.md)
@@ -159,7 +159,7 @@ ht-degree: 4%
    + [搭配使用Livefyre和其他Analytics工具](livefyre-analytics/c-livefyre-analytics.md)
    + [Livefyre Analytics事件](livefyre-analytics/c-livefyre-analytics-events.md)
 + [整合Livefyre與AEM](c-livefyre-aem-integration.md)
-+ 進階主題 {#advanced-topics}
++ 進階主題{#advanced-topics}
    + [顯示注釋計數](c-advanced-topics/t-display-comment-count.md)
    + [啟用社交共用](c-advanced-topics/c-enabling-social-sharing.md)
    + [活動串流](c-advanced-topics/c-activity-stream.md)

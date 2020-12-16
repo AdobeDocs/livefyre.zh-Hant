@@ -7,6 +7,9 @@ title: 套用自訂樣式
 uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
@@ -19,14 +22,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 將使用者標籤轉換為CSS類別時：
 
-* Livefyre會建立兩個類別：fyre-author-tag-***&lt;your_group&gt;***和fyre-tag-author-***&lt;your_group&gt;****。 兩者皆可用於設定內容的樣式。
+* Livefyre會建立兩個類別：fyre-author-tag-***&lt;your_group>***和fyre-tag-author-***&lt;your_group>****。 兩者皆可用於設定內容的樣式。
 
 * 標籤中包含的任何空格都將轉換為下划線。 例如：「我的最愛使用者」將變成favorite_user。
-* 群組名稱中包含的Unicode字元將不會轉換，並會在類別名稱中顯示為Unicode。 例如：使用者群組「modérateur」將變成fyre-comment-author-tag-modérateur。
+* 群組名稱中包含的Unicode字元將不會轉換，並會在類別名稱中顯示為Unicode。 例如：使用者群組「modérateur」將成為fyre-comment-author-tag-modérateur。
 
 在您的使用者群組建立後，請使用Livefyre的CSS類別，為內容套用自訂樣式。
 
-## 協調者（和擁有者）的樣式內容 {#section_vjv_2cv_xz}
+## 協調者（和擁有者）的樣式內容{#section_vjv_2cv_xz}
 
 * 使用CSS類別。fyre-codriator。
 
@@ -46,7 +49,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
    }
    ```
 
-## 使用者群組的樣式內容 {#section_ghn_s1v_xz}
+## 使用者群組的樣式內容{#section_ghn_s1v_xz}
 
 建立CSS規則以顯示或設定群組徽章的樣式：
 
@@ -68,7 +71,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 }
 ```
 
-使用CSS類別fyre-author-tag-****&lt;your_group&gt;**或fyre-tag-author-***&lt;your_group&gt;****來設定從與所選標籤相關聯的帳戶張貼的每個項目的字型和背景樣式。
+使用CSS類別fyre-author-tag-****&lt;your_group>**或fyre-tag-author-***&lt;your_group>****來設定從與所選標籤相關聯的帳戶張貼的每個項目的字型和背景樣式。
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 

@@ -6,11 +6,14 @@ title: 氣墊船
 uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
 
-# 氣墊船{#hovercards}
+# 氣墊板卡{#hovercards}
 
 啟用或停用網站上的使用者懸浮卡。
 
@@ -20,11 +23,11 @@ Livefyre Slasf卡是快顯視窗，可顯示使用者資訊的快速快照，包
 >
 >氣墊板卡只能在網路層級開啟或關閉，而且可在您自訂網路下的所有網站上實施或停用。 如果您希望為您的網路開啟懸浮卡，請連絡您的客戶經理。
 
-## 觀看氣墊船 {#section_zjl_jtk_wy}
+## 查看氣墊板卡{#section_zjl_jtk_wy}
 
 當您將滑鼠指標暫留在使用者的「註解」、「即時部落格」或「聊天」上時，他們的「氣墊」資訊卡就會出現。
 
-按一 **[!UICONTROL View Full Profile]** 下會將使用者帶至該使用者的完整描述檔頁面。
+按一下&#x200B;**[!UICONTROL View Full Profile]**&#x200B;會將使用者帶至該使用者的完整設定檔頁面。
 
 >[!NOTE]
 >

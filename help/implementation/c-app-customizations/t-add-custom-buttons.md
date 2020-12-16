@@ -7,6 +7,9 @@ title: 新增自訂按鈕
 uuid: 27d24c21-d83f-49df-9b3f-15d7abbd2bd7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 將自訂動作新增至您的Livefyre應用程式。
 
-Livefyre可讓您在內容的現有動作按鈕( **[!UICONTROL Share]**&#x200B;例如 **[!UICONTROL Flag]**&#x200B;和)旁新增自訂按鈕。
+Livefyre可讓您在內容的現有動作按鈕（例如&#x200B;**[!UICONTROL Share]**&#x200B;和&#x200B;**[!UICONTROL Flag]**）旁新增自訂按鈕。
 
 使用mobile引數來定義按鈕是否會顯示在行動裝置上。
 
@@ -43,4 +46,4 @@ fyre.conv.load(networkConfig, [convConfig]);
 1. 定義要針對每個按鈕顯示的文字索引鍵。
 1. 新增回呼，此回呼將針對每個按鈕的點按事件被呼叫。
 
-回呼由具有兩個鍵的對象調用： `authorId` 和 `contentId`。
+回呼由具有兩個鍵的對象調用：`authorId`和`contentId`。

@@ -7,6 +7,9 @@ title: Sides Integration
 uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +18,13 @@ source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 透過遵循類似核心應用程式的程式，整合Sidesars應用程式。
 
-一般而言，如果您的核心應用程式整合完成，為產生物件所撰寫的程式碼可 `collectionMeta` 能會重複用於Sidestraps。
+一般而言，如果您的核心應用程式整合完成，為產生`collectionMeta`物件所撰寫的程式碼可能會重複用於Sidestroms。
 
-您也可以在（可選）欄 `auth` 位中，提供以Sides `auth` 建立 `fyre.conv` 的委派，以重複使用現有委派 `authDelegate` 。
+您也可以在（可選）`authDelegate`欄位中，將使用`fyre.conv`建立的`auth`委派提供給Sides，以重複使用現有的`auth`委派。
 
 >[!NOTE]
 >
->Sidesars可讓您將、 `network``siteId`和 `articleId` 包含在單一物件中，而不需在建構函式的其他部分中個別傳遞。
+>Sidesform可讓您將`network`、`siteId`和`articleId`加入單一物件中，而不需在建構函式的其他部分中個別傳遞。
 
 ```
 <!DOCTYPE html> 
@@ -53,7 +56,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-如「建立」區段 `collectionMeta` 中所 `collectionMeta` 述，是編碼的JSON物件。 在上述範例中，JSON物件在進行JWT編碼前會採用下列格式。
+如「建立`collectionMeta`」區段中所述，`collectionMeta`是編碼的JSON物件。 在上述範例中，JSON物件在進行JWT編碼前會採用下列格式。
 
 ```
 { 
@@ -65,11 +68,11 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 }
 ```
 
-如需詳細資訊，請參閱 `collectionMeta` Token。
+如需詳細資訊，請參閱`collectionMeta`代號。
 
 ## 行動裝置設定
 
-Sides已最佳化，可用於行動裝置。 為獲得行動版Livefyre應用程式的最佳效果，請將使用者可縮放選項設為no。 例如:
+Sides已最佳化，可用於行動裝置。 為獲得行動版Livefyre應用程式的最佳效果，請將使用者可縮放選項設為no。 例如：
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">

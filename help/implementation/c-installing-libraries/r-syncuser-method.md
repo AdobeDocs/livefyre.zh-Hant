@@ -7,6 +7,9 @@ title: syncUser Network Method
 uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 |--- |--- |--- |
 | userId | 字串 | 要與Livefyre同步的使用者ID。 您必須先將使用者同步URL與Livefyre設定，才能呼叫此方法。 |
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 network.syncUser(userId); 
@@ -31,7 +34,7 @@ network.syncUser(userId);
 true
 ```
 
-## NodeJS範例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 network.syncUser(userId); 
@@ -43,7 +46,7 @@ network.syncUser(userId);
 true
 ```
 
-## PHP範例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 $network->syncUser(userId); 
@@ -55,7 +58,7 @@ $network->syncUser(userId);
 true
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 network.sync_user(userId) 
@@ -67,7 +70,7 @@ network.sync_user(userId)
 True
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 network.sync_user(userId) 

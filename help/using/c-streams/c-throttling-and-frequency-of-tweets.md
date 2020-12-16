@@ -1,17 +1,20 @@
 ---
 description: 並非所有符合規則的推文都會出現在串流中。
 seo-description: 並非所有符合規則的推文都會出現在串流中。
-seo-title: 推文的調節與頻率
+seo-title: 調節推文與頻率
 solution: Experience Manager
-title: 推文的調節與頻率
+title: 調節推文與頻率
 uuid: b9edfb1e-e6cf-4a48-8756-05f5f18d8799
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
 
-# 推文的調節與頻率{#throttling-and-frequency-of-tweets}
+# 推文的調節和頻率{#throttling-and-frequency-of-tweets}
 
 並非所有符合規則的推文都會出現在串流中。
 

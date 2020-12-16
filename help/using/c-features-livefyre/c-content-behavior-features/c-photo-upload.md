@@ -1,19 +1,22 @@
 ---
-description: 將影像上傳至即時部落格、聊天、評論或留言串流。
-seo-description: 將影像上傳至即時部落格、聊天、評論或留言串流。
+description: 上傳影像至即時部落格、聊天、評論或留言串流。
+seo-description: 上傳影像至即時部落格、聊天、評論或留言串流。
 seo-title: 像片上傳
 solution: Experience Manager
 title: 像片上傳
 uuid: 1fc92fbe-1dd4-43f3-a43f-cc9a5ac3aea1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
 
 # 像片上傳{#photo-upload}
 
-將影像上傳至即時部落格、聊天、評論或留言串流。
+上傳影像至即時部落格、聊天、評論或留言串流。
 
 像片可直接從使用者的行動像片庫、電腦硬碟或社交網路帳戶上傳至任何應用程式。
 

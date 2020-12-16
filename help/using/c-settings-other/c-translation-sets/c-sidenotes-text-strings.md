@@ -7,17 +7,27 @@ title: 字串
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 13%
 
 ---
 
 
-# 字串{#sidenotes-text-strings}
+# 字元號文字字串{#sidenotes-text-strings}
 
 自訂Livefyre Sides的文字字串
 
 本頁列出並說明Sidesars應用程式中可自訂的所有字串。 如需核心Livefyre應用程式可用字串的詳細資訊，請參閱字串自訂。
 
-實作驗證串流資訊作者／內容資訊使用者動作貼文函式協調者介面錯誤
+實作
+驗證
+串流資訊
+作者／內容資訊
+使用者動作
+貼文功能
+協調者介面
+錯誤
 
 ## 實施 {#section_wp2_ql4_xz}
 
@@ -37,7 +47,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 驗證 {#section_pqf_3l4_xz}
+## 驗證{#section_pqf_3l4_xz}
 
 驗證程式和已驗證用戶菜單中可用的字串。
 
@@ -50,7 +60,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuUserLogout | 登出 |
 |  | menuUserBackBtn | 全部 |
 
-## 串流資訊 {#section_wpy_gl4_xz}
+## 串流資訊{#section_wpy_gl4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
@@ -60,7 +70,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuInfoHelp | 說明 |
 |  | menuInfoLivefyreLink | 造訪Livefyre.com |
 
-## 作者／內容資訊 {#section_dhb_gl4_xz}
+## 作者／內容資訊{#section_dhb_gl4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -75,11 +85,11 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | commentVoteCountSing | 票 |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | 陣列. 預設值 =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白顯示文字</span> ，然後按一 <span class="&rdquo;fycon-write&rdquo;"></span> 下圖示，或按 <span class="&rdquo;fycon-action-view&rdquo;"></span> 一下每個段落結尾的圖示。 |
+|  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白</span> 標示文字， <span class="&rdquo;fycon-write&rdquo;"></span> 然後按一下圖 <span class="&rdquo;fycon-action-view&rdquo;"></span> 示或每個段落結尾的圖示。 |
 |  | questionMockText | 「熟悉」的內容並不是眾所周知的，只是因為「熟悉」。 |
 |  | questionTitle | 什麼是Sidexer? |
 
-## 使用者動作 {#section_qxd_fl4_xz}
+## 用戶操作{#section_qxd_fl4_xz}
 
 用戶操作可用的字串：標幟、分享和按贊現有內容。
 
@@ -102,7 +112,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | sliderLoading | 正在載入… |
 |  | sliderWriteText | 你覺得呢？ 點選以寫入。 |
 
-## 貼文功能 {#section_xzf_2l4_xz}
+## 貼文函式{#section_xzf_2l4_xz}
 
 可供發佈內容之使用者使用的字串。
 
@@ -134,7 +144,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuEtcPostedAt | 張貼於{date} |
 |  | menuEtcTitle | 更多 |
 
-## 協調者介面 {#section_o5f_dl4_xz}
+## 協調者介面{#section_o5f_dl4_xz}
 
 用戶驗證的協調器介面可用的字串。
 

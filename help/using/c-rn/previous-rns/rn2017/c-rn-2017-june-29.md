@@ -6,11 +6,14 @@ title: 2017年6月29日
 uuid: f7d901fc-fe5a-463c-92ac-b77cda3bff1b
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 7%
 
 ---
 
 
-# June 29, 2017{#june}
+# 2017年6月29日{#june}
 
 2017年6月29日發行說明。
 
@@ -27,7 +30,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
-| 增強功能 | 全部 | 推出Livefyre的全新UGC商務計畫。 這包括：  <br><ul><li>將轉換按鈕新增至Mosaic和Media Wall</li><li> Mosaic、Media Wall和兩個應用程式的內容模式的UI增強功能</li><li>在網路設定中將產品上傳至Studio</li><li>能夠將內容與Studio Library、App Content和ModQ中的產品建立關聯</li><li>能夠將產品與串流規則建立關聯，以便自動標籤</li></ul> |
+| 增強功能 | 全部 | 推出Livefyre的全新UGC商務計畫。 這包括： <br><ul><li>將轉換按鈕新增至Mosaic和Media Wall</li><li> Mosaic、Media Wall和兩個應用程式的內容模式的UI增強功能</li><li>在網路設定中將產品上傳至Studio</li><li>能夠將內容與Studio Library、App Content和ModQ中的產品建立關聯</li><li>能夠將產品與串流規則建立關聯，以便自動標籤</li></ul> |
 | 增強功能 | 意見 | 已新增增強功能，讓「注釋排序順序」標籤符合ADA。 |
 | 增強功能 | 意見 | 已新增協助工具增強功能，讓「注釋」中的Avatar符合ADA。 |
 | 增強功能 | Instagram搜尋 | 已新增儲存和發佈多影像／視訊Instagram貼文的支援。 |

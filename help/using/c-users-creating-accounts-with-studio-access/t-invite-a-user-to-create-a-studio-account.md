@@ -7,6 +7,9 @@ title: 邀請使用者建立Studio帳戶
 uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +26,10 @@ Studio經理和管理員可邀請新使用者或現有使用者建立Studio帳�
 
 >[!NOTE]
 >
->您可以將多個用戶角色授予單個用戶。 如需 [](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) 您可授與哪些使用者角色和權限的詳細資訊，請參閱使用者角色和權限。
+>您可以將多個用戶角色授予單個用戶。 有關您可授予哪些用戶角色和權限的詳細資訊，請參閱[用戶角色和權限](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types)。
 
-1. 在頁面 **[!UICONTROL Users]** 上，按一下 **[!UICONTROL Invite to Studio.]**
-1. 在開啟 **[!UICONTROL Invite user]** 的對話框中，選擇 **[!UICONTROL Existing User]** 或 **[!UICONTROL New User]**。
-1. 若要邀請現有使用者，請在提 **[!UICONTROL Username]**&#x200B;供的欄 **[!UICONTROL User ID]**&#x200B;位中 **[!UICONTROL Email Address]** 輸入、或。 要邀請新用戶，請輸入 **[!UICONTROL Email address]**。
-1. 視需 **[!UICONTROL Add message]** 要按一下以輸入個人化邀請。
-1. 選取新帳戶的存取層級，然後按一下 **[!UICONTROL Invite]** 以發出邀請。
+1. 在&#x200B;**[!UICONTROL Users]**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Invite to Studio.]**
+1. 從開啟的&#x200B;**[!UICONTROL Invite user]**&#x200B;對話框中，選擇&#x200B;**[!UICONTROL Existing User]**&#x200B;或&#x200B;**[!UICONTROL New User]**。
+1. 要邀請現有用戶，請在提供的欄位中輸入&#x200B;**[!UICONTROL Username]**、**[!UICONTROL User ID]**&#x200B;或&#x200B;**[!UICONTROL Email Address]**。 要邀請新用戶，請輸入&#x200B;**[!UICONTROL Email address]**。
+1. 視需要按一下&#x200B;**[!UICONTROL Add message]**&#x200B;以輸入個人化邀請。
+1. 選擇新帳戶的訪問級別，然後按一下&#x200B;**[!UICONTROL Invite]**&#x200B;發出邀請。

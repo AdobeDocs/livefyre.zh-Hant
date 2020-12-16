@@ -7,15 +7,18 @@ title: 使用Ping for Pull與Livefyre同步
 uuid: 7b059064-1cca-46d7-8055-dfe59f493ac1
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
 
-# 使用Ping for Pull與Livefyre同步{#sync-with-livefyre-using-ping-for-pull}
+# 使用Ping for Pull{#sync-with-livefyre-using-ping-for-pull}與Livefyre同步
 
 使用Ping for Pull可讓Livefyre與您的使用者管理系統保持同步。
 
-一般而言，只要您的網站／應用程式使用者更新其設定檔（顯示名稱、頭像等），您就能 ***Ping********* Livefyre，而Livefyre就會提取該使用者的更新設定檔。
+一般而言，只要您的網站／應用程式的使用者更新其設定檔（顯示名稱、頭像等），您就能&#x200B;***Ping*** Livefyre，而Livefyre ***Tellack***&#x200B;則會提取該使用者的更新設定檔。
 
 ![](assets/Ping-for-Pull.png)
 
@@ -29,7 +32,7 @@ Ping提取序列：
 1. 客戶收到拉式回應並驗證。
 1. Livefyre會使用納入端點中的外部描述檔資訊來更新遠端描述檔。
 
-每當使用者更新其描述檔資訊時，Ping Livefyre。 雖然Ping for Pull完成時間會視網路負載而異，但會在1到10分鐘內更新使用者資訊。 更新的描述檔變更會先顯示在Livefyre Studio &gt;使用者中。
+每當使用者更新其描述檔資訊時，Ping Livefyre。 雖然Ping for Pull完成時間會視網路負載而異，但會在1到10分鐘內更新使用者資訊。 更新的描述檔變更會先顯示在Livefyre Studio >使用者中。
 
 在發生兩個事件後，更新的描述檔資訊將會出現在您的Livefyre應用程式中：
 

@@ -6,6 +6,9 @@ title: CSS樣式與品牌
 uuid: 729a2780-f757-4c54-b446-ff832cecf620
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +21,11 @@ Livefyre應用程式提供廣泛的CSS樣式介面，讓您自訂使用體驗，
 
 樣式選項包括：
 
-* **[!UICONTROL Styling the Stream:]** Livefyre串流可能會根據您的品牌及網站的其他內容來設定樣式並加以自訂。 如需詳細資訊，請參閱「CSS自訂」。
-* **[!UICONTROL Styling the Comment Editor:]** 您可以變更字型的顏色、大小和系列，或變更註解方塊的背景顏色，自訂註解編輯器。 如需詳細資訊，請參閱編輯器CSS。
-* **[!UICONTROL Moving the Livefyre Logo:]** 雖然Livefyre標誌的預設位置位於串流頂端，但此影像可能會被移除，並在串流底部以較小的「Powered by Livefyre」標誌取代。 如需詳細資訊，請參閱「移動Livefyre標誌」。
-* **[!UICONTROL Hiding elements of the stream:]** 如果串流的元素與您的社群無關，則可能會隱藏這些元素。 可移除的元素包括回覆按鈕、編輯描述檔選單、登出選單、註解通知程式和使用者變數。 如需移除這些元素的詳細資訊，請參閱隱藏應用程式元素。
-* **[!UICONTROL Customizing the Friend Tagging Logo:]** 依預設，Livefyre標誌會顯示在朋友標籤下拉式清單中，供頁面串流中已留言的所有使用者使用。 若要以您自己的標誌取代此影像，請參閱Studio中的品牌推廣。
+* **[!UICONTROL Styling the Stream:]** Livefyre串流可能會根據您的品牌及網站的其他內容來設定樣式並加以自訂。如需詳細資訊，請參閱「CSS自訂」。
+* **[!UICONTROL Styling the Comment Editor:]** 您可以變更字型的顏色、大小和系列，或變更註解方塊的背景顏色，自訂註解編輯器。如需詳細資訊，請參閱編輯器CSS。
+* **[!UICONTROL Moving the Livefyre Logo:]** 雖然Livefyre標誌的預設位置位於串流頂端，但此影像可能會被移除，並在串流底部以較小的「Powered by Livefyre」標誌取代。如需詳細資訊，請參閱「移動Livefyre標誌」。
+* **[!UICONTROL Hiding elements of the stream:]** 如果串流的元素與您的社群無關，則可能會隱藏這些元素。可移除的元素包括回覆按鈕、編輯描述檔選單、登出選單、註解通知程式和使用者變數。 如需移除這些元素的詳細資訊，請參閱隱藏應用程式元素。
+* **[!UICONTROL Customizing the Friend Tagging Logo:]** 依預設，Livefyre標誌會顯示在朋友標籤下拉式清單中，供頁面串流中已留言的所有使用者使用。若要以您自己的標誌取代此影像，請參閱Studio中的品牌推廣。
 
 使用此功能的應用程式：
 

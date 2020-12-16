@@ -7,6 +7,9 @@ title: 內嵌注釋應用程式
 uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 內嵌注釋應用程式會遵循內嵌核心應用程式的程式。
 
-內嵌注釋應用程式會遵循內嵌應用程式中所述核心應用 [程式的程式](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+內嵌注釋應用程式會遵循內嵌核心應用程式（如[內嵌應用程式](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)所述）的程式
 
 ## 範例
 

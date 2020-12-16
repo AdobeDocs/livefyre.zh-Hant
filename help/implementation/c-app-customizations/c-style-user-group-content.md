@@ -14,7 +14,7 @@ ht-degree: 4%
 ---
 
 
-# 使用者群組內容的樣式{#style-user-group-content}
+# 樣式使用者群組內容{#style-user-group-content}
 
 使用自訂樣式來區隔您的使用者。
 

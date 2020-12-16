@@ -7,6 +7,9 @@ title: Livefyre發行說明2018年12月13日
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 2%
 
 ---
 
@@ -33,11 +36,11 @@ source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
 
    >[!NOTE]
    >
-   >要按商業用戶搜索Instagram，您和Instagram內容作者必須擁有Instagram商業帳戶。 如需如何在Adobe Livefyre studio中設定Instagram商業帳戶的詳細資訊，請參閱「使用Studio存 [取建立帳戶」](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
+   >要按商業用戶搜索Instagram，您和Instagram內容作者必須擁有Instagram商業帳戶。 如需如何在Adobe Livefyre Studio中設定Instagram商業帳戶的詳細資訊，請參閱「使用Studio Access建立帳戶」[。](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
 * 您現在可以使用下列功能，在「資料庫」中依主題標籤來搜尋Instagram:
 
-   * **[!UICONTROL Top Tags Search]**:搜尋以特定主題標籤標籤的最受歡迎媒體。 排名最前的標籤由下列標準決定： [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
+   * **[!UICONTROL Top Tags Search]**:搜尋以特定主題標籤標籤的最受歡迎媒體。排名最前的標籤由下列標準決定：[](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
    * **[!UICONTROL Recent Tags Search]**:使用主題標籤搜尋最近的貼文。
 
-如需更新的Instagram功能的詳細資訊，請 [參閱網路研討會的影片，說明這些功能](https://youtu.be/wRkGc3obaOA)。
+如需更新的Instagram功能的詳細資訊，請[觀看網路研討會的影片，說明此處的功能。](https://youtu.be/wRkGc3obaOA)

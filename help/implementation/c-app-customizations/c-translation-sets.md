@@ -7,11 +7,14 @@ title: 翻譯集
 uuid: 8ba66a61-5520-482a-bc0b-e4f6b57f1744
 translation-type: tm+mt
 source-git-commit: 366b7248c2f3b6994fa10419599e66fa1c8e5e48
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 7%
 
 ---
 
 
-# 翻譯集 {#translation-sets}
+# 翻譯集{#translation-sets}
 
 翻譯集可讓您指定應用程式的替代語言。
 
@@ -21,7 +24,7 @@ c_translation_sets.dita
 
 使用翻譯設定，將應用程式當地語系化為多種語言，或從Studio中的一個位置為數個應用程式指定替代文字。 例如，您可以確保所有西班牙文網站在所有應用程式欄位都使用西班牙文。 您也可以修改文字，讓所有欄位都符合您網站或網路的語音和感覺。
 
-您可以為所有應用程式（Storify 2除外）指定翻譯設定。 如需您可本地化的欄位的詳細資訊，請參 [閱Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md)。
+您可以為所有應用程式（Storify 2除外）指定翻譯設定。 有關可本地化的欄位的詳細資訊，請參閱[本地化字串](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md)。
 
 「注釋」、「即時部落格」和「聊天」在翻譯集內共用相同的字串集。
 
@@ -33,7 +36,7 @@ c_translation_sets.dita
 * 應用程式轉譯集會覆寫網路層級和網站層級的轉譯集。
 * 站點級翻譯集覆蓋網路級翻譯集。
 
-## 檢閱文字字串 {#c-review-text-strings}
+## 查看文本字串{#c-review-text-strings}
 
 自訂Livefyre評論的文字字串。
 
@@ -64,7 +67,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 審查／評分介面 {#section_iyv_zj4_xz}
+## 審查／評分介面{#section_iyv_zj4_xz}
 
 「檢閱」和「評分」使用者介面的可用字串。
 
@@ -78,7 +81,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | follow | 我感興趣 |
 |  | shareText | 我剛寫了個評論。 看看！ |
 | 評分工具提示 |  |  |
-|  | ratingValues | 陣列. 預設=[「窮」、「窮」、「公平」、「公平」、「平均」、「平均」、「好」、「好」、「優秀」、「優秀」]; |
+|  | ratingValues | 陣列. 預設值= [「貧窮」、「貧窮」、「公平」、「公平」、「平均」、「平均」、「良好」、「良好」、「優秀」、「優秀」]; |
 |  |  | 注意：必須複製陣列中的值，才能將每個星形的左半部和右半部都指定為相同名稱。 |
 | 分級子部件 |  |  |
 |  | ratingSubpartPlaceholders | 陣列. 預設值 = [] |
@@ -92,7 +95,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | outOf | / |
 |  | ratingType | 星星 |
 
-## 串流資訊 {#section_wmv_yj4_xz}
+## 串流資訊{#section_wmv_yj4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
@@ -118,7 +121,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | 注釋通告程式 | 新評論 |
 |  | commentNotifierPlural | 新評論 |
 
-## 作者／內容資訊 {#section_osx_xj4_xz}
+## 作者／內容資訊{#section_osx_xj4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -128,7 +131,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | reviewsContentNotFoundMsg | [此審閱不再顯示](https://d.pr/i/svXs) |
 |  | backToComments | 返回評論 |
 
-## 使用者動作 {#section_tlx_wj4_xz}
+## 用戶操作{#section_tlx_wj4_xz}
 
 用戶操作可用的字串：標幟、共用和標示現有內容有用。
 
@@ -157,7 +160,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | *共用模式* |  |  |
 |  | shareTitle | 分享評論 |
 
-## 貼文功能 {#section_yl1_wj4_xz}
+## 貼文函式{#section_yl1_wj4_xz}
 
 發佈審核的使用者可使用的字串。
 
@@ -203,7 +206,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorTitleMaxChars | 抱歉，您的標題太長。 請編輯並再試一次。 |
 |  | errorVoteOwnComment | 您無法依自己的意見投票 |
 
-## 字串 {#c_sidenotes_text_strings}
+## 字元號文字字串{#c_sidenotes_text_strings}
 
 自訂Livefyre Sides的文字字串
 
@@ -242,7 +245,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 驗證 {#section_pqf_3l4_xz}
+## 驗證{#section_pqf_3l4_xz}
 
 驗證程式和已驗證用戶菜單中可用的字串。
 
@@ -256,7 +259,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuUserLogout | 登出 |
 |  | menuUserBackBtn | 全部 |
 
-## 串流資訊 {#section_wpy_gl4_xz}
+## 串流資訊{#section_wpy_gl4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
@@ -267,7 +270,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuInfoHelp | 說明 |
 |  | menuInfoLivefyreLink | 造訪Livefyre.com |
 
-## 作者／內容資訊 {#section_dhb_gl4_xz}
+## 作者／內容資訊{#section_dhb_gl4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -281,12 +284,12 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | commentVoteCount | 投票 |
 |  | commentVoteCountSing | 票 |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | *陣列. Default = *[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
+|  | datetimeMonths | *陣列. 預設值= *[ 「1月」、「2月」、「3月」、「4月」、「5月」、「6月」、「7月」、「8月」、「9月」、「10月」、「11月」、「12月」] |
 |  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。 <br>反白標示文字，然後按一下圖示，或按一下每個段落結尾的圖示。 |
 |  | questionMockText | 「熟悉」的內容並不是眾所周知的，只是因為「熟悉」。 |
 |  | questionTitle | 什麼是Sidexer? |
 
-## 使用者動作 {#section_qxd_fl4_xz}
+## 用戶操作{#section_qxd_fl4_xz}
 
 用戶操作可用的字串：標幟、分享和按贊現有內容。
 
@@ -313,7 +316,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | sliderLoading | 正在載入… |
 |  | sliderWriteText | 你覺得呢？ 點選以寫入。 |
 
-## 貼文功能 {#section_xzf_2l4_xz}
+## 貼文函式{#section_xzf_2l4_xz}
 
 可供發佈內容之使用者使用的字串。
 
@@ -347,7 +350,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuEtcPostedAt | 張貼於{date} |
 |  | menuEtcTitle | 更多 |
 
-## 協調者介面 {#section_o5f_dl4_xz}
+## 協調者介面{#section_o5f_dl4_xz}
 
 用戶驗證的協調器介面可用的字串。
 

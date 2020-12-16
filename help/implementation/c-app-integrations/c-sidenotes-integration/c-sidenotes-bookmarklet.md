@@ -6,11 +6,14 @@ title: Siestroms書籤小程式
 uuid: b6f6263e-85b1-4e49-ba3c-7f12746a4f59
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
 
-# Siestroms書籤小程式{#sidenotes-bookmarklet}
+# Sides Bookmarklet{#sidenotes-bookmarklet}
 
 Sideras可載入至（幾乎）任何現有頁面。
 

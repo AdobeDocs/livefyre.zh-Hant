@@ -24,7 +24,7 @@ Livefyre使用PUSH介面來傳送使用者權限變更的外部系統資訊。
 |--- |--- |
 | 擁有者 | 此使用者是擁有者，可協調內容並指派新的協調者。 |
 | admin | 此使用者是協調者，可協調內容。 |
-| 成員 | 此用戶被允許列出。 張貼的內容不會透過垃圾訊息或臟話篩選，也不需要在預先協調的串流中核准。 |
+| 成員 | 此用戶被允許列出。 張貼的內容不會透過垃圾訊息或臟話篩選，也不需要預先協調的串流中核准。 |
 | none | 此使用者是標準使用者，沒有特殊權限。 |
 | outcast | 此使用者被禁止參與任何對話。 |
 
@@ -42,11 +42,11 @@ POST https://{networkName}.quill.fyre.co/?actor_token={token}&push_affiliation_u
 | token | 有效的系統Token。 |
 | url | 要註冊的URL。 |
 
-已註冊的URL應接受具有下列資料的POST作為內容類型： application/x-www-form-urlencoded.
+已註冊的URL應接受具有下列資料的POST作為內容類型：application/x-www-form-urlencoded.
 
 | 參數 | 說明 |
 |--- |--- |
-| jid | 從屬關係已更改的用戶的JID。 JID是形式的字串 `user_id@network`。 |
-| 學員 | 指派的權限名稱，其必須是下列其中一項：  `{admin | member | none | outcast | owner}` |
+| jid | 從屬關係已更改的用戶的JID。 JID是`user_id@network`格式的字串。 |
+| 學員 | 指派的權限名稱，其必須是下列其中一項： `{admin | member | none | outcast | owner}` |
 
-如需更新使用者關係設定的詳細資訊，請參閱「新 [增使用者關係API參考」](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
+有關更新用戶從屬關係設定的詳細資訊，請參閱[添加用戶從屬關係API參考](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。

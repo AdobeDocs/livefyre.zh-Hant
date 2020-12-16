@@ -7,6 +7,9 @@ title: 注釋通告程式
 uuid: 36907977-8233-4978-9413-232c7b2fae20
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 注釋通告程式是位於頁面右下角的一個小彈出窗口，通過向其作者顯示注釋的前幾個字來通知頁面上的用戶流中的新活動。 （通告程式不適用於熱門注釋、熱線程或排隊注釋。）
 
-## 注釋通告程式功能 {#section_ut2_lvx_vy}
+## 注釋通告程式功能{#section_ut2_lvx_vy}
 
 注釋通告程式通過呈現頁面上發生的活動來提高用戶參與度，無論用戶當前參與的頁面在何處，鼓勵他們按一下新注釋並做出響應。
 
@@ -27,9 +30,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 在查看所有新注釋後，通告程式將消失，當用戶當前流視圖的上方或下方顯示新注釋時，通告程式將重新顯示。
 
-## 隱藏注釋通告程式 {#section_cmy_cvx_vy}
+## 隱藏注釋通告程式{#section_cmy_cvx_vy}
 
-按一下 **[!UICONTROL x]** 條右角的以關 **[!UICONTROL New Comments]** 閉該頁的通告程式。 刷新頁面，通告程式將重新出現。
+按一下&#x200B;**[!UICONTROL New Comments]**&#x200B;欄右角的&#x200B;**[!UICONTROL x]** ，關閉該頁的通告程式。 刷新頁面，通告程式將重新出現。
 
 使用CSS自定義功能，在整個網路中隱藏通告程式構件。
 

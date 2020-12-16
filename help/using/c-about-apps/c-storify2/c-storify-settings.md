@@ -7,11 +7,14 @@ title: 景物設定
 uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
 
-# 景物設定{#storify-settings}
+# Storify Settings{#storify-settings}
 
 調整Storify 2動態的設定，例如標籤、協調和允許的內容。
 

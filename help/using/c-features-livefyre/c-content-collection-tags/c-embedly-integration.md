@@ -7,13 +7,16 @@ title: Embedly 整合
 uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 14%
 
 ---
 
 
 # Embedly 整合{#embedly-integration}
 
-Use `embed.ly` to display multiple media formats, directly in the App.
+使用`embed.ly`直接在應用程式中顯示多種媒體格式。
 
 為了更好地啟用來自多種來源的內嵌媒體內容，包括Google地圖、YouTube、Flickr、Facebook、Instagram、Spotify和Tumblr,Livefyre Apps使用Embedly做為URL擴充的協力廠商提供者。 如果使用者或協調者在貼文中包含支援的連結，則連結中包含的媒體會在張貼至系列時展開。
 
@@ -23,7 +26,7 @@ Use `embed.ly` to display multiple media formats, directly in the App.
 >
 >Livefyre只會擴充Embedly完整提供者清單的子集。 只有提供者是Twitter、YouTube、Imgur、Vine、Wikipedia或SoundCloud時，內嵌影像才會在HTTPS頁面上展開。 如需連結擴充或來源的進一步問題，請連絡您的技術客戶經理。
 
-本頁列出一些常用內嵌媒體類型的範例，以及它們可接受的URL模式。 `Embed.ly` 不斷新增來源。 如需提供者的完整清單，請前往 `https://embed.ly/embed/features/providers`。
+本頁列出一些常用內嵌媒體類型的範例，以及它們可接受的URL模式。 `Embed.ly` 不斷新增來源。有關提供者的完整清單，請前往`https://embed.ly/embed/features/providers`。
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Use `embed.ly` to display multiple media formats, directly in the App.
 
 | 類型 | 提供者 | URL |
 |--- |--- |--- |
-| 地圖 | Google地圖 | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**注意**:URL必須以 `http` 開頭，而非 `https.` |
+| 地圖 | Google地圖 | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**注意**:URL必須以開 `http` 頭而非  `https.` |
 | 社交網路 | Google+ | <ul><li>`https://plus.google.com/*`</li><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li>`https://google.com/profiles/*`</li></ul> |
 | 影片 | YouTube | <ul><li>`https://*youtube.com/watch*`</li><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul> |
 | 相片 | Flickr | `https://www.flickr.com/photos/*`<br>`https://flic.kr/*` |

@@ -7,17 +7,20 @@ title: Storify CSS類別
 uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 
-# Storify CSS類別{#storify-css-classes}
+# Storify CSS Classes{#storify-css-classes}
 
 適用於Storify應用程式的CSS類別。
 
 使用CSS自訂Storify應用程式，只要使用您自己的樣式表覆寫預設CSS，即可與頁面進行更完整的整合。 本節說明可用的CSS自訂。
 
-## 作者元素 {#section_tdy_hsh_xz}
+## 作者元素{#section_tdy_hsh_xz}
 
 可讓您自訂貼文作者頭像、作者名稱和時間戳記的樣式。
 
@@ -30,7 +33,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | .s-img | 作者的頭像。 |
 | .s-timestamp | 發佈日期內容的時間戳記。 |
 
-## 頁首元素 {#section_nbv_gsh_xz}
+## 標題元素{#section_nbv_gsh_xz}
 
 可讓您自訂內文頁面的頁首區段。
 
@@ -41,7 +44,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | .super-header | 首頁首 |
 | .outer-header | 主標題行1 |
 | .s倒計時 | 主報頭行1倒計時器 |
-| .s-liveness | 主標題行1 "Live"狀態 |
+| .s-liveness | 主標題行1 &quot;Live&quot;狀態 |
 | .base-header | 主標題行2 |
 | .s-dropdown | 主標題列2排序下拉式觸發器。 |
 | .s-dropdown-menu | 主標題行2排序下拉菜單。 |
@@ -51,7 +54,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | .s-share-button按鈕 | 主標題行2 「共用」按鈕。 |
 | .s-share-menu | 主標題列2 「共用」功能表。 |
 
-## 貼文元素 {#section_lrs_fsh_xz}
+## 貼文元素{#section_lrs_fsh_xz}
 
 可讓您自訂貼文內文元素的樣式。
 
@@ -82,7 +85,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | .s-element-quote-video | 含視訊元素的報價(例如：含影片的推文) |
 | .s-link-body | 報價內的連結預覽(例如：含連結預覽的推文) |
 
-## 頁尾元素 {#section_ozc_zrh_xz}
+## 頁尾元素{#section_ozc_zrh_xz}
 
 可讓您自訂每個貼文的頁尾區段。
 

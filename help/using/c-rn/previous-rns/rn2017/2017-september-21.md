@@ -6,11 +6,14 @@ title: 2017 年 9 月 21 日
 uuid: 1132b48a-f85c-4e05-b312-0093db9ebc8f
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 6%
 
 ---
 
 
-# September 21, 2017{#september}
+# 2017 年 9 月 21 日{#september}
 
 2017年9月21日發行說明。
 

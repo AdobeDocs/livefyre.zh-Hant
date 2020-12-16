@@ -7,6 +7,9 @@ title: 配置選項
 uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Theme]**
 
-   選取「 **淺色** 」或「深 **色** 」，以定義顯示內容的背景顏色。 對此設定所做的變更會立即反映在右側的預覽中。 此設定可控制應用程式的背景、內容文字、使用者控制代碼、時間戳記、共用按鈕和社交圖示顏色選擇。
+   選擇&#x200B;**Light**&#x200B;或&#x200B;**Dark**&#x200B;以定義顯示內容的背景顏色。 對此設定所做的變更會立即反映在右側的預覽中。 此設定可控制應用程式的背景、內容文字、使用者控制代碼、時間戳記、共用按鈕和社交圖示顏色選擇。
 
 * **[!UICONTROL Brand color]**
 
@@ -49,7 +52,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Byline type]**
 
-   如果 **[!UICONTROL Byline]** 已啟用，則此下拉菜單允許您選擇要顯示的行類型：小組逐行，或個別逐行。 使用下方欄位 **[!UICONTROL Byline type]** 輸入要顯示為行文的文字。
+   如果&#x200B;**[!UICONTROL Byline]**&#x200B;已啟用，則此下拉菜單允許您選擇要顯示的行類型：小組逐行，或個別逐行。 使用&#x200B;**[!UICONTROL Byline type]**&#x200B;下方的欄位輸入要顯示為位元的文字。
 
    >[!NOTE]
    >
@@ -57,7 +60,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Set time zone]**
 
-   允許您選擇用於「內文」的時區。 此位置將用來為動態內的所有貼文加上時間戳記。 （使用者會看到此轉換為其本機時間，但可將滑鼠指標暫留在他們看到的時間戳記上，以顯示「動態」的時間戳記設定。）
+   可讓您選取要用於內文的時區。 此位置將用來為動態內的所有貼文加上時間戳記。 （使用者會看到此轉換為其本機時間，但可將滑鼠指標暫留在他們看到的時間戳記上，以顯示「動態」的時間戳記設定。）
 
 * **[!UICONTROL Load more posts]**
 
@@ -67,7 +70,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Users may share posts]**
 
-   如果啟用，使用者可以將您的動態分享至Twitter或Facebook。 如需啟用共用的詳細資訊，請參閱「設定&gt;整合設定&gt;社交共用」。
+   如果啟用，使用者可以將您的動態分享至Twitter或Facebook。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
 
 * **[!UICONTROL Users may add sidenotes]**
 

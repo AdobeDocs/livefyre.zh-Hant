@@ -7,6 +7,9 @@ title: Permalinks
 uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -17,17 +20,17 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Permalinks可讓您連結至串流中已封存的註解或內容。 若要啟用此功能，Livefyre會使用預設URL格式：** fyre.it**。 您可自訂此格式，以符合您的標準bit.ly格式。
 
-## 永久墨水顯示器 {#section_mxd_wwg_wy}
+## 永久連結顯示器{#section_mxd_wwg_wy}
 
-如果使用者從社交網路按一下瀏覽器至Livefyre內容應用程式，則會將他們帶至Livefyre內容串流。 內容會顯示在串流的分類檢視中，就在編輯器的正下方，並顯示完整的內容。 藍線會顯示在頭像下方的永久連結內容。 （這條藍線會在幾秒後消失。）
+如果使用者從社交網路按一下Livefyre內容應用程式的Permalink，他們就會被帶到Livefyre內容串流。 內容會顯示在串流的分類檢視中，就在編輯器的正下方，並顯示完整的內容。 藍線會顯示在頭像下方的永久連結內容。 （這條藍線會在幾秒後消失。）
 
 （如果刪除了permallinked內容，則會在分割檢視中顯示該效果的訊息）。
 
-## 自訂永久連結 {#section_uyn_5wg_wy}
+## 自訂永久連結{#section_uyn_5wg_wy}
 
 如果您想要在分享對話時建立自訂的留言權限，則可使用您的Bitly帳戶，而非標準的Livefyre縮短URL(fyre.it)。 使用您的Bitly帳戶有助於提醒使用者，當點按永久連結時，他們將造訪您網站上的內容。
 
-若要實作此功能，請前 **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**&#x200B;往，並輸入您的Bitly API金鑰和使用者名稱。
+若要實作此功能，請前往&#x200B;**[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**，然後輸入您的Bitly API金鑰和使用者名稱。
 
 >[!NOTE]
 >

@@ -7,6 +7,9 @@ title: 資產
 uuid: 21ab781a-3a05-4725-b77d-92decc2d2e1f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 

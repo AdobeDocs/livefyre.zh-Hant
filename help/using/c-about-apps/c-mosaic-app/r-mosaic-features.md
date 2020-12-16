@@ -7,6 +7,9 @@ title: 馬賽克功能
 uuid: 95129d56-a4c4-42d5-8c68-c5fc159017e6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 2%
 
 ---
 

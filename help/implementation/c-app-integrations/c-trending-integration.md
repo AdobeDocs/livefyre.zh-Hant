@@ -7,6 +7,9 @@ title: 趨勢分析
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 與趨勢整合的最快方式，就是使用Livefyre CDN上代管的內建版本。
 
-首先，將 [Livefyre.js新增至您的頁面](https://github.com/Livefyre/Livefyre.js) 。
+首先，將[Livefyre.js](https://github.com/Livefyre/Livefyre.js)新增至您的頁面。
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
@@ -33,7 +36,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 <div id="trending"></div>
 ```
 
-最後，使 `Livefyre.require` 用來構建元件。
+最後，使用`Livefyre.require`來建構元件。
 
 ```
 <script> 
@@ -49,7 +52,7 @@ Livefyre.require([
 </script>
 ```
 
-您現在有趨勢應用程式！ 請在此範例中檢視這些 [動作](https://codepen.io/gobengo/pen/GijEy)。
+您現在有趨勢應用程式！ 請參閱[此範例](https://codepen.io/gobengo/pen/GijEy)中的所有實際運作。
 
 ## 設定 {#section_k5k_qhb_c1b}
 

@@ -7,11 +7,14 @@ title: 2018 年 2 月 15 日
 uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
 
-# February 15, 2018{#february}
+# 2018年2月15日{#february}
 
 2018年2月15日發行說明。
 
@@ -26,10 +29,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
    * 根據影像內容搜尋儲存的影像，以取得精確的內容，而不只是文字
    * 根據分析影像的精確搜尋詞（而非僅限文字）收集串流內容
-   如需智慧型標籤的詳細資訊，請參 [閱智慧型標籤](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)。
+
+   如需智慧型標籤的詳細資訊，請參閱[智慧型標籤](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)。
 
 * **產品內訊息。** 現在，當您登入Livefyre Studio時，會彈出一個公告視窗，以顯示新功能的更新。
-* **轉盤的UGC。** 您現在可以在Livefyre轉盤應用程式中使用UGC Commerce的所有功能。 您可以建立「動作要求」按鈕，並將產品目錄連接至應用程式，從轉盤建立可購物的體驗。
+* **轉盤的UGC。** 您現在可以在Livefyre轉盤應用程式中使用UGC Commerce的所有功能。您可以建立「動作要求」按鈕，並將產品目錄連接至應用程式，從轉盤建立可購物的體驗。
 
 ## 問題 {#section_ehw_ndt_wcb}
 

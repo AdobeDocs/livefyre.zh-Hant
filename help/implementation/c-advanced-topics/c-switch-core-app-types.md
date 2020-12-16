@@ -7,19 +7,22 @@ title: 切換核心應用程式類型
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
 
-# 切換核心應用程式類型{#switch-core-app-types}
+# 交換機核心應用程式類型{#switch-core-app-types}
 
 瞭解如何從一種對話應用程式類型變更為另一種對話類型。
 
-Lifefyre可讓您只變更資料中的某些設定，即可將「系列」從一種Livefyre核心應用程式類型變更為另一種類型（註解、即時部落格或聊天）。 `collectionMeta`
+Lifefyre可讓您只變更`collectionMeta`資料中的某些設定，即可將「系列」從一種Livefyre核心應用程式類型變更為另一種類型（「留言」、「即時部落格」或「聊天」）。
 
-若要實作特定類型的應用程式，請在物件中新增欄 `collectionMeta` 位。 「留言」是預設值，因此如果是您想要的應用程式，您不需要進行這些更新。 若要在建立系列後變更為不同的應用程式，請在應用程式初始化期間傳遞校驗和值。 閱讀更多有關在Token檔案中建立校驗和值 `collectionMeta` 的資訊。
+若要實作特定類型的應用程式，請在`collectionMeta`物件中新增欄位。 「留言」是預設值，因此如果是您想要的應用程式，您不需要進行這些更新。 若要在建立系列後變更為不同的應用程式，請在應用程式初始化期間傳遞校驗和值。 閱讀我們的`collectionMeta` Token檔案中有關建立校驗和值的更多資訊。
 
-## 即時部落格 {#section_kvj_3jj_11b}
+## 即時部落格{#section_kvj_3jj_11b}
 
 ### PHP範例
 
@@ -110,7 +113,7 @@ conv_config = {
 }
 ```
 
-## 即時部落格 {#section_bqt_cjj_11b}
+## 即時部落格{#section_bqt_cjj_11b}
 
 ### PHP範例
 

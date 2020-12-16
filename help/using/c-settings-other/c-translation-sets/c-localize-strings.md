@@ -7,6 +7,9 @@ title: 本地化字串
 uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 8%
 
 ---
 
@@ -62,7 +65,7 @@ var customStrings = {
 
 本頁列出可針對Livefyre核心應用程式自訂的所有文字字串。
 
-## 帳戶存取 {#section_cm3_d24_xz}
+## 帳戶存取{#section_cm3_d24_xz}
 
 驗證程式和已驗證用戶菜單中可用的字串。
 
@@ -76,7 +79,7 @@ var customStrings = {
 |  | siteAdmin | 管理控制台（Studio的連結） |
 |  | 登出 | 登出 |
 
-## 串流資訊 {#section_wx1_c24_xz}
+## 串流資訊{#section_wx1_c24_xz}
 
 可用於內容串流資訊和顯示的字串。 列出接聽的人數、應用程式的貼文數，以及允許使用者登入或存取其帳戶資訊。
 
@@ -98,7 +101,7 @@ var customStrings = {
 |  | newReply | 新回覆 |
 |  | newReplies | 新回覆 |
 
-## 串流排序 {#section_ih2_124_xz}
+## 串流排序{#section_ih2_124_xz}
 
 允許使用者依年齡或人氣來排序傳回的內容。
 
@@ -122,7 +125,7 @@ var customStrings = {
 
 ![](assets/strings_threadend-150x47.png)
 
-## 內容資訊 {#section_llv_yd4_xz}
+## 內容資訊{#section_llv_yd4_xz}
 
 列出貼文資訊：使用者名稱、任何已套用的使用者標籤，以及貼文時間。
 
@@ -131,7 +134,7 @@ var customStrings = {
 | 金鑰 | 預設文字 | 作者 |
 |---|---|---|
 |  | 協調者 | 協調者 |
-|  | slassfcardViewProfile | 檢視完整設定檔 |
+|  | slasscardViewProfile | 檢視完整設定檔 |
 | 貼文資訊 | timeJustNow | 剛才 |
 |  | timeMinutesAgo | 分鐘前 |
 |  | timeMinutesAgoPlural | 數分鐘前 |
@@ -146,7 +149,7 @@ var customStrings = {
 |  | permalinkNotFoundMsg | 此注釋不再顯示。 |
 |  | quickProfileTooltip | 快速設定檔 |
 
-## 精選內容 {#section_gmw_vd4_xz}
+## 精選內容{#section_gmw_vd4_xz}
 
 如果啟用，則特色內容會列在串流的頂端。
 
@@ -156,7 +159,7 @@ var customStrings = {
 | ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag | 精選 |
 |  | featuredCommentsTitlePlural | 精選注釋 |
 
-## 文字編輯器 {#section_ky5_td4_xz}
+## 文字編輯器{#section_ky5_td4_xz}
 
 依預設，所有使用者都可在頁面頂端使用。
 
@@ -179,7 +182,7 @@ var customStrings = {
 |  | livechatWindowsInstruction | 按Ctrl+Enter鍵張貼 |
 |  | livechatOtherInstruction | 按命令+Enter鍵張貼 |
 
-## 回應選項 {#section_zvt_qd4_xz}
+## 響應選項{#section_zvt_qd4_xz}
 
 除非另有說明，否則可供所有登入的使用者使用。 將滑鼠移至內容面板上以存取。
 
@@ -191,7 +194,7 @@ var customStrings = {
 | flagButton | 標幟 |
 |  | flagCommentTooltip | 標幟 |
 |  | editButton（僅供作者和協調者使用，如果已啟用。） | 編輯 |
-|  | deleteButton（僅供作者和協調者使用，如果啟用）。 | 刪除 |
+|  | deleteButton（若已啟用，則僅供作者和協調者使用。） | 刪除 |
 |  | deleteCommentTooltip | 刪除 |
 |  | shareButton | 共用 |
 |  | shareCommentTooltip | 共用 |
@@ -250,7 +253,7 @@ var customStrings = {
 |---|---|---|
 | 回覆模式 | postReplyAsButton | 將留言張貼為…… |
 |  | postReplyButton（可供登入的使用者使用）。 | 貼文留言 |
-|  | backToHotThreads | 返回熱線程 |
+|  | backToHotThreads | 返回到熱線程 |
 
 ![](assets/strings_backto-150x48.png)
 
@@ -259,13 +262,13 @@ var customStrings = {
 | Twitter @turtience modal | 提及次數標題 | 分享提及次數 |
 |  | tinterSubtitleTwitter | 分享推文至： |
 |  | 提及次數DefaultText | 我在Livefyre評論中提到過你！ |
-|  | 提及次數ConfirmButton | OK |
+|  | 提及次數ConfirmButton | 確定 |
 |  | 提及次數CancelButton | 取消 |
 |  | 提及次數ErrorGeneral | 糟了！ 出了點問題！ Livefyre已收到警報。 |
 |  | 提及次數ErrorNoneSelected | 您必須至少啟用一個提及。 |
 |  | 提及次數功能表標題 | 去看和提及你的朋友 |
 |  | 提及次數TwitterConnect | 連線至Twitter |
-|  | 提及次數TwitterFeching | 正在尋找朋友…… |
+|  | 提及次數TwitterFeching | 正在獲取朋友…… |
 |  | tuniterSuccessMsg | 提及次數已成功傳送。 |
 
 ![](assets/strings_sharemention-150x60.png)
@@ -273,7 +276,7 @@ var customStrings = {
 | 金鑰 | 預設文字 |  |
 |---|---|---|
 | 編輯模式 | 適用於Studio管理員、使用者管理員或主持者 |  |
-| @(@intiture)。 | &lt;/&gt;（開啟自訂html視窗）。 |  |
+| @(@intiture)。 | &lt;/>（開啟自訂html視窗）。 |  |
 |  | customHtmlDialogTitle（以模型標題的形式顯示）。 | 新增自訂HTML |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
@@ -298,10 +301,10 @@ var customStrings = {
 | 禁止使用者模式 | 適用於Studio管理員、使用者管理員或協調者。 |  |
 | banTitle | 禁止使用者 |  |
 |  | banConfirmation | 您確定要禁止此使用者嗎？ |
-|  | banConfirmButton | OK |
+|  | banConfirmButton | 確定 |
 |  | banCancelButton | 取消 |
 
-## 注釋通告程式 {#section_qqt_pd4_xz}
+## 注釋通告程式{#section_qqt_pd4_xz}
 
 若已啟用，則位於頁面底部的所有Livefyre對話應用程式。
 
@@ -340,7 +343,7 @@ var customStrings = {
 | errorShowMore | 載入更多注釋時出錯。 |
 | MultipleMediaNotAllowedError | 您的權限一次只授予您一個介質附件。 |
 
-## 時間和日期格式 {#section_yz4_g5n_xz}
+## 時間和日期格式{#section_yz4_g5n_xz}
 
 翻譯和自訂日期在視覺化應用程式內的內容卡上的顯示方式。
 
@@ -358,7 +361,7 @@ var customStrings = {
 | secondsAgo | {number}s |
 | secondsAgoSingular | {number}s |
 
-## 媒體牆 {#section_vwt_d5n_xz}
+## 介質牆{#section_vwt_d5n_xz}
 
 媒體塗鴉牆應用程式的可用字串。
 
@@ -385,7 +388,7 @@ var customStrings = {
 | featuredText | 精選 |
 | shareButtonText | 共用 |
 
-## 馬賽克 {#section_e2s_b5n_xz}
+## 馬賽克{#section_e2s_b5n_xz}
 
 Mosaics的字串可用。
 
@@ -403,7 +406,7 @@ Mosaics的字串可用。
 | featuredText | 精選 |
 | shareButtonText | 共用 |
 
-## 功能卡 {#section_mw2_hkn_xz}
+## 功能卡{#section_mw2_hkn_xz}
 
 功能卡的字串可用。
 
@@ -412,7 +415,7 @@ Mosaics的字串可用。
 | featuredText | 精選 |
 | shareButtonText | 共用 |
 
-## 上傳應用程式 {#section_grc_gkn_xz}
+## 上傳應用程式{#section_grc_gkn_xz}
 
 上傳應用程式的可用字串。
 
@@ -521,10 +524,10 @@ Livefyre Identity的可用字串。
 | fieldrequired | 欄位僅接受整數 |
 | fiellyacceptsavalidemail | 欄位僅接受有效的電子郵件 |
 | fieldonlyacceptsleters | 欄位僅接受字母 |
-| filezemustbelessthanMB | 檔案大小必須小於 {#}MB |
+| filezemustbelessthanMB | 檔案大小必須小於{#}MB |
 | invalidusernameorpassword | 用戶名或密碼無效 |
-| 字元最小長度 | 字元最小長 {#} 度 |
-| 最大長度字元 | 字元長度上 {#} 限 |
+| 字元最小長度 | {#}字元的最小長度 |
+| 最大長度字元 | 字元長度上限{#} |
 | therewasanerror | 發生錯誤 |
 | this fieldrequired | 此為必填欄位。 |
 | validfileextensions | 有效的副檔名 |
@@ -541,6 +544,6 @@ Livefyre Identity的可用字串。
 | passwordErrorTooLong | 密碼最多32個字元 |
 | passwordErrorMissingUpperase | 密碼應至少包含一個大寫字元 |
 | passwordErrorMissingLowercase | 密碼至少應包含一個小寫字元 |
-| passwordErrorMissingSymbol | 密碼集中應至少包含一個符號 `!@#$%^&*()?.,<>\’;:”[]{}|` |
+| passwordErrorMissingSymbol | 密碼應至少包含集`!@#$%^&*()?.,<>\’;:”[]{}|`中的一個符號 |
 
 

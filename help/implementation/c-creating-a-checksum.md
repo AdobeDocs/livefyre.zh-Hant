@@ -13,7 +13,7 @@ ht-degree: 5%
 ---
 
 
-# 建立校驗和 {#creating-a-checksum}
+# 建立校驗和{#creating-a-checksum}
 
 使用Livefyre程式庫建立校驗和。
 

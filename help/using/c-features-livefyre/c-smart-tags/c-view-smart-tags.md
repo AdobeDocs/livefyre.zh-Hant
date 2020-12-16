@@ -6,11 +6,14 @@ title: 檢視智慧型標籤
 uuid: 787c7d86-2c68-4c4c-b687-cf2390bcf233
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
 
-# 檢視智慧型標籤{#view-smart-tags}
+# 查看智慧標籤{#view-smart-tags}
 
 檢視由Sensei驅動的影像識別軟體自動新增至影像的標籤。
 
@@ -22,8 +25,8 @@ Livefyre使用Adobe Sensei影像識別軟體，在您將內容新增至「資料
 1. 選取一或多個資產。
 1. 將資產新增至「資料庫」。
 1. 按一下您新增至「資料庫」的其中一個資產。
-1. 按一 **[!UICONTROL View Details]** 下資產。
-1. 按一下右 **[!UICONTROL Tags]** 下方面板中的標籤
+1. 按一下資產上的&#x200B;**[!UICONTROL View Details]**。
+1. 按一下右下方面板中的&#x200B;**[!UICONTROL Tags]**&#x200B;標籤
 1. 請參閱依類別排列的智慧標籤清單。
-1. 按一下標籤旁的，以刪除您不 **[!UICONTROL X]** 想要的標籤。
+1. 按一下標籤旁的&#x200B;**[!UICONTROL X]**，刪除您不想要的標籤。
 

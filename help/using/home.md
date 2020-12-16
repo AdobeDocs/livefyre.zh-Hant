@@ -12,11 +12,11 @@ ht-degree: 4%
 ---
 
 
-# Livefyre使用指南 {#livefyre-help}
+# Livefyre使用指南{#livefyre-help}
 
 使用Livefyre Studio建立應用程式、收集使用者產生的內容並協調內容。
 
-如需如何使用開發人員工具在您的網站上實作和自訂Livefyre應用程式的詳細資訊，請參閱 [*Adobe Experience Manager Livefyre實作指南&#x200B;*](/help/implementation/home.md)。
+如需如何使用開發人員工具在您的網站上實施和自訂Livefyre應用程式的詳細資訊，請參閱&#x200B;[*Adobe Experience Manager Livefyre實施指南*](/help/implementation/home.md)。
 
 ## 熱門主題
 

@@ -7,6 +7,9 @@ title: buildLivefyreToken網路方法
 uuid: 7c72a05f-669b-4df3-8117-aa4af2f7a179
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 依預設，此Token會設為在建立時的24小時內過期。
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 network.buildLivefyreToken(); 
@@ -31,7 +34,7 @@ network.buildLivefyreToken();
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo
 ```
 
-## NodeJS範例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 network.buildLivefyreToken(); 
@@ -43,7 +46,7 @@ network.buildLivefyreToken();
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo
 ```
 
-## PHP範例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 network.buildLivefyreToken(); 
@@ -55,7 +58,7 @@ network.buildLivefyreToken();
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo 
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 network.build_livefyre_token() 
@@ -67,7 +70,7 @@ network.build_livefyre_token()
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo 
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 network.build_livefyre_token() 

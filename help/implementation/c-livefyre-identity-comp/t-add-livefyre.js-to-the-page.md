@@ -6,6 +6,9 @@ title: 將Livefyre.js新增至頁面
 uuid: fe52446e-4911-4160-a68c-7413e9bc6222
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Livefyre.js是小型的基本資料庫，可為您網站上的應用程式提供
 
 要啟用驗證：
 
-1. 將Livefyre.js新增至網頁 `<head>` 或網站範本的元素。
+1. 將Livefyre.js新增至網頁或網站範本的`<head>`元素。
 1. 將下列其中一項新增至您的頁面：
 
    * `globalwindow.Livefyre` 變數

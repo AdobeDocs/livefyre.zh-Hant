@@ -7,6 +7,9 @@ title: 反向連結追蹤
 uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 Livefyre應用程式可讓您追蹤由反向連結流量產生的資料串流，讓您分析網站的流量。
 
-## 追蹤Livefyre反向連結流量 {#section_nsy_qp4_xz}
+## 追蹤Livefyre反向連結流量{#section_nsy_qp4_xz}
 
 Livefyre來自社交網路和電子郵件的反向連結流量可透過檢查您頁面URL中的查詢字串參數，並在您的頁面上實作程式碼，透過您的分析供應商追蹤。 當留言張貼或分享至社交網路時，Livefyre會附加反向連結至URL，以及包含在Livefyre電子郵件中的永久連結。
 
@@ -29,7 +32,7 @@ Livefyre來自社交網路和電子郵件的反向連結流量可透過檢查您
 
 若要與分析平台整合，您的頁面必須在載入時尋找hubRefSrc，並記錄流量（如果有的話）。
 
-例如:
+例如：
 
 ```
 (function () { 

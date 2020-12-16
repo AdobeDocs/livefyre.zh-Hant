@@ -6,11 +6,14 @@ title: 2017 年 6 月 1 日
 uuid: 70c39b30-896d-437a-9852-80eb47c08892
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 6%
 
 ---
 
 
-# June 1, 2017{#june}
+# 2017 年 6 月 1 日{#june}
 
 2017年6月1日發行說明。
 

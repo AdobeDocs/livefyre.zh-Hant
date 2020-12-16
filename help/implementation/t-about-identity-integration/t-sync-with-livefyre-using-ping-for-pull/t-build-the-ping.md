@@ -7,19 +7,22 @@ title: 建立Ping
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
 translation-type: tm+mt
 source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
 
-# 建立Ping{#build-the-ping}
+# 生成Ping{#build-the-ping}
 
 建立ping，讓您的頁面在使用者更新其描述檔時ping Livefyre。
 
-當Livefyre收到更新通知時， `networkName` 與 `user_id`一起使用時，系統會傳送Pull要求至您的Ping for Pull URL。
+當Livefyre收到`networkName`和`user_id`的更新通知時，系統會傳送Pull要求給您的Ping for Pull URL。
 
 >[!NOTE]
 >
->403/Not Authorized for your Ping表示Ping請求附加 `lftoken` 了無效。 請確定是針對 `lftoken` 具有網路擁 `user_id` 有者權限或系統用戶。 如果您使用Livefyre程式庫，請使 `buildLivefyreToken` 用方法為請求產生有效的系統Token。
+>403/Not Authorized for your Ping（響應您的Ping）表示Ping請求後附加了無效的`lftoken`。 請確保`lftoken`適用於具有網路所有者權限的`user_id`或系統用戶。 如果您使用Livefyre程式庫，請使用`buildLivefyreToken`方法為請求產生有效的系統Token。
 
 1. 將程式碼新增至您的頁面，讓使用者在更新其描述檔時ping Livefyre。 以此方式建構URL:
 

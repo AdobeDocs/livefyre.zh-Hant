@@ -7,19 +7,22 @@ title: 變更 @mention 圖示
 uuid: a395f4ff-a774-454a-8d94-4a3371d8cc2c
 translation-type: tm+mt
 source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 31%
 
 ---
 
 
-# 變更圖 `@mention` 示 {#change-mention-icon}
+# 變更`@mention`圖示{#change-mention-icon}
 
-Change the icon displayed for Livefyre users in the `@mention` pulldown menu.
+在`@mention`下拉式選單中，變更Livefyre使用者所顯示的圖示。
 
-將下拉式選單中使用的Livefyre `@mention` 圖示變更為您選擇的圖示，讓您使用自己的圖示來指出您的社群成員。
+將`@mention`下拉式選單中使用的Livefyre圖示變更為您選擇的圖示，讓您使用自己的圖示來指示社群成員。
 
 ## 範例
 
-若要變更此圖示，請新增下列CSS至您的樣式表。 將&lt;*您的資源*&gt; URL取代為選取以取代預設Livefyre標章之影像的URL。
+若要變更此圖示，請新增下列CSS至您的樣式表。 將您的資源&#x200B;*url取代為已選取取代預設Livefyre標章之影像的URL。*
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

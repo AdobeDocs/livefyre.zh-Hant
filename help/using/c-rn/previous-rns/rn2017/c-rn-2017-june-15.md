@@ -6,11 +6,14 @@ title: 2017 年 6 月 15 日
 uuid: 19262de2-72b7-4df8-b041-1c4171381158
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
 
-# June 15, 2017{#june}
+# 2017 年 6 月 15 日{#june}
 
 2017年6月15日發行說明。
 
@@ -27,7 +30,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 錯誤 | Siesors | 增強的側滑以支援前端協調。 這表示登入前端應用程式的協調者將能夠核准或刪除內容。 |
 | 錯誤 | 社交搜尋 | 修正執行Twitter Social搜尋時無法儲存地圖位置的錯誤。 |
 | 增強功能 | Storify 2 | 修正當使用者依「最舊至最新」或「最新至最舊」排序時，造成頁面跳轉的Storify 2錯誤。 |
-| 增強功能 | 串流規則 | 新增在「串流規則」中依「語言」篩選推文的能力。 |
+| 增強功能 | 串流規則 | 新增可依「串流規則」中的語言篩選推文的功能。 |
 | 增強功能 | 串流規則 | 新增可篩選Twitter和Instagram串流規則中多個地圖位置的功能。 |
 | 增強功能 | 串流規則 | 新增儲存Twitter串流規則時的驗證改進。 |
 | 增強功能 | Studio | 增強Studio中切換元件的對比，讓您更容易看到。 |

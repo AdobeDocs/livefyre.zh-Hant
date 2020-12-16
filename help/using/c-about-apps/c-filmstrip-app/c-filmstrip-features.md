@@ -7,6 +7,9 @@ title: 幻燈片功能
 uuid: 0d7d59dc-0465-44d3-8348-b59e51312aab
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 3%
 
 ---
 

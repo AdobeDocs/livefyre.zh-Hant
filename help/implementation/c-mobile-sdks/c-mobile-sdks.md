@@ -7,6 +7,9 @@ title: 行動 SDK
 uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 5%
 
 ---
 
@@ -18,16 +21,16 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 行動裝置實作有幾種可用的選項，視您計畫進行的自訂程度而定：
 
 * 行動網路應用程式
-* Livefyre android或iOS SDK
+* Livefyre Android或iOS SDK
 * HTTP API
 
-## 行動網路應用程式 {#section_t2k_vpb_11b}
+## 行動網路應用程式{#section_t2k_vpb_11b}
 
 在行動裝置上開啟網頁的客戶會自動取得針對行動裝置最佳化的Livefyre內容串流，包括可符合螢幕大小的樣式，以及可處理觸控事件的修改。
 
 >[!NOTE]
 >
->在Android webView中使用Livefyre應用程式時，Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) 參數必須設為true。 如果未啟用localStorage,Livefyre將無法將使用者登入Livefyre應用程式。
+>在Android WebView中使用Livefyre應用程式時，Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html)參數必須設為true。 如果未啟用localStorage,Livefyre將無法將使用者登入Livefyre應用程式。
 
 為了針對行動裝置最佳化，Livefyre將「註解」、「即時部落格」和「聊天應用程式」功能集限制為：
 
@@ -62,5 +65,5 @@ HTTP API是端點群組，可讓您在Livefyre平台上建立對話和內容。 
 
 >[!IMPORTANT]
 >
->**請勿在行動用戶端中** ，建立使用者驗證Token，因為這需要您在不安全的應用程式中公開您的Livefyre機密網路金鑰。 如需更強穩且安全的解決方案，請參閱「使用者驗證Token」區段。
+>**請不** 要在行動用戶端中建立使用者驗證Token，因為這需要您在不安全的應用程式中公開您的Livefyre機密網路金鑰。如需更強穩且安全的解決方案，請參閱「使用者驗證Token」區段。
 

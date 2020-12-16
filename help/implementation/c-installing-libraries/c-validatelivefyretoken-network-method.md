@@ -7,6 +7,9 @@ title: validateLivefyreToken網路方法
 uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 |---|---|---|
 | *`lfToken`* | 字串 | 要驗證的Livefyre Token。 |
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 network.validateLivefyreToken(lfToken); 
@@ -31,7 +34,7 @@ network.validateLivefyreToken(lfToken);
 true 
 ```
 
-## NodeJS範例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 network.validateLivefyreToken(lfToken); 
@@ -43,7 +46,7 @@ network.validateLivefyreToken(lfToken);
 true 
 ```
 
-## PHP範例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 $network->validateLivefyreToken(lfToken); 
@@ -55,7 +58,7 @@ $network->validateLivefyreToken(lfToken);
 true 
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 network.validate_livefyre_token(lfToken) 
@@ -67,7 +70,7 @@ network.validate_livefyre_token(lfToken)
 true 
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 network.validate_livefyre_token(lfToken) 

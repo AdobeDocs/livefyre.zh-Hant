@@ -7,6 +7,9 @@ title: 安裝
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +59,7 @@ Java庫與以下模組有相關性：
 </dependency> 
 ```
 
-如需詳細資訊，請閱讀Java檔案或查看 [GitHub上的來源](https://github.com/Livefyre/livefyre-java-utils)。
+如需詳細資訊，請閱讀Java檔案，或查看[GitHub](https://github.com/Livefyre/livefyre-java-utils)上的來源。
 
 ## NodeJS {#section_swj_pwq_rz}
 
@@ -72,9 +75,9 @@ NodeJS庫與以下模組有相關性：
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-如需詳細資訊，請閱讀NodeJs檔案或在 [GitHub上查看來源](https://github.com/Livefyre/livefyre-nodejs-utils)。
+如需詳細資訊，請閱讀NodeJs檔案，或查看[GitHub](https://github.com/Livefyre/livefyre-nodejs-utils)上的來源。
 
-連結： [Restler](https://github.com/danwrong/restler)、 [Validator](https://www.npmjs.org/package/validator)、 [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
+連結：[Restler](https://github.com/danwrong/restler)、[Validator](https://www.npmjs.org/package/validator)、[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
 
 ## PHP {#section_txj_xwq_rz}
 
@@ -92,7 +95,7 @@ NodeJS庫與以下模組有相關性：
 composer.phar install 
 ```
 
-如果您不 **使用** Composer，請使用下列程式庫取得最新版本：
+如果您&#x200B;**not**&#x200B;使用Composer，請使用下列程式庫取得最新版本：
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
@@ -112,9 +115,9 @@ PHP庫具有對以下模組的依賴性：
 "firebase/php-jwt": ">=2.0" 
 ```
 
-如需詳細資訊，請閱讀PHP檔案或查看 [GitHub上的來源](https://github.com/Livefyre/livefyre-php-utils)。
+如需詳細資訊，請閱讀PHP檔案，或查看[GitHub](https://github.com/Livefyre/livefyre-php-utils)上的來源。
 
-連結： [ext-json](https://php.net/manual/en/book.json.php)、 [Requests](https://github.com/rmccue/Requests/)、 [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+連結：[ext-json](https://php.net/manual/en/book.json.php)、[請求](https://github.com/rmccue/Requests/)、[PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
@@ -132,9 +135,9 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-如需詳細資訊，請閱讀Python檔案或在 [GitHub上查看來源](https://github.com/Livefyre/livefyre-python-utils)。
+如需詳細資訊，請閱讀Python檔案，或查看[GitHub](https://github.com/Livefyre/livefyre-python-utils)上的來源。
 
-連結：Py JWT [、](https://github.com/progrium/pyjwt)Requests [、](https://github.com/kennethreitz/requests)Python-Dateutil [、](https://pypi.python.org/pypi/python-dateutil)[](https://pypi.python.org/pypi/enum34)[Enum 34Dict、OrderedOrderedDit](https://pypi.python.org/pypi/ordereddict)
+連結：[PyJWT](https://github.com/progrium/pyjwt)、[Requests](https://github.com/kennethreitz/requests)、[Python-Dateutil](https://pypi.python.org/pypi/python-dateutil)、[Enum34](https://pypi.python.org/pypi/enum34)、[OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
@@ -156,6 +159,6 @@ Ruby庫具有下列模組的依賴性：
 "addressable", '~> 2.3', ">= 2.3.6" 
 ```
 
-如需詳細資訊，請閱讀Ruby檔案或查看 [GitHub上的來源](https://github.com/Livefyre/livefyre-ruby-utils)。
+有關詳細資訊，請閱讀Ruby文檔或查看[GitHub](https://github.com/Livefyre/livefyre-ruby-utils)上的源。
 
-連結： [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)、 [REST客戶端](https://github.com/rest-client/rest-client/)、可 [定址](https://github.com/sporkmonger/addressable)
+連結：[Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)、[REST客戶端](https://github.com/rest-client/rest-client/)、[可定址](https://github.com/sporkmonger/addressable)

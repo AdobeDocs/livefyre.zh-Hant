@@ -6,11 +6,14 @@ title: 智慧標籤
 uuid: f978fa83-e79b-46ae-bb3e-0f9449bd0440
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
 
-# 智慧標籤{#smart-tags}
+# 智慧型標籤{#smart-tags}
 
 Livefyre使用Adobe Sensei電腦視覺技術，自動為您儲存或上傳至資料庫的影像和視訊加上標籤。
 
@@ -41,4 +44,4 @@ Livefyre使用Adobe Sensei電腦視覺技術，自動為您儲存或上傳至資
 * 功能標籤：功能與影像的功能標籤相同（例如貓、狗、金字塔、地標）。
 * 動作標籤：識別跨多個影格的功能，而非僅一個。 這些功能更有效地匯總視訊內容。
 
-如需智慧標籤的詳細資訊，請參 [閱所有串流規則的串流規則選項](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+如需智慧標籤的詳細資訊，請參閱[所有串流規則的串流規則選項](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

@@ -6,6 +6,9 @@ title: Avatars
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 >
 >「聊天」的Avatar顯示為25p x 25p，而其他大部分的「應用程式」則顯示為50p x 50p。
 
-## 頭像儲存 {#section_zbh_x1f_wy}
+## 頭像儲存{#section_zbh_x1f_wy}
 
-Livefyre會以非同步方式載入Avatar。 當使用者第一次登入應用程式或變更其相關的頭像影像檔案時，他們的設定檔影像會新增至工作佇列。 （當使用者上傳至Livefyre頭像儲存位置時，會暫時顯示預設頭像。）
+Livefyre會以非同步方式載入Avatar。 當使用者第一次登入應用程式或變更其相關的頭像影像檔案時，其設定檔影像會新增至工作佇列。 （當使用者上傳至Livefyre頭像儲存位置時，會暫時顯示預設頭像。）
 
-## 凹版 {#section_mqh_p1f_wy}
+## 凹版{#section_mqh_p1f_wy}
 
 Livefyre支援Gravatars的使用。 如果使用者的使用者設定檔中沒有自訂頭像，Livefyre會檢查該使用者的Gravatar。 如果沒有Gravatar，則會使用預設頭像。
 

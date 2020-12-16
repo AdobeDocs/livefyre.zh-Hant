@@ -7,6 +7,9 @@ title: 翻譯和自訂文字字串
 uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 

@@ -6,11 +6,14 @@ title: 使用AuthDelegate將Janrain連線至Livefyre
 uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 1%
 
 ---
 
 
-# 使用AuthDelegate將Janrain連線至Livefyre{#connecting-janrain-to-livefyre-using-authdelegate}
+# 使用AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}將Janrain連線至Livefyre
 
 Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
 
@@ -76,9 +79,9 @@ authDelegate.login = function(finishLogin) {
 
 登出
 
-* **** finishLogout:傳遞給驗證委派登入方法的回呼。
+* **finishLogout：傳** 遞給驗證委派登入方法的回呼。
 
-* **** window.底板：對底板對象的引用。
+* **window.Backplane:** 對底板對象的引用。
 
 ```
 /** 

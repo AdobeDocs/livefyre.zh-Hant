@@ -7,6 +7,9 @@ title: 翻譯集
 uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 使用翻譯設定，將應用程式當地語系化為多種語言，或從Studio中的一個位置為數個應用程式指定替代文字。 例如，您可以確保所有西班牙文網站在所有應用程式欄位都使用西班牙文。 您也可以修改文字，讓所有欄位都符合您網站或網路的語音和感覺。
 
-您可以為所有應用程式（Storify 2除外）指定翻譯設定。 如需您可本地化的欄位的詳細資訊，請參 [閱Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings)。
+您可以為所有應用程式（Storify 2除外）指定翻譯設定。 有關可本地化的欄位的詳細資訊，請參閱[本地化字串](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings)。
 
 「注釋」、「即時部落格」和「聊天」在翻譯集內共用相同的字串集。
 
@@ -25,16 +28,23 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 不同級別的翻譯集會按照此模式相互覆蓋：
 
-API轉換集會覆蓋任何層級（應用程式、網路和網站）的任何轉換集應用程式轉換集會覆寫網路層級和網站層級的轉換集。
+API轉換集會覆寫任何層級（應用程式、網路和網站）的轉換集
+應用程式轉譯集會覆寫網路層級和網站層級的轉譯集。
 站點級翻譯集覆蓋網路級翻譯集。
 
-## 檢閱文字字串 {#c_review_text_strings}
+## 查看文本字串{#c_review_text_strings}
 
 自訂Livefyre評論的文字字串。
 
 此頁面列出並說明可在「檢閱」應用程式中自訂的字串。 此處列出的字串除了Livefyre核心應用程式的預設字串外，也會覆寫，列在「字串自訂」中。 其中列出重複項目時，這些表格中列出的字串是「檢閱」應用程式的預設值。
 
-實作檢閱／分級介面串流資訊作者／內容資訊使用者動作貼文函式錯誤
+實作
+審查／評分介面
+串流資訊
+作者／內容資訊
+使用者動作
+貼文功能
+錯誤
 
 ## 實施 {#section-vsy-1k4-xz}
 
@@ -53,7 +63,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 審查／評分介面 {#section_iyv_zj4_xz}
+## 審查／評分介面{#section_iyv_zj4_xz}
 
 「檢閱」和「評分」使用者介面的可用字串。
 
@@ -65,7 +75,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | showReviewBtn | 顯示審核 |
 |  | follow | 我感興趣 |
 |  | shareText | 我剛寫了個評論。 看看！ |
-| 評分工具提示 | ratingValues | 陣列. 預設值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`;注 <br>意：必須複製陣列中的值，才能將每個星形的左半部和右半部都指定為相同名稱。 |
+| 評分工具提示 | ratingValues | 陣列. 預設值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`;<br>注意：必須複製陣列中的值，才能將每顆星的左半部和右半部都指定相同的名稱。 |
 | 分級子部件 | ratingSubpartPlaceholders | 陣列. 預設值 = [] |
 |  | ratingSubpartTitles | 陣列. 預設值 = [] |
 |  | reviewStreamTitle | 預設為空白。 評論摘要部分的標題。 |
@@ -76,13 +86,13 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | outOf | / |
 |  | ratingType | 星星 |
 
-## 串流資訊 {#section_wmv_yj4_xz}
+## 串流資訊{#section_wmv_yj4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
 | 元素 | 金鑰 | 預設文字 |
 |---|---|---|
-| 排序 |  sortBy | *預設為空白。* |
+| 排序 | sortBy | *預設為空白。* |
 |  | sortHighestAdied | [最高評分](https://d.pr/i/huTd) |
 |  | sortLeomthAding | [最低評分](https://d.pr/i/huTd) |
 |  | sortMostHappiled | [最有用](https://d.pr/i/huTd) |
@@ -96,7 +106,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 注釋通告程式計數 | 注釋通告程式 | 新評論 |
 |  | commentNotifierPlural | 新評論 |
 
-## 作者／內容資訊 {#section_osx_xj4_xz}
+## 作者／內容資訊{#section_osx_xj4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -105,7 +115,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 線程插頭 | reviewsContentNotFoundMsg | [此審閱不再顯示](https://d.pr/i/svXs) |
 |  | backToComments | 返回評論 |
 
-## 使用者動作 {#section_tlx_wj4_xz}
+## 用戶操作{#section_tlx_wj4_xz}
 
 用戶操作可用的字串：標幟、共用和標示現有內容有用。
 
@@ -128,7 +138,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 提及模式 | 提及次數DefaultText | 我在Livefyre評論中提到過你！ |
 | 共用模式 | shareTitle | 分享評論 |
 
-## 貼文功能 {#section_yl1_wj4_xz}
+## 貼文函式{#section_yl1_wj4_xz}
 
 發佈審核的使用者可使用的字串。
 
@@ -172,13 +182,20 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorTitleMaxChars | 抱歉，您的標題太長。 請編輯並再試一次。 |
 |  | errorVoteOwnComment | 您無法依自己的意見投票 |
 
-## 字串 {#c_sidenotes_text_strings}
+## 字元號文字字串{#c_sidenotes_text_strings}
 
 自訂Livefyre Sides的文字字串
 
 本頁列出並說明Sidesars應用程式中可自訂的所有字串。 如需核心Livefyre應用程式可用字串的詳細資訊，請參閱字串自訂。
 
-實作驗證串流資訊作者／內容資訊使用者動作貼文函式協調者介面錯誤
+實作
+驗證
+串流資訊
+作者／內容資訊
+使用者動作
+貼文功能
+協調者介面
+錯誤
 
 ## 實施 {#section_wp2_ql4_xz}
 
@@ -198,7 +215,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 驗證 {#section_pqf_3l4_xz}
+## 驗證{#section_pqf_3l4_xz}
 
 驗證程式和已驗證用戶菜單中可用的字串。
 
@@ -211,7 +228,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuUserLogout | 登出 |
 |  | menuUserBackBtn | 全部 |
 
-## 串流資訊 {#section_wpy_gl4_xz}
+## 串流資訊{#section_wpy_gl4_xz}
 
 可用於內容串流資訊和顯示的字串。
 
@@ -221,7 +238,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuInfoHelp | 說明 |
 |  | menuInfoLivefyreLink | 造訪Livefyre.com |
 
-## 作者／內容資訊 {#section_dhb_gl4_xz}
+## 作者／內容資訊{#section_dhb_gl4_xz}
 
 可供作者和個別內容資訊參考。
 
@@ -235,12 +252,12 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | commentVoteCount | 投票 |
 |  | commentVoteCountSing | 票 |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | 陣列. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
-|  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白顯示文字</span> ，然後按一 <span class="&rdquo;fycon-write&rdquo;"></span> 下圖示，或按 <span class="&rdquo;fycon-action-view&rdquo;"></span> 一下每個段落結尾的圖示。 |
+|  | datetimeMonths | 陣列. 預設值=[ 「1月」、「2月」、「3月」、「4月」、「5月」、「6月」、「7月」、「8月」、「9月」、「10月」、「11月」、「12月」] |
+|  | questionExplanation | 您現在可以直接閱讀和寫入句子、段落、影像和引號。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">反白</span> 標示文字， <span class="&rdquo;fycon-write&rdquo;"></span> 然後按一下圖 <span class="&rdquo;fycon-action-view&rdquo;"></span> 示或每個段落結尾的圖示。 |
 |  | questionMockText | 「熟悉」的內容並不是眾所周知的，只是因為「熟悉」。 |
 |  | questionTitle | 什麼是Sidexer? |
 
-## 使用者動作 {#section_qxd_fl4_xz}
+## 用戶操作{#section_qxd_fl4_xz}
 
 用戶操作可用的字串：標幟、分享和按贊現有內容。
 
@@ -263,7 +280,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | sliderLoading | 正在載入… |
 |  | sliderWriteText | 你覺得呢？ 點選以寫入。 |
 
-## 貼文功能 {#section_xzf_2l4_xz}
+## 貼文函式{#section_xzf_2l4_xz}
 
 可供發佈內容之使用者使用的字串。
 
@@ -295,7 +312,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuEtcPostedAt | 張貼於{date} |
 |  | menuEtcTitle | 更多 |
 
-## 協調者介面 {#section_o5f_dl4_xz}
+## 協調者介面{#section_o5f_dl4_xz}
 
 用戶驗證的協調器介面可用的字串。
 

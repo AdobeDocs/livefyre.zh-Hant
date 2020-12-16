@@ -6,6 +6,9 @@ title: 設定社交共用
 uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -51,28 +54,28 @@ Livefyre會代表您的社交應用程式使用這項資訊連線至列出的社
 若要共用至LinkedIn，請為您的LinkedIn API請求輸入下列認證：
 
 * **[!UICONTROL API Key:]** 您的LinkedIn提供的API金鑰。
-* **[!UICONTROL API Secret:]** Your LinkedIn-provided API secret.
+* **[!UICONTROL API Secret:]** 您的LinkedIn提供的API機密。
 
 ## Bitly {#section_ur2_np1_21b}
 
-To enable Bitly permalinks, enter the following information for your Bitly integration:
+若要啟用Bitly永久連結，請輸入下列Bitly整合資訊：
 
-* **[!UICONTROL Login:]** Your Bitly-provided end user username login.
-* **[!UICONTROL API Key:]** Your Bitly-provided API key.
+* **[!UICONTROL Login:]** 您的Bitly提供的使用者使用者名稱登入。
+* **[!UICONTROL API Key:]** 您的Bitly提供的API金鑰。
 
 
 
-Apps that use this feature:
+使用此功能的應用程式：
 * [轉盤](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [聊天室](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Feature Card](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
+* [功能卡](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [地圖](/help/using/c-about-apps/c-map-app/c-map-app.md#c_map_app)
-* [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
-* [Mosaic](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
-* [Polls](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
-* [Reviews](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [媒體牆](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
+* [馬賽克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
+* [民調](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
+* [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
+* [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趨勢分析](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 

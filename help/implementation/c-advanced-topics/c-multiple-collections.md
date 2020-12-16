@@ -7,11 +7,14 @@ title: 多個系列
 uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
 translation-type: tm+mt
 source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 1%
 
 ---
 
 
-# 多個系列 {#multiple-collections}
+# 多個系列{#multiple-collections}
 
 在單一頁面上展示多個系列。
 

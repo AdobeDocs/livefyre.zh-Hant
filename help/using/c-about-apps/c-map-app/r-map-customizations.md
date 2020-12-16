@@ -7,6 +7,9 @@ title: 映射自定義
 uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +48,7 @@ Map應用程式提供下列選項：
 
    >[!NOTE]
    >
-   >如果您的網頁開發人員已在頁 **[!UICONTROL height]** 面上為您的地圖定義了一個值，這些值將會覆寫，而您的地圖將會遵循自適應的設計調整大小慣例。 如果尚未定義高度，則會使用這些值，而您的地圖會以設定的大小（非互動式設計）放置。 如果這些欄位保留空白，則值預設為寬600像素、高400像素，而地圖將不會回應。
+   >如果您的網頁開發人員已為頁面上的地圖定義&#x200B;**[!UICONTROL height]**，這些值將被覆寫，而您的地圖將遵循互動式設計調整大小慣例。 如果尚未定義高度，則會使用這些值，而您的地圖會以設定的大小（非互動式設計）放置。 如果這些欄位保留空白，則值預設為寬600像素、高400像素，而地圖將不會回應。
 
 * **[!UICONTROL Location]**
 
@@ -53,7 +56,7 @@ Map應用程式提供下列選項：
 
 您可以使用下列項目來自訂地圖應用程式：
 
-* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。 如需中所有應用程式的標準和選項的詳 **[!UICONTROL Style]** 細資訊， **[!UICONTROL Config]** 請參閱自訂應用程式 **[!UICONTROL App Designer]**。
+* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式。
 
 * 整合工具。 如需如何使用整合工具自訂應用程式的詳細資訊，請參閱地圖。
 

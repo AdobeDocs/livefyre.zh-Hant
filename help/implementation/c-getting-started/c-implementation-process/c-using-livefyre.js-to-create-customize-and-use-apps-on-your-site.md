@@ -5,6 +5,9 @@ title: 內嵌應用程式
 uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -13,13 +16,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 使用Livefyre.js內嵌程式碼結構，將Livefyre應用程式新增至您的網頁。
 
-本檔案適用於技術觀眾。 如需 [有關應用程式的非技術資訊](/help/using/c-about-apps/c-about-apps.md)。
+本檔案適用於技術觀眾。 有關[應用程式的非技術資訊](/help/using/c-about-apps/c-about-apps.md)。
 
 本節說明您在網站上內嵌Livefyre應用程式時，在頁面範本中必須包含的程式碼結構。
 
 1. 使用Livefyre預留位置建立。html檔案。
 
-   在您選擇的文字編輯器中建立新的。html檔案。 建立預留位置Livefyre `<div>` 元素，應用程式將嵌入其中。
+   在您選擇的文字編輯器中建立新的。html檔案。 建立預留位置Livefyre `<div>`元素，應用程式將嵌入其中。
 
    ```
    <html> 
@@ -32,7 +35,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 包含Livefyre.js程式庫。
 
-   然後，加入Livefyre JS程式庫。 將下列參照置於元素 `<script>` 中的元素 `<head>` 中。 然後，在瀏覽器中開啟您的頁面，並使用瀏覽器的網頁偵測器確認Livefyre已載入。
+   然後，加入Livefyre JS程式庫。 在`<head>`元素的`<script>`元素中放置以下引用。 然後，在瀏覽器中開啟您的頁面，並使用瀏覽器的網頁偵測器確認Livefyre已載入。
 
    ```
    <head> 
@@ -42,7 +45,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 建構Livefyre應用程式。
 
-   借 `Livefyre.require` 由傳遞您計畫使用的Livefyre套件，以建立核心和SDK應用程式。
+   使用`Livefyre.require`傳入您計畫使用的Livefyre套件，以建構核心和SDK應用程式。
 
    1. 建立核心應用程式。
 
@@ -74,6 +77,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
       }); 
       ```
 
-      請參 [閱特定應用程式的詳細資訊](/help/using/c-about-apps/c-about-apps.md)。 建議您釘選至最新的主要套件版本(可透過 [Livefyre.require找到](https://cdn.livefyre.com/packages.html))，以避免意外的整合中斷。
+      請參閱[有關特定應用程式的詳細資訊](/help/using/c-about-apps/c-about-apps.md)。 建議您釘選至最新的主要套件版本（可透過[Livefyre.require](https://cdn.livefyre.com/packages.html)找到），以避免意外的整合中斷。
 
 下一步：將驗證新增至您的網站，讓您的使用者張貼意見。

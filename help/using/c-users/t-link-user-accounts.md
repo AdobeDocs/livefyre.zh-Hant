@@ -7,6 +7,9 @@ title: 連結使用者帳戶
 uuid: f1106367-64f9-4304-aa04-f931f79ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 若要連結帳戶：
 
 1. 在您的網路上建立Livefyre使用者設定檔後，登入Studio。
-1. 請前往、 **[!UICONTROL Users]**&#x200B;尋找您的使用者設定檔，然後按兩下以檢視詳細資訊。
-1. Click **[!UICONTROL Connect account]**.
+1. 前往&#x200B;**[!UICONTROL Users]**，尋找您的使用者設定檔，然後按兩下以檢視詳細資訊。
+1. 按一下 **[!UICONTROL Connect account]**.
 1. 在開啟的視窗中，選取要連結至此帳戶的使用者帳戶。
-1. 確認資 **[!UICONTROL Link Profile]** 訊，然後按一下 **[!UICONTROL Link]**。 ![](assets/UsersConnectAccount-1024x311.png)
+1. 確認&#x200B;**[!UICONTROL Link Profile]**&#x200B;資訊，然後按一下&#x200B;**[!UICONTROL Link]**。![](assets/UsersConnectAccount-1024x311.png)
 

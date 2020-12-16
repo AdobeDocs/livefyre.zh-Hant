@@ -6,6 +6,9 @@ title: 樣式功能
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 您可以設定Livefyre應用程式的樣式，使其以各種方式運作，或變更它們，使其外觀和感覺與您品牌促銷活動的其他部分類似。
 
-## 預設樣式 {#section_yjl_rfs_d1b}
+## 預設樣式{#section_yjl_rfs_d1b}
 
 您可以在App Designer的Studio中設定應用程式的樣式，而不需使用Livefyre.js來自訂應用程式。
 

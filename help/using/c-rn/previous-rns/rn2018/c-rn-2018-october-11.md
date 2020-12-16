@@ -7,11 +7,14 @@ title: 2018 年 10 月 11 日
 uuid: 8f08b2d1-295f-4b6a-82ef-74d21f15f784
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 9%
 
 ---
 
 
-# October 11, 2018{#october}
+# 2018 年 11 月 10 日{#october}
 
 2018年10月11日發行說明。
 
@@ -35,7 +38,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 錯誤 | 資料庫／搜尋 | 修正在「資產詳細資訊」、「資料庫」和已發佈的「應用程式」中使用有效的IG商業帳戶時，影像未顯示的問題。 |
 | 錯誤 | 串流 | 修正YouTube串流規則無法儲存的問題。 |
 
-## UAT發行 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
 下表中的問題已在此版本的UAT版本中解決。
 

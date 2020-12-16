@@ -7,6 +7,9 @@ title: 2019年3月14日的Livefyre發行說明
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 9246343b64915af07feb8952060c1e3af5aada56
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 9%
 
 ---
 
@@ -27,6 +30,6 @@ source-git-commit: 9246343b64915af07feb8952060c1e3af5aada56
 
 * 修正在「進階」模式中可選取「停用的Twitter權限要求」帳戶的問題。
 * 修正「媒體塗鴉牆」中有未定義HTML標籤的問題。
-* 修正Instagram社交搜尋在某些情況下顯示「找不到視訊／影像」訊息不正確的問題。
+* 修正Instagram社交搜尋在某些情況下顯示「找不到視訊／影像」訊息的問題。
 * 修正「媒體牆」和「拼貼」中的Instagram和Facebook相簿多次顯示相同影像的問題。
 修正「權限請求」下拉式清單中顯示不存在的帳戶的問題。

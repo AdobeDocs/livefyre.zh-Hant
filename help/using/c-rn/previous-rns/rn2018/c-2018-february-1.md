@@ -7,11 +7,14 @@ title: 2018 年 2 月 1 日
 uuid: c4776206-ccb7-4b5f-b85a-f9bef256ac6e
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 9%
 
 ---
 
 
-# February 1, 2018 {#february}
+# 2018 年 2 月 1 日 {#february}
 
 2018年2月1日發行說明。
 
@@ -23,14 +26,14 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 增強功能 | 串流 | 已建立新功能，可依「智慧標籤」篩選串流。 |
 | 錯誤 | 串流 | 修正Instagram串流規則無法識別日文字元的問題。 |
 | 增強功能 | 串流 | 串流內容現在會在儲存至資料夾或發佈至應用程式時，由Adobe Sensei自動智慧標籤。 |
-| 錯誤 | Studio | 修正Nat geo報告的錯誤，該錯誤在名稱中顯示為HTML。 |
+| 錯誤 | Studio | 修正Nat Geo報告的錯誤，該錯誤在名稱中顯示為HTML的特殊字元。 |
 
 ## UAT發行
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 增強功能 | 應用程式內容 | 新增在「應用程式內容」中一次標籤多個內容的功能。 |
-| 增強功能 | 應用程式 | 新增設計人員切換功能，以啟用／停用Mosaic、Filmstrip、Media Wall、功能卡和轉盤中的自訂動作要求按鈕。 |
+| 增強功能 | 應用程式 | 新增設計人員切換功能，以啟用／停用Mosaic、Filmstrip、Media Wall、功能卡和轉盤中的自訂動作呼叫按鈕。 |
 | 增強功能 | 意見 | 新增在「注釋」中放置新音訊檔案格式並使用「上傳按鈕」的功能。 |
 | 錯誤 | 串流 | 修正造成「安全規則」核取方塊無法正確勾選／取消勾選的錯誤。 |
 

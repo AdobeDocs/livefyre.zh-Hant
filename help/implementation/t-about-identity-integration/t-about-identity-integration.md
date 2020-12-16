@@ -7,6 +7,9 @@ title: 身分整合
 uuid: 079dc9c7-656a-49d0-920d-9e5a421a319c
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 說明將使用者驗證新增至Livefyre應用程式的選項，包括Janrain Capture或您自己的身分識別服務。
 
-## 身分整合 {#t_about_identity_integration}
+## 身分整合{#t_about_identity_integration}
 
 說明將使用者驗證新增至Livefyre應用程式的選項，包括Janrain Capture或您自己的身分識別服務。
 

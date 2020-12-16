@@ -7,6 +7,9 @@ title: 評論
 uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Allure使用評論來邀請其使用者針對其功能產品提供評分和意�
 
 ![](assets/ReviewsAllure.png)
 
-## 評論功能 {#section_awq_xph_21b}
+## 評論功能{#section_awq_xph_21b}
 
 「評論」提供數種特定於此應用程式的功能。
 

@@ -1,5 +1,5 @@
 ---
-description: 2019年Livefyre Feb 21版本的發行說明。
+description: 2019年Livefyre Feb 21發行說明。
 seo-description: 2019年Livefyre Feb 21版本的LRelease Notes。
 seo-title: 發行說明
 solution: Experience Manager
@@ -7,11 +7,14 @@ title: 發行說明
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 4051e0d55c7fa1cf02d8b01c239d040c0a3baf14
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 77%
 
 ---
 
 
-# 發行說明- 2019年2月21日 {#rn022119}
+# 發行說明- 2019年2月21日{#rn022119}
 
 **2019年2月21日更新的發行說明。**
 

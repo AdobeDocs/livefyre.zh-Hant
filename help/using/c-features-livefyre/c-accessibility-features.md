@@ -7,6 +7,9 @@ title: 協助功能
 uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +40,7 @@ Livefyre強調下列區域，以確保網站訪客可存取Livefyre身分和應�
 
 若要測試應用程式是否使用協助工具功能，您可以：
 
-* 開啟螢幕閱讀程式(例如 [Mac或Apple裝置上的配音](https://www.apple.com/accessibility/mac/vision/) ，或PC上的 [Ander](https://www.microsoft.com/en-us/accessibility/windows) )，以朗讀包含App的頁面。 使用螢幕閱讀程式可驗證內容是否可用
+* 開啟螢幕閱讀程式（例如，Mac或Apple裝置上的[配音](https://www.apple.com/accessibility/mac/vision/)或PC上的[Anrebor](https://www.microsoft.com/en-us/accessibility/windows)），以朗讀包含應用程式的頁面。 使用螢幕閱讀程式可驗證內容是否可用
 
 * 在應用程式中設定索引標籤，並嘗試僅使用鍵盤來確認您可以以邏輯方式存取每個按鈕或連結。
 * 變更縮放等級和對比率，查看內容是否以可讀且易於檢視的方式呈現。

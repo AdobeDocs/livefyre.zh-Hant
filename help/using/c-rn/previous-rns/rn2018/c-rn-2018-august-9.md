@@ -7,6 +7,9 @@ title: 2018 年 8 月 9 日
 uuid: c59ae5ec-9d26-41c4-9a98-cb95c89ee26a
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ## 新功能 {#section_syx_mdt_wcb}
 
-**** 視訊智慧標籤：使用者現在可以在50MB以下看到視訊的智慧標籤。
+**視訊智慧標籤：使** 用者現在可以看到50MB以下視訊的智慧標籤。
 
 ## 問題 {#section_ehw_ndt_wcb}
 
@@ -30,7 +33,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | 錯誤 | 應用程式內容 | 修正管理員和內容管理員無法編輯應用程式內容中內容的問題。 |
 | 增強功能 | 應用程式 | 社交網路已進行隱私權變更，這表示Facebook或Twitter將不再支援社交提及。 |
 | 增強功能 | 應用程式 | 社交網路已對隱私權做出變更。 自動將內容張貼至社交網路(Facebook、LinkedIn、Twitter)的「貼文至」功能已移除。 |
-| 增強功能 | GDPR | 從「設定&gt;隱私」下的請求詳細資訊頁面移除切換的詳細資訊模式。 詳細資訊模式切換仍然可以通過在URL末尾添加/dbg來訪問。 |
+| 增強功能 | GDPR | 從「設定>隱私」下的請求詳細資訊頁面移除切換的詳細資訊模式。 詳細資訊模式切換仍然可以通過在URL末尾添加/dbg來訪問。 |
 | 錯誤 | 整合：AEM | 修正在AEM中拖放Livefyre應用程式時，似乎會建立多個應用程式的問題。 |
 | 錯誤 | 庫 | 修正資產無法正確儲存在資料庫的問題。 |
 | 錯誤 | Livefyre Identity | 已修正LF識別在登入時造成403錯誤的問題。 |
@@ -54,5 +57,5 @@ UAT版本發行中已解決下表中的問題。
 | 錯誤 | Rights Management | 修正當頁面捲動時，ModQ中的排序應位於固定位置的問題。 |
 | 錯誤 | 串流 | 修正在測試環境中檢視串流的問題。 |
 | 增強功能 | 串流 | 已新增「安全工作」(SFW)和「不安全工作」(NSFW)切換至「串流」。 |
-| 增強功能 | Studio | 已新增智慧型標籤功能至透過FileStack（「所有資產」中的上傳功能）上傳至Livefyre Studio Library的內容。 |
+| 增強功能 | Studio | 已新增智慧型標籤功能至透過FileStack（所有資產中的上傳功能）上傳至Livefyre Studio Library的內容。 |
 

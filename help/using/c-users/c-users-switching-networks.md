@@ -7,6 +7,9 @@ title: 用戶交換網路
 uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 >
 >這並不常見。
 
-下拉 **[!UICONTROL Account]** 式選單列出與您目前登入之Studio帳戶相關的所有使用者名稱，以及與之相關的網路。 使用此下拉菜單選擇要管理的網路。
+**[!UICONTROL Account]**&#x200B;下拉式功能表列出與您目前登入的Studio帳戶相關的所有使用者名稱，以及與之相關的網路。 使用此下拉菜單選擇要管理的網路。
 
 >[!NOTE]
 >

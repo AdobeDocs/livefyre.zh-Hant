@@ -7,11 +7,14 @@ title: 啟用社交共用
 uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
 translation-type: tm+mt
 source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
 
-# 啟用社交共用 {#enabling-social-sharing}
+# 啟用社交共用{#enabling-social-sharing}
 
 設定憑證，讓您的使用者可以將內容分享至各種社交網路。
 
@@ -21,7 +24,7 @@ source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 >
 >不同的提供者有不同的OAuth需求。 請洽詢您的供應商，以取得與其實作OAuth相關的資訊。
 
-## 必要的社交認證 {#section_gff_cjm_b1b}
+## 必要的社交憑證{#section_gff_cjm_b1b}
 
 如果您使用自訂使用者識別系統，您必須提供您的社交認證，讓使用者能夠從Livefyre應用程式分享到Twitter、Facebook或LinkedIn。
 
@@ -33,32 +36,32 @@ source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
 ### 必要憑證：
 
-* **Facebook用戶端** ID用戶端密碼OAuth Proxy重新導向
-* **LinkedIn** API金鑰API密碼
-* **Twitter** Access Token Access Token Secret API金鑰API Secret
+* **** Facebook用戶端ID用戶端密碼OAuth代理重新導向
+* **** LinkedInAPI金鑰API密碼
+* **** TwitterAccess Token存取Token密碼API金鑰API密碼
 
 ## Twitter {#section_qp5_1yl_b1b}
 
 Twitter認證可從「Twitter應用程式儀表板」取得。 要查找這些憑據，請執行以下操作：
 
-* 以應 [用程式擁有者身分開啟Twitter的「應用程式開發頁面](https://dev.twitter.com/apps) 」、尋找您的應用程式，然後按一下標題。
+* 開啟[Twitter的應用程式開發頁面](https://dev.twitter.com/apps)作為應用程式擁有者，尋找您的應用程式，然後按一下標題。
 * 向下捲動至「您的存取Token」，並從「存取Token」和「存取Token密碼」擷取值。
 
 您必須：
 
 * 在Twitter應用程式中輸入回呼URL欄位的值。 雖然此欄位可能是簡單的預留位置，但不能保留為空白。
-* 將「應用程式類型」設定為 **具有讀****和寫** 權限。
+* 將「應用程式類型」設定為具有&#x200B;**read**&#x200B;和&#x200B;**write**&#x200B;訪問權。
 * 確認Twitter應用程式網站URL與Livefyre核心應用程式位於相同的主機網域。
 
 >[!NOTE]
 >
->所有顯示Twitter內容的應用程式都必須遵循其顯示要求。 如需詳細資訊， [請參閱Twitter顯示准則](https://dev.twitter.com/terms/display-requirements) 。
+>所有顯示Twitter內容的應用程式都必須遵循其顯示要求。 如需詳細資訊，請參閱[Twitter顯示准則](https://dev.twitter.com/terms/display-requirements)。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
 LinkedIn憑證可從LinkedIn應用程式API金鑰的「OAuth金鑰」區段取得。
 
-* 從LinkedIn的「開發人員」頁面https://developer.linkedin.com/登入您的 [帳戶](https://developer.linkedin.com/)。
+* 從LinkedIn的「開發人員」頁面[https://developer.linkedin.com/](https://developer.linkedin.com/)登入您的帳戶。
 * 將滑鼠指標暫留在右上角的名稱上，然後從下拉式選單中選取「API金鑰」。
 * 按一下「應用程式」標題。
 * 從「OAuth金鑰」區段擷取API金鑰和密碼金鑰值
@@ -67,10 +70,10 @@ LinkedIn憑證可從LinkedIn應用程式API金鑰的「OAuth金鑰」區段取�
 
 您的「開發人員應用程式」頁面提供Facebook認證。
 
-* 以應 [用程式擁有者身分開啟Facebook的「開發人員應用程式頁面](https://developers.facebook.com/apps) 」、尋找您的應用程式，然後按一下標題。
+* 開啟[Facebook的開發人員應用程式頁面](https://developers.facebook.com/apps)作為應用程式擁有者，尋找您的應用程式，然後按一下標題。
 * 擷取應用程式ID和應用程式密碼的值。 若是「應用程式密碼」，您可能需要按一下「顯示」按鈕才能顯示。
 
-共用至Facebook需要您設定重新導向頁面，以接受Facebook請求並遵循 [Facebook所要求的網域慣例](https://developers.facebook.com/docs/reference/dialogs/oauth/)。 頁面必須托管在您的網域上，Facebook才能確認請求來自合法來源。
+共用至Facebook需要您設定重新導向頁面，以接受Facebook請求並遵循[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)所要求的網域慣例。 頁面必須托管在您的網域上，Facebook才能確認請求來自合法來源。
 
 ### Facebook重新導向
 
@@ -329,7 +332,7 @@ if (isset($_GET['lfoauth'])) {
 ?>
 ```
 
-## 設定「貼文至」提供者 {#section_rdk_dpl_b1b}
+## 配置「貼文至」提供者{#section_rdk_dpl_b1b}
 
 依預設，Facebook、LinkedIn和Twitter的「貼文至」按鈕會顯示在Livefyre核心應用程式上。 使用postToButtons參數來設定在內嵌Livefyre應用程式時，會出現哪些提供者。
 

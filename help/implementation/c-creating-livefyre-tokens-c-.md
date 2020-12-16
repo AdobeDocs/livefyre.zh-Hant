@@ -7,33 +7,36 @@ title: 建立Livefyre Token 'C#'
 uuid: c5e05625-8550-4b51-9211-134600e20ec7
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 2%
 
 ---
 
 
-# Creating Livefyre Tokens C\# {#creating-livefyre-tokens-c}
+# 建立Livefyre Token C\# {#creating-livefyre-tokens-c}
 
 瞭解如何使用 ``C#`` 語言產生 Livefyre Token。
 
-您可以運用舊版檔案和范常式式碼來 `C#.NET` 編寫方法來建立Token。
+您可以運用舊版檔案和范常式式碼，使用`C#.NET`編寫方法來建立Token。
 
-若要參考Livefyre的官方資料庫，請使用 [Java資料庫](https://github.com/Livefyre/livefyre-java-utils) ，做為開發人員的 `C#` 起點。
+若要參考Livefyre的官方資料庫，請使用[Java資料庫](https://github.com/Livefyre/livefyre-java-utils)作為`C#`開發人員的起點。
 
-您也可以考慮從命令行使用 [Node.js庫](https://github.com/Livefyre/livefyre-nodejs-utils) ，為自己生成參考Token，並熟悉方法結構。
+您也可以考慮使用命令行中的[Node.js庫](https://github.com/Livefyre/livefyre-nodejs-utils)為自己生成參考令牌，並熟悉方法結構。
 
 * [跳至系列Meta Token](https://gist.github.com/gibron/56cb9c7060bf4816c4c5#the-collectionMeta-token)
 * [跳至驗證Token](https://gist.github.com/gibron/56cb9c7060bf4816c4c5#the-auth-token)
 
-## 相依性 {#section_c15_fnh_xz}
+## 相依性{#section_c15_fnh_xz}
 
-* 您需要專案 [中的JWT nuget套件](https://www.nuget.org/packages/JWT) ，才能產生Token。
-* 本頁的程式碼範例使用 [Newtonsoft JSON套件](https://www.nuget.org/packages/newtonsoft.json/) 。
+* 您需要專案中的[JWT nuget套件](https://www.nuget.org/packages/JWT)才能產生Token。
+* 本頁的程式碼範例使用[Newtonsoft JSON](https://www.nuget.org/packages/newtonsoft.json/)套件。
 
 ## CollectionMeta Token {#section_dzt_4mh_xz}
 
-當您在頁面上內嵌「注釋」時，CollectionMeta Token會傳遞至Livefyre，並為我們的系統提供新系列的必要中繼資料。 此外，您還將建立此資料的MD5 `checksum` ,Livefyre會檢查此資料，以查看中繼資料是否已變更。 （例如，您文章的標題或URL已編輯）。
+當您在頁面上內嵌「注釋」時，CollectionMeta Token會傳遞至Livefyre，並為我們的系統提供新系列的必要中繼資料。 此外，您還將建立此資料的MD5 `checksum`,Livefyre會檢查此資料，以查看中繼資料是否已變更。 （例如，您文章的標題或URL已編輯）。
 
-此代號會與您簽署， `Site Key`由Livefyre的Technical帳戶管理員提供給您。
+此Token會與您的`Site Key`簽署，此&lt;a0/>是由Livefyre的Technical帳戶管理員提供給您的。
 
 另請參閱:
 
@@ -54,10 +57,10 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
        };
    ```
 
-   * **需要** 標題 **: 系列的標題，通常是您文章的標題。 最大長度為255個字元。 不支援html實體。 請使用UTF-8編碼特殊字元。
-   * **url必** 要 **: 您文章的標準URL。 此功能會用於留言分享和社交同步功能，以及從「管理控制面板」連結至您的文章。 如果在本機測試，請注意，Livefyre不會接受「localhost」做為網域。
-   * **標籤***可選*: 您要新增至Livefyre控制面板中系列的逗號分隔標籤清單。 標籤不能包含空格。 如果您希望有空格出現在「管理」控制面板中，請使用底線。
-   * **可選** 類型 **: 指示要建立之系列類型的字串。 有效值為:
+   * **需** *要標題*:系列的標題，通常是您文章的標題。最大長度為255個字元。 不支援html實體。 請使用UTF-8編碼特殊字元。
+   * **必** *要*:您文章的標準URL。此功能會用於留言分享和社交同步功能，以及從「管理控制面板」連結至您的文章。 如果在本機測試，請注意，Livefyre不會接受「localhost」做為網域。
+   * **標** *語可選*:您要新增至Livefyre控制面板中系列的逗號分隔標籤清單。標籤不能包含空格。 如果您希望有空格出現在「管理」控制面板中，請使用底線。
+   * **可** *選類型*:指示要建立之系列類型的字串。有效值為:
 
       * `reviews`
       * `sidenotes`
@@ -66,6 +69,7 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
       * `livecomments`
       * `liveblog`
       * `livechat`
+
       如果未指定，則預設會建立LiveComments系列。
 
 
@@ -90,13 +94,13 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
        } 
    ```
 
-1. 將articleId **新增至** 「字典」。 checksum **不會** 進入collectionMeta Token，但應以convConfig js物件中的個別參數傳送。
+1. 將&#x200B;**articleId**&#x200B;新增至「字典」。 **checksum**&#x200B;不會進入collectionMeta Token，但應以個別參數的形式在convConfig js物件中傳送。
 
    ```
        meta.Add("articleId", "article-abcde00001"); 
    ```
 
-   * **articleId必** 要 **: Livefyre網站中系列的唯一識別碼。 通常是CMS中使用的唯一articleId。 （例如您的WordPress貼文ID）此值永遠不應變更。 Livefyre可結合siteId和articleId來識別唯一的系列。
+   * **文** *章必要*:Livefyre網站中系列的唯一識別碼。通常是CMS中使用的唯一articleId。 （例如您的WordPress貼文ID）此值永遠不應變更。 Livefyre可結合siteId和articleId來識別唯一的系列。
 
 1. 使用Livefyre提供給您的網站金鑰，產生字典的已簽署JWT Token。 請注意，您必須指定正確的雜湊演算法，因為JWT套件預設不使用HS256。
 
@@ -128,10 +132,10 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
            }; 
    ```
 
-   * **** 域：網路名稱（由Livefyre提供）。例如mynetwork.fyre.co
-   * **** user_id:您網站描述檔系統中使用者的唯一使用者ID。 只能是英數字元(A-Z、a-z、0-9)。 如果您的系統使用者ID包含無效字元，請考慮傳送Livefyre和使用者ID的md5雜湊，或是它的base64編碼版本。 （如果您這麼做，請讓客戶經理知道。）
-   * **** 過期：代號過期的日期（以紀元時間表示）。 這應符合您網站上登入的作業時間，如此Livefyre的登入狀態就會與您網站的登入狀態保持同步。
-   * **** display_name:使用者在您的描述檔系統中的顯示名稱，應該顯示在注釋串流中。
+   * **網域：** 網路的名稱（由Livefyre提供）。例如mynetwork.fyre.co
+   * **user_id:** 您網站描述檔系統中使用者的唯一使用者ID。只能是英數字元(A-Z、a-z、0-9)。 如果您的系統使用者ID包含無效字元，請考慮傳送Livefyre和使用者ID的md5雜湊，或是它的base64編碼版本。 （如果您這麼做，請讓客戶經理知道。）
+   * **過期：** 代號過期的日期（以紀元為單位）。這應符合您網站上登入的作業時間，如此Livefyre的登入狀態就會與您網站的登入狀態保持同步。
+   * **display_name:** 您的描述檔系統中使用者的顯示名稱，應該顯示在註解串流中。
 
 1. 使用Livefyre提供給您的網路金鑰，產生字典的已簽署JWT Token。 請注意，您必須指定正確的雜湊演算法，因為JWT套件預設不使用HS256。
 

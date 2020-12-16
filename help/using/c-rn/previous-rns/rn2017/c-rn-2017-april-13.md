@@ -6,11 +6,14 @@ title: 2017 年 4 月 13 日
 uuid: abc591bd-3385-40f5-99a5-3f4c8ee4dc6b
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 8%
 
 ---
 
 
-# April 13, 2017{#april}
+# 2017 年 4 月 13 日{#april}
 
 2017年4月13日發行說明。
 
@@ -38,7 +41,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 應用程式設計人員 | 修正無法在Designer中的各種應用程式上儲存新「應用程式標題」名稱的錯誤。 |
-| 錯誤 | App Manager | 改進在App manager中依「文章ID」搜尋時的搜尋結果。 |
+| 錯誤 | App Manager | 改進在App Manager中依「文章ID」搜尋時的搜尋結果。 |
 | 錯誤 | 資產庫 | 修正在「資料庫」中檢視資產的詳細資訊時，造成Unicode內容無法呈現的錯誤。 |
 | 增強功能 | 馬賽克 | 已更新Mosaic卡上的「詳細資訊」模組的外觀和感覺。 |
 | 增強功能 | 馬賽克 | 在Mosaic Designer中新增了設定，讓您在按一下時就可檢視資訊卡的詳細資料。 |

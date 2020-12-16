@@ -12,13 +12,13 @@ ht-degree: 7%
 ---
 
 
-# Livefyre 指南 {#using}
+# Livefyre 指南  {#using}
 
 + [Livefyre說明](home.md)
 + [公告](c-anouncements.md)
 + [存取訓練影片](c-access-training-videos.md)
 + [關於Livefyre](c-product.md)
-+ Apps {#apps}
++ {#apps}
    + [應用程式](c-about-apps/c-about-apps.md)
    + [建立應用程式](c-about-apps/c-create-an-app.md)
    + 轉盤 {#carousel}
@@ -34,14 +34,14 @@ ht-degree: 7%
       + [意見](c-about-apps/c-comments/c-comments.md)
       + [注釋功能](c-about-apps/c-comments/r-comments-features.md)
       + [注釋自訂](c-about-apps/c-comments/r-comments-customizations.md)
-   + 功能卡 {#featurecard}
+   + 功能卡{#featurecard}
       + [功能卡](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [功能卡自訂](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
-   + 幻燈片 {#filmstrip}
+   + 幻燈片{#filmstrip}
       + [幻燈片](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [幻燈片功能](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [幻燈片定制](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + 即時部落格 {#liveblog}
+   + 即時部落格{#liveblog}
       + [即時部落格](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [即時部落格功能](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [即時部落格自訂](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,24 +49,24 @@ ht-degree: 7%
       + [地圖](c-about-apps/c-map-app/c-map-app.md)
       + [地圖功能](c-about-apps/c-map-app/r-map-features.md)
       + [映射自定義](c-about-apps/c-map-app/r-map-customizations.md)
-   + 媒體牆 {#mediawall}
+   + 介質牆{#mediawall}
       + [媒體牆](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [媒體牆功能](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [介質牆定制](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
-   + 馬賽克 {#mosaic}
+   + 馬賽克{#mosaic}
       + [馬賽克](c-about-apps/c-mosaic-app/c-mosaic-app.md)
       + [馬賽克功能](c-about-apps/c-mosaic-app/r-mosaic-features.md)
       + [馬賽克自訂](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
-   + 民調 {#polls}
+   + 輪詢{#polls}
       + [民調](c-about-apps/c-polls-app/c-polls-app.md)
       + [將民調問答新增至留言或即時部落格應用程式](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [新增影像至民調問答](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [輪詢自定義](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + 評論 {#reviews}
+   + 評論{#reviews}
       + [評論](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [建立審核應用程式](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [張貼評論](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + Siesors {#sidenotes}
+   + Siestras {#sidenotes}
       + [Siesors](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
       + [Sides Features](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
       + [Sides Customizations](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
@@ -85,7 +85,7 @@ ht-degree: 7%
       + [在同一個故事上與多位編輯合作](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
       + [使用串流將社交內容新增至您的動態](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [將貼文釘選為Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-      + 導覽指南 {#navigation-guide}
+      + 導覽指南{#navigation-guide}
          + [導覽指南](c-about-apps/c-storify2/c-navigation-guide.md)
          + [將導覽指南新增至Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [新增標題至導覽指南](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
@@ -101,15 +101,15 @@ ht-degree: 7%
       + [上傳按鈕](c-about-apps/c-upload-button-app/c-upload-button-app.md)
       + [上傳按鈕自訂](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [上傳按鈕文字字串](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
-+ 應用程式功能 {#app-features}
++ 應用程式功能{#app-features}
    + [協助功能](c-features-livefyre/c-accessibility-features.md)
    + [驗證功能](c-features-livefyre/c-authentication.md)
    + [自訂動作呼叫按鈕](c-features-livefyre/c-call-to-action-button.md)
-   + 內容行為功能 {#content-behavior-features}
+   + 內容行為功能{#content-behavior-features}
       + [內容行為功能](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [像片上傳](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
       + [使用者貼文](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
-   + 系列和內容標籤 {#collection-content-tags}
+   + 系列和內容標籤{#collection-content-tags}
       + [系列和內容標籤](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
       + [變更系列](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [依系列或內容標籤篩選搜尋](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
@@ -129,7 +129,7 @@ ht-degree: 7%
    + [管理功能](c-features-livefyre/c-enagement-features.md)
    + [監聽器計數](c-features-livefyre/c-listener-count.md)
    + [其他功能](c-features-livefyre/c-miscellaneous-features.md)
-   + 協調與篩選 {#moderation-filtering}
+   + 協調與篩選{#moderation-filtering}
       + [設定協調](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md)
       + [限制Twitter使用者的內容](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
       + [禁止IP位址](c-features-livefyre/c-about-moderation/t-set-up-bans.md)
@@ -141,23 +141,23 @@ ht-degree: 7%
       + [從串流協調內容](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [使用應用程式內容協調內容](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
       + [安全規則](c-features-livefyre/c-about-moderation/c-moderation.md)
-   + 通知功能 {#notifications-features}
+   + 通知功能{#notifications-features}
       + [注釋通告程式](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
       + [電子郵件通知](c-features-livefyre/c-notifications-features/c-email-notifications.md)
       + [設定網路電子郵件](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)
    + [現場貢獻功能](c-features-livefyre/c-on-site-contribution-features.md)
    + [反向連結追蹤](c-features-livefyre/c-referral-tracking.md)
-   + 智慧標籤 {#smart-tags}
+   + 智慧標籤{#smart-tags}
       + [智慧標籤](c-features-livefyre/c-smart-tags/c-smart-tags.md)
       + [檢視智慧型標籤](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
    + 社交分享 {#social-sharing}
       + [社交分享](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [設定社交共用](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
-   + 排序功能 {#sort-features}
+   + 排序功能{#sort-features}
       + [排序功能](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [熱門意見](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [熱線程](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
-   + 樣式功能 {#styling-features}
+   + 樣式功能{#styling-features}
       + [樣式功能](c-features-livefyre/c-styling-features/c-styling-features.md)
       + [CSS樣式與品牌](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
       + [日期和時間戳記](c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
@@ -191,7 +191,7 @@ ht-degree: 7%
    + [搭配Hootsuite使用Adobe Experience Manager Livefyre](c-library/c-hootsuite-livefyre.md)
    + [搭配Adobe Target使用Adobe Experience Manager Livefyre](c-library/livefyre-target.md)
    + [使用Adobe Launch Livefyre Extension](c-library/launch-extension.md)
-+ 串流 {#streams}
++ 串流{#streams}
    + [串流](c-streams/c-streams.md)
    + [建立新串流](c-streams/t-create-a-new-stream.md)
    + [新增串流規則](c-streams/t-add-rules-for-your-stream.md)
@@ -206,7 +206,7 @@ ht-degree: 7%
    + [Twitter規則](c-streams/c-twitter-rules.md)
    + [調節推文與頻率](c-streams/c-throttling-and-frequency-of-tweets.md)
    + [YouTube規則](c-streams/c-youtube-rules/c-youtube-rules.md)
-+ 權限請求 {#rights-requests}
++ 權限請求{#rights-requests}
    + [請求權利](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [管理權限請求](c-how-requesting-rights-works/c-managing-rights-requests.md)
    + [設定Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
@@ -216,7 +216,7 @@ ht-degree: 7%
    + [查看權限活動歷史記錄](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用資產庫的待定權限請求管理內容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [從資產庫人工授與或撤銷資產的權限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ 使用者：管理Studio和Livefyre網路使用者 {#users-managing}
++ 使用者：管理Studio和Livefyre網路使用者{#users-managing}
    + [使用者：管理Studio和Livefyre網路使用者](c-users/c-users.md)
    + [搜尋使用者](c-users/t-search-for-users.md)
    + [檢視帳戶詳細資訊](c-users/c-viewing-account-details.md)
@@ -225,21 +225,21 @@ ht-degree: 7%
    + [連結使用者帳戶](c-users/t-link-user-accounts.md)
    + [用戶交換網路](c-users/c-users-switching-networks.md)
    + [使用者同步](c-users/t-set-up-user-sync.md)
-+ 使用者：建立用戶帳戶 {#users-creating-accounts}
++ 使用者：建立用戶帳戶{#users-creating-accounts}
    + [使用者：建立用戶帳戶](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [邀請使用者建立Studio帳戶](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [接受建立Studio帳戶的邀請](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [登入Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [管理使用者的Studio權限](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [使用者角色和權限](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Add a Social Account {#add-social-account}
+   + 新增Social帳戶{#add-social-account}
       + [新增Social帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [關於Instagram帳戶](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [重新整理社交帳戶的Token](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定：其他 {#settings-other}
++ 設定：其他{#settings-other}
    + [設定認證](c-settings-other/t-set-up-credentials.md)
    + [將站點添加到網路](c-settings-other/t-add-a-site.md)
-   + 翻譯集 {#translation-sets}
+   + 翻譯集{#translation-sets}
       + [翻譯集](c-settings-other/c-translation-sets/c-translation-sets.md)
       + [建立和修改翻譯集](c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
       + [將翻譯集應用於網路](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
@@ -248,10 +248,10 @@ ht-degree: 7%
       + [本地化字串](c-settings-other/c-translation-sets/c-localize-strings.md)
       + [檢閱文字字串](c-settings-other/c-translation-sets/c-review-text-strings.md)
       + [字串](c-settings-other/c-translation-sets/c-sidenotes-text-strings.md)
-   + SSL強制 {#ssl-enforcement}
+   + SSL實施{#ssl-enforcement}
       + [SSL強制](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
       + [SSL檢查清單](c-settings-other/c-ssl-enforcement/c-ssl-checklist.md)
-   + 隱私權要求 {#privacy-requests}
+   + 隱私權要求{#privacy-requests}
       + [隱私權要求（GDPR就緒）](c-settings-other/c-gdpr-compliance/c-gdpr-compliance.md)
       + [隱私權要求常見問答集](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [建立隱私權要求](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
@@ -259,14 +259,14 @@ ht-degree: 7%
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + 發行說明 {#release-notes}
    + [最新發行說明](c-rn/c-rn.md)
-   + Release Notes 2019 {#rn2019}
+   + 發行說明2019 {#rn2019}
       + [2019年3月21日](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
       + [2019年3月14日](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
       + [2019年2月21日](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [2019 年 2 月 7 日](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
       + [2019年1月31日](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [2019年1月17日](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
-   + Release Notes 2018 {#rn2018}
+   + 發行說明2018 {#rn2018}
       + [2018年12月18日](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
       + [2018年12月13日](c-rn/previous-rns/rn2018/c-rn-2018-december-13.md)
       + [2018 年 11 月 15 日](c-rn/previous-rns/rn2018/c-rn-2018-november-15.md)
@@ -287,7 +287,7 @@ ht-degree: 7%
       + [2018年2月15日](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [2018年2月1日](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [2018年1月18日](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
-   + Release Notes 2017 {#rn2017}
+   + 發行說明2017 {#rn2017}
       + [2017年11月16日](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
       + [2017年11月2日](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [2017年10月19日](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)

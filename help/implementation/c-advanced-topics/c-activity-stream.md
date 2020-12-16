@@ -7,11 +7,14 @@ title: 活動串流
 uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 
-# 活動串流 {#activity-stream}
+# 活動流{#activity-stream}
 
 瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
 
@@ -39,20 +42,20 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### 參數
 
-* **** 資源：字 *串* ：您要為其請求活動資料之物件的URN。
+* **resource:** ** string要為其請求活動資料的對象的URN。
 
-* **** 自：整 *數* 64位元整數，代表您上次收到之事件的ID。 如果您沒有先前的資料，請指定「0」。
+* **since:** ** integer代表您上次收到之事件的ID的64位元整數。如果您沒有先前的資料，請指定「0」。
 
-## URN字串 {#section_skl_q4l_b1b}
+## URN字串{#section_skl_q4l_b1b}
 
 範例:
 
-* **** urn:livefyre:的 `example.fyre.co` 活動流 `example.fyre.co`。
-* **** urn:livefyre:網 `example.fyre.co:site=54321` 路下網站54321的活動 `example.fyre.co` 串流。
+* **urn:livefyre:** `example.fyre.co` 的活動串流 `example.fyre.co`。
+* **urn:livefyre：網** `example.fyre.co:site=54321` 路下網站54321的活動 `example.fyre.co` 串流。
 
-## 代號原則 {#section_nwh_c5j_11b}
+## Token原則{#section_nwh_c5j_11b}
 
-活動串流API使用OAuth載體Token進行驗證。 載體Token是OAuth 2.0規格的一部分，並在此處正式 [說明](https://tools.ietf.org/html/rfc6750#section-1.2)。
+活動串流API使用OAuth載體Token進行驗證。 載體Token是OAuth 2.0規格的一部分，並正式說明[此處](https://tools.ietf.org/html/rfc6750#section-1.2)。
 
 Token包含數項內容：
 
@@ -95,11 +98,11 @@ token = jwt.encode(data, key=network_secret)
 
 其中，載體令牌鍵的定義如下：
 
-* **iss** (發 *行者)* -具有產生Token權限的實體。 這可能是Livefyre、網站或網路。 （如果要留到上學的時間，請由您的父母來填。）
-* **aud** （觀眾） ** ，產生此Token的人員。 如果您是自行建立代號，則代號是網站或網路。
-* **sub** (主 *體)* ：要授予權限的主體。 例如，如果您正在操作系列，則主題必須是系列的識別碼。 （在校方範例的附註中，您就是您。）
-* **exp** ( *過期)* Token不再有效的時間點。
-* **範圍** (范 *圍)* ：這是對主題授予的權限清單。 「上學遲到」就是一個例子。 API的名稱是另一個範例。
+* **iss** *（發行商）* 具有產生Token權限的實體。這可能是Livefyre、網站或網路。 （如果要留到上學的時間，請由您的父母來填。）
+* **aud** *（觀眾）* 產生此Token的人員。如果您是自行建立代號，則代號是網站或網路。
+* **sub** *(Subject)* 要授予權限的主體。例如，如果您正在操作系列，則主題必須是系列的識別碼。 （在校方範例的附註中，您就是您。）
+* **exp** *（過期）* 代號不再有效的時間點。
+* **範圍** *（範圍）* 這是對主題授予的權限清單。「上學遲到」就是一個例子。 API的名稱是另一個範例。
 
 ## 範例 {#section_dhl_ytj_11b}
 
@@ -273,8 +276,8 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 ## 附註 {#section_hj3_crj_11b}
 
 * 成功呼叫API將會產生HTTP 200狀態碼。 所有其他狀態代碼應視為錯誤。
-* 如果為非空值，請將中的值 `data.meta.cursor.next` 用作下 `since` 一個請求的參數。
-* 如果值的 `data.meta.cursor.next` 值為null，表示沒有新資料可使用。 您稍後應以相同的值重新請求，以 `since` 查看新資料是否已送達。
-* 實際上，如果值非空值，您應立即要求 `data.meta.cursor.next` 更多資料。
+* 如果為非空值，請將`data.meta.cursor.next`中的值用作下一個請求的`since`參數。
+* 如果`data.meta.cursor.next`的值為null，表示沒有新資料可供使用。 您稍後應使用相同的`since`值重新請求，以查看新資料是否已送達。
+* 實際上，如果`data.meta.cursor.next`值為非空值，您應立即請求更多資料。
 * 透過此API在生產環境中提供大約兩小時的最新資料。
 * 您應設定進程以頻繁輪詢cronjob上的此端點，以避免丟失資料。 間隔5分鐘應完全適合大多數實施。

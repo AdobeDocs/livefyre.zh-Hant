@@ -6,6 +6,9 @@ title: 功能API
 uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +37,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 {value: <number>} 
 ```
 
-此值將用來排序精選內容，從最大到最小（10會在精選內容清單的1之前顯示）。 此值預設為 **現在** ，因此功能注釋通常會最新至最舊。
+此值將用來排序精選內容，從最大到最小（10會在精選內容清單的1之前顯示）。 此值預設為大紀元時間的&#x200B;**now**，因此，精選的註解通常會最新至最舊。
 
 **範例回應**
 
@@ -46,7 +49,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 >
 >資料欄位尚未使用。
 
-## 取消功能 {#section_knh_mqw_xz}
+## 取消功能{#section_knh_mqw_xz}
 
 **資源**
 

@@ -7,6 +7,9 @@ title: 聊天室
 uuid: 1da65e9a-736c-46d3-87e1-371b77f94661
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 

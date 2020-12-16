@@ -7,6 +7,9 @@ title: 建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用
 uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +25,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 若要建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用：
 
-1. 建立或登入Microsoft Live帳戶，網址為 [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
+1. 在[https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)建立或登入Microsoft Live帳戶
 1. 建立新應用程式或選取現有應用程式，以便與Livefyre Identity搭配使用。
-1. 按一 **[!UICONTROL Add Platform]**&#x200B;下，然後選擇「網頁」作為平台類型。
-1. 請確定已選 **[!UICONTROL Allow Implicit Flow]** 中此選項，並使用您的網路名稱（而非{network-name}）輸入「重新導向URL」: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`。
+1. 按一下&#x200B;**[!UICONTROL Add Platform]** ，然後選擇Web作為平台類型。
+1. 請確定已勾選&#x200B;**[!UICONTROL Allow Implicit Flow]**&#x200B;選項，並使用您的網路名稱（而非{network-name}）輸入「重新導向URL」:`https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`。
 1. 產生新密碼／金鑰對以取得私密金鑰。
-1. 在中 **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**，將切換 **[!UICONTROL Enable Microsoft Live Login]** 切換為 **[!UICONTROL On]**。
+1. 在&#x200B;**[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**&#x200B;中，將&#x200B;**[!UICONTROL Enable Microsoft Live Login]**&#x200B;切換為&#x200B;**[!UICONTROL On]**。
 1. 輸入Microsoft Live Client ID和Microsoft Live Client Secret。
-1. Click **[!UICONTROL Save Settings]**.
+1. 按一下 **[!UICONTROL Save Settings]**.
 
 完成後，Microsoft Live Identity的應用程式詳細資訊頁面將會列出應用程式的用戶端ID（消費者金鑰）和用戶端密碼（消費者密碼），以用於Studio的「整合設定」頁面。

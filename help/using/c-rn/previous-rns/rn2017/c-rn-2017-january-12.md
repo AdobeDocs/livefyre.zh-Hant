@@ -1,29 +1,32 @@
 ---
-description: Release Notes for January 12, 2017 release.
-seo-description: Release Notes for January 12, 2017 release.
+description: 2017年1月12日發行說明。
+seo-description: 2017年1月12日發行說明。
 seo-title: 2017 年 1 月 12 日
 title: 2017 年 1 月 12 日
 uuid: fb92ea52-7184-4f08-814c-15e45d684371
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
 
-# January 12, 2017{#january}
+# 2017 年 1 月 12 日{#january}
 
-Release Notes for January 12, 2017 release.
+2017年1月12日發行說明。
 
-## Production Release {#section_y3h_z42_wy}
+## 生產版本{#section_y3h_z42_wy}
 
-| 問題類型 | 元件 | Release Note |
+| 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
-| 錯誤 | App Content | Fixed a bug that prevented hover options on a User Profile from functioning in App Content. |
-| 錯誤 | 應用程式 | Fixed a bug in all apps to remove content titles for RSS content when it matches the link attachment title. |
-| 增強功能 | 意見 | Enhanced Comments to comply with accessibility standards by providing better support for screen readers and making sure all interactive items can be reached with keyboard-only navigation. |
-| 錯誤 | 意見 | Fixed a bug in Comments that was displaying the embed code over videos in some instances. |
-| 增強功能 | Livefyre Identity | Enhanced Livefyre Identity to comply with accessibility standards by providing better support for screen readers and making sure all interactive items can be reached with keyboard-only navigation. |
-| 錯誤 | Polls | Enhanced Polls to sharpen and improve image quality when uploaded in Designer. |
+| 錯誤 | 應用程式內容 | 已修正「使用者設定檔」上的暫留選項無法在「應用程式內容」中運作的錯誤。 |
+| 錯誤 | 應用程式 | 已修正所有應用程式中，當RSS內容符合連結附件標題時，會移除其內容標題的錯誤。 |
+| 增強功能 | 意見 | 增強的「註解」功能，可提供更佳的螢幕閱讀器支援，並確保所有互動項目都可透過僅限鍵盤的導覽功能達到，以符合協助工具標準。 |
+| 錯誤 | 意見 | 已修正「注釋」中，在某些情況下在視訊上顯示內嵌代碼的錯誤。 |
+| 增強功能 | Livefyre Identity | 增強的Livefyre Identity，以符合協助工具標準，為螢幕閱讀程式提供更佳的支援，並確保所有互動項目都可透過僅限鍵盤的導覽功能取得。 |
+| 錯誤 | 民調 | 增強的民調問答功能，讓您在設計人員中上傳時銳利化並改善影像品質。 |
 | 錯誤 | 評論 | 修正無法正確顯示評分編輯的錯誤。 |
 | 增強功能 | 權限請求 | 已新增增強功能，禁止在Instagram「權限帳戶設定」中使用bit.ly連結，以防止請求標示為垃圾訊息。 |
 | 錯誤 | 權限請求 | 修正在「資料庫」中傳送資產請求後，權限模型無法關閉的錯誤。 |

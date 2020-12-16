@@ -7,15 +7,18 @@ title: 系列類別方法
 uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
 
-# 系列類別方法{#collection-class-methods}
+# 系列類方法{#collection-class-methods}
 
 要更新Collection中的資料，請修改Collection類對象方法的內容。
 
-請參閱Site類別方法，以取得有關建立Collection物件的指示。 頁面的其餘部分將假設您的工作階段中有個已執行個體化的Collection物件。
+請參閱Site類別方法，以取得有關建立Collection物件的指示。 頁面的其餘部分將假設您的工作階段中有個實例化的Collection物件。
 
 * [createOrUpdate收集方法](#r_createorupdate_collection_method)
 * [buildCollectionMetaToken收集方法](#r_buildcollectionmetatoken_collection_method)

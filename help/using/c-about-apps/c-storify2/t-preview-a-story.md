@@ -7,6 +7,9 @@ title: 預覽內文
 uuid: 3b5321c3-1fab-4439-86ab-efa2ffc24f41
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 >
 >如果取消選取「範例資料」，預覽會顯示您從編輯器發佈的任何貼文。
 
-1. 按一 **[!UICONTROL Preview Mode]** 下以選取行動裝置、平板電腦或案頭格式，以及是否顯示「範例資料」。
-1. 按一 **[!UICONTROL Preview Mode]** 下以展開預覽，以填滿Studio視窗。
-1. 按一 **[!UICONTROL Exit Preview]** 下以返回設計模式。
+1. 按一下&#x200B;**[!UICONTROL Preview Mode]**&#x200B;以選取行動裝置、平板電腦或案頭格式，以及是否顯示「範例資料」。
+1. 按一下&#x200B;**[!UICONTROL Preview Mode]**&#x200B;展開預覽，以填滿Studio視窗。
+1. 按一下&#x200B;**[!UICONTROL Exit Preview]**&#x200B;返回設計模式。

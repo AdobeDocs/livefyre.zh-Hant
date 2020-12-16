@@ -7,6 +7,9 @@ title: buildReviewsCollection網站方法
 uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +25,31 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | url | 字串 | 此系列的標準絕對URL。 |
 
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 Collection collection = site.buildReviewsCollection(title, articleId, url); 
 ```
 
-## NodeJS範例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 var collection = site.buildReviewsCollection(title, articleId, url); 
 ```
 
-## PHP範例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 $collection = site->buildReviewsCollection(title, articleId, url); 
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 collection = site.build_reviews_collection(title, articleId, url) 

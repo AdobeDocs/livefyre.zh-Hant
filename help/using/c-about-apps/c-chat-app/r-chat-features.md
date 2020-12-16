@@ -7,6 +7,9 @@ title: 聊天功能
 uuid: 8773a8f9-96cd-41db-80dd-261af749e4b1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 

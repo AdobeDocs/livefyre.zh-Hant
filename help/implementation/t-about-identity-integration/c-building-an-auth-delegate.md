@@ -7,6 +7,9 @@ title: AuthDelegate物件
 uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 AuthDelegate物件會針對如何執行驗證動作和事件實施您想要的行為，讓您可以自訂與網站現有驗證系統的整合。
 
-## 建立驗證委派 {#section_wmn_tv2_gz}
+## 建立驗證委派{#section_wmn_tv2_gz}
 
 驗證套件必須先隨驗證委派提供，才能執行動作。 驗證委派是實施本主題中其中一個方法的任何JavaScript物件。
 
-## .login(finishLogin) {#section_mpk_lv2_gz}
+## .login(finishLogin){#section_mpk_lv2_gz}
 
 登入有效的使用者，並在發生錯誤時使用Error物件叫用finishLogin函式，或是使用者的Livefyre憑證。 此方法的常見實作會將使用者重新導向至登入頁面，或開啟新視窗或模式。
 
@@ -47,11 +50,11 @@ authDelegate.login = function contrivedLogin(finishLogin) {
 };
 ```
 
-## .logout(finishLogout) {#section_uqz_2v2_gz}
+## .logout(finishLogout){#section_uqz_2v2_gz}
 
 註銷用戶並調用finishLogout函式（如果出現錯誤，則使用Error對象），或者使用null通知auth註銷成功。
 
-例如:
+例如：
 
 ```
 authDelegate.logout = function (finishLogout) { 
@@ -60,7 +63,7 @@ authDelegate.logout = function (finishLogout) {
 }
 ```
 
-## .viewProfile(user) {#section_kkv_dv2_gz}
+## .viewProfile(user){#section_kkv_dv2_gz}
 
 採取行動來檢視使用者的個人檔案。
 
@@ -70,7 +73,7 @@ authDelegate.viewProfile = function (user) {
 }
 ```
 
-## .editProfile(user) {#section_bkx_pq2_gz}
+## .editProfile(user){#section_bkx_pq2_gz}
 
 採取行動來編輯使用者的設定檔。
 

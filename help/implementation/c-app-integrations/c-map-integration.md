@@ -7,6 +7,9 @@ title: 地圖
 uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +22,13 @@ Map可讓您將地理標籤內容串流至世界地圖，讓您找出有關最�
 
 >[!NOTE]
 >
->地圖由© openStreetMap [提供支援](https://www.openstreetmap.org/copyright),Livefyre用來呈現其地圖的資料。
+>地圖由[© OpenStreetMap](https://www.openstreetmap.org/copyright)提供，可提供Livefyre用於呈現其地圖的資料。
 
 ## 整合 {#section_w2m_db2_d1b}
 
 使用Map最快的方式是使用Livefyre CDN上代管的內建版本。
 
-首先，將 [Livefyre.js新增至您的頁面](https://github.com/Livefyre/Livefyre.js) 。
+首先，將[Livefyre.js](https://github.com/Livefyre/Livefyre.js)新增至您的頁面。
 
 ```
 <script src="https://cdn.livefyre.com/Livefyre.js"></script> 
@@ -56,7 +59,7 @@ function (Map, SDK) {
 </script>
 ```
 
-查看此即時 [範例](https://codepen.io/cheung31/pen/wkmbF)。
+查看此[即時範例](https://codepen.io/cheung31/pen/wkmbF)。
 
 ## 設定 {#section_jc5_gxb_c1b}
 
@@ -73,7 +76,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-傳遞至基礎宣傳單地圖 [的選項](https://leafletjs.com/) ,Map會使用此圖來轉換。 使用此選項可設 [定宣傳單地圖選項](https://leafletjs.com/reference.html#map-options)，包括地圖的初始中心點，以及初始和最大縮放等級。 (可選.)
+傳遞至基礎[宣傳品](https://leafletjs.com/)地圖的選項，Map會使用此圖來轉換。 使用此選項可設定[宣傳單對應選項](https://leafletjs.com/reference.html#map-options)，包括對應的初始中心點，以及初始和最大縮放等級。 (可選.)
 
 ```
 var map = new Map({ 

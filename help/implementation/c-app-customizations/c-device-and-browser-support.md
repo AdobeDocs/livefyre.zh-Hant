@@ -6,6 +6,9 @@ title: 裝置與瀏覽器支援
 uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
 translation-type: tm+mt
 source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 8%
 
 ---
 
@@ -19,11 +22,11 @@ Livefyre支援下列裝置、作業系統和瀏覽器。
 |  | 核心應用程式 | Storify 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **案頭瀏覽器** |  |  |  |  |
-| Chrome | ✓ | ✓ | ✓ | ✓ |
-| Edge | ✓ | ✓ | ✓ | ✓ |
+| Chrome | ý | ý | ý | ý |
+| Edge | ý | ý | ý | ý |
 | IE 11 | 有限 | 有限 | 有限 | 有限 |
-| Firefox | ✓ | ✓ | ✓ | ✓ |
-| Safari | ✓ | ✓ | ✓ | ✓ |
+| Firefox | ý | ý | ý | ý |
+| Safari | ý | ý | ý | ý |
 |  |  |  |  |  |
 | **裝置** |  |  |  |  |
 | Android Browser 2.3+ | 有限 | 有限 | 不適用 | 有限 |
@@ -37,5 +40,5 @@ Livefyre支援下列裝置、作業系統和瀏覽器。
 
 >[!NOTE]
 >
->由於Microsoft的支援終止，Internet Explorer 11之前的Internet explorer版本不支援Livefyre。
+>由於Microsoft的支援終止，Internet Explorer 11之前的Internet Explorer版本不支援Livefyre。
 

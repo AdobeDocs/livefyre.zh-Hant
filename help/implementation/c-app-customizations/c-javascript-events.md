@@ -7,6 +7,9 @@ title: JavaScript事件定義與範例
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +22,7 @@ Livefyre提供JavaScript事件，可追蹤Livefyre應用程式中的使用者活
 
 Livefyre也可讓您將事件新增至協力廠商分析整合（Adobe Analytics JS、Google Analytics、動態標籤管理等），以追蹤應用程式事件。 如需詳細資訊，請與您的協力廠商整合管理員合作，以提供正確的事件。
 
-若要系結至這些事件，請在頁面上實例化您的應用程式時，將下列程式碼新增至頁面。 將事件名稱替換為 `{eventName}`:
+若要系結至這些事件，請在頁面上實例化您的應用程式時，將下列程式碼新增至頁面。 將事件名稱替換為`{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -56,7 +59,7 @@ data = {
 } 
 ```
 
-## commentStaged {#section_szy_s1p_xz}
+## commentFlagd {#section_szy_s1p_xz}
 
 使用者已標籤留言。
 
@@ -82,7 +85,7 @@ data = {
 
 ## commentShared {#section_nqb_31p_xz}
 
-使用者從串流共用註解。 （當使用者從「注釋」編輯器共用時，不會觸發此事件。）當按一下「共用」按鈕時，會觸發此事件。
+使用者從串流共用註解。 （當使用者從「注釋」編輯器共用時，不會觸發此事件。） 當按一下「共用」按鈕時，會觸發此事件。
 
 ```
 data = { 
@@ -120,7 +123,7 @@ data = {
 
 資料未定義。
 
-## socialTurnits {#section_a1w_tz4_xz}
+## socialInterment {#section_a1w_tz4_xz}
 
 使用者在留言中加入@提及。 傳回下列陣列：
 
@@ -154,13 +157,13 @@ data = {
 
 ## showMore {#section_pqg_nz4_xz}
 
-使用者按一下按 **[!UICONTROL Show More]** 鈕。
+用戶按一下了&#x200B;**[!UICONTROL Show More]**&#x200B;按鈕。
 
 資料未定義。
 
-## userFlowded {#section_xxw_jz4_xz}
+## userFlocked {#section_xxw_jz4_xz}
 
-當使用者按一下按鈕時傳回 **[!UICONTROL Follow]** true，當內容張貼至串流時傳回false。
+當使用者按一下&#x200B;**[!UICONTROL Follow]**&#x200B;按鈕時傳回true，當內容張貼至串流時傳回false。
 
 ```
 data = { 
@@ -171,7 +174,7 @@ data = {
 
 ## userUnflocked {#section_wm1_gz4_xz}
 
-當使用者按一下「取消關注」 **按鈕時傳回true** ，當內容張貼至串流時傳回false。
+當使用者按一下&#x200B;**Unfollow**&#x200B;按鈕時傳回true，當內容張貼至串流時傳回false。
 
 ```
 data = { 

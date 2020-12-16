@@ -6,6 +6,9 @@ title: 使用程式庫將產品與內容建立關聯
 uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +27,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
    >
    >您只能將儲存在資料夾中之內容的影像與產品建立關聯。 您必須擁有影像的權限，才能將影像與產品建立關聯。
 
-1. 從 **[!UICONTROL Products]** 按一下 **[!UICONTROL Bulk Actions Menu]**。
-1. 按一 **[!UICONTROL Product Folder]** 下包含產品的內容。
-1. 按一下一或多個產品旁的核取方塊，與內容建立關聯，然後按一 **[!UICONTROL Add]** 下以儲存關聯。
+1. 按一下&#x200B;**[!UICONTROL Bulk Actions Menu]**&#x200B;中的&#x200B;**[!UICONTROL Products]**。
+1. 按一下包含要與內容關聯之產品的&#x200B;**[!UICONTROL Product Folder]**。
+1. 按一下一或多個產品旁的核取方塊，與內容建立關聯，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;儲存關聯。

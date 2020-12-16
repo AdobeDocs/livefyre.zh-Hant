@@ -7,11 +7,14 @@ title: 注釋自訂
 uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
 
-# 注釋自訂{#comments-customizations}
+# 注釋自定義{#comments-customizations}
 
 自訂注釋，將即時對話內嵌在您的網站上。
 
@@ -29,7 +32,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Posts appear in cards]**
 
-   如果啟用，貼文會顯示在周圍方塊中，並套用選取範圍所指示的 **[!UICONTROL Theme]** 背景顏色。
+   如果啟用，貼文會顯示在周圍方塊中，並套用由&#x200B;**[!UICONTROL Theme]**&#x200B;選取範圍指定的背景顏色。
 
 * **[!UICONTROL Expand media]**
 
@@ -41,7 +44,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL User tags]**
 
-   啟用後，使用者標籤會與張貼的內容一起顯示。
+   如果啟用，使用者標籤會與張貼的內容一起顯示。
 
 * **[!UICONTROL User avatars]**
 
@@ -57,7 +60,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Users may share posts]**
 
-   如果已啟用，使用者可以分享貼文。 啟用後，使用者可以將張貼的內容分享到Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定&gt;整合設定&gt;社交共用」。
+   如果已啟用，使用者可以分享貼文。 啟用後，使用者可以將張貼的內容分享到Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
 
 * **[!UICONTROL Featured content at top of stream]**
 
@@ -69,11 +72,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Most liked comment sort]**
 
-   如果啟用，則允許用戶按或 **[!UICONTROL Top Comments]** (除了 **[!UICONTROL Hot Threads]** 預設和排序選 **[!UICONTROL Newest]** 項外)進 **[!UICONTROL Oldest]** 行排序。
+   如果啟用，則允許用戶按&#x200B;**[!UICONTROL Top Comments]**&#x200B;或&#x200B;**[!UICONTROL Hot Threads]**&#x200B;排序（除了預設&#x200B;**[!UICONTROL Newest]**&#x200B;和&#x200B;**[!UICONTROL Oldest]**&#x200B;排序選項外）。
 
-您可以使用：
+您可以使用下列項目自訂「注釋」:
 
-* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。 如需中所有應用程式的標準和選項的詳 **[!UICONTROL Style]** 細資訊， **[!UICONTROL Config]** 請參閱自訂應用程式 **[!UICONTROL App Designer]**。
+* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式。
 
-* **[!UICONTROL Integration tools]**. 如需如何使用整合工具自訂注釋的詳細資訊，請參閱注釋。
+* **[!UICONTROL Integration tools]**。如需如何使用整合工具自訂注釋的詳細資訊，請參閱注釋。
 

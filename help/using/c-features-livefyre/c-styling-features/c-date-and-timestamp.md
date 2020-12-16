@@ -6,6 +6,9 @@ title: 日期和時間戳記
 uuid: 3022059f-cfdc-4e13-aa3d-7537875ef431
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
@@ -14,9 +17,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 您可以變更日期和時間戳記格式，以符合您的需求。
 
-依預設，Livefyre應用程式會針對串流的貼文顯示相對時間戳記（4分鐘前、5小時前、8天前、2個月前）。
+依預設，Livefyre應用程式會顯示串流貼文的相對時間戳記（4分鐘前、5小時前、8天前、2個月前）。
 
-您可以使用「日期和時間戳記自訂」自訂顯示的時間戳記，這可讓您從可用格式清單中選擇。 如需詳細資訊，請參 [閱日期與時間戳記](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
+您可以使用「日期和時間戳記自訂」自訂顯示的時間戳記，這可讓您從可用格式清單中選擇。 如需詳細資訊，請參閱[日期與時間戳記](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
 
 使用此功能的應用程式：
 

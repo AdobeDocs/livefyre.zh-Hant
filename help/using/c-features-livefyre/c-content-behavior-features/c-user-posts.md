@@ -7,6 +7,9 @@ title: 使用者貼文
 uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 1%
 
 ---
 
@@ -19,13 +22,13 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 ## 貼文 {#section_bty_ww2_wy}
 
-使用者可在登入時，在編輯器方塊中輸入註解或媒體連結並按一下，以張貼內容 **[!UICONTROL Post comment]**。
+使用者可在登入時，在編輯器方塊中輸入註解或媒體連結，然後按一下&#x200B;**[!UICONTROL Post comment]**，以張貼內容。
 
-若要在未登入時張貼內容，使用者在編輯器中輸入註解或媒體連結，然後按一下 **[!UICONTROL Post comment as…]**。 登錄窗口將出現提示登錄。
+若要在未登入時張貼內容，使用者在編輯器中輸入註解或媒體連結，然後按一下&#x200B;**[!UICONTROL Post comment as…]**。 登錄窗口將出現提示登錄。
 
-(大部分瀏覽器允許8,000個字元的註解；Internet explorer允許1,500個字元。)
+(大部分瀏覽器允許8,000個字元的註解；Internet Explorer允許1,500個字元。)
 
-## 富格文本格式 {#section_mg1_sw2_wy}
+## 富格文本格式{#section_mg1_sw2_wy}
 
 使用者可使用豐富式文字格式設定注釋樣式，包括粗體、斜體、底線和編號清單和項目清單。
 
@@ -43,13 +46,13 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 使用者必須登入，才能像其他使用者的內容一樣，而且可能不喜歡自己的內容。
 
-按鈕旁會顯示按贊次數和最多4個使用者變 **[!UICONTROL Like]** 數。
+**[!UICONTROL Like]**&#x200B;按鈕旁會顯示按贊次數和最多四個使用者變數。
 
-在按贊內容時， **[!UICONTROL Like]** 連結會變更為 **[!UICONTROL Unlike]**。 按一 **[!UICONTROL Unlike]** 下會移除該使用者的頭像，並將數字減少1。
+按贊內容時，**[!UICONTROL Like]**&#x200B;連結會變更為&#x200B;**[!UICONTROL Unlike]**。 按一下&#x200B;**[!UICONTROL Unlike]**&#x200B;會移除該使用者的頭像，並將數字減少1。
 
 ## 編輯 {#section_ubt_qwx_vy}
 
-依預設，使用者可在張貼後5分鐘內，按一下連結以開啟「編輯」文字方塊， **[!UICONTROL Edit]** 編輯自己的內容。
+依預設，使用者可在張貼後5分鐘內，按一下&#x200B;**[!UICONTROL Edit]**&#x200B;連結以開啟「編輯」文字方塊，編輯自己的內容。
 
 您可以使用Studio的「設定」面板，在「系列」層級停用此功能。 「設定」面板也可用來變更在網路層級編輯注釋的時間。
 
@@ -57,7 +60,7 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 ## 刪除 {#section_gbr_pwx_vy}
 
-使用者可隨時按一下(將滑鼠暫留在內容上時 **[!UICONTROL Delete]** 顯示)以刪除自己的內容。 協調者可按 **[!UICONTROL Delete]** 一下以移除任何使用者的內容。 ( **[!UICONTROL Delete]** 行動裝置上不提供)。
+使用者可隨時按一下&#x200B;**[!UICONTROL Delete]**（將滑鼠暫留在內容上時顯示），以刪除自己的內容。 協調者可以按一下&#x200B;**[!UICONTROL Delete]**&#x200B;來移除任何使用者的內容。 （**[!UICONTROL Delete]**&#x200B;不適用於行動裝置）。
 
 >[!NOTE]
 >
@@ -65,9 +68,9 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 ## 標幟 {#section_j3l_qvx_vy}
 
-使用者可按一下將滑鼠指標暫留在內容上時顯示 **[!UICONTROL Flag]** 的連結，來標幟其他使用者的內容。
+使用者可按一下將滑鼠指標暫留在內容上時顯示的&#x200B;**[!UICONTROL Flag]**&#x200B;連結，來標幟其他使用者的內容。
 
-按一下此連結會顯示「標幟」模式，讓使用者將內容標幟 **[!UICONTROL Offensive]**&#x200B;為 **[!UICONTROL Disagree]**、 **[!UICONTROL Off Topic]**&#x200B;或 **[!UICONTROL Spam]**。 可在標幟中新增選擇性的附註和電子郵件地址。
+按一下此連結會顯示「標幟」模式，讓使用者將內容標幟為&#x200B;**[!UICONTROL Offensive]**、**[!UICONTROL Disagree]**、**[!UICONTROL Off Topic]**&#x200B;或&#x200B;**[!UICONTROL Spam]**。 可在標幟中新增選擇性的附註和電子郵件地址。
 
 使用者不需要登入來標幟留言，讓任何人可以標幟留言以進行協調，而不需建立帳戶。
 
@@ -77,15 +80,15 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 
 您也可以建立「協調規則」，以自動化對已標幟的留言所執行的動作。
 
-## 排序 {#section_bpg_nwx_vy}
+## 排序{#section_bpg_nwx_vy}
 
-透過按一下串流頂端的連結，可依年齡、最新優先（預設值）或最 **[!UICONTROL Newest]** 舊 **[!UICONTROL Oldest]** 優先排序串流內容。
+透過按一下串流頂端的&#x200B;**[!UICONTROL Newest]**&#x200B;或&#x200B;**[!UICONTROL Oldest]**&#x200B;連結，可依年齡、最新優先（預設）或最舊優先排序串流內容。
 
-## 收合／展開 {#section_ypt_qr4_h1b}
+## 折疊／展開{#section_ypt_qr4_h1b}
 
 * **[!UICONTROL Collapse Replies]**
 
-   按一下回覆上方的 **+ / -** buttons，即可展開或收合回覆。
+   按一下回覆上方的&#x200B;**+ / -**&#x200B;按鈕，即可展開或收合回覆。
 
 * **[!UICONTROL Collapsed View]**
 

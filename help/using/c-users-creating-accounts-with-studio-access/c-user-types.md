@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# 使用者角色和權限{#user-roles-and-permissions}
+# 用戶角色和權限{#user-roles-and-permissions}
 
 Livefyre提供多種不同權限層級的使用者類型。
 
@@ -45,7 +45,7 @@ Studio提供下列使用者角色和列出的存取權限：
    * 檢視和編輯使用者帳戶詳細資訊
    * 禁止或允許列出用戶
 
-* **資料管理員：** 授與使用Livefyre Analytics控制面板的存取權。
+* **資料管理員：授** 予使用Livefyre Analytics控制面板的存取權。
 * **App Manager**
    * 建立和編輯應用程式
    * 建立和編輯指向應用程式的串流

@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Livefyre Analytics事件
 
-## 事件對象定義 {#section_dh1_yhn_pdb}
+## 事件對象定義{#section_dh1_yhn_pdb}
 
 下列程式碼定義事件物件中，頁面上的分析處理常式所接收的欄位。
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics中報表套裝的詳細資訊，請參閱報 [表套裝管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
+下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics中報表套裝的詳細資訊，請參閱[報表套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 

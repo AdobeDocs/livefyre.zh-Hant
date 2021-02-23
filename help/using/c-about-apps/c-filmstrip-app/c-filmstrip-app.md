@@ -1,14 +1,14 @@
 ---
-description: Filmstrip是視覺化應用程式，可將使用者產生的內容展示為動態的單一水準像片片段，類似相機的影片片段。
+description: '透過完整的指南，瞭解Filmstrip應用程式的所有資訊。 視覺化應用程式會以一連串的復古相機影片來顯示您的影像。 運用我們的秘訣來掌握。 '
 seo-description: Filmstrip是視覺化應用程式，可將使用者產生的內容展示為動態的單一水準像片片段，類似相機的影片片段。
 seo-title: 幻燈片
 solution: Experience Manager
-title: 幻燈片
+title: Filmstrip應用程式指南
 uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Filmstrip是視覺化應用程式，可將使用者產生的內容展示為動態的單一水準像片片段，類似相機的影片片段。
 
-## 關於幻燈片{#section_tng_slj_yy}
+## 瞭解如何使用Filmstrip {#section_tng_slj_yy}
 
 您可以在電子商務情境（例如產品頁面或交易網站）中搭配使用Filmstrip和UGC。 使用者可以按一下側箭頭，從左至右捲動可用內容，以導覽幻燈片。 新內容進入應用程式時會在左側顯示。 您可以選擇新串流的UGC上是否有標籤，標示&#x200B;*New*，以協助網站訪客快速識別新內容。
 
@@ -73,7 +73,7 @@ Filmstrip是視覺化應用程式，可將使用者產生的內容展示為動�
 
 ## 為什麼我的某些內容即使顯示在Studio中，也不會顯示在我的網站上？{#section_upr_hlj_yy}
 
-依預設，幻燈片以5個水準色帶顯示內容。 拼貼的數量取決於顯示應用程式的容器大小，以及您在應用程式設計器中選擇的拼貼大小。 Livefyre建議您在Filmstrip應用程式中至少新增5到10個內容，以提供足夠數量的圖格和內容，並讓使用者捲動以尋找更多內容。
+依預設，幻燈片以5個水準色片顯示內容。 拼貼的數量取決於顯示應用程式的容器大小，以及您在應用程式設計器中選擇的拼貼大小。 Livefyre建議您在Filmstrip應用程式中至少新增5到10個內容，以提供足夠數量的圖格和內容，並讓使用者捲動以尋找更多內容。
 
 有時，由於您開啟了&#x200B;**[!UICONTROL Require rights]**，所以無法顯示內容。 如果您開啟此功能，您必須授與應用程式中所有內容的權限。 如果某段內容的權限狀態未「授與」，則不會顯示在應用程式中。
 

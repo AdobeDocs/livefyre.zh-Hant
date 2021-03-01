@@ -188,9 +188,9 @@ ht-degree: 7%
    + [使用程式庫將產品與內容建立關聯](c-library/t-associate-products-with-content-using-the-library.md)
    + [發佈內容](c-library/t-publish-content.md)
    + [應用程式內容標籤](c-library/c-app-content.md)
-   + [搭配Hootsuite使用Adobe Experience Manager Livefyre](c-library/c-hootsuite-livefyre.md)
-   + [搭配Adobe Target使用Adobe Experience Manager Livefyre](c-library/livefyre-target.md)
-   + [使用Adobe Launch Livefyre Extension](c-library/launch-extension.md)
+   + [搭配使用Adobe Experience ManagerLivefyre和Hootsuite](c-library/c-hootsuite-livefyre.md)
+   + [搭配使用Adobe Experience ManagerLivefyre與Adobe Target](c-library/livefyre-target.md)
+   + [使用Adobe啟動Livefyre擴充功能](c-library/launch-extension.md)
 + 串流{#streams}
    + [串流](c-streams/c-streams.md)
    + [建立新串流](c-streams/t-create-a-new-stream.md)

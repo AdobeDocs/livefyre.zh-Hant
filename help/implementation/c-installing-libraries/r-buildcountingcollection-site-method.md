@@ -1,17 +1,14 @@
 ---
 description: 傳回實例化為計數類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
-seo-description: 傳回實例化為計數類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
-seo-title: buildCountingCollection網站方法
 title: buildCountingCollection網站方法
-uuid: e293d66a-0025-4230-997e-295ce4625713
+exl-id: 02186eff-1f2f-41e5-8232-033b646ef224
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildCountingCollection網站方法{#buildcountingcollection-site-method}
 
@@ -52,4 +49,3 @@ collection = site.build_counting_collection(title, articleId, url)
 ```
 collection = site.build_counting_collection(title, articleId, url) 
 ```
-

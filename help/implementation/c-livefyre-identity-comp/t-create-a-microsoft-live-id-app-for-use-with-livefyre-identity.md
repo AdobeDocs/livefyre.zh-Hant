@@ -1,22 +1,18 @@
 ---
-description: 您可將Livefyre Identity與Microsoft Live Identity搭配使用，讓使用者使用其Facebook登入，在您的網站上與應用程式互動。
-seo-description: 您可將Livefyre Identity與Microsoft Live Identity搭配使用，讓使用者使用其Facebook登入，在您的網站上與應用程式互動。
-seo-title: 建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用
-solution: Experience Manager
+description: 您可將Livefyre Identity與Microsoft Live Identity搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
 title: 建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用
-uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
+exl-id: 7702c956-ecb5-424a-9866-d6f73d4d4bc9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-
 # 建立Microsoft Live Identity應用程式以搭配Livefyre Identity使用{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
 
-您可將Livefyre Identity與Microsoft Live Identity搭配使用，讓使用者使用其Facebook登入，在您的網站上與應用程式互動。
+您可將Livefyre Identity與Microsoft Live Identity搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
 
 若要允許使用者使用其Microsoft Live Identity認證登入，Livefyre需要下列Microsoft Live Identity資訊：
 

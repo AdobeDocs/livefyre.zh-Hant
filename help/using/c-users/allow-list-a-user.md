@@ -1,16 +1,14 @@
 ---
 description: 允許清單使用者允許他們直接張貼至應用程式，而不需進行協調。
-solution: Experience Manager
 title: 允許列出用戶
-uuid: c58f7279-5fde-419a-a833-3c639d469421
+exl-id: d291c62a-03a1-4a1e-a0b3-efeb270e519a
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # 允許列出用戶{#allow-list-a-user}
 

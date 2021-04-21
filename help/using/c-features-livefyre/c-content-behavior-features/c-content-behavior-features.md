@@ -1,18 +1,14 @@
 ---
 description: Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用程式內容的方式。
-seo-description: Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用程式內容的方式。
-seo-title: 內容行為功能
-solution: Experience Manager
 title: 內容行為功能
-uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
+exl-id: ef477ca0-516f-45bf-9753-e050fe4cc6a1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
-
 
 # 內容行為功能{#content-behavior-features}
 
@@ -91,4 +87,3 @@ Livefyre提供應用程式中的功能，可讓您選擇網站訪客檢視應用
 
 * [聊天室](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
-

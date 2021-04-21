@@ -1,17 +1,14 @@
 ---
 description: 2017年2月23日發行說明。
-seo-description: 2017年2月23日發行說明。
-seo-title: 2017 年 2 月 23 日
 title: 2017 年 2 月 23 日
-uuid: 9b08acf4-15e9-43b7-8abc-c0d720b156e6
+exl-id: 3a5708a1-4be6-447f-ae6e-8f5a37171ed7
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 8%
+source-wordcount: '468'
+ht-degree: 7%
 
 ---
-
 
 # 2017 年 2 月 23 日{#february}
 
@@ -25,15 +22,15 @@ ht-degree: 8%
 | 增強功能 | Android SDK | Android SDK已修改為現在支援最低14版SDK（從16版）。 |
 | 錯誤 | 對話應用程式 | 增強的對話應用程式，即使沒有完整的驗證整合，也能隨時連結至使用者個人檔案。 |
 | 錯誤 | 馬賽克 | 已修正現在透過HTTPS提供所有Twitter影像的錯誤。 |
-| 增強功能 | 搜尋與串流 | 新增在「資料庫Instagram搜尋」和「Instagram串流規則」中，依Instagram地標（登入）搜尋的功能。 |
-| 錯誤 | 設定 | 修正Twitter Social帳戶無法儲存的錯誤。 |
+| 增強功能 | 搜尋與串流 | 新增「資料庫Instagram搜尋」和「Instagram串流規則」中「Instagram地標（登入）」的搜尋功能。 |
+| 錯誤 | 設定 | 已修正導致「Twitter社交帳戶」無法儲存的錯誤。 |
 | 錯誤 | 社交搜尋 | 修正「隱藏明確影像」選項無法正常運作的錯誤。 |
 | 增強功能 | Storify 2 | 增強的Storify 2支援開啟模式的永久連結（應用程式先前會捲動至頁面上的貼文位置）。 在Storify 2的Designer中，我們新增了可在「捲動」和「模式」永久連結行為之間切換的設定。 模態永久連結行為將是預設行為。 |
 | 增強功能 | Storify 2 | 增強Storify 2 Google AMP整合，以產生較小的CSS檔案。 |
-| 增強功能 | 串流 | 已修正Facebook規則導致內容以不完整中繼資料提取的錯誤。 |
+| 增強功能 | 串流 | 修正Facebook規則導致內容以不完整中繼資料提取的錯誤。 |
 | 錯誤 | 串流 | 透過HTTPS提供電子郵件串流規則的增強內容（影像和視訊）。 |
-| 錯誤 | 串流 | 在「Twitter串流規則」中的地圖中新增「英里半徑」值標籤。 |
-| 錯誤 | 串流 | 已修正Facebook和Facebook頁面流動規則的錯誤，以適當提取包含多個媒體附件的貼文。 |
+| 錯誤 | 串流 | 在「Twitter串流規則」的地圖中新增「英里半徑」值的標籤。 |
+| 錯誤 | 串流 | 已修正「Facebook和Facebook頁面動態規則」錯誤，以適當提取包含多個媒體附件的貼文。 |
 | 增強功能 | 串流 | 已新增新功能，可讓使用者選擇依串流規則套用或停用SAFE規則。 |
 | 增強功能 | Studio | 已修正造成內容已存在時無法正確發佈或儲存的錯誤。 |
 | 錯誤 | Studio | 修正在Studio中使用篩選器時，造成多個&amp;附加至URL的錯誤。 |
@@ -47,6 +44,5 @@ ht-degree: 8%
 | 錯誤 | 媒體牆 | 修正當包含特定外文字元時，造成「媒體牆」無法呈現的錯誤。 |
 | 錯誤 | 搜尋 | 修正在啟用「隱藏顯式影像」的搜尋結果中翻頁時，造成頁面載入錯誤的錯誤。 |
 | 增強功能 | Studio | 在Studio使用者登入工作階段到期之前，增加工作階段時間。 一旦Studio作業過期，使用者就會被重新導向，以再次登入。 |
-| 錯誤 | Studio | 已修正使用者有時候無法儲存Instagram認證的錯誤。 |
+| 錯誤 | Studio | 已修正使用者有時無法儲存Instagram認證的錯誤。 |
 | 錯誤 | Studio | 修正套用「功能標籤」時無法正確儲存的錯誤。 |
-

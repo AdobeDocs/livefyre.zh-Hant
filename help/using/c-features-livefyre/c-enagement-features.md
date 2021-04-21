@@ -1,18 +1,14 @@
 ---
 description: 透過讓訪客在發現您的內容時不斷回訪您網站的功能，吸引您的網站訪客。
-seo-description: 透過讓訪客在發現您的內容時不斷回訪您網站的功能，吸引您的網站訪客。
-seo-title: 管理功能
-solution: Experience Manager
 title: 管理功能
-uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
+exl-id: 2e5554ad-42f8-445f-90f7-e12d320416d0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
-
 
 # 管理功能{#enagement-features}
 
@@ -97,4 +93,3 @@ ht-degree: 2%
 >[!NOTE]
 >
 >電子郵件只會針對手動張貼的內容而傳送，而非透過SocialSync或Coruate提取至串流的內容。
-

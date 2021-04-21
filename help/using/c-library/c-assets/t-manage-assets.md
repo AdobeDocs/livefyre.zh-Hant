@@ -1,18 +1,14 @@
 ---
 description: 資料庫可讓您將資訊新增至儲存的內容，以便根據品牌策略來組織資產。
-seo-description: 資料庫可讓您將資訊新增至儲存的內容，以便根據品牌策略來組織資產。
-seo-title: 檢視資產詳細資訊
-solution: Experience Manager
 title: 檢視資產詳細資訊
-uuid: 06a19bca-d7b9-431b-abc4-9d6f154901b9
+exl-id: 1f0153df-17b9-4082-a335-c2136486d900
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # 查看資產詳細資訊{#view-asset-details}
 

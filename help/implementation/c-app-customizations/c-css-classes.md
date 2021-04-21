@@ -1,18 +1,14 @@
 ---
 description: 使用可用的CSS類別自訂您的應用程式顯示。
-seo-description: 使用可用的CSS類別自訂您的應用程式顯示。
-seo-title: CSS類別
-solution: Experience Manager
 title: CSS類別
-uuid: 8714e7e5-3858-458f-a464-de87fd2f0ff0
+exl-id: 605f2c47-13f7-4535-90b1-c53cbf548534
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '704'
 ht-degree: 1%
 
 ---
-
 
 # CSS類{#css-classes}
 

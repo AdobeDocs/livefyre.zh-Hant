@@ -1,18 +1,14 @@
 ---
 description: 適用於Storify應用程式的CSS類別。
-seo-description: 適用於Storify應用程式的CSS類別。
-seo-title: Storify CSS類別
-solution: Experience Manager
 title: Storify CSS類別
-uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
+exl-id: b0e61aaf-0da9-45fa-9ce3-3c633940480d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '379'
 ht-degree: 2%
 
 ---
-
 
 # Storify CSS Classes{#storify-css-classes}
 

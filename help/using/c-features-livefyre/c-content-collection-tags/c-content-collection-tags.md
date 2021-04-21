@@ -1,18 +1,14 @@
 ---
 description: 新增關鍵字標籤至系列和內容，以分類和組織內容，以方便擷取。
-seo-description: 新增關鍵字標籤至系列和內容，以分類和組織內容，以方便擷取。
-seo-title: 系列和內容標籤
-solution: Experience Manager
 title: 系列和內容標籤
-uuid: 1f6900ac-40ff-41ec-ac26-25ff476cd820
+exl-id: 1057a34a-5200-4e23-aa95-fc24bd1cb95b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 8%
 
 ---
-
 
 # 系列和內容標籤{#collection-and-content-tags}
 
@@ -59,4 +55,3 @@ Heat Index API接受Tag參數，可讓您跨網站或整個網路擷取含有該
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趨勢分析](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

@@ -1,18 +1,14 @@
 ---
 description: 啟用頁面上的即時註解。
-seo-description: 啟用頁面上的即時註解。
-seo-title: 意見
-solution: Experience Manager
 title: 意見
-uuid: decad9b0-2074-4748-bd77-914008817bfa
+exl-id: d62b3dc1-3c5e-45f6-9b21-ea1edcda9812
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1468'
 ht-degree: 2%
 
 ---
-
 
 # 意見{#comments}
 
@@ -116,15 +112,15 @@ ht-degree: 2%
 | **datetimeFormat** | *選*  項字串對象函式 | 指定串流內容的日期時間格式。 如需詳細資訊，請參閱自訂日期和時間戳記。 |
 | **disableAvatars** | *可選* 布爾值 | 避免在應用程式串流中轉譯頭像，進而減少載入至瀏覽器的項目數。 設值為 false。 |
 | **disableIE8Shim** | *可選* 布爾值 | 停用Livefyre用來填入Internet Explorer 8的預設shiv，以支援HTML5元素。 Livefyre使用下列專案： [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv)。 設值為 false。注意： 如果此值為false，則必須先使用某種類型的填色，才能呼叫Livefyre Chat，以取得Internet Explorer 8支援。 |
-| **disableThirdPartyAnalytics** | *可選* 布爾值 | 停用Livefyre可用於內部測量的協力廠商分析系統（Quantserve和Google Analytics）。 設值為 false。 |
+| **disableThirdPartyAnalytics** | *可選* 布爾值 | 停用Livefyre用於內部測量的協力廠商分析系統(Quantserve和Google Analytics)。 設值為 false。 |
 | **editorCss** | *選* 項對象 | 用於自定義注釋編輯器樣式。 您可以對編輯器欄位的背景顏色以及編輯器中顯示的文本的字型顏色、大小和系列進行樣式設定。  例如︰`{background: ‘#ccc’, color: ‘red’, font: ’30px “Helvetica Neue”, Helvetica, Arial, Geneva, sans-serif’}` |
 | **initialNumVisible** | *可選* 整數 | 可讓您設定載入時在應用程式中顯示的預設留言數。 這可以是1到50之間的整數。 |
 | **initialNumVisibleLegacy** | *可選* 整數 | 可讓您設定載入時在應用程式中顯示的舊版內容項目的預設數目。 這可以是1到50之間的整數。 如果未指定此參數，則預設為initialNumVisible。  例如：如果您的系列包含100個作用中和100個舊版註解，請設定initalNumVisible:10和initialNumVisibleLegacy:5，以顯示10個作用中註解（使用「顯示更多」按鈕）+ 5個封存註解（使用「顯示更多」按鈕）。 |
 | **maxVisible** | *可選* 整數 | 設定聊天應用程式中頂層內容的可見片段數目上限。 如果有新的內容串流，則會從頁面移除串流底部的內容。 如果按一下「顯示更多……」按鈕，則會忽略參數，而使用者可自由顯示所需的內容。 （使用此參數可控制高速串流中頁面上出現的項目數。） |
-| **postToButtons** | *可選* 陣列 | 用於設定內嵌即時部落格應用程式時顯示的提供者。 可用選項有兩個(Twitter)、fb(Facebook)和li(LinkedIn)。 預設為[ tw, fb ]。 |
+| **postToButtons** | *可選* 陣列 | 用於設定內嵌即時部落格應用程式時顯示的提供者。 可用選項有兩(Twitter)、fb(Facebook)和li(LinkedIn)。 預設為[ tw, fb ]。 |
 | **readOnly** | *可選* 布爾值 | 停用系列的所有互動功能。 若為true，使用者將無法登入串流，也無法張貼、編輯、回覆或按贊內容。 若為true，使用者將能夠標幟和共用內容。 設值為 false。 |
 | **串流** | *選* 項對象 | 包含設定應用程式串流的選項。 |
-| **stream.catchup** | *可選* 整數 | 指定串流應載入之前的秒數。 依預設，Livefyre會載入50個內容，然後載入這些內容與目前時間之間提交的所有內容。 在非常快速的使用案例中，內容張貼的速度可能太快，使應用程式無法「追趕」目前。 使用此設定可定義內容張貼（在初始內容載入後）之前的秒數。 |
+| **stream.catchup** | *可選* 整數 | 指定串流應載入之前的秒數。 依預設，Livefyre會載入50個內容，然後載入這些內容與目前時間之間提交的所有內容。 在非常快速的使用案例中，內容張貼的速度可能太快，使應用程式無法「追趕」目前。 使用此設定可定義內容張貼（在初始內容載入後）的前一秒數。 |
 | **stream.delay** | *可選* 整數 | 指定串流請求之間的秒數。 使用此參數可協助控制內容流程並延遲DOM更新的頻率。  注意： 如果設定得太大，流可能會落後。 |
 
 
@@ -146,7 +142,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | **articleId** | *必* 要字串 | 系列的唯一ID。 |
 | **標題** | *必* 要字串 | 您要套用至系列的標題。 這通常與顯示應用程式之頁面的標題相對應。  例如：「整合太有趣了！」 <br>**注意：**  標題的字元長度上限為255個字元。標題欄位不支援HTML實體。 請使用UTF-8編碼特殊字元。 |
-| **url** | *必* 要字串 | 您要附加至此系列的標準絕對URL。 此URL將用來從Facebook和Twitter上分享的內容、電子郵件通知和Livefyre Studio產生回應用程式的連結。  <br>**** NoteLivefyre需要使用完全限定的網域名稱；不需要埠號或回調來解決本地設定。如果在本機測試，請確定使用有效的基本URL網域。 <br>例如： `https://customer.com` 有效，而 `https://localhost:5995` 非有效。一旦您將本機網站伺服器設定為接受完全限定的網域名稱，就不需要回呼或解析度，而且本機開發可依預期進行。 |
+| **url** | *必* 要字串 | 您要附加至此系列的標準絕對URL。 此URL將用來從Facebook和Twitter分享的內容、電子郵件通知和Livefyre Studio產生回應用程式的連結。  <br>**** NoteLivefyre需要使用完全限定的網域名稱；不需要埠號或回調來解決本地設定。如果在本機測試，請確定使用有效的基本URL網域。 <br>例如： `https://customer.com` 有效，而 `https://localhost:5995` 非有效。一旦您將本機網站伺服器設定為接受完全限定的網域名稱，就不需要回呼或解析度，而且本機開發可依預期進行。 |
 | **類型** | *必* 要字串 | 系列類型。 必須是`livechat`。 |
 
 `CollectionMeta`物件也可包含下列選用參數：

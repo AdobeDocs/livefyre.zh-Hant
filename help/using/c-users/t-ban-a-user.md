@@ -1,18 +1,14 @@
 ---
 description: 您可以禁止Livefyre應用程式中的內嵌使用者，而透過Livefyre登入的使用者也可能被禁止進入Studio的「資料庫>應用程式內容」頁面。
-seo-description: 您可以禁止Livefyre應用程式中的內嵌使用者，而透過Livefyre登入的使用者也可能被禁止進入Studio的「資料庫>應用程式內容」頁面。
-seo-title: 禁止使用者
-solution: Experience Manager
 title: 禁止使用者
-uuid: ce528a9a-7137-4c2b-a445-194feae61879
+exl-id: b9e045d8-0fb4-4ce5-ba0a-e22de5e22c6c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # 禁止用戶{#ban-a-user}
 

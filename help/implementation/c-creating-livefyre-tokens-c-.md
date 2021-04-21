@@ -1,18 +1,14 @@
 ---
 description: 瞭解如何使用「C#」語言產生Livefyre Token。
-seo-description: 瞭解如何使用「C#」語言產生Livefyre Token。
-seo-title: 建立Livefyre Token 'C#'
-solution: Experience Manager
 title: 建立Livefyre Token 'C#'
-uuid: c5e05625-8550-4b51-9211-134600e20ec7
+exl-id: 6360c325-0c3f-4ecb-90f7-951ef4e6f410
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '784'
 ht-degree: 2%
 
 ---
-
 
 # 建立Livefyre Token C\# {#creating-livefyre-tokens-c}
 
@@ -36,7 +32,7 @@ ht-degree: 2%
 
 當您在頁面上內嵌「注釋」時，CollectionMeta Token會傳遞至Livefyre，並為我們的系統提供新系列的必要中繼資料。 此外，您還將建立此資料的MD5 `checksum`,Livefyre會檢查此資料，以查看中繼資料是否已變更。 （例如，您文章的標題或URL已編輯）。
 
-此Token會與您的`Site Key`簽署，此&lt;a0/>是由Livefyre的Technical帳戶管理員提供給您的。
+此Token會與您的`Site Key`簽署，此是由Livefyre的Technical帳戶管理員提供給您的。
 
 另請參閱:
 

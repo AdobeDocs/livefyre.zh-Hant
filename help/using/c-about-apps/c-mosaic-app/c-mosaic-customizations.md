@@ -1,18 +1,14 @@
 ---
 description: 變更Mosaic應用程式的大小、寬度和互動選項。
-seo-description: 變更Mosaic應用程式的大小、寬度和互動選項。
-seo-title: 馬賽克自訂
-solution: Experience Manager
 title: 馬賽克自訂
-uuid: 4e226d68-f517-4922-bc25-655d524d7d52
+exl-id: 0223a64c-ec33-4e01-85d7-11845c9b8476
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
-
 
 # 馬賽克自訂{#mosaic-customizations}
 
@@ -29,7 +25,7 @@ ht-degree: 0%
    * **[!UICONTROL Click]** 以在網站訪客點按內容上的滑鼠時，顯示資訊卡的另一側。
 
 * **[!UICONTROL Number of Tiles to Load]**。Mosaic中要載入的拼貼數。 這會影響輸出顯示。 除非您選擇正確的拼貼數目以對應容器寬度，否則馬賽克不會顯示在格線中。 您可能需要調整這些項目，以便網格能夠正確顯示。
-* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容的權限時，移除原始社交媒體網路（Twitter或Instagram）的標誌。
+* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容權限時，移除原始社交媒體網路(Twitter或Instagram)的標誌。
 
 * **[!UICONTROL Call-to-action button]** 您可以搭配產品目錄使用「行動要求」按鈕，將使用者引導至產品或您的網站，以便採取進一步行動。
 

@@ -1,28 +1,24 @@
 ---
 description: 設定社交帳戶，以請求權限或搜尋串流或社交搜尋中的UGC。
-seo-description: 設定社交帳戶，以請求權限或搜尋串流或社交搜尋中的UGC。
-seo-title: 新增Social帳戶
-solution: Experience Manager
 title: 新增Social帳戶
-uuid: c53cbc77-7394-499c-80ee-7fe22cbafec9
+exl-id: 1f410ee5-2bd1-492c-ae5d-6c2dc8a1e97e
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
-
 
 # 新增Social帳戶{#add-a-social-account}
 
 設定社交帳戶，以請求權限或搜尋串流或社交搜尋中的UGC。
 
-Livefyre使用Twitter和Instagram社交帳戶，讓您執行社交搜尋（在「資料庫」中）或使用「串流」。
+Livefyre使用Twitter和Instagram社交帳戶，讓您執行社交搜尋（在「資料庫」中）或使用串流。
 
-您必須在Twitter中設定帳戶，才能使用「資料庫」中的Twitter社交搜尋。
+您必須在Twitter設定帳戶，才能在資料庫中使用Twitter社交搜尋。
 
-Instagram的社交帳戶規則不同，視您使用Adobe Livefyre的方式而定。 如需您可與Livefyre搭配使用之社交帳戶類型的詳細資訊，請參閱[關於Instagram帳戶](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
+Instagram的社交帳戶規則不同，視您使用AdobeLivefyre的方式而定。 如需您可與Livefyre搭配使用的社交帳戶類型資訊，請參閱[關於Instagram帳戶](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 若要設定社交帳戶：
 

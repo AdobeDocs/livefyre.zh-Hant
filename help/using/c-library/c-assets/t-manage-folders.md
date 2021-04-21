@@ -1,18 +1,14 @@
 ---
 description: Studio提供數種選項，讓您管理資料夾。
-seo-description: Studio提供數種選項，讓您管理資料夾。
-seo-title: 管理資產資料夾
-solution: Experience Manager
 title: 管理資產資料夾
-uuid: 9ce510df-4f7a-4178-b2c4-7d59e4868add
+exl-id: a7f434aa-463c-4646-a498-b8be9767019a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # 管理資產資料夾{#manage-asset-folders}
 

@@ -1,18 +1,14 @@
 ---
 description: 當您首次登入內嵌Storify 2的頁面時，請釘選貼文以集中注意特定內容。
-seo-description: 當您首次登入內嵌Storify 2的頁面時，請釘選貼文以集中注意特定內容。
-seo-title: 將貼文釘選為Storify 2
-solution: Experience Manager
 title: 將貼文釘選為Storify 2
-uuid: c4043ea6-8763-4afb-bc1b-d69e1c8eca61
+exl-id: 09064707-1797-4f7b-891d-ef86880f94c0
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
-
 
 # 將貼文釘選為Storify 2{#pin-a-post-to-storify}
 

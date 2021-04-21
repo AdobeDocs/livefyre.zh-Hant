@@ -1,18 +1,14 @@
 ---
 description: 依不同的選項和篩選條件搜尋資產，以尋找適合應用程式的內容。
-seo-description: 依不同的選項和篩選條件搜尋資產，以尋找適合應用程式的內容。
-seo-title: 在程式庫中搜尋儲存的資產
-solution: Experience Manager
 title: 在程式庫中搜尋儲存的資產
-uuid: 2fee5ba4-fe69-487e-8d9c-0fd2af97179c
+exl-id: c33583e1-05c4-413b-b5ae-473817c07815
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # 在程式庫中搜尋儲存的資產{#search-saved-assets-in-the-library}
 

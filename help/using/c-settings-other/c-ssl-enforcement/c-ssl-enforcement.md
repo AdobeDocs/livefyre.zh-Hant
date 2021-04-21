@@ -1,22 +1,18 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SSL強制
-solution: Experience Manager
 title: SSL強制
-uuid: e64af8c2-3ab6-4034-b385-0e552d828c6e
+description: SSL強制
+exl-id: 033e15d9-84f6-42d5-8457-04263dcbd11c
 translation-type: tm+mt
-source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '540'
 ht-degree: 2%
 
 ---
 
-
 # SSL強制{#ssl-enforcement}
 
-為確保您的資料保持安全，我們淘汰HTTP，轉而採用HTTPS。 Adobe Livefyre將於2018年8月底之前完全停用所有HTTP和不安全的SSL/TLS密碼。 此Adobe Standard旨在保護您和您使用者的隱私權。
+為確保您的資料保持安全，我們淘汰HTTP，轉而採用HTTPS。 AdobeLivefyre將在2018年8月底之前完全停用所有HTTP和不安全的SSL/TLS密碼。 此Adobe標準旨在保護您和使用者的隱私權。
 
 ## 誰受影響？{#section_jf2_4yz_kcb}
 
@@ -65,7 +61,7 @@ ht-degree: 2%
 
 ## TLS 1.2 {#section_lwn_rwk_ycb}的Java支援
 
-針對Java 8和更新版本的Oracle和OpenJDK JVM，依預設會針對所有SSL連線使用TLS 1.2。 如果您使用Java 8或更新版本，則不需要採取任何其他動作。
+Oracle和OpenJDK JVM（適用於Java 8和更新版本）依預設會針對所有SSL連線使用TLS 1.2。 如果您使用Java 8或更新版本，則不需要採取任何其他動作。
 
 使用Java 7或更舊版本的使用者應查閱公開檔案，瞭解如何啟用TLS 1.2。
 

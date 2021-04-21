@@ -1,18 +1,14 @@
 ---
 description: 依「系列」標籤篩選Studio中的內容搜尋。
-seo-description: 依「系列」標籤篩選Studio中的內容搜尋。
-seo-title: 依系列或內容標籤篩選搜尋
-solution: Experience Manager
 title: 依系列或內容標籤篩選搜尋
-uuid: e690a6fd-f584-490d-89d3-f22550766698
+exl-id: 2ebbd16a-3e24-463e-bad1-2097dc8b586c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # 依系列或內容標籤篩選搜尋{#filter-search-by-collection-or-content-tag}
 

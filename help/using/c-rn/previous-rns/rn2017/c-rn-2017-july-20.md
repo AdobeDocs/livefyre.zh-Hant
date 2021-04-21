@@ -1,17 +1,14 @@
 ---
 description: 2017年7月20日發行說明。
-seo-description: 2017年7月20日發行說明。
-seo-title: 2017 年 7 月 20 日
 title: 2017 年 7 月 20 日
-uuid: 550815a9-a6e2-4e98-b5d6-7f4897373716
+exl-id: 1bf17703-0913-41f0-a897-ba8323992f71
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '354'
 ht-degree: 7%
 
 ---
-
 
 # 2017年7月20日{#july}
 
@@ -43,8 +40,7 @@ UGC商務可讓您直接從Livefyre應用程式新增「行動要求」按鈕。
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| 錯誤 | 轉盤 | 已修正導致Instagram轉播貼文無標題而無法提取至Studio的錯誤。 |
-| 增強功能 | Storify 2 | 由於Facebook取代功能，已移除「Storify搜尋」中的「依ID列出的Facebook留言」搜尋選項。 |
-| 錯誤 | Storify 2 | 已改善依Storify 2中URL結果擷取Facebook留言的穩定性。 |
+| 錯誤 | 轉盤 | 已修正導致Instagram轉盤貼文無標題而無法提取至Studio的錯誤。 |
+| 增強功能 | Storify 2 | 已移除Storify Search中的「Facebook依ID的註解」搜尋選項，因為Facebook已取代此功能。 |
+| 錯誤 | Storify 2 | 已改善在Storify 2中依URL結果擷取Facebook意見的穩定性。 |
 | 錯誤 | 串流 | 修正「串流規則設定」文字方塊中的文字小丸在按一下時被移除的錯誤。 |
-

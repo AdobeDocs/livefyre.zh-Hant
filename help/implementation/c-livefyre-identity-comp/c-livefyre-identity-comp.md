@@ -1,18 +1,14 @@
 ---
 description: 使用Livefyre的社交使用者管理系統。
-seo-description: 使用Livefyre的社交使用者管理系統。
-seo-title: Livefyre Identity
-solution: Experience Manager
 title: Livefyre Identity
-uuid: 5e9219b4-fbd7-40c6-9d57-129bb0649714
+exl-id: 1e6149b6-dcdb-4e2a-a19d-06b24fe1288a
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # 使用Livefyre Identity{#livefyre-identity}
 
@@ -32,4 +28,3 @@ Livefyre Identity套件包含委派驗證所需的資訊。 （因此，Livefyre
 >[!NOTE]
 >
 >本檔案列出Livefyre對社交提供者應用程式建立程式的特定方面。 Livefyre不負責對其介面進行任何變更，Livefyre也無法協助建立這些應用程式或其核准程式。 請使用可用的Twitter、Facebook、Yahoo！和Google開發人員資訊來建立這些應用程式，並導覽其核准程式（如有需要）。
-

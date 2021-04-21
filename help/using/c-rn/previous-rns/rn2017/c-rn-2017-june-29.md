@@ -1,17 +1,14 @@
 ---
 description: 2017年6月29日發行說明。
-seo-description: 2017年6月29日發行說明。
-seo-title: 2017年6月29日
 title: 2017年6月29日
-uuid: f7d901fc-fe5a-463c-92ac-b77cda3bff1b
+exl-id: 507b781a-d284-4fcc-87f2-ce28bf717355
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 7%
 
 ---
-
 
 # 2017年6月29日{#june}
 
@@ -24,7 +21,7 @@ ht-degree: 7%
 | 錯誤 | 庫 | 當您清除程式庫中的篩選器時，您會保留在相同的檔案夾選擇中，而不會重新導向至其他頁面。 |
 | 錯誤 | 評論 | 修正「評論」中的錯誤，以確保所有實作都透過HTTPS載入媒體。 |
 | 錯誤 | 評論 | 修正「審核」中，由於HTTPS錯誤而無法正確載入某些影像的錯誤。 |
-| 增強功能 | 社交同步 | 已過時的Twitter Social同步。 |
+| 增強功能 | 社交同步 | 已過時的Twitter社交同步。 |
 
 ## UAT發行
 
@@ -33,11 +30,9 @@ ht-degree: 7%
 | 增強功能 | 全部 | 推出Livefyre的全新UGC商務計畫。 這包括： <br><ul><li>將轉換按鈕新增至Mosaic和Media Wall</li><li> Mosaic、Media Wall和兩個應用程式的內容模式的UI增強功能</li><li>在網路設定中將產品上傳至Studio</li><li>能夠將內容與Studio Library、App Content和ModQ中的產品建立關聯</li><li>能夠將產品與串流規則建立關聯，以便自動標籤</li></ul> |
 | 增強功能 | 意見 | 已新增增強功能，讓「注釋排序順序」標籤符合ADA。 |
 | 增強功能 | 意見 | 已新增協助工具增強功能，讓「注釋」中的Avatar符合ADA。 |
-| 增強功能 | Instagram搜尋 | 已新增儲存和發佈多影像／視訊Instagram貼文的支援。 |
+| 增強功能 | Instagram搜索 | 新增儲存和發佈多影像／視訊Instagram貼文的支援。 |
 | 錯誤 | 庫 | 已新增在包含撇號的資料庫中執行搜尋時的改進。 |
 | 錯誤 | 媒體牆 | 已修正「媒體牆」中，共用按鈕無法在Firefox中正常運作的錯誤。 |
 | 增強功能 | 馬賽克 | 已更新Mosaic卡上的「詳細資訊」模組的外觀和感覺。 |
 | 增強功能 | 社交搜尋 | 已新增文字，說明在選取多個資產時，社交搜尋中無法請求權限請求的原因、不支援社交提供者取得權限請求，或者網路上沒有為社交提供者啟用的權限請求帳戶。 |
 | 錯誤 | Studio | 修正新建立的「瀏覽器禁止」無法由新使用者管理員和管理員套用的錯誤。 |
-
-

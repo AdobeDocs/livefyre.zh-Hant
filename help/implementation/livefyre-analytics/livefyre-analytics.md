@@ -1,18 +1,14 @@
 ---
 description: 分析您網站的使用者、內容和協調者活動。
-seo-description: 分析您網站的使用者、內容和協調者活動。
-seo-title: Analytics
-solution: Experience Manager
 title: Analytics
-uuid: b022aa77-59b9-422a-8d9f-fb9d8a1b0478
+exl-id: dc0545ec-2294-44ab-87c4-67eb30c3f787
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
-
 
 # Analytics{#analytics}
 
@@ -22,7 +18,7 @@ ht-degree: 1%
 
 分析您網站的使用者、內容和協調者活動。
 
-Livefyre Analytics可讓您輕鬆讀取對話、協調和使用者資料的儀表板，以存取您的網路資料。 使用這些控制面板可監控您網站上的活動並執行快速分析。
+Livefyre Analytics可讓您輕鬆讀取對話、協調和使用者資料控制面板，以存取您的網路資料。 使用這些控制面板可監控您網站上的活動並執行快速分析。
 
 控制面板可依網站、日期和活動來篩選。 使用視窗左上角的「網路」下拉式清單，選取要顯示的網站。 產生後，按一下要排序的欄標題，或將滑鼠移至圖形上，以取得任何資料點的更多特定資訊。
 
@@ -114,4 +110,3 @@ Livefyre Analytics可讓您輕鬆讀取對話、協調和使用者資料的儀�
 「使用者」控制面板會依使用者顯示網站活動，讓您分析個別使用者與您網站的互動方式。 使用此控制面板可尋找網站上最活躍的使用者，並評估最熱門的網站活動。
 
 ![](assets/analytics-users.png)
-

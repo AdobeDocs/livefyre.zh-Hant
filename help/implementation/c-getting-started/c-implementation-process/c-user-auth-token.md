@@ -1,18 +1,14 @@
 ---
 description: 本節說明如何產生UserAuth JSON物件，以建立使用者登入應用程式所需的使用者驗證Token。
-seo-description: 本節說明如何產生UserAuth JSON物件，以建立使用者登入應用程式所需的使用者驗證Token。
-seo-title: 使用者驗證Token
-solution: Experience Manager
 title: 使用者驗證Token
-uuid: 6483debd-453c-4780-b19c-1d8041693617
+exl-id: 564144dd-6db4-447b-80ac-b743ecac833d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
-
 
 # 使用者驗證Token{#user-auth-token}
 
@@ -64,4 +60,3 @@ network.build_user_auth_token(userId, displayName, expires)
 >[!NOTE]
 >
 >網路金鑰不會共用給Livefyre分組網站帳戶。 一旦Livefyre為您布建環境，您就會收到網路金鑰。 此金鑰應保持私密。
-

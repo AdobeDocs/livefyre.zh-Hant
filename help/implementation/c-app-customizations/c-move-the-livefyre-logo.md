@@ -1,18 +1,14 @@
 ---
 description: 在您的頁面上重新定位Livefyre標誌。
-seo-description: 在您的頁面上重新定位Livefyre標誌。
-seo-title: 移動Livefyre標誌
-solution: Experience Manager
 title: 移動Livefyre標誌
-uuid: 807304ae-6070-4505-87db-169a925f714c
+exl-id: dc6c26cf-e0b9-4af3-8a3c-e58ea4ecbc44
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # 移動Livefyre標誌{#move-the-livefyre-logo}
 
@@ -48,4 +44,3 @@ ht-degree: 0%
     text-decoration: underline; 
 }
 ```
-

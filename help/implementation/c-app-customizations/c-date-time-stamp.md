@@ -1,18 +1,14 @@
 ---
 description: 使用Livefyre.js自訂日期和時間戳記。
-seo-description: 使用Livefyre.js自訂日期和時間戳記。
-seo-title: 自訂日期和時間戳記
-solution: Experience Manager
 title: 自訂日期和時間戳記
-uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
+exl-id: 77130793-00ba-4a5c-8318-4221d971da6c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
-
 
 # 自訂日期和時間戳記{#customize-the-date-and-time-stamp}
 
@@ -128,7 +124,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 模式字母的計數決定格式。
 
-* **文字：** 4或更多，請使用完整表格。少於4，請使用簡短或縮寫的表單（如果存在）。 (例如：&quot;EEE&quot;產生&quot;Monady&quot;,&quot;EEE&quot;產生&quot;Mon&quot;)。
+* **文字：** 4或更多，請使用完整表格。少於4，請使用短格式或縮寫形式（如果存在）。 (例如：&quot;EEE&quot;產生&quot;Monady&quot;,&quot;EEE&quot;產生&quot;Mon&quot;)。
 * **數字：** 最小位數。較短的數字會以零填充為此數量(例如：如果&quot;m&quot;產生&quot;6&quot;,&quot;mm&quot;產生&quot;06&quot;。) 年是專門處理的；亦即，如果「y」的計數為2，則「年」將截斷為2位數。 (例如：如果&quot;yyyy&quot;產生&quot;1997&quot;,&quot;yy&quot;會產生&quot;97&quot;)。 與其他欄位不同，小數秒在右邊填充為零。
 * **文字與數字：** 3或以上，使用文字。少於3，請使用數字。 (例如：&quot;M&quot;產生&quot;1&quot;, &quot;MM&quot;產生&quot;01&quot;, &quot;MMM&quot;產生&quot;Jan&quot;, &quot;MMM&quot;產生&quot;Jan&quot;。)
 

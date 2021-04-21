@@ -1,26 +1,22 @@
 ---
-description: 您可以建立從YouTube規則提取內容的串流規則。
-seo-description: 您可以建立從YouTube規則提取內容的串流規則。
-seo-title: YouTube規則
-solution: Experience Manager
+description: 您可以建立串流規則，從YouTube規則提取內容。
 title: YouTube規則
-uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
+exl-id: 720a6fc6-d5de-4c78-a14e-51bced6e8dda
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-
 # YouTube規則{#youtube-rules}
 
-您可以建立從YouTube規則提取內容的串流規則。
+您可以建立串流規則，從YouTube規則提取內容。
 
-根據「使用者」、「頻道」或「播放清單」建立YouTube規則。
+根據使用者、頻道或播放清單建立YouTube規則。
 
-若要建立YouTube規則以從YouTube提取內容至您的應用程式或資料夾，您可以依下列方式進行篩選：
+若要建立「YouTube規則」以將內容從YouTube拉入您的應用程式或資料夾，您可以依下列方式進行篩選：
 
 * **[!UICONTROL User]**
    * 輸入&#x200B;**[!UICONTROL User]**&#x200B;的虛名字串，將「使用者」的影片包含在串流中。

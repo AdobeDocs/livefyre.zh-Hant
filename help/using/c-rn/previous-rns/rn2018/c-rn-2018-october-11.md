@@ -1,18 +1,14 @@
 ---
 description: 2018年10月11日發行說明。
-seo-description: 2018年10月11日發行說明。
-seo-title: 2018 年 10 月 11 日
-solution: Experience Manager
 title: 2018 年 10 月 11 日
-uuid: 8f08b2d1-295f-4b6a-82ef-74d21f15f784
+exl-id: f7f2ef09-78c2-4939-94c2-6c187c0c7092
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '206'
 ht-degree: 9%
 
 ---
-
 
 # 2018 年 11 月 10 日{#october}
 
@@ -34,9 +30,9 @@ ht-degree: 9%
 |---|---|---|
 | 錯誤 | AEM | 修正透過Livefyre匯入AEM Assets的推文已中斷連結的問題。 |
 | 增強功能 | API | 已新增系列中儲存之音訊檔案的「音訊」標籤。 |
-| 錯誤 | 資料庫／搜尋 | 修正從「社交搜尋」拖放Twitter資產時，Twitter資產無法儲存至特定資料夾的問題。 |
+| 錯誤 | 資料庫／搜尋 | 修正從Social搜尋拖放Twitter資產時，無法儲存至特定資料夾的問題。 |
 | 錯誤 | 資料庫／搜尋 | 修正在「資產詳細資訊」、「資料庫」和已發佈的「應用程式」中使用有效的IG商業帳戶時，影像未顯示的問題。 |
-| 錯誤 | 串流 | 修正YouTube串流規則無法儲存的問題。 |
+| 錯誤 | 串流 | 修正無法儲存YouTube串流規則的問題。 |
 
 ## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
@@ -45,4 +41,3 @@ ht-degree: 9%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | AEM | 修正透過Livefyre匯入AEM Assets的推文已中斷連結的問題。 |
-

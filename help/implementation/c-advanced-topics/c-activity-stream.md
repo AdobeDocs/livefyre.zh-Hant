@@ -1,18 +1,14 @@
 ---
 description: 瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
-seo-description: 瞭解如何監控和儲存透過Livefyre系統傳輸的使用者產生內容。
-seo-title: 活動串流
-solution: Experience Manager
 title: 活動串流
-uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
+exl-id: 4a552034-96e4-4f1c-9965-3495992005f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
-
 
 # 活動流{#activity-stream}
 

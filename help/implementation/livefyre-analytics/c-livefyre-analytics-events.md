@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Livefyre Analytics事件
-solution: Experience Manager
 title: Livefyre Analytics事件
-uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
+description: Livefyre Analytics事件
+exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
 translation-type: tm+mt
-source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '540'
 ht-degree: 4%
 
 ---
-
 
 # Livefyre Analytics事件
 
@@ -47,7 +43,7 @@ ht-degree: 4%
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics中報表套裝的詳細資訊，請參閱[報表套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
+下列Livefyre事件可對應至使用「報表套裝管理員」的自訂事件，以用於報表。 如需Adobe Analytics地區報表套裝的詳細資訊，請參閱[報表套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 如需如何搭配報表套裝管理員使用Livefyre事件的詳細資訊，請參閱[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 
@@ -58,14 +54,14 @@ ht-degree: 4%
 | 檢視 | 當應用程式第一次進入檢視區時。 |
 | 貼文 | 每當使用者張貼評論或內容時，包括：頂層貼文、回覆、評論、媒體塗鴉牆上傳 |
 | 已張貼 | 當貼文成功時。 |
-| Twitter_Reply | 只要使用者在Twitter上回覆 |
-| Twitter_Like | 將內容共用給的位置：回推 |
+| Twitter_回覆 | 只要使用者在Twitter回覆 |
+| Twitter | 將內容共用給的位置：回推 |
 | Livefyre_Like | 只要Livefyre贊功能在應用程式中使用， |
 | Livefyre_Niliked | 只要使用者不喜歡Livefyre, |
 | ShareOnPost | 每當使用者張貼內容並使用分享貼文功能時 |
 | ShareButtonClick | 只要使用者按一下留言上的分享按鈕 |
-| ShareTwitter | 按一下「分享至Twitter」 |
-| ShareFacebook | 按一下「分享至Facebook」 |
+| ShareTwitter | 按一下「分享給Twitter」 |
+| ShareFacebook | 按一下「分享給Facebook」 |
 | ShareURL | 選取／複製「共用至URL」文字區域時。 |
 | 展開回覆 | 當使用者按一下+或展開連結，以檢視頂層貼文上的所有回覆時 |
 | 收合回覆 | 當使用者按一下——或收合連結以檢視頂層貼文上的所有回覆時 |

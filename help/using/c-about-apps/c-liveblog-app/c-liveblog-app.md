@@ -1,18 +1,14 @@
 ---
 description: 即時部落格可讓您的作者和編輯發佈即時更新，將您的網站轉變為引人入勝的即時新聞來源。
-seo-description: 即時部落格可讓您的作者和編輯發佈即時更新，將您的網站轉變為引人入勝的即時新聞來源。
-seo-title: 即時部落格
-solution: Experience Manager
 title: 即時部落格
-uuid: 40ae3120-c630-440e-b224-49cd99677dc2
+exl-id: 9a356e8b-7120-466b-8c78-4e7d6d21d0c4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # 即時部落格{#live-blog}
 
@@ -31,4 +27,3 @@ ht-degree: 0%
 隨著又一場暴風雪的到來，Slate公司希望向讀者提供有關東海岸狂風天氣變化的即時資訊。 Slate的編輯使用即時部落格，可以立即分享有關風暴的更新資訊，包括他們自己的像片、使用者推文，以及有關降雪的資訊。 「即時部落格」非常有用，因此成為Slate網站的首頁。
 
 ![](assets/LiveBlogSlate_example.png)
-

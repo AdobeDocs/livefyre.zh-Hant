@@ -1,18 +1,14 @@
 ---
 description: 「注釋應用程式」隨附許多功能，可在您的網站中內嵌即時對話。
-seo-description: 「注釋應用程式」隨附許多功能，可在您的網站中內嵌即時對話。
-seo-title: 注釋功能
-solution: Experience Manager
 title: 注釋功能
-uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
+exl-id: aca45cfc-07cb-4f58-8ad4-f7d07fe250ca
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 7%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
-
 
 # 注釋功能{#comments-features}
 
@@ -56,4 +52,3 @@ ht-degree: 7%
 * [Twitter動作按鈕](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
 * [使用者標章](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
 * [使用者貼文](/help/using/c-features-livefyre/c-content-behavior-features/c-user-posts.md#c_user_posts)
-

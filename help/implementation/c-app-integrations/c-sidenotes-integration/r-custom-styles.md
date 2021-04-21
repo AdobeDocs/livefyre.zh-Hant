@@ -1,17 +1,14 @@
 ---
 description: 自訂樣式會透過插入Sidesors建構函式的物件套用。
-seo-description: 自訂樣式會透過插入Sidesors建構函式的物件套用。
-seo-title: Sidesirs自訂樣式
 title: Sidesirs自訂樣式
-uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
+exl-id: 846605b7-a21e-4600-bf17-18841d2ed96d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Siestrops Custom Styles{#sidenotes-custom-styles}
 
@@ -57,4 +54,3 @@ new Livefyre.Sidenotes({
 | `streamPoweredBy` | 「backgroundColor」、「borderColor」、「lineHeight」 | 快顯視窗上的「Powered by」頁尾。 |
 | `streamQueueButton` | 「backgroundColor」、「borderColor」、「borderWidth」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 按鈕，指出新註解何時串流至開啟的快顯視窗。 |
 | `userAvatar` | 「height」、「width」 | 已驗證使用者的頭像，位於文字區域編輯器的左側。 |
-

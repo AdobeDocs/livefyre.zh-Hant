@@ -1,24 +1,20 @@
 ---
 description: 您可以選擇網站訪客登入您的應用程式是否及方式。
-seo-description: 您可以選擇網站訪客登入您的應用程式是否及方式。
-seo-title: 驗證功能
-solution: Experience Manager
 title: 驗證功能
-uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
+exl-id: 4d0691e2-1327-4008-bf12-82cc91ed0612
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
-
 
 # 驗證功能{#authentication-features}
 
 您可以選擇網站訪客登入您的應用程式是否及方式。
 
-使用livefyre.js設定驗證。 如需詳細資訊，請參閱「使用Livefyre.js[將驗證新增至應用程式」](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+使用livefyre.js設定驗證。 如需詳細資訊，請參閱「使用Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)將驗證新增至應用程式」[
 
 使用此功能的應用程式：
 
@@ -31,4 +27,3 @@ ht-degree: 5%
 * [Siesors](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [上傳按鈕](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

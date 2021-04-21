@@ -1,18 +1,14 @@
 ---
 description: Storify可同時管理多個編輯器，防止意外覆寫或遺失編輯。
-seo-description: Storify可同時管理多個編輯器，防止意外覆寫或遺失編輯。
-seo-title: 在同一個故事上與多位編輯合作
-solution: Experience Manager
 title: 在同一個故事上與多位編輯合作
-uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
+exl-id: e3cb4326-134d-443a-9087-a48e77243230
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
-
 
 # 在相同內文上與多位編輯合作{#working-with-multiple-editors-on-the-same-story}
 
@@ -29,4 +25,3 @@ Storify可讓多位編輯人員協作、編輯和組織單一內文的內容。 
 * 刪除內容
 * 編輯文字區塊。
 * 新增標題。
-

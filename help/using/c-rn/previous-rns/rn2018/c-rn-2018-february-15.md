@@ -1,18 +1,14 @@
 ---
 description: 2018年2月15日發行說明。
-seo-description: 2018年2月15日發行說明。
-seo-title: 2018 年 2 月 15 日
-solution: Experience Manager
 title: 2018 年 2 月 15 日
-uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
+exl-id: 7276de37-c8cd-4e85-bc92-90c272e5bf94
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '294'
 ht-degree: 5%
 
 ---
-
 
 # 2018年2月15日{#february}
 
@@ -24,7 +20,7 @@ ht-degree: 5%
 
 * **智慧型標籤。**
 
-   Livefyre使用Adobe Sensei影像識別技術，自動為您儲存在資料庫中的影像加上標籤。
+   Livefyre使用Adobe Sensei影像辨識技術，自動為您儲存在資料庫中的影像加上標籤。
 使用智慧型標籤，您可以節省大量搜尋和協調內容的時間。 使用智慧標籤，您可以：
 
    * 根據影像內容搜尋儲存的影像，以取得精確的內容，而不只是文字
@@ -43,8 +39,8 @@ ht-degree: 5%
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| 問題 | ModQ | 已修正標示為已核准或已刪除的Instagram貼文重新進入佇列的問題。 |
-| 增強功能 | Rights Management | 已新增增強功能，以在嘗試使用過期的Instagram帳戶時顯示警告，同時提出「權限請求」。 |
+| 問題 | ModQ | 修正標示為已核准或已清除的Instagram貼文重新進入佇列的問題。 |
+| 增強功能 | Rights Management | 已新增增強功能，以在嘗試使用過期的Instagram帳戶時顯示警告，同時提出權限要求。 |
 | 問題 | 趨勢 | 修正趨勢應用程式仍允許HTTP（而非HTTPS）的問題。 |
 
 ## UAT發行
@@ -54,4 +50,3 @@ ht-degree: 5%
 | 增強功能 | 應用程式 | 新增從Livefyre刪除應用程式的功能。 |
 | 問題 | 民調 | 將輪詢更改為獨佔使用HTTPS。 以前，投票仍可與HTTP搭配使用。 |
 | 問題 | UGC | 修正視覺化應用程式中的UGC未如預期依「產品ID」篩選的問題。 |
-

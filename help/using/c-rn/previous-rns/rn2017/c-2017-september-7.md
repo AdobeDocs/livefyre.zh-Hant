@@ -1,17 +1,14 @@
 ---
 description: 2017年9月7日發行說明。
-seo-description: 2017年9月7日發行說明。
-seo-title: 2017 年 9 月 7 日
 title: 2017 年 9 月 7 日
-uuid: a736cc77-8989-4066-b19c-8cac7bf6d7f9
+exl-id: 761debfa-676b-456f-812a-8e1516ab7689
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '406'
 ht-degree: 6%
 
 ---
-
 
 # 2017 年 9 月 7 日{#september}
 
@@ -25,7 +22,7 @@ ht-degree: 6%
 | 錯誤 | 資料庫搜尋 | 修正在「程式庫」中使用「標籤」和「評分」搜尋時，未傳回結果的錯誤。 |
 | 錯誤 | 資料庫搜尋 | 修正如果結果清單包含格式錯誤的URL，導致Social搜尋查詢無法傳回的錯誤。 |
 | 增強功能 | 安全 | 新增功能，禁止特定IP地區的網站訪客加上註解。 請連絡您的帳戶管理員，以針對您的Livefyre網路進行設定。 |
-| 錯誤 | 串流 | 已修正允許儲存Instagram串流規則的錯誤，該規則包含「這些作者中任何人未張貼」欄位中的項目。 |
+| 錯誤 | 串流 | 已修正錯誤，允許儲存包含「Is not posted by any of these authors」欄位中項目的Instagram串流規則。 |
 | 錯誤 | Studio | 已修正錯誤，可依「大部分參與者」和「大部分項目」進行排序。 |
 | 錯誤 | Studio | 修正造成應用程式時間戳記在表格中顯示錯誤建立日期的錯誤。 |
 | 錯誤 | Studio | 已修正App Manager中「最近」和「最舊」篩選器的排序順序錯誤。 |
@@ -41,6 +38,5 @@ ht-degree: 6%
 | 錯誤 | 庫 | 已修正產品在移除後，將產品重新新增至程式庫中資產時顯示不正確的問題。 |
 | 錯誤 | 行動 | 此錯誤會修正在Mobile中停用Avatar時，如何呈現巢狀回覆的問題，這些回覆不會用來巢狀內嵌，但此修正會修正它。 |
 | 增強功能 | 馬賽克 | 這是新的設定，可讓客戶指定要在Mosaic視覺化應用程式中顯示的卡片數。 |
-| 錯誤 | Rights Management | 修正Studio使用者無法請求Instagram轉盤內容權限的錯誤。 |
+| 錯誤 | Rights Management | 修正Studio使用者無法要求Instagram轉盤內容權限的錯誤。 |
 | 錯誤 | Studio | 新增更清楚的錯誤訊息，以建立新網站。 |
-

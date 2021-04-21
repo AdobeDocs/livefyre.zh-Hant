@@ -1,18 +1,14 @@
 ---
 description: 管理整個Livefyre網路的內容。
-seo-description: 管理整個Livefyre網路的內容。
-seo-title: 應用程式內容標籤
-solution: Experience Manager
 title: 應用程式內容標籤
-uuid: 65b23085-2b79-4a6f-96c9-44b421805312
+exl-id: 8b3e5281-59ba-4321-8fee-4160ab7a5d5e
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
-
 
 # 應用程式內容標籤{#app-content-tab}
 
@@ -66,7 +62,7 @@ Livefyre搜尋欄位支援萬用字元，可讓您在字詞（或字詞片段）
 
 * **作** 者可讓您依作者的位址、 **[!UICONTROL IP]** ( **[!UICONTROL Display Name]** 在「使用者」面板或作者張貼之內容的上方)或 **[!UICONTROL User ID]**（在「使用者」面板上）進行篩選。
 
-* **包** 含可讓您依或篩選最近90天的內 **[!UICONTROL Keyword]** 容 **[!UICONTROL Content Tag]**。選取&#x200B;**[!UICONTROL Media]**&#x200B;核取方塊，僅傳回包含媒體的內容。 （若要搜尋所有內容，請向下捲動清單中的所有內容，然後按一下&#x200B;**[!UICONTROL Search full data]**。）
+* **包** 含可讓您依或篩選最近90天的 **[!UICONTROL Keyword]** 內容 **[!UICONTROL Content Tag]**。選取&#x200B;**[!UICONTROL Media]**&#x200B;核取方塊，僅傳回包含媒體的內容。 （若要搜尋所有內容，請向下捲動清單中的所有內容，然後按一下&#x200B;**[!UICONTROL Search full data]**。）
 
    **注意：不** 支援多個關鍵字和內容標籤搜尋。如果輸入了多個關鍵字或標籤，則搜尋會使用最後一個字詞。
 
@@ -114,7 +110,7 @@ Livefyre搜尋欄位支援萬用字元，可讓您在字詞（或字詞片段）
 
 標籤內容可讓您將內容分類並組織，以方便擷取和自訂樣式，或將內容標示為特色內容。
 
-若要新增「標籤」，只需按一下內容下方的加號(**[!UICONTROL +]**)圖示。 輸入新標籤，或從現有標籤清單中選取。
+若要新增「標籤」，只需按一下內容下方的加號(**[!UICONTROL +]**)圖示。 輸入新標籤，或從現有標籤清單中選擇。
 
 ![](assets/PublishedAddTag-1024x338.png)
 
@@ -150,4 +146,3 @@ Livefyre搜尋欄位支援萬用字元，可讓您在字詞（或字詞片段）
 
 * 無法標幟特色內容。
 * 使用者在內容經過「精選」後便無法編輯，不過他們仍可視需要加以刪除。 協調者可以編輯精選內容。
-

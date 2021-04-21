@@ -1,18 +1,14 @@
 ---
 description: Livefyre Identity and Apps包含協助工具功能，可讓所有網站訪客與內容互動，包括可能使用螢幕閱讀程式和其他輔助裝置的訪客。
-seo-description: Livefyre Identity and Apps包含協助工具功能，可讓所有網站訪客與內容互動，包括可能使用螢幕閱讀程式和其他輔助裝置的訪客。
-seo-title: 協助功能
-solution: Experience Manager
 title: 協助功能
-uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
+exl-id: c1f10835-06a8-459b-8d58-63ad61a3e0b7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
-
 
 # 協助功能{#accessibility-features}
 
@@ -56,4 +52,3 @@ Livefyre強調下列區域，以確保網站訪客可存取Livefyre身分和應�
 * [馬賽克](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [民調](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [Siesors](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-

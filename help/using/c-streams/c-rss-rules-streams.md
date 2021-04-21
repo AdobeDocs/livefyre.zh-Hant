@@ -1,18 +1,14 @@
 ---
 description: 您可以建立從RSS饋送提取內容的串流規則。
-seo-description: 您可以建立從RSS饋送提取內容的串流規則。
-seo-title: RSS規則
-solution: Experience Manager
 title: RSS規則
-uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
+exl-id: bfb3bbad-ab26-451e-b540-d6c41f54dc31
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # RSS規則{#rss-rules}
 

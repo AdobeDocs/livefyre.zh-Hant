@@ -1,18 +1,14 @@
 ---
 description: 當您實作Livefyre應用程式時，實作的樣式會視您的使用案例而定。 本頁說明建立應用程式的三種方式。
-seo-description: 當您實作Livefyre應用程式時，實作的樣式會視您的使用案例而定。 本頁說明建立應用程式的三種方式。
-seo-title: CMS應用程式整合
-solution: Experience Manager
 title: CMS應用程式整合
-uuid: 14fd7e36-0e50-4ae3-97f0-2de731c184f5
+exl-id: 7590e247-87cc-470e-bab6-e61a19221dbd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
-
 
 # CMS應用程式整合{#cms-app-integrations}
 
@@ -20,7 +16,7 @@ ht-degree: 1%
 
 Livefyre整合不受任何CMS和使用者設定檔及驗證平台的限制。 根據您的使用案例和需求，以一或多種方式實作Livefyre。
 
-您可以使用傳統整合來建立自訂的AEM元件。
+您可以使用傳統整合來建立自訂AEM元件。
 
 ## CMS應用程式整合類型概觀
 

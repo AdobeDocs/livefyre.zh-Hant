@@ -1,18 +1,14 @@
 ---
 description: 建立collectionMeta和auth Token的指南。
-seo-description: 建立collectionMeta和auth Token的指南。
-seo-title: 建立伺服器端Token
-solution: Experience Manager
 title: 建立伺服器端Token
-uuid: 8313f26e-5ceb-414e-a61a-480bb7a8ba66
+exl-id: f709b79e-9236-443e-b862-c7d281815d91
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # 建立伺服器端Token{#build-server-side-tokens}
 
@@ -41,4 +37,3 @@ ht-degree: 1%
 | userId | 字串&#x200B;*required* | 以儲存在您的使用者管理系統中的方式登入的使用者ID（僅允許使用英數字元、破折號、底線和點字元）:`[a-zA-Z0-9_-.]`)。 **注意：** userId必須是唯一的。 |
 | 過期 | 整數&#x200B;*required* | Token應從現在開始過期（以秒為單位）。 **注意：** 此值也可以作為浮點數傳遞。產生的JSON網頁Token會在UNIX紀元時間中儲存此值。 |
 | displayName | 字串&#x200B;*required* | 在UI和注釋中識別此使用者的文字。 (字元數上限：50.) |
-

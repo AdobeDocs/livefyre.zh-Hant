@@ -1,17 +1,14 @@
 ---
 description: 使用CSS來設定Livefyre應用程式的元素樣式，以符合您的品牌。
-seo-description: 使用CSS來設定Livefyre應用程式的元素樣式，以符合您的品牌。
-seo-title: CSS樣式與品牌
 title: CSS樣式與品牌
-uuid: 729a2780-f757-4c54-b446-ff832cecf620
+exl-id: 908c31a3-dc91-42a0-baf4-89237e9f1c7d
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
-
 
 # CSS樣式與品牌{#css-styling-and-branding}
 
@@ -42,4 +39,3 @@ Livefyre應用程式提供廣泛的CSS樣式介面，讓您自訂使用體驗，
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趨勢分析](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

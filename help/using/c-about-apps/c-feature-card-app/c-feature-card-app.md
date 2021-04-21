@@ -1,18 +1,14 @@
 ---
 description: 將單一精選內容加入您的頁面。
-seo-description: 將單一精選內容加入您的頁面。
-seo-title: 功能卡
-solution: Experience Manager
 title: 功能卡
-uuid: 8c44edad-d8a5-452e-952c-5d6818e5c0b0
+exl-id: 24364376-5cb3-4ef1-a0b0-69781fcc9132
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # 功能卡{#feature-card}
 

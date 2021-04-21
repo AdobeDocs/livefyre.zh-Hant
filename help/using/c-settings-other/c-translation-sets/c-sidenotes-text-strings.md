@@ -1,18 +1,14 @@
 ---
 description: 自訂Livefyre Sides的文字字串
-seo-description: 自訂Livefyre Sides的文字字串
-seo-title: 字串
-solution: Experience Manager
 title: 字串
-uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
+exl-id: 132a7c8d-10e1-419c-9d79-a40553e70785
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '491'
 ht-degree: 13%
 
 ---
-
 
 # 字元號文字字串{#sidenotes-text-strings}
 
@@ -164,4 +160,3 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorDuplicate | 我們也喜歡您的註解，但您不能再張貼。 |
 |  | errorGeneral | 發生錯誤. 請再試一次。 |
 |  | errorServer | 我們的伺服器出了問題。 再試一次？ |
-

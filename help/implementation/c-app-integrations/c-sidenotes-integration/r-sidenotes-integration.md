@@ -1,22 +1,18 @@
 ---
-description: 透過遵循類似核心應用程式的程式，整合Sidesars應用程式。
-seo-description: 透過遵循類似核心應用程式的程式，整合Sidesars應用程式。
-seo-title: Sides Integration
-solution: Experience Manager
+description: 透過遵循類似核心應用程式的程式來整合Sidesars應用程式。
 title: Sides Integration
-uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
+exl-id: 368951b1-fef2-46d8-b89c-68c46962e937
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
 
-
 # Sides Integration{#sidenotes-integration}
 
-透過遵循類似核心應用程式的程式，整合Sidesars應用程式。
+透過遵循類似核心應用程式的程式來整合Sidesars應用程式。
 
 一般而言，如果您的核心應用程式整合完成，為產生`collectionMeta`物件所撰寫的程式碼可能會重複用於Sidestroms。
 

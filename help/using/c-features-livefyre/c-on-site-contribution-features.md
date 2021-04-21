@@ -1,18 +1,14 @@
 ---
 description: 選擇網站訪客如何與應用程式互動，以及他們可以如何與內容互動。
-seo-description: 選擇網站訪客如何與應用程式互動，以及他們可以如何與內容互動。
-seo-title: 現場貢獻功能
-solution: Experience Manager
 title: 現場貢獻功能
-uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
+exl-id: 5f7d065b-cd9b-4939-8029-e593583a3b07
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '282'
 ht-degree: 3%
 
 ---
-
 
 # 現場貢獻功能{#on-site-contribution-features}
 
@@ -80,4 +76,3 @@ ht-degree: 3%
 使用此功能的應用程式：
 
 * [民調](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
-

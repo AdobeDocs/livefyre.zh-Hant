@@ -1,18 +1,14 @@
 ---
 description: 自訂Livefyre應用程式的字串。
-seo-description: 自訂Livefyre應用程式的字串。
-seo-title: 本地化字串
-solution: Experience Manager
 title: 本地化字串
-uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
+exl-id: 5eb452e3-3b33-4861-9b62-5a41221defab
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1987'
 ht-degree: 8%
 
 ---
-
 
 # 本地化字串{#localize-strings}
 
@@ -76,7 +72,7 @@ var customStrings = {
 |  | displayName | %s |
 |  | editProfile | 編輯設定檔 |
 |  | notificationSettings | 通知設定 |
-|  | siteAdmin | 管理控制台（Studio的連結） |
+|  | siteAdmin | Admin Console（Studio的連結） |
 |  | 登出 | 登出 |
 
 ## 串流資訊{#section_wx1_c24_xz}
@@ -253,13 +249,13 @@ var customStrings = {
 |---|---|---|
 | 回覆模式 | postReplyAsButton | 將留言張貼為…… |
 |  | postReplyButton（可供登入的使用者使用）。 | 貼文留言 |
-|  | backToHotThreads | 返回到熱線程 |
+|  | backToHotThreads | 返回熱線程 |
 
 ![](assets/strings_backto-150x48.png)
 
 | 金鑰 | 預設文字 |  |
 |---|---|---|
-| Twitter @turtience modal | 提及次數標題 | 分享提及次數 |
+| Twitter@提及模式 | 提及次數標題 | 分享提及次數 |
 |  | tinterSubtitleTwitter | 分享推文至： |
 |  | 提及次數DefaultText | 我在Livefyre評論中提到過你！ |
 |  | 提及次數ConfirmButton | 確定 |
@@ -545,5 +541,3 @@ Livefyre Identity的可用字串。
 | passwordErrorMissingUpperase | 密碼應至少包含一個大寫字元 |
 | passwordErrorMissingLowercase | 密碼至少應包含一個小寫字元 |
 | passwordErrorMissingSymbol | 密碼應至少包含集`!@#$%^&*()?.,<>\’;:”[]{}|`中的一個符號 |
-
-

@@ -1,18 +1,14 @@
 ---
 description: 有關GDPR適用隱私權要求的常見問答集(FAQ)解答。
-seo-description: 有關GDPR適用隱私權要求的常見問答集(FAQ)解答。
-seo-title: 隱私權要求常見問答集
-solution: Experience Manager
 title: 隱私權要求常見問答集
-uuid: 0cd6f0d2-504d-46e9-ac46-070536cda086
+exl-id: 6d0add45-589a-46d0-b15a-63a7599aad73
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
-
 
 # 隱私權要求常見問答{#privacy-request-faqs}
 
@@ -41,4 +37,3 @@ ht-degree: 1%
 * **如何產生目前或前任員工的資料追蹤報表？** [檢視隱私權](../../c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md#c_view_a_privacy_report) 報表，以產生使用者帳戶所追蹤資料的報表。
 
 * **Livefyre社交串流是否符合規範？** 當使用者從其社交網路刪除貼文或推文時，24小時內，內容也會從Livefyre的所有來源刪除。這適用於Twitter和Facebook。
-

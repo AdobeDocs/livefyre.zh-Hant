@@ -1,17 +1,14 @@
 ---
 description: 允許使用者自訂與其內容一起顯示的影像。
-seo-description: 允許使用者自訂與其內容一起顯示的影像。
-seo-title: Avatars
 title: Avatars
-uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
+exl-id: cff7f6be-3660-4d71-949b-6ac04379d68d
 translation-type: tm+mt
-source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
-
 
 # Avatars{#avatars}
 
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 ## 頭像儲存{#section_zbh_x1f_wy}
 
-Livefyre會以非同步方式載入Avatar。 當使用者第一次登入應用程式或變更其相關的頭像影像檔案時，其設定檔影像會新增至工作佇列。 （當使用者上傳至Livefyre頭像儲存位置時，會暫時顯示預設頭像。）
+Livefyre會以非同步方式載入Avatar。 當使用者第一次登入應用程式或變更其相關的頭像影像檔案時，他們的設定檔影像會新增至工作佇列。 （當使用者上傳至Livefyre頭像儲存位置時，會暫時顯示預設頭像。）
 
 ## 凹版{#section_mqh_p1f_wy}
 
@@ -45,4 +42,3 @@ Livefyre支援Gravatars的使用。 如果使用者的使用者設定檔中沒�
 * [馬賽克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-

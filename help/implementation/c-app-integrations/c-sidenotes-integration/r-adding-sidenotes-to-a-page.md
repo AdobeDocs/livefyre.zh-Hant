@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 將字元號新增至頁面
-solution: Experience Manager
 title: 將字元號新增至頁面
-uuid: 6499c45a-3773-4adb-a6c7-22a628309afd
+description: 將字元號新增至頁面
+exl-id: 3ec089d0-3d51-4918-b510-d30ef645c9c2
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # 向頁面{#adding-sidenotes-to-a-page}添加字元號
 
@@ -73,7 +69,7 @@ Livefyre提供數個設定選項，可讓您將Siestrom定位在您的頁面上�
 
 ## 新增多個網站表示系列至單頁{#section_pjl_ptv_sy}
 
-Livefyre可讓您將多個Sidestrops系列新增至單一頁面。 例如，如果頁面包含三則新聞報導，您可能希望包含三個不同的Sidesars應用程式小版本。 要執行此操作，您必須為每個Sidesform實例定義一個單獨的`ConvConfig`對象，以表示您希望構建。 例如：
+Livefyre可讓您將多個Sidestrops系列新增至單一頁面。 例如，如果頁面包含三則新聞報導，您可能希望包含三個不同的Sidesars應用程式小版本。 為此，您必須為每個Sidesform實例定義一個單獨的`ConvConfig`對象。 例如：
 
 ```
 <html> 

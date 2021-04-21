@@ -1,22 +1,18 @@
 ---
-description: 您可以將Livefyre Identity與Facebook搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
-seo-description: 您可以將Livefyre Identity與Facebook搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
-seo-title: 建立Facebook應用程式以搭配Livefyre身分識別使用
-solution: Experience Manager
-title: 建立Facebook應用程式以搭配Livefyre身分識別使用
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+description: 您可將Livefyre Identity與Facebook搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
+title: 建立Facebook應用程式以搭配Livefyre Identity使用
+exl-id: ec320865-6ea3-4f6f-a5f6-31f3d5cbdc93
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
-
 # 建立Facebook應用程式以搭配Livefyre Identity使用{#create-a-facebook-app-for-use-with-livefyre-identity}
 
-您可以將Livefyre Identity與Facebook搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
+您可將Livefyre Identity與Facebook搭配使用，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
 
 若要允許您的使用者使用其Facebook認證登入，Livefyre需要下列Facebook應用程式資訊：
 
@@ -44,4 +40,4 @@ ht-degree: 0%
    * 讓應用程式公開。
    * 確保&#x200B;**[!UICONTROL Login Permissions]**&#x200B;的&#x200B;**[!UICONTROL Approved Items]**&#x200B;包含`email`、`public_profile`和`user_friends`。
 
-完成後，Facebook開發人員的「儀表板」頁面會列出您的應用程式ID和應用程式密碼，以便用於Studio的「整合設定」中。
+完成後，Facebook開發人員的「儀表板」頁面會列出您的應用程式ID和App Secret，以便用於Studio的「整合設定」中。

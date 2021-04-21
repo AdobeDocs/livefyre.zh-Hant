@@ -1,17 +1,14 @@
 ---
 description: 若要啟用社交登入，請使用Studio將您的社交應用程式認證新增至您的Livefyre整合，並自訂登入模式。
-seo-description: 若要啟用社交登入，請使用Studio將您的社交應用程式認證新增至您的Livefyre整合，並自訂登入模式。
-seo-title: 使用Studio將您的社交應用程式連接至Livefyre實作
 title: 使用Studio將您的社交應用程式連接至Livefyre實作
-uuid: be14869c-e0df-48cd-a1f3-99eb953dd9ce
+exl-id: 2ccb9737-8c59-4c1d-93d3-61f913b3cdd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '584'
+ht-degree: 1%
 
 ---
-
 
 # 使用Studio將您的社交應用程式連接至您的Livefyre實作{#using-studio-to-connect-your-social-apps-to-your-livefyre-implementation}
 
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 ## 自訂登入模式{#section_v4c_hv2_3z}
 
-登入模式可讓您自訂使用者登入應用程式時將看到的資訊。 可定製模式窗口。
+「登入模式」可讓您自訂使用者登入應用程式時將看到的資訊。 可定製模式窗口。
 
 * **標誌：** 上傳標誌以用於您的登入模式。
 * **字型系列：** 選取符合您品牌的字型。
@@ -43,9 +40,9 @@ ht-degree: 0%
 1. 導覽至Livefyre Studio中的&#x200B;**[!UICONTROL Integration Settings]**。
 1. 切換&#x200B;**[!UICONTROL Enable Login with Email]**&#x200B;切換為&#x200B;**[!UICONTROL On]**。
 
-## 啟用使用Facebook帳戶{#section_ph3_515_bbb}登入
+## 使用Facebook帳戶{#section_ph3_515_bbb}啟用登錄
 
-將您的Facebook帳戶連線至Livefyre，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
+將您的Facebook帳戶連接至Livefyre，讓使用者使用其Facebook登入來與您網站上的應用程式互動。
 
 若要啟用使用Facebook帳戶的登入：
 
@@ -53,7 +50,7 @@ ht-degree: 0%
 
 1. 新增您的Facebook應用程式的&#x200B;**[!UICONTROL App ID]**&#x200B;和&#x200B;**[!UICONTROL App Secret]**。
 
-   這些值會列在您應用程式的Facebook開發人員儀表板中，可從[https://developers.facebook.com/apps/](https://developers.facebook.com/apps/675503539257343/dashboard/)取得。
+   這些值會列在您的Facebook開發人員應用程式儀表板中，可從[https://developers.facebook.com/apps/](https://developers.facebook.com/apps/675503539257343/dashboard/)取得。
 
 ## 啟用Google {#section_fq3_kb5_bbb}登入
 
@@ -67,17 +64,17 @@ ht-degree: 0%
 
    這些值會列在您的Google Cloud Platform專案介面中，可從[https://console.cloud.google.com/](https://console.cloud.google.com/apis/library)取得。 要檢索此資訊，請轉至&#x200B;**[!UICONTROL API Manager > Credentials]** ，然後按一下項目名稱。
 
-## 使用Twitter帳戶{#section_iyz_wb5_bbb}啟用登入
+## 使用Twitter帳戶{#section_iyz_wb5_bbb}啟用登錄
 
-將您的Twitter帳戶連線至Livefyre，讓使用者使用其Twitter登入，與您網站上的應用程式互動。
+將您的Twitter帳戶連接至Livefyre，讓使用者使用其Twitter登入來與您網站上的應用程式互動。
 
-若要使用Twitter帳戶啟用登入：
+若要啟用使用Twitter帳戶的登入：
 
 1. 切換&#x200B;**[!UICONTROL Enable Login with Twitter]**&#x200B;切換為&#x200B;**[!UICONTROL ON]**。
 
 1. 新增您的Twitter應用程式的&#x200B;**[!UICONTROL Consumer Key (API Key)]**&#x200B;和&#x200B;**[!UICONTROL Consumer Secret (API Secret)]**。
 
-   這些值會列在您Twitter應用程式的&#x200B;**[!UICONTROL Keys and Access Tokens]**&#x200B;頁面中，可從[https://apps.twitter.com/](https://apps.twitter.com/)取得。
+   這些值會列在您的Twitter應用程式的&#x200B;**[!UICONTROL Keys and Access Tokens]**&#x200B;頁面中，可從[https://apps.twitter.com/](https://apps.twitter.com/)取得。
 
 ## 啟用使用Yahoo！登入 帳戶 {#section_s1q_3c5_bbb}
 

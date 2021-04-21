@@ -1,17 +1,14 @@
 ---
 description: 2017年10月5日發行說明。
-seo-description: 2017年10月5日發行說明。
-seo-title: 2017 年 10 月 5 日
 title: 2017 年 10 月 5 日
-uuid: 62e9e4ee-1644-4d22-9589-2e208a68aaeb
+exl-id: 6e39a86e-82dd-47ff-ad68-2b483f8b1921
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '509'
 ht-degree: 4%
 
 ---
-
 
 # 2017 年 10 月 5 日{#october}
 
@@ -41,4 +38,3 @@ ht-degree: 4%
 | 增強功能 | UGC商務 | 客戶現在可以使用JSON檔案匯出，手動將Google產品目錄上傳至Livefyre Studio。 這可讓客戶將UGC與該目錄中的產品配對，並在我們啟用商務的應用程式中視覺化這些產品。 |
 | 增強功能 | UGC商務 | 客戶可以在依產品ID篩選其電子商務應用程式時，選取想要使用的產品資料夾。 例如，我希望我的新幻燈片出現在我的女鞋和女裝包產品頁面中，因此我將只選擇「女裝鞋系列」和「女裝包」產品資料夾。 |
 | 增強功能 | UGC商務 | Livefyre客戶現在只有在已授予權限時，才能篩選發佈至其應用程式的UGC。 例如，客戶可以組織和發佈選擇的項目，但只有在作者授與權限後，這些項目才會在應用程式中呈現。 這對於電子商務使用案例尤其重要，因為UGC用於商業用途。 |
-

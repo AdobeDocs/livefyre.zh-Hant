@@ -1,18 +1,14 @@
 ---
 description: 用戶同步允許您輸入用於從用戶管理系統中獲取用戶配置檔案資料的端點。
-seo-description: 用戶同步允許您輸入用於從用戶管理系統中獲取用戶配置檔案資料的端點。
-seo-title: 使用者同步
-solution: Experience Manager
 title: 使用者同步
-uuid: 6259e6fa-0541-4f5b-9d14-4c7c932ef997
+exl-id: 6a7a4bb3-a344-48be-8ba1-fd6d27a3b4af
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
-
 
 # 用戶同步{#user-sync}
 
@@ -24,4 +20,3 @@ ht-degree: 1%
 
 **描述檔同步URL:** 輸入Livefyre將從中擷取您更新的使用者描述檔資訊的URL。
 * 例如︰`https://example.yoursite.com/some_path/?id={***id***}`
-

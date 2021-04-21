@@ -1,17 +1,14 @@
 ---
 description: 直接將內容發佈至應用程式。
-seo-description: 直接將內容發佈至應用程式。
-seo-title: 發佈內容
 title: 發佈內容
-uuid: eed0746b-5295-46f7-b32e-32ea524f1e94
+exl-id: 4bbff027-87c5-490d-9377-fbbbbe9d0ebb
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
-
 
 # 發佈內容{#publish-content}
 

@@ -1,17 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 智慧標籤
 title: 智慧標籤
-uuid: f978fa83-e79b-46ae-bb3e-0f9449bd0440
+description: 智慧標籤
+exl-id: cbbc5550-d6cf-42e5-bce7-2c270cc968cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
-
 
 # 智慧型標籤{#smart-tags}
 
@@ -22,7 +19,7 @@ Livefyre使用Adobe Sensei電腦視覺技術，自動為您儲存或上傳至資
 * 根據影像和視訊內容（而非僅限文字）搜尋儲存和上傳的影像和視訊，以取得精確的內容
 * 根據可分析影像或視訊的精確搜尋詞（而非僅分析文字）收集串流中的內容
 
-當您儲存或上傳影像或視訊時，Adobe Sensei會自動檢閱內容，並在三個類別中使用135,000個分類器加上標籤：
+當您儲存或上傳影像或視訊時，Adobe Sensei會自動檢閱內容，並以135,000個分類器標籤內容，分為三類：
 
 * 功能（例如貓、狗、金字塔、地標）
 * 類別（例如旅遊、旅遊、美容）

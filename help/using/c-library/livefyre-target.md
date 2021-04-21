@@ -1,24 +1,22 @@
 ---
-description: Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
-seo-description: Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
-seo-title: 搭配Adobe Target使用Adobe Experience Manager Livefyre
-title: 搭配Adobe Target使用Adobe Experience Manager Livefyre
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+description: Livefyre與Adobe Target的整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
+title: 搭配使用Adobe Experience ManagerLivefyre與Adobe Target
+exl-id: 0110fb81-9051-4f8c-9195-dff1a5eed029
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
 
-# 搭配Adobe Target {#livefyre-target}使用Adobe Experience Manager Livefyre
+# 將Adobe Experience ManagerLivefyre與Adobe Target搭配使用{#livefyre-target}
 
-Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
+Livefyre與Adobe Target的整合可讓您直接將Livefyre應用程式共用至Target選件程式庫。
 
 ## 將Livefyre實例與Target {#connect-livefyre-target}連接
 
-在使用者設定中連結您的Adobe IMS帳戶，以連結Livefyre實例與Adobe Target。
+在使用者設定中連結您的AdobeIMS帳戶，以連接Livefyre例項與Adobe Target。
 
 1. 在Livefyre Studio中，按一下&#x200B;**[!UICONTROL Users]**&#x200B;標籤。
 
@@ -28,23 +26,23 @@ Livefyre與Adobe Target整合可讓您直接將Livefyre應用程式共用至Targ
 
 1. 輸入您的IMS認證。
 
-您的Adobe IMS帳戶可存取的產品例項會顯示在「Adobe IMS整合」視窗中。
+您的AdobeIMS帳戶可存取的產品例項會顯示在AdobeIMS整合視窗中。
 
 ![](assets/livefyre-target-connect.png)
 
 您的Livefyre實例現在已連線至Adobe Target。
 
-## 與Adobe Target {#share-livefyre-target}共用Livefyre應用程式
+## 與Adobe Target共用Livefyre應用程式{#share-livefyre-target}
 
-直接與Adobe Target共用在Livefyre Studio中建立的應用程式。
+直接與Adobe Target分享在Livefyre Studio中建立的應用程式。
 
 1. 在Livefyre Studio中，按一下&#x200B;**[!UICONTROL Apps]**&#x200B;標籤。
 
-1. 選取您要共用至Adobe Target的應用程式。
+1. 選取您要與Adobe Target共用的應用程式。
 
 1. 按一下 **[!UICONTROL Publish]**.
 
-1. 在「發佈設定」中，按一下Adobe Target切換器。
+1. 在「發佈設定」中，按一下「Adobe Target」開關。
 
 此時會顯示「目標例項」清單。
 

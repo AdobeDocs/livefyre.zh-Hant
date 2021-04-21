@@ -1,18 +1,14 @@
 ---
 description: Livefyre伺服器端程式庫方法的語言系結。
-seo-description: Livefyre伺服器端程式庫方法的語言系結。
-seo-title: 類別和方法
-solution: Experience Manager
 title: 類別和方法
-uuid: 2e7327d8-0f92-485c-b607-a566894b3561
+exl-id: 68028182-2a60-4c6e-8132-bbc7333ad0d9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
-
 
 # 類別和方法{#classes-and-methods}
 
@@ -23,4 +19,3 @@ Livefyre伺服器端程式庫方法的語言系結。
 * [安裝](../c-installing-libraries/c-installing-libraries.md). 與Livefyre網路層級API互動的介面。
 * [系列](../c-installing-libraries/c-collection-methods.md#c_collection_methods)。與Livefyre系列層級API互動的介面。
 * [網站](../c-installing-libraries/c-site-methods.md#c_site_methods). 與Livefyre網站層級API互動的介面。
-

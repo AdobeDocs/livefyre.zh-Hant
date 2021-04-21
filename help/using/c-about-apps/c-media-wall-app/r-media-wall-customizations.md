@@ -1,18 +1,14 @@
 ---
 description: 變更媒體塗鴉牆應用程式的大小、寬度和互動選項。
-seo-description: 變更媒體塗鴉牆應用程式的大小、寬度和互動選項。
-seo-title: 介質牆定制
-solution: Experience Manager
 title: 介質牆定制
-uuid: 79aecd92-3937-4bb4-a1a6-b090fb39afb0
+exl-id: bc34d8da-9e14-4226-b38d-128889bc31cc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
-
 
 # 介質牆定制{#media-wall-customizations}
 
@@ -40,7 +36,7 @@ ht-degree: 0%
    可讓使用者按一下串流中的像片，在重疊的快顯視窗中開啟像片。
 
 * **[!UICONTROL Require rights]**。啟用此選項可僅顯示權限請求狀態為「已授權」的內容。
-* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容的權限時，移除原始社交媒體網路（Twitter或Instagram）的標誌。
+* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容權限時，移除原始社交媒體網路(Twitter或Instagram)的標誌。
 
 * **[!UICONTROL Upload Button]**
 
@@ -82,4 +78,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式。
 
 * 整合工具。 如需如何使用整合工具自訂媒體塗鴉牆的詳細資訊，請參閱[媒體塗鴉牆整合](/help/implementation/c-app-integrations/c-media-wall-integration.md)。
-

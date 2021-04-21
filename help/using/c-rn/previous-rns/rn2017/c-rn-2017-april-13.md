@@ -1,17 +1,14 @@
 ---
 description: 2017年4月13日發行說明。
-seo-description: 2017年4月13日發行說明。
-seo-title: 2017 年 4 月 13 日
 title: 2017 年 4 月 13 日
-uuid: abc591bd-3385-40f5-99a5-3f4c8ee4dc6b
+exl-id: 56da541d-9097-4f45-8e14-b6c4ccf32040
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
-
 
 # 2017 年 4 月 13 日{#april}
 
@@ -25,7 +22,7 @@ ht-degree: 8%
 | 錯誤 | API | 修正使用「上傳媒體API」時，mp4影片無法上傳的錯誤。 |
 | 錯誤 | 庫 | 修正「資料庫」使用主題標籤搜尋時斷時續失敗的錯誤。 |
 | 錯誤 | 地圖 | 已修正「地圖」中支援iOS裝置叢集中大量內容的錯誤。 |
-| 增強功能 | ModQ | 已修正讓新Instagram工作在ModQ中有效串流的錯誤。 |
+| 增強功能 | ModQ | 已修正讓新的Instagram作業在ModQ中有效串流的錯誤。 |
 | 錯誤 | 馬賽克 | 已修正讓使用者在Designer中成功變更Mosaic應用程式的錯誤。 |
 | 增強功能 | 權限請求 | 新增稱為「請求失敗」的新權限請求狀態，以在權限請求訊息無法傳送時反白顯示。 |
 | 錯誤 | S1設定 | 已修正無法邀請沒有現有註解帳戶的新擁有者和協調者的錯誤。 |
@@ -34,7 +31,7 @@ ht-degree: 8%
 | 錯誤 | Storify 2 | 已新增可用性增強功能，以便在使用「在模式中顯示永久連結」選項時，固定Storify 2貼文不會呈現重疊的釘選和關閉圖示。 |
 | 錯誤 | 串流 | 修正「應用程式不接受新內容」橫幅錯誤顯示在「串流規則」頁面上的錯誤。 |
 | 增強功能 | 串流 | 已將新建立的串流規則的預設值修改為「套用安全規則」（如果適用）。 |
-| 增強功能 | 串流（先前稱為組織規則） | 已從Twitter串流／組織規則移除「Vines」（僅限Vines）選項，因為Vines現在會顯示為Twitter影片。 |
+| 增強功能 | 串流（先前稱為組織規則） | 已從「Twitter串流／組織」規則移除「葡萄樹」唯一選項，因為「葡萄樹」現在會顯示為Twitter影片。 |
 
 ## UAT發行
 
@@ -48,4 +45,3 @@ ht-degree: 8%
 | 錯誤 | 評論 | 已修正在「評論」應用程式上啟用alwaysShowEditor參數時的一些可用性錯誤。 |
 | 錯誤 | Storify 2 | 修正使用頁面上的requireJS程式庫時，Storify 2內嵌式演算無法轉譯的錯誤。 |
 | 錯誤 | 串流 | 修正複製現有串流時，無法將規則複製至新串流的錯誤。 |
-

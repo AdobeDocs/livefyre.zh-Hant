@@ -1,18 +1,14 @@
 ---
 description: 計算組織的社交項目數。
-seo-description: 計算組織的社交項目數。
-seo-title: 社交計數器
-solution: Experience Manager
 title: 社交計數器
-uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
+exl-id: def7fba4-1c2e-4c7b-84f7-f9ede592d675
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '233'
 ht-degree: 10%
 
 ---
-
 
 # 社交計數器{#social-counter}
 
@@ -37,7 +33,7 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 ```
 
 * **networkName：您** 的Livefyre提供網路名稱。例如：*labs*&#x200B;在`labs.fyre.co`中。
-* **查詢：** 所有網站的url-safe base64編碼雜湊、文章ID、規則類型元組（預先編碼）
+* **查詢：** 所有網站的url-safe base64編碼雜湊、文章ID、規則類型元組，應擷取其計數資訊（預先編碼）
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}

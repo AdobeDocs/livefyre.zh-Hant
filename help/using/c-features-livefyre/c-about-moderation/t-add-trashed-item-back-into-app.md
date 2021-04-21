@@ -1,17 +1,14 @@
 ---
 description: 如果您在ModQ中廢棄項目，可以使用「社交搜尋」將其新增至應用程式。
-seo-description: 如果您在ModQ中廢棄項目，可以使用「社交搜尋」將其新增至應用程式。
-seo-title: 將已銷毀的項目新增至應用程式
 title: 將已銷毀的項目新增至應用程式
-uuid: 96c5db19-999f-476f-a96c-ad101028d484
+exl-id: 6d00e065-c165-4189-914b-a1682b182e7c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # 將已轉換項目新增至應用程式{#add-a-trashed-item-back-into-an-app}
 
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 1. 導覽至&#x200B;**[!UICONTROL Library]**。
 1. 選擇 **[!UICONTROL Social Search]**.
-1. 選取&#x200B;**[!UICONTROL Social Source]**（例如Twitter或Instagram）。
+1. 選擇&#x200B;**[!UICONTROL Social Source]**(例如，Twitter或Instagram)。
 1. 輸入主題標籤。
 1. 選擇內容。
 1. 選取內容右下角的三個點。

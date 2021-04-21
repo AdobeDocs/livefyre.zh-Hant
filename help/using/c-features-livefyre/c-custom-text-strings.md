@@ -1,18 +1,14 @@
 ---
 description: 自訂應用程式中的任何文字字串，以進行國際化或品牌推廣。
-seo-description: 自訂應用程式中的任何文字字串，以進行國際化或品牌推廣。
-seo-title: 翻譯和自訂文字字串
-solution: Experience Manager
 title: 翻譯和自訂文字字串
-uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
+exl-id: 23018217-6bf8-415e-8801-584b0492734b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 10%
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
-
 
 # 翻譯和自訂文字字串{#translation-and-custom-text-strings}
 
@@ -36,4 +32,3 @@ ht-degree: 10%
 * [Siesors](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [趨勢分析](../c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上傳按鈕](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

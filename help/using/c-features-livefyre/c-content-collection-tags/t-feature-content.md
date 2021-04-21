@@ -1,18 +1,14 @@
 ---
 description: 使用自訂樣式來反白顯示精選內容。
-seo-description: 使用自訂樣式來反白顯示精選內容。
-seo-title: 功能內容
-solution: Experience Manager
 title: 功能內容
-uuid: 0e347703-f119-4778-9609-2d6500844d6e
+exl-id: e11d7d1c-b249-4bb0-84c3-04f9f19f120e
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # 功能內容{#feature-content}
 
@@ -40,4 +36,3 @@ ht-degree: 0%
    * [精選（網站）](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_lq5_ymw_xz)
    * [精選（系列）](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_kgc_xmw_xz)
    * [精選(Head)](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_n4b_lmw_xz)
-

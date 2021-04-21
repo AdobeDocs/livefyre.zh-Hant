@@ -1,18 +1,14 @@
 ---
 description: 建立拉式要求結構，以接收並回應存取您使用者識別系統的要求。
-seo-description: 建立拉式要求結構，以接收並回應存取您使用者識別系統的要求。
-seo-title: 提取請求結構
-solution: Experience Manager
 title: 提取請求結構
-uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
+exl-id: 70203b23-9d7c-4a22-94ba-2a763e200972
 translation-type: tm+mt
-source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # 提取請求結構{#pull-request-structure}
 

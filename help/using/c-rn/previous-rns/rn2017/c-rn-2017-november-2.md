@@ -1,17 +1,14 @@
 ---
 description: 2017年11月2日發行說明。
-seo-description: 2017年11月2日發行說明。
-seo-title: 2017 年 11 月 2 日
 title: 2017 年 11 月 2 日
-uuid: 496fdc55-3386-48f2-a491-26dc2bc8aa72
+exl-id: bfc8fd65-550b-477e-be96-aa310bc64ea0
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 7%
 
 ---
-
 
 # 2017 年 11 月 2 日{#november}
 
@@ -24,7 +21,7 @@ ht-degree: 7%
 | 增強功能 | API | 客戶現在可以透過上傳API上傳音訊檔案，而上傳API可透過應用程式內容進行檢視和下載。 |
 | 增強功能 | 應用程式內容 | 客戶現在可以從「應用程式內容」中播放已上傳的音訊檔案。 |
 | 增強功能 | 應用程式內容 | 此工作項目與有關音訊上傳的其他內文相關。 其重點在於新增從「應用程式內容」下載檔案的功能。 |
-| 錯誤 | Rights Management | 修正當使用者嘗試從Twitter或Instagram刪除內容後，將內容儲存在「社交搜尋」中時，未顯示正確錯誤訊息的錯誤。 |
+| 錯誤 | Rights Management | 修正當使用者嘗試從Twitter或Instagram刪除內容後，將內容儲存在Social搜尋中時，未顯示正確錯誤訊息的錯誤。 |
 | 增強功能 | 安全 | Studio管理員現在可以在名為「智慧型修改拒絕」的設定中新增新的SAFE規則，啟用智慧型修改功能。 |
 
 ## UAT發行
@@ -34,8 +31,7 @@ ht-degree: 7%
 | 錯誤 | 轉盤 | 修正轉盤未出現在設計工具中的問題。 |
 | 增強功能 | 功能卡 | 功能卡應用程式已啟用所有商務功能。 |
 | 增強功能 | 幻燈片 | 我們新增了Filmstrip的調整大小選項，讓使用者更能控制影像在應用程式中的外觀。 |
-| 增強功能 | 庫 | 當客戶將資產儲存至資料庫時，Livefyre會運用Adobe Sensei機器學習技術，新增標籤，以自動描述資產影像中的內容。 這可讓使用者在系統中搜尋這些標籤。 SP |
-| 增強功能 | Rights Management | 對於Instagram內容的開放權限要求，如果繼續標示為已刪除或帳戶設為私用，則權限狀態會顯示「已到期」和活動記錄項目，指出內容現在為私用／已刪除。 |
+| 增強功能 | 庫 | 當客戶將資產儲存至資料庫時，Livefyre採用Adobe Sensei機器學習技術，新增標籤，以自動描述資產影像中的內容。 這可讓使用者在系統中搜尋這些標籤。 SP |
+| 增強功能 | Rights Management | 對於含有繼續標示為已刪除或帳戶已設為私人之Instagram內容之公開權利要求，權限狀態將顯示「已到期」和活動記錄項目，指出該內容現在為私人／已刪除。 |
 | 增強功能 | 設定 | 客戶現在可以在「設定」的頁尾中造訪我們的隱私權政策和Adobe的服務條款。 |
-| 錯誤 | Studio | Livefyre現在可在Studio和App中完全轉換280個字元的Twitter資產。 |
-
+| 錯誤 | Studio | Livefyre現在可在Studio和Apps中完全轉換280個字元的Twitter資產。 |

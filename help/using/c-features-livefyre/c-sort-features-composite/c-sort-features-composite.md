@@ -1,18 +1,14 @@
 ---
 description: 您可以根據應用程式以及您希望網站訪客能夠執行的動作，選擇各種排序選項。
-seo-description: 您可以根據應用程式以及您希望網站訪客能夠執行的動作，選擇各種排序選項。
-seo-title: 排序功能
-solution: Experience Manager
 title: 排序功能
-uuid: e40f5877-acdc-48c2-a2c3-8a8d253cdb93
+exl-id: 62be145a-8885-436e-bc64-0bdb648390c4
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
-
 
 # 排序功能{#sort-features}
 
@@ -46,4 +42,3 @@ ht-degree: 0%
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-

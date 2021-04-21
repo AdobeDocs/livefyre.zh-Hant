@@ -1,18 +1,14 @@
 ---
 description: 2018年4月12日發行說明。
-seo-description: 2018年4月12日發行說明。
-seo-title: 2018 年 4 月 12 日
-solution: Experience Manager
 title: 2018 年 4 月 12 日
-uuid: f6c3f1f1-d716-4da3-9ba9-3f3623d8d9f5
+exl-id: caa7a8e9-0648-4d5b-8623-390c904cf750
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '534'
 ht-degree: 5%
 
 ---
-
 
 # 2018 年 4 月 12 日{#april}
 
@@ -40,9 +36,9 @@ ht-degree: 5%
 | 錯誤 | 幻燈片 | 修正Filmstrip中，即使沒有可載入的內容，「下一步」按鈕仍可點按的問題。 |
 | 錯誤 | 幻燈片 | 修正無影像的推文無法顯示在幻燈片放映預設檢視中的問題。 |
 | 增強功能 | 幻燈片 | 已修正某些問題，讓幻燈片更容易存取。 |
-| 增強功能 | 資料庫、應用程式 | 修正Instagram中超過3個月的視訊無法在「資料庫」和「應用程式」中正確呈現的問題。 |
+| 增強功能 | 資料庫、應用程式 | 修正來自Instagram（3個月以上）的影片無法在「資料庫」和「應用程式」中正確呈現的問題。 |
 | 增強功能 | 媒體牆 | 以下列方式改善媒體塗鴉牆協助功能：<br>透過鍵盤命令開啟和關閉模式時，焦點不會再移回頁面頂端。 <br>焦點會保留在模型彈出畫面前最後聚焦的元素上。  <br>「載入更多」按鈕可以使用鍵盤Enter鍵進行標籤化並觸發。 |
-| 增強功能 | 媒體牆 | 已修正按一下Twitter、Instagram或Facebook圖示會帶您進入首頁，但螢幕閱讀程式中錯誤指出圖示會帶您進入個別貼文的問題。 這個問題已經修正，以識別圖示會帶您前往首頁，而非貼文。 |
+| 增強功能 | 媒體牆 | 修正按一下Twitter、Instagram或Facebook圖示會帶您前往首頁，但在螢幕閱讀程式中錯誤指出圖示會帶您前往個別貼文的問題。 這個問題已經修正，以識別圖示會帶您前往首頁，而非貼文。 |
 | 錯誤 | 馬賽克 | 修正Mosaic應用程式無法從App Designer顯示正確顏色的問題。 |
 | 錯誤 | Rights Management | 修正在Social搜尋中找到資產後，權限請求無法運作的問題。 |
 | 增強功能 | Siesors | 修正Sidesars應用程式中無法清楚顯示螢幕閱讀軟體按鈕角色的協助功能問題。 |
@@ -59,4 +55,3 @@ ht-degree: 5%
 |---|---|---|
 | 增強功能 | UGC | 修正UGC商務標幟預設為「off」而非「on」的問題。 |
 | 增強功能 | 串流 |  |
-

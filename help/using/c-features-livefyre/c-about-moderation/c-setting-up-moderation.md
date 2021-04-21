@@ -1,18 +1,14 @@
 ---
 description: 使用「協調」索引標籤來設定傳入內容的預先協調規則，包括褻瀆清單、標幟規則和禁止的IP位址。
-seo-description: 使用「協調」索引標籤來設定傳入內容的預先協調規則，包括褻瀆清單、標幟規則和禁止的IP位址。
-seo-title: 設定協調
-solution: Experience Manager
 title: 設定協調
-uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
+exl-id: 09fc44c4-7ee1-47fd-ae68-885532a6f03f
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
-
 
 # 設定協調{#setting-up-moderation}
 
@@ -33,7 +29,7 @@ ht-degree: 0%
 
    * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;為網站訪客標幟的內容設定標幟規則
    * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;設定SAFE規則
-   * 禁止使用&#x200B;**[!UICONTROL Settings > Streams]**&#x200B;的特定Twitter使用者
+   * 禁止使用&#x200B;**[!UICONTROL Settings > Streams]**&#x200B;的特定Twitter用戶
    * 使用&#x200B;**[!UICONTROL Settings > Bans]**&#x200B;禁止IP位址
    * 依要求依國家／地區代碼禁止IP地區。 禁止的內容將標籤為垃圾郵件。
 
@@ -108,11 +104,11 @@ Livefyre將內容標示為&#x200B;**[!UICONTROL Approved]**、**[!UICONTROL Pend
 >
 >Livefyre建議您建立規則給被5位使用者標幟為「垃圾訊息」或「冒犯性」的Bozo留言。
 
-## 協調建議{#section_ec3_vr3_2cb}
+## 協調Recommendations{#section_ec3_vr3_2cb}
 
-您可以使用協調建議來協助您判斷如何協調網站訪客在Livefyre應用程式中張貼的內容。 「協調建議指標」會根據您先前對類似內容採取的動作，建議您何時可能刪除某段內容。 若要使用協調建議：
+您可以使用協調建議來協助您判斷如何協調網站訪客在Livefyre應用程式中張貼的內容。 「協調建議指標」會根據您先前對類似內容採取的動作，建議您何時可能刪除某段內容。 若要使用協調Recommendations:
 
-1. 聯絡您的Adobe Livefyre支援專業人員，以開啟「協調建議」功能。
+1. 聯絡您的AdobeLivefyre支援專業人員，以開啟「協調Recommendations」功能。
 1. 在網路設定中設定協調建議。
 
    使用&#x200B;**[!UICONTROL Network Settings]**&#x200B;下的&#x200B;**[!UICONTROL Livefyre Recommends Trash]**&#x200B;設定協調建議。
@@ -127,8 +123,8 @@ Livefyre將內容標示為&#x200B;**[!UICONTROL Approved]**、**[!UICONTROL Pend
 
    在ModQ中，指示器如下所示： ![](assets/mod_reco1.png)
 
-   如需如何使用協調建議來協調ModQ中內容的詳細資訊，請參閱[ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
+   如需如何使用「協調Recommendations」來協調ModQ中內容的詳細資訊，請參閱[ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
 
    在「應用程式內容」中，協調建議的外觀如下： ![](assets/modreco3.png)
 
-   如需如何在應用程式內容中使用協調建議的詳細資訊，請參閱[使用應用程式內容協調內容](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
+   如需如何在應用程式內容中使用協調Recommendations的詳細資訊，請參閱[使用應用程式內容協調內容](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。

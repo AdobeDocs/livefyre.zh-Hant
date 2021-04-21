@@ -1,20 +1,17 @@
 ---
-description: 將Livefyre整合至您的AEM整合。
-seo-description: 將Livefyre整合至您的AEM整合。
-seo-title: 整合Livefyre與AEM
-title: 整合Livefyre與AEM
-uuid: 59e34327-abad-43cd-99a4-be151c7a8e25
+description: 將Livefyre整合至您的整AEM合中。
+title: 將Livefyre與
+exl-id: 868caa6d-10b5-4fd5-8a69-916d4439cc7f
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
+# 將Livefyre與AEM{#integrating-livefyre-with-aem}整合
 
-# 整合Livefyre與AEM {#integrating-livefyre-with-aem}
-
-將Livefyre整合至您的AEM整合。
+將Livefyre整合至您的整AEM合中。
 
 如需詳細資訊，請參閱[整合Livefyre與AEM](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html)。

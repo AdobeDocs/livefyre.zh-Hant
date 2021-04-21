@@ -1,18 +1,14 @@
 ---
 description: 請參閱並修改Livefyre中包含待定權限請求的資產。
-seo-description: 請參閱並修改Livefyre中包含待定權限請求的資產。
-seo-title: 使用資產庫的待定權限請求管理內容
-solution: Experience Manager
 title: 使用資產庫的待定權限請求管理內容
-uuid: fab285af-de09-4061-a946-5bede91603de
+exl-id: f25be7d8-6d53-4365-9215-d6076b39f7b4
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # 使用資產庫的待定權限請求管理內容{#manage-content-with-a-pending-rights-requests-from-the-asset-library}
 

@@ -1,17 +1,14 @@
 ---
 description: Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
-seo-description: Livefyre.require提供外掛程式，可讓驗證人員監聽Janrain Backplane匯流排。
-seo-title: 使用AuthDelegate將Janrain連線至Livefyre
 title: 使用AuthDelegate將Janrain連線至Livefyre
-uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
+exl-id: d0fe0e88-5827-478b-b2ef-03f06fb3902c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
-
 
 # 使用AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}將Janrain連線至Livefyre
 
@@ -124,4 +121,3 @@ authDelegate.viewProfile = function(user) {
    console.log(author); 
 };
 ```
-

@@ -1,18 +1,14 @@
 ---
 description: 轉盤應用程式為您的網站提供這些功能。
-seo-description: 轉盤應用程式為您的網站提供這些功能。
-seo-title: 轉盤功能
-solution: Experience Manager
 title: 轉盤功能
-uuid: c5c95675-d7ca-4677-b293-16de5ccf0022
+exl-id: bb3555fd-e861-4100-a1ce-c6f22ca9dbfc
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '52'
 ht-degree: 3%
 
 ---
-
 
 # 轉盤功能{#carousel-features}
 
@@ -30,4 +26,3 @@ Carousel提供下列功能：
 * [安全](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [翻譯集](/help/using/c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
 * [現場貢獻功能](/help/using/c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
-

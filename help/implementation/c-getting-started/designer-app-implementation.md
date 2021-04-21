@@ -1,14 +1,12 @@
 ---
-description: 搭配Livefyre應用程式使用引導和串流API。
-seo-description: 搭配Livefyre應用程式使用引導和串流API。
-seo-title: 應用程式實作
-solution: Experience Manager
+description: 將Bootstrap和串流API與Livefyre應用程式搭配使用。
 title: 應用程式實作
 uuid: null
+exl-id: f1edef86-491d-4f8e-8ce5-f6e019d057ec
 translation-type: tm+mt
-source-git-commit: b737f2c6afb03d91041a317cc0afb790c3eadcb1
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 使用案例：身為客戶，我想使用Livefyre.js方法將Livefyre整合至我的第三方CMS。
 
-在自訂AEM元件或其他CMS（例如WordPress、Sitecore或DemandWare）中實作Livefyre有三種方式：設計人員應用程式實作、API、實作和協力廠商驗證整合。
+在自訂元件或其他CMS（例如WordPress、Sitecore或DemandWare）AEM中實作Livefyre有三種方式：設計人員應用程式實作、API、實作和協力廠商驗證整合。
 
 ## 設計人員應用程式實作{#designerapp}
 
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 ## API實施{#apiimplementation}
 
-若要建立自訂的體驗和資料視覺化，您可使用引導和串流API，從頭開始使用Livefyre和社交資料來建立Livefyre應用程式。
+若要建立自訂的體驗和資料視覺化，您可使用Bootstrap和串流API，從頭開始使用Livefyre和社交資料來建立Livefyre應用程式。
 
 ## 協力廠商驗證整合{#thirdpartyauth}
 

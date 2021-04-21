@@ -1,17 +1,14 @@
 ---
 description: 2017年6月15日發行說明。
-seo-description: 2017年6月15日發行說明。
-seo-title: 2017 年 6 月 15 日
 title: 2017 年 6 月 15 日
-uuid: 19262de2-72b7-4df8-b041-1c4171381158
+exl-id: 7fe83b80-4a33-4862-926f-e1df71e66d32
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '298'
 ht-degree: 9%
 
 ---
-
 
 # 2017 年 6 月 15 日{#june}
 
@@ -24,14 +21,14 @@ ht-degree: 9%
 | 增強功能 | API | 已發行新的API以擷取應用程式內嵌代碼。 如需詳細資訊，請造訪https://api.livefyre.com/docs/apis/by-category/apps |
 | 錯誤 | 轉盤 | 已修正Carousel中的錯誤，允許原生Livefyre內容（直接上傳至Studio的影像）正確顯示在應用程式中。 |
 | 增強功能 | 意見 | 增強的注釋，以符合ADA要求所規定的字型色彩准則。 |
-| 錯誤 | Instagram位置搜尋 | 修正造成Instagram位置搜尋結果顯示重複的錯誤。 |
+| 錯誤 | Instagram位置搜尋 | 修正導致「Instagram位置搜尋」結果顯示重複的錯誤。 |
 | 增強功能 | 庫 | 修正讓推文中所有上傳的媒體都能由「需要媒體」篩選器擷取的錯誤。 |
-| 錯誤 | ModQ | 修正Instagram轉盤內容提取時，ModQ Streams Premod標籤的放緩問題。 |
+| 錯誤 | ModQ | 修正當提取Instagram轉盤內容時，「ModQ串流預修改」標籤的減速問題。 |
 | 錯誤 | Siesors | 增強的側滑以支援前端協調。 這表示登入前端應用程式的協調者將能夠核准或刪除內容。 |
-| 錯誤 | 社交搜尋 | 修正執行Twitter Social搜尋時無法儲存地圖位置的錯誤。 |
+| 錯誤 | 社交搜尋 | 修正執行Twitter社交搜尋時無法儲存地圖位置的錯誤。 |
 | 增強功能 | Storify 2 | 修正當使用者依「最舊至最新」或「最新至最舊」排序時，造成頁面跳轉的Storify 2錯誤。 |
 | 增強功能 | 串流規則 | 新增可依「串流規則」中的語言篩選推文的功能。 |
-| 增強功能 | 串流規則 | 新增可篩選Twitter和Instagram串流規則中多個地圖位置的功能。 |
+| 增強功能 | 串流規則 | 新增可篩選Twitter和Instagram串流規則中多個地圖位置的能力。 |
 | 增強功能 | 串流規則 | 新增儲存Twitter串流規則時的驗證改進。 |
 | 增強功能 | Studio | 增強Studio中切換元件的對比，讓您更容易看到。 |
 
@@ -40,5 +37,4 @@ ht-degree: 9%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 庫 | 當您清除程式庫中的篩選器時，您會保留在相同的檔案夾選擇中，而不會重新導向至其他頁面。 |
-| 增強功能 | 社交同步 | 已過時的Twitter Social同步。 |
-
+| 增強功能 | 社交同步 | 已過時的Twitter社交同步。 |

@@ -1,22 +1,18 @@
 ---
-description: 啟用Livefyre Identity套件，可讓您的使用者使用電子郵件、Twitter、Facebook、Yahoo！或Google登入，登入您的Livefyre應用程式。
-seo-description: 啟用Livefyre Identity套件，可讓您的使用者使用電子郵件、Twitter、Facebook、Yahoo！或Google登入，登入您的Livefyre應用程式。
-seo-title: 啟用Livefyre Identity
-solution: Experience Manager
+description: 啟用Livefyre Identity套件可讓您的使用者使用電子郵件、Twitter、Facebook、Yahoo！或Google登入，登入您的Livefyre應用程式。
 title: 啟用Livefyre Identity
-uuid: 9bb5e168-4596-42a7-9105-e09c65c5e3ae
+exl-id: 5eda2be7-26fd-4730-a1ad-95421c773cbe
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
-
 # 啟用Livefyre Identity{#enable-livefyre-identity}
 
-啟用Livefyre Identity套件，可讓您的使用者使用電子郵件、Twitter、Facebook、Yahoo！或Google登入，登入您的Livefyre應用程式。
+啟用Livefyre Identity套件可讓您的使用者使用電子郵件、Twitter、Facebook、Yahoo！或Google登入，登入您的Livefyre應用程式。
 
 若要啟用此功能:
 

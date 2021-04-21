@@ -1,18 +1,14 @@
 ---
 description: 使用Livefyre的自訂HTML功能，將民調問答新增至您的留言或即時部落格應用程式。
-seo-description: 使用Livefyre的自訂HTML功能，將民調問答新增至您的留言或即時部落格應用程式。
-seo-title: 將民調問答新增至留言或即時部落格應用程式
-solution: Experience Manager
 title: 將民調問答新增至留言或即時部落格應用程式
-uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
+exl-id: a889392c-8fef-4006-829a-adfe1c3cd126
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # 新增民調問答至留言或即時部落格應用程式{#add-a-poll-to-a-comments-or-live-blog-app}
 

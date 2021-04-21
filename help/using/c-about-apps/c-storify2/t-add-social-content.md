@@ -1,18 +1,14 @@
 ---
 description: Storify 2提供數個內容來源以新增社交內容。
-seo-description: Storify 2提供數個內容來源以新增社交內容。
-seo-title: 新增社交內容
-solution: Experience Manager
 title: 新增社交內容
-uuid: 0bd6579e-ac55-4201-a403-4fcb19e8684b
+exl-id: 2277b525-ef0e-4e66-9260-f81898d93bf1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # 新增社交內容{#add-social-content}
 
@@ -26,7 +22,7 @@ Storify 2提供數個內容來源以新增社交內容。
 
 >[!NOTE]
 >
->Twitter的搜尋API只會傳回最近7天的內容。
+>Twitter的搜尋API僅會傳回最近7天的內容。
 
 若要新增內容至您的故事：
 

@@ -1,18 +1,14 @@
 ---
 description: 可讓您啟用頁面上的小型快顯功能，在新增留言時通知使用者。
-seo-description: 可讓您啟用頁面上的小型快顯功能，在新增留言時通知使用者。
-seo-title: 注釋通告程式
-solution: Experience Manager
 title: 注釋通告程式
-uuid: 36907977-8233-4978-9413-232c7b2fae20
+exl-id: ebeb7ddb-a82b-40ab-907a-bfac24eb19e3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
-
 
 # 注釋通告程式{#comment-notifier}
 
@@ -45,4 +41,3 @@ ht-degree: 0%
 使用此功能的應用程式：
 
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
-

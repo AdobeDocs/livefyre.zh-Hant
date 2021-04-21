@@ -1,18 +1,14 @@
 ---
 description: 從反向連結流量追蹤回頁面的點按次數。
-seo-description: 從反向連結流量追蹤回頁面的點按次數。
-seo-title: 反向連結追蹤
-solution: Experience Manager
 title: 反向連結追蹤
-uuid: 7daf615d-0c07-49d1-adb2-1ac67ea563e7
+exl-id: 44cc221c-1603-4e6e-ae4a-1b993f7dc446
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
-
 
 # 反向連結追蹤{#referral-tracking}
 
@@ -59,4 +55,3 @@ Livefyre來自社交網路和電子郵件的反向連結流量可透過檢查您
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 * [評論](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Siesors](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-

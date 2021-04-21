@@ -1,18 +1,14 @@
 ---
 description: 「即時部落格應用程式」為您的網站提供下列功能。
-seo-description: 「即時部落格應用程式」為您的網站提供下列功能。
-seo-title: 即時部落格功能
-solution: Experience Manager
 title: 即時部落格功能
-uuid: 5a9fede3-e150-4655-b5e1-3ddaee9a6ba1
+exl-id: f61ff31d-baf1-4862-b7ad-f2a8eb912000
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # 即時部落格功能{#live-blog-features}
 
@@ -25,4 +21,3 @@ ht-degree: 0%
 * 從行動裝置更新您的即時部落格。
 * 啟用對每個部落格更新的回覆，以鼓勵每個即時部落格更新的對話和參與。
 * 上傳像片並將自訂HTML新增至頂層貼文
-

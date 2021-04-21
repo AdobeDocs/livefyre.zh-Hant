@@ -1,18 +1,14 @@
 ---
 description: 若要透過Livefyre應用程式未觸發的流程，向Livefyre驗證使用者，Livefyre建議您在AuthDelegate物件上實作forEachAuthentication方法。
-seo-description: 若要透過Livefyre應用程式未觸發的流程，向Livefyre驗證使用者，Livefyre建議您在AuthDelegate物件上實作forEachAuthentication方法。
-seo-title: 實作SSO
-solution: Experience Manager
 title: 實作SSO
-uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
+exl-id: 9af75b8a-9d2a-446e-8cce-2de8645038f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # 實作SSO{#implementing-sso}
 
@@ -33,4 +29,3 @@ Livefyre依賴使用者Token來協調驗證。 因此，您的身分服務必須
 >[!NOTE]
 >
 >成功登入後，驗證會為使用者建立工作階段，並會嘗試在重新整理頁面並重新載入使用者的工作階段。 `auth.logout()` 將清除此會話。這表示您不需要獨立於授權管理使用者的作業。
-

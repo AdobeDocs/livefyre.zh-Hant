@@ -1,18 +1,14 @@
 ---
 description: 自訂注釋，將即時對話內嵌在您的網站上。
-seo-description: 自訂注釋，將即時對話內嵌在您的網站上。
-seo-title: 注釋自訂
-solution: Experience Manager
 title: 注釋自訂
-uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
+exl-id: 6a1de42c-4a0f-41c6-ba0d-8cdf0ebfbcea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # 注釋自定義{#comments-customizations}
 
@@ -20,7 +16,7 @@ ht-degree: 0%
 
 
 
-使用可用的選項可讓您的使用者在Twitter、Facebook和LinkedIn之間分享內容，並將朋友拉進串流。
+使用可用的選項，讓您的使用者在Twitter、Facebook和LinkedIn分享內容，並將朋友拉進串流。
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -60,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Users may share posts]**
 
-   如果已啟用，使用者可以分享貼文。 啟用後，使用者可以將張貼的內容分享到Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
+   如果已啟用，使用者可以分享貼文。 啟用後，使用者可以將張貼內容分享至Twitter、Facebook或LinkedIn。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
 
 * **[!UICONTROL Featured content at top of stream]**
 
@@ -79,4 +75,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式。
 
 * **[!UICONTROL Integration tools]**。如需如何使用整合工具自訂注釋的詳細資訊，請參閱注釋。
-

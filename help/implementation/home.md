@@ -1,22 +1,20 @@
 ---
-seo-title: Livefyre說明
-solution: Experience Manager
 title: Livefyre實作說明
-uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
+description: Livefyre實作說明
+exl-id: 510826ea-3313-4388-ad82-63fe07d018bf
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
-
 
 # Livefyre實施指南{#livefyre-help}
 
 使用開發人員工具自訂您的體驗，在您的網站上實作Livefyre Studio和Livefyre應用程式。
 
-如需如何在Livefyre Studio內使用Livefyre Studio和Livefyre應用程式的詳細資訊，請參閱&#x200B;[*Adobe Experience Manager Livefyre使用指南*](/help/using/home.md)。
+如需如何在Livefyre Studio內使用Livefyre Studio和Livefyre應用程式的詳細資訊，請參閱《Adobe Experience ManagerLivefyre使用指南》*](/help/using/home.md)。[*
 
 ## 熱門主題
 

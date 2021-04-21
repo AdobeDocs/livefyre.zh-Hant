@@ -1,18 +1,14 @@
 ---
 description: 2018年8月9日發行說明。
-seo-description: 2018年8月9日發行說明。
-seo-title: 2018 年 8 月 9 日
-solution: Experience Manager
 title: 2018 年 8 月 9 日
-uuid: c59ae5ec-9d26-41c4-9a98-cb95c89ee26a
+exl-id: 7b2fb562-33bf-4c34-ab83-5fc34f5d1f4f
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '469'
 ht-degree: 8%
 
 ---
-
 
 # 2018 年 8 月 9 日{#august}
 
@@ -34,14 +30,14 @@ ht-degree: 8%
 | 增強功能 | 應用程式 | 社交網路已進行隱私權變更，這表示Facebook或Twitter將不再支援社交提及。 |
 | 增強功能 | 應用程式 | 社交網路已對隱私權做出變更。 自動將內容張貼至社交網路(Facebook、LinkedIn、Twitter)的「貼文至」功能已移除。 |
 | 增強功能 | GDPR | 從「設定>隱私」下的請求詳細資訊頁面移除切換的詳細資訊模式。 詳細資訊模式切換仍然可以通過在URL末尾添加/dbg來訪問。 |
-| 錯誤 | 整合：AEM | 修正在AEM中拖放Livefyre應用程式時，似乎會建立多個應用程式的問題。 |
+| 錯誤 | 整合：AEM | 已修正中拖放Livefyre應用程式時，似乎會建立AEM多個應用程式的問題。 |
 | 錯誤 | 庫 | 修正資產無法正確儲存在資料庫的問題。 |
 | 錯誤 | Livefyre Identity | 已修正LF識別在登入時造成403錯誤的問題。 |
-| 錯誤 | 社交搜尋 | 修正使用者無法使用「社交搜尋」中的URL選項來搜尋公開Facebook貼文的問題。 |
-| 增強功能 | 社交同步 | 社交網路已進行隱私權變更，這表示Facebook將不再支援Social同步。 |
+| 錯誤 | 社交搜尋 | 修正使用者無法使用「社交搜尋」中的URL選項來搜尋Facebook公開貼文的問題。 |
+| 增強功能 | 社交同步 | 社交網路已進行隱私權變更，這表示Facebook將不再支援Social Sync。 |
 | 增強功能 | 串流 | 現在，當您刪除應用程式時，會刪除與該應用程式相關聯的所有串流。 |
-| 增強功能 | Studio | 客戶現在可以將Livefyre事件個別發出至Adobe Analytics，而不是分批發出。 |
-| 增強功能 | Studio | 社交網路應用程式對話中顯示的模式視窗現在會是來自社交網路的模式視窗，而非Adobe Experience Manager Livefyre或其他品牌的模式視窗。 |
+| 增強功能 | Studio | 客戶現在可以將Livefyre事件個別發送至Adobe Analytics，而不是分批發送。 |
+| 增強功能 | Studio | 社交網路應用程式對話中顯示的模式視窗，現在將是來自社交網路的模式視窗，而非Adobe Experience ManagerLivefyre或其他品牌的模式視窗。 |
 
 ## UAT發行
 
@@ -49,13 +45,12 @@ UAT版本發行中已解決下表中的問題。
 
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
-| 錯誤 | GDPR | 已修正某些Instagram影片無法顯示退出訊息的問題。 |
+| 錯誤 | GDPR | 已修正部分Instagram影片無法顯示退出訊息的問題。 |
 | 錯誤 | 庫 | 已修正手動授與權限的資訊卡，顯示錯誤的權限請求狀態的問題。 |
 | 錯誤 | 庫 | 修正無法將資產儲存至資料夾的問題。 |
-| 錯誤 | 資料庫／搜尋 | 已恢復從Social Search的Instagram搜尋URL的功能。 |
+| 錯誤 | 資料庫／搜尋 | 已恢復在Social Search中從Instagram搜尋URL的功能。 |
 | 錯誤 | ModQ | 修正ModQ中的「更多資訊」功能表未顯示預期位置的問題。 |
 | 錯誤 | Rights Management | 修正當頁面捲動時，ModQ中的排序應位於固定位置的問題。 |
 | 錯誤 | 串流 | 修正在測試環境中檢視串流的問題。 |
 | 增強功能 | 串流 | 已新增「安全工作」(SFW)和「不安全工作」(NSFW)切換至「串流」。 |
 | 增強功能 | Studio | 已新增智慧型標籤功能至透過FileStack（所有資產中的上傳功能）上傳至Livefyre Studio Library的內容。 |
-

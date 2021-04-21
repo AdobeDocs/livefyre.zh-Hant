@@ -1,18 +1,14 @@
 ---
 description: 自訂應用程式顯示選項，以符合您的品牌和樣式。
-seo-description: 自訂應用程式顯示選項，以符合您的品牌和樣式。
-seo-title: 變更顯示選項
-solution: Experience Manager
 title: 變更顯示選項
-uuid: 121bb921-d9a7-4925-ab46-8e3d7dd0cbfe
+exl-id: 30da2022-9ec8-4f71-be94-facaa5971938
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
-
 
 # 變更顯示選項{#change-display-options}
 
@@ -31,4 +27,3 @@ Livefyre提供數種選項，可自訂應用程式的顯示畫面，以符合您
 * 限制媒體以防止使用者上傳指定的媒體內嵌類型。
 * 隱藏App Elements以簡化您的使用體驗。
 * 變更Livefyre `@mention`圖示，以選取自訂圖示，以便在下拉式@提及功能表中顯示，供您Livefyre觀眾的成員使用。
-

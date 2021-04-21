@@ -1,18 +1,14 @@
 ---
 description: 2018年9月27日發行說明。
-seo-description: 2018年9月27日發行說明。
-seo-title: 2018 年 9 月 27 日
-solution: Experience Manager
 title: 2018 年 9 月 27 日
-uuid: 8d3b01fe-6d1f-4123-aaaf-3009e7c6599f
+exl-id: ea63c18e-7535-4e57-a569-efbbee376632
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '293'
 ht-degree: 7%
 
 ---
-
 
 # 2018 年 9 月 27 日{#september}
 
@@ -48,4 +44,3 @@ ht-degree: 7%
 |---|---|---|
 | 錯誤 | AEM | 修正透過Livefyre匯入AEM Assets的推文已中斷連結的問題。 |
 | 增強功能 | 庫 | 新增可依視訊標籤在「資料庫」中篩選視訊的功能。 |
-

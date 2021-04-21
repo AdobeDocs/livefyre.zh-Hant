@@ -1,18 +1,14 @@
 ---
 description: Mosaic應用程式為您的網站提供這些功能。
-seo-description: Mosaic應用程式為您的網站提供這些功能。
-seo-title: 馬賽克功能
-solution: Experience Manager
 title: 馬賽克功能
-uuid: 95129d56-a4c4-42d5-8c68-c5fc159017e6
+exl-id: 75417bcc-5a30-4928-b922-0dfa625d4525
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
-
 
 # 馬賽克功能{#mosaic-features}
 
@@ -37,4 +33,3 @@ Mosaic應用程式具備下列功能：
 * [Twitter動作按鈕](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
 * [UGC商務](/help/using/c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
 * [現場貢獻功能](/help/using/c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
-

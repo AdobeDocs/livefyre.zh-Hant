@@ -1,18 +1,14 @@
 ---
 description: 使用Mosaic應用程式，將生動的動態色彩、像片和視訊塗鴉牆加入您的網站。
-seo-description: 使用Mosaic應用程式，將生動的動態色彩、像片和視訊塗鴉牆加入您的網站。
-seo-title: 馬賽克
-solution: Experience Manager
 title: 馬賽克
-uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
+exl-id: 79259c77-169d-4819-a7b0-39f64d92ea1e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '789'
 ht-degree: 1%
 
 ---
-
 
 # 馬賽克{#mosaic}
 
@@ -103,4 +99,3 @@ Mosaic已提供本地化。 您可以:
 * 建立並修改Mosaic的翻譯集
 * 將翻譯集應用於站點
 * 將翻譯集應用於網路
-

@@ -1,14 +1,10 @@
 ---
 description: 在客戶歷程的特定點提供特定產品的UGC，以利用UGC商務功能提高購買意願和轉化率。
-seo-description: 在客戶歷程的特定點提供特定產品的UGC，以利用UGC商務功能提高購買意願和轉化率。
-seo-title: UGC商務
-solution: Experience Manager
 title: UGC商務
-uuid: 71e64901-a2b6-4957-ba88-058e4eaca537
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,9 +16,9 @@ ht-degree: 2%
 
 使用「UGC商務」功能可影響UGC和產品詳細資訊頁面上的購買意圖和轉換。 將UGC與產品庫存緊密關聯，以縮短上市時間。 使用UGC建立社群，強調真實的客戶故事，以建立品牌忠誠度。
 
-AEM Livefyre提供數種匯入產品目錄資訊的方式，包括SKU、縮圖影像、價格和產品名稱。 使用AEM Livefyre的權限要求、自動串流規則標籤及協調工作流程，輕鬆管理產品與UGC的關聯。
+AEMLivefyre提供數種匯入產品目錄資訊的方式，包括SKU、縮圖影像、價格和產品名稱。 使用Livefyre的權限要求、自動串流規則標籤及協調工作流程，輕AEM松管理產品與UGC的關聯。
 
-除了影響購買，AEM Livefyre的UGC商務產品功能還可運用在其他方式推動轉換，包括：
+除了影響購買，Livefyre的AEMUGC商務產品功能還可運用在其他方式推動轉換，包括：
 
 * B2B潛在客戶開發：在UGC下放置行動要求按鈕以擷取銷售機會
 * B2C應用程式下載：提示使用者下載應用程式
@@ -31,10 +27,10 @@ AEM Livefyre提供數種匯入產品目錄資訊的方式，包括SKU、縮圖�
 將產品呼叫動作與UGC一起放置，以推動轉換。 您可以:
 
 * 將產品專用的UGC大規模新增至數千個產品詳細資訊頁面。
-* 將AEM Livefyre的視覺化應用程式內嵌在產品詳細資料頁面上，以支援UGC商務功能，例如Media Wall和Mosaic。
+* 內嵌AEMLivefyre的視覺化應用程式，可支援UGC商務功能，例如產品詳細資訊頁面上的Media Wall和Mosaic。
 * 將可設定的反向連結追蹤代碼與分析解決方案搭配使用，以測量來自置於UGC和UGC之產品CTA（置於產品詳細資料頁面）的轉換。
 
-AEM Commerce使用者可將現有的產品目錄完美整合至Livefyre，以推動使用者參與Livefyre的視覺化應用程式。 不使用AEM Commerce的Livefyre使用者可以手動將其產品目錄匯入Livefyre。 如需詳細資訊，請參閱[使用檔案上傳將產品上傳至Livefyre。](/help/using/c-features-livefyre/c-ugc-commerce.md)
+商AEM務使用者可將其現有的產品目錄完美整合至Livefyre，以推動使用者參與Livefyre的視覺化應用程式。 不使用「商務」的Livefyre使AEM用者可以手動將其產品目錄匯入Livefyre。 如需詳細資訊，請參閱[使用檔案上傳將產品上傳至Livefyre。](/help/using/c-features-livefyre/c-ugc-commerce.md)
 
 使用此功能的應用程式：
 
@@ -51,8 +47,8 @@ AEM Commerce使用者可將現有的產品目錄完美整合至Livefyre，以推
 1. 使用「動作要求」按鈕建立應用程式。 請參閱[將「動作要求」按鈕新增至App](/help/using/c-features-livefyre/c-call-to-action-button.md#task_36190DD1C8204C7793CB7EEA379C2155)。
 1. 將您的產品目錄新增至Livefyre。 您可以透過下列兩種方式之一匯入內容：
 
-   * [如果您使用AEM Commerce，請使用AEM ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) Commerce將產品匯入Livefyre。
-   * [如果您不使](/help/using/c-features-livefyre/c-ugc-commerce.md) 用AEM Commerce，請將產品上傳至Livefyre。
+   * [如果您使用商務，請使AEM用商務將產品匯AEM入Livefyre。](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) 
+   * [如果您不使](/help/using/c-features-livefyre/c-ugc-commerce.md) 用「商務」，請將產品上傳至AEMLivefyre。
 
 1. 將產品與內容建立關聯。 您可以透過下列四種方式之一：
 

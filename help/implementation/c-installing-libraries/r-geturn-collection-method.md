@@ -1,18 +1,14 @@
 ---
 description: 此方法會傳回此集合的URN。 您必須先執行createOrUpdate()，才能執行此方法。
-seo-description: 此方法會傳回此集合的URN。 您必須先執行createOrUpdate()，才能執行此方法。
-seo-title: getUrn收集方法
-solution: Experience Manager
 title: getUrn收集方法
-uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
+exl-id: bea04805-8f02-4c06-9a1a-6b057de831ab
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # getUrn Collection Method{#geturn-collection-method}
 
@@ -77,4 +73,3 @@ collection.urn
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
-

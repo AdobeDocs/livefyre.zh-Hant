@@ -1,27 +1,23 @@
 ---
-description: 瞭解Instagram與其他社交帳戶不同的規則與需求。
-seo-description: 瞭解Instagram與其他社交帳戶不同的規則與需求。
-seo-title: 關於Instagram帳戶
-solution: Experience Manager
+description: 瞭解與其他社交帳戶不同的Instagram規則與要求。
 title: 關於Instagram帳戶
-uuid: 1fa2b4ca-264c-42c8-8dcb-57f7543ed2f7
+exl-id: 6b337c5f-c0b2-4f27-947f-a3e72b65d8de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-
 # 關於Instagram帳戶{#about-instagram-accounts}
 
-瞭解Instagram與其他社交帳戶不同的規則與需求。
+瞭解與其他社交帳戶不同的Instagram規則與要求。
 
-您必須將&#x200B;*Instagram商業帳戶*&#x200B;設定為：
+您必須將&#x200B;*Instagram商業帳戶*&#x200B;配置為：
 
-* 依使用者執行Instagram社交搜尋（使用者必須是Instagram商業帳戶）。
-* 從特定Instagram使用者帳戶建立Instagram串流（該帳戶必須是商業帳戶）。
-* 使用部分自動化的工作流程，從Instagram要求資產的權限
+* 依使用者執行Instagram社交搜尋(使用者必須是Instagram企業帳戶)。
+* 從特定的Instagram用戶帳戶建立Instagram流（該帳戶必須是商業帳戶）。
+* 使用部分自動化的工作流程向Instagram索取資產的權利
 
-如需如何建立Instagram商業帳戶或將Instagram個人帳戶轉換為商業帳戶的詳細資訊，請參閱[如何在Instagram上設定商業設定檔？](https://www.facebook.com/help/502981923235522)
+有關如何建立Instagram企業帳戶或將Instagram個人帳戶轉換為企業帳戶的資訊，請參閱[如何在Instagram設定業務配置檔案？](https://www.facebook.com/help/502981923235522)

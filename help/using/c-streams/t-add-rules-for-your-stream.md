@@ -1,18 +1,14 @@
 ---
 description: 在串流中新增規則，允許內容根據這些規則自動填入應用程式或資料夾。
-seo-description: 在串流中新增規則，允許內容根據這些規則自動填入應用程式或資料夾。
-seo-title: 新增串流規則
-solution: Experience Manager
 title: 新增串流規則
-uuid: 7a3fb400-95e4-49f9-ae39-90654df14665
+exl-id: e3fe5785-ddb3-4a6c-ac58-0ec988dda8bf
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 10%
+source-wordcount: '140'
+ht-degree: 12%
 
 ---
-
 
 # 新增串流規則{#add-rules-for-your-stream}
 

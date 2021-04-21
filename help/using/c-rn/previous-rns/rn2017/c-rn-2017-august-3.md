@@ -1,17 +1,14 @@
 ---
 description: 2017年8月3日發行說明。
-seo-description: 2017年8月3日發行說明。
-seo-title: 2017 年 8 月 3 日
 title: 2017 年 8 月 3 日
-uuid: 316b269b-d1c5-451a-badc-3b927da8ed91
+exl-id: 764abba7-0113-4c99-a80e-b914f79da3fb
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 11%
 
 ---
-
 
 # 2017年8月3日{#august}
 
@@ -23,13 +20,13 @@ ht-degree: 11%
 |---|---|---|
 | 錯誤 | 應用程式 | 修正S2中，ModQ連結（來自應用程式資訊）無法只顯示所選應用程式內容的錯誤。 |
 | 錯誤 | 應用程式 | 已修正在S1中載入應用程式內容時的間歇性錯誤。 |
-| 錯誤 | 轉盤 | 已修正導致Instagram轉播貼文無標題而無法提取至Studio的錯誤。 |
+| 錯誤 | 轉盤 | 已修正導致Instagram轉盤貼文無標題而無法提取至Studio的錯誤。 |
 | 錯誤 | 意見 | 修正注釋在IE中顯示不正確的問題。 |
 | 錯誤 | 庫 | 已修正產品在移除後，將產品重新新增至程式庫中資產時顯示不正確的問題。 |
 | 錯誤 | ModQ | 修正造成篩選選擇無法一律套用至ModQ的錯誤。 |
 | 錯誤 | 評論 | 修正「評論」中的錯誤，以確保所有實作都透過HTTPS載入媒體。 |
-| 錯誤 | Storify 2 | 已改善依Storify 2中URL結果擷取Facebook留言的穩定性。 |
-| 增強功能 | Storify 2 | 由於Facebook取代功能，已移除「Storify搜尋」中的「依ID列出的Facebook留言」搜尋選項。 |
+| 錯誤 | Storify 2 | 已改善在Storify 2中依URL結果擷取Facebook意見的穩定性。 |
+| 增強功能 | Storify 2 | 已移除Storify Search中的「Facebook依ID的註解」搜尋選項，因為Facebook已取代此功能。 |
 | 錯誤 | 串流 | 修正「串流規則設定」文字方塊中的文字小丸在按一下時被移除的錯誤。 |
 
 ## UAT發行
@@ -37,4 +34,3 @@ ht-degree: 11%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 庫 | 修正「更多資訊」按鈕內容無法顯示在「資料庫」中的錯誤。 |
-

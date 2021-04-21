@@ -1,17 +1,14 @@
 ---
 description: 2017年10月19日發行說明。
-seo-description: 2017年10月19日發行說明。
-seo-title: 2017年10月19日
 title: 2017年10月19日
-uuid: 7f5fba9e-bd07-4d85-b67c-7a5577055447
+exl-id: 6887e4a9-8451-464f-a27f-bdaa3624196d
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 8%
 
 ---
-
 
 # 2017年10月19日{#october}
 
@@ -31,6 +28,5 @@ ht-degree: 8%
 | 增強功能 | 應用程式內容 | 能夠從應用程式內容播放已上傳的音訊檔案。 |
 | 增強功能 | 應用程式內容 | 客戶現在可以透過上傳API上傳音訊檔案，而上傳API可透過應用程式內容進行檢視和下載。 |
 | 增強功能 | 應用程式內容 | 新增從應用程式內容下載音訊檔案的功能。 |
-| 錯誤 | Rights Management | 修正當使用者嘗試從Twitter或Instagram刪除內容後，將內容儲存在「社交搜尋」中時，未顯示正確錯誤訊息的錯誤。 |
+| 錯誤 | Rights Management | 修正當使用者嘗試從Twitter或Instagram刪除內容後，將內容儲存在Social搜尋中時，未顯示正確錯誤訊息的錯誤。 |
 | 增強功能 | 安全 | Studio管理員現在可以在名為「智慧型修改拒絕」的設定中新增新的SAFE規則，啟用智慧型修改功能。 |
-

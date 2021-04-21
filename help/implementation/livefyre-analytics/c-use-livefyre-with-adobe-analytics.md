@@ -1,28 +1,25 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 搭配Adobe Analytics和動態標籤管理器(DTM)lk xavvn使用Livefyre   vefyre與Adobe Analytics和動態標籤管理器(DTM)
-uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
+exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
 
-
-# 搭配Adobe Analytics和動態標籤管理器(DTM)使用Livefyre{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
+# 搭配使用Livefyre和Adobe Analytics和動態標籤管理器(DTM){#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
 設定Adobe Analytics和動態標籤管理器(DTM)以收集Livefyre應用程式的資料。
 
-## 步驟1:在Adobe Analytics中設定事件{#section_iks_kgd_4cb}
+## 步驟1:在Adobe Analytics設定事件{#section_iks_kgd_4cb}
 
-將Livefyre事件對應至Adobe Analytics報表套裝管理員中的一或多個自訂成功事件。
+將Livefyre事件對應至「Adobe Analytics報表套裝管理員」中的一或多個自訂成功事件。
 
 如需「報表套裝管理員」的詳細資訊，請參閱[報表套裝管理員](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
 
-1. 以管理員使用者身分登入Adobe Analytics。
+1. 以管理員用戶身份登錄Adobe Analytics。
 1. 開啟Adobe Analytics管理報表套裝管理員。
 1. 建立新的報表套裝或選擇現有的報表套裝。
 1. 按一下要修改的報表套裝，然後導覽至&#x200B;**[!UICONTROL Edit Settings > Conversion > Success Events]**，以編輯報表套裝。
@@ -30,7 +27,7 @@ ht-degree: 1%
 
 ## 步驟2:設定轉換變數
 
-將Livefyre轉換變數(eVar)對應至Adobe Analytics管理報表套裝管理員中的轉換變數。 轉換變數的作用類似排序函式，可決定您打算如何識別從Livefyre事件收集的資料。
+將Livefyre轉換變數(eVar)對應至「Adobe Analytics管理報表套裝管理員」中的轉換變數。 轉換變數的作用類似排序函式，可決定您打算如何識別從Livefyre事件收集的資料。
 
 1. 在「報表套裝管理員」中按一下&#x200B;**[!UICONTROL Edit Settings > Conversion > Conversion Variables]**。
 1. 選擇要使用的自訂轉換變數(eVar)，並將它們對應至Livefyre轉換變數。 若要將Livefyre轉換變數對應至自訂轉換變數：
@@ -41,7 +38,7 @@ ht-degree: 1%
 
 ## 步驟3:使用DTM將報表套裝與Livefyre事件一起新增{#section_t15_2hd_4cb}
 
-將Adobe Analytics新增至DTM，讓Analytics運作。 若要這麼做，請建立新屬性和工具，並新增包含Livefyre事件的報表套裝至屬性。 如需DTM的詳細資訊，請參閱[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
+將Adobe Analytics加入DTM，讓Analytics運作。 若要這麼做，請建立新屬性和工具，並新增包含Livefyre事件的報表套裝至屬性。 如需DTM的詳細資訊，請參閱[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
 
 如果您已針對使用Livefyre事件設定的報表套裝設定屬性或工具，則不需要執行此步驟。
 
@@ -94,9 +91,9 @@ ht-degree: 1%
 1. 按一下 **[!UICONTROL Save Code]**.
 1. 按一下 **[!UICONTROL Save Rule]**.
 
-## 步驟5:建立直接呼叫規則以建構Livefyre {#section_gvp_b1g_pdb}的Adobe Analytics對應設定
+## 步驟5:建立直接呼叫規則以建立Livefyre {#section_gvp_b1g_pdb}的Adobe Analytics對應設定
 
-有其他方式可透過使用自訂事件、DTM內的Adobe Analytics UI欄位和資料元素，將Livefyre與DTM一起實作。 本檔案使用自訂Javascript來達成相同的效果。
+有其他方式可透過使用自訂事件、DTM中的Adobe AnalyticsUI欄位和資料元素，將Livefyre與DTM一起實作。 本檔案使用自訂Javascript來達成相同的效果。
 
 1. 在DTM中，選擇&#x200B;**Rules**&#x200B;標籤，然後按一下&#x200B;**Direct Call Rules**。
 1. 按一下&#x200B;**建立新規則**&#x200B;按鈕。

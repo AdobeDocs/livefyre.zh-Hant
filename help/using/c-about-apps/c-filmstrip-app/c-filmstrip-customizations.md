@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 幻燈片定制
-solution: Experience Manager
 title: 幻燈片定制
-uuid: 99f8b697-4aa3-4813-bcac-d0e0bdee252d
+description: 幻燈片定制
+exl-id: 2765699f-7adc-4b17-acfb-ef594ff65e89
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
-
 
 # 幻燈片定制{#filmstrip-customizations}
 
@@ -24,7 +20,7 @@ ht-degree: 0%
 * **[!UICONTROL Tile Size]**。輸入拼貼大小（以像素為單位）。
 * **[!UICONTROL Show Notifications]**。選擇是否在新內容串流至Filmstrip App時顯示通知。
 * **[!UICONTROL Require rights]**。啟用此選項可僅顯示權限請求狀態為「已授權」的內容。
-* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容的權限時，移除原始社交媒體網路（Twitter或Instagram）的標誌。
+* **[!UICONTROL Hide social branding when rights granted]** 開啟此選項，在授與內容權限時，移除原始社交媒體網路(Twitter或Instagram)的標誌。
 * **[!UICONTROL Call-to-action button]** 您可以搭配產品目錄使用行動要求按鈕，將使用者引導至產品或您的網站，以採取進一步行動。
 
    * **[!UICONTROL Call-to-action button]** 切換為開啟，以顯示「動作要求」按鈕。
@@ -54,4 +50,3 @@ ht-degree: 0%
    * **[!UICONTROL Show related content]**。切換此選項，以顯示已發佈至應用程式，但以不同產品ID標籤的內容。 在顯示應用程式的特定產品內容後，Livefyre會顯示其他產品的內容以及與產品無關的內容。 Livefyre會先將具有相同產品ID的內容排定優先順序，然後將內容發佈至具有其他產品ID的應用程式，接著將內容發佈至沒有產品ID的應用程式。
 
 如需如何使用Livefyre.js自訂幻燈片的詳細資訊，請參閱[幻燈片選項](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)。
-

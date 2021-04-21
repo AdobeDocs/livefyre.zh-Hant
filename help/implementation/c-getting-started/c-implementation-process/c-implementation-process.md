@@ -1,18 +1,14 @@
 ---
 description: 實作Livefyre Studio的期待。
-seo-description: 實作Livefyre Studio的期待。
-seo-title: 實施程序
-solution: Experience Manager
 title: 實施程序
-uuid: 9a0f394e-3467-47d1-9816-45e2130db440
+exl-id: 82bf8c09-946a-4be8-97bf-5b9868a4e031
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
-
 
 # 實施程序{#implementation-process}
 
@@ -49,4 +45,3 @@ Livefyre在討論網路架構時使用下列術語：
 * 自訂
 
    自訂是可選的，但大部分客戶都會自訂應用程式以符合其品牌。
-

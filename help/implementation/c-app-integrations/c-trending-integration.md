@@ -1,18 +1,14 @@
 ---
 description: 展示您網站或網路上最活躍的系列。
-seo-description: 展示您網站或網路上最活躍的系列。
-seo-title: 趨勢分析
-solution: Experience Manager
 title: 趨勢分析
-uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
+exl-id: a3129e95-90e7-4107-bfd9-ed3b0dce20aa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '140'
 ht-degree: 5%
 
 ---
-
 
 # 趨勢分析{#trending}
 
@@ -91,4 +87,3 @@ var trending = new Trending({
    tag: 'basketball' 
 });
 ```
-

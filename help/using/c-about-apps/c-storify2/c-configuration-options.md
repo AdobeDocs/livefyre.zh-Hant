@@ -1,18 +1,14 @@
 ---
 description: 從Livefyre Studio選擇Storify 2的「樣式」、「顯示」和「使用者參與」設定選項。
-seo-description: 從Livefyre Studio選擇Storify 2的「樣式」、「顯示」和「使用者參與」設定選項。
-seo-title: 配置選項
-solution: Experience Manager
 title: 配置選項
-uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
+exl-id: bdb5210e-860c-477f-95cd-37a1233469f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
-
 
 # 配置選項{#configuration-options}
 
@@ -70,7 +66,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Users may share posts]**
 
-   如果啟用，使用者可以將您的動態分享至Twitter或Facebook。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
+   啟用後，使用者可以將您的故事分享給Twitter或Facebook。 如需啟用共用的詳細資訊，請參閱「設定>整合設定>社交共用」。
 
 * **[!UICONTROL Users may add sidenotes]**
 
@@ -79,4 +75,3 @@ ht-degree: 0%
 * **[!UICONTROL Number of views]**
 
    如果啟用，則會顯示內文的檢視次數。
-

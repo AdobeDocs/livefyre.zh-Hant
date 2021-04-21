@@ -1,18 +1,14 @@
 ---
 description: 請依照下列步驟，在您的網站上內嵌自訂HTML。
-seo-description: 請依照下列步驟，在您的網站上內嵌自訂HTML。
-seo-title: 在注釋中內嵌自訂HTML
-solution: Experience Manager
 title: 在注釋中內嵌自訂HTML
-uuid: f7d07286-b3b3-447d-8281-51735f24ddd9
+exl-id: efeefdd8-6f1f-44c2-80c7-1c0d7da1958c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # 將自訂HTML內嵌在Comments{#embed-custom-html-in-comments}中
 

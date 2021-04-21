@@ -1,18 +1,14 @@
 ---
 description: 2018年4月26日發行說明。
-seo-description: 2018年4月26日發行說明。
-seo-title: 2018 年 4 月 26 日
-solution: Experience Manager
 title: 2018 年 4 月 26 日
-uuid: a84ebe5c-40d5-43b5-a300-3e041ab22046
+exl-id: af0ee64d-d60c-4b21-a628-08848313781c
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 4%
 
 ---
-
 
 # 2018 年 4 月 26 日{#april}
 
@@ -38,7 +34,7 @@ ht-degree: 4%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | Rights Management | 修正在Social搜尋中找到資產後，權限請求無法運作的問題。 |
-| 增強功能 | 串流 | 更新串流機制，允許內容從Facebook串流，以符合Facebook建立的後端變更。 |
+| 增強功能 | 串流 | 更新串流機制，讓內容可從Facebook串流，以符合Facebook建立的後端變更。 |
 | 錯誤 | UGC商務 | 修正當啟用CTA按鈕時，將滑鼠指標暫留在含產品的卡片上時，CTA「商店」按鈕無法顯示在Mosaic或Filmstrip應用程式或產品模型中的問題。 |
 | 增強功能 | UGC商務 | 修正UGC商務標幟預設為「off」而非「on」的問題。 |
 
@@ -48,4 +44,3 @@ ht-degree: 4%
 |---|---|---|
 | 錯誤 | 資料庫／搜尋 | 修正視訊無法正確上傳的問題。 |
 | 增強功能 | Studio | 新增在輸入標籤名稱時可看見建議字詞的功能。 |
-

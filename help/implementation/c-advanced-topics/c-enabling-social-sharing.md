@@ -1,18 +1,14 @@
 ---
 description: 設定憑證，讓您的使用者可以將內容分享至各種社交網路。
-seo-description: 設定憑證，讓您的使用者可以將內容分享至各種社交網路。
-seo-title: 啟用社交共用
-solution: Experience Manager
 title: 啟用社交共用
-uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
+exl-id: 08ac9766-52ea-432f-8b4f-bf68cb8b62bc
 translation-type: tm+mt
-source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
-
 
 # 啟用社交共用{#enabling-social-sharing}
 
@@ -26,13 +22,13 @@ ht-degree: 0%
 
 ## 必要的社交憑證{#section_gff_cjm_b1b}
 
-如果您使用自訂使用者識別系統，您必須提供您的社交認證，讓使用者能夠從Livefyre應用程式分享到Twitter、Facebook或LinkedIn。
+如果您使用自訂使用者識別系統，您必須提供您的社交認證，讓使用者能夠從Livefyre應用程式分享至Twitter、Facebook或LinkedIn。
 
 >[!NOTE]
 >
 >使用Janrain Engage的客戶只需提供其Engage Domain和Engage API金鑰。
 
-使用「管理控制台」的「整合設定」面板，輸入或更新下列社交憑證。
+使用Admin Console的「整合設定」面板，輸入或更新下列社交憑證。
 
 ### 必要憑證：
 
@@ -49,17 +45,17 @@ Twitter認證可從「Twitter應用程式儀表板」取得。 要查找這些�
 
 您必須：
 
-* 在Twitter應用程式中輸入回呼URL欄位的值。 雖然此欄位可能是簡單的預留位置，但不能保留為空白。
+* 在「Twitter應用程式」中輸入回呼URL欄位的值。 雖然此欄位可能是簡單的預留位置，但不能保留為空白。
 * 將「應用程式類型」設定為具有&#x200B;**read**&#x200B;和&#x200B;**write**&#x200B;訪問權。
 * 確認Twitter應用程式網站URL與Livefyre核心應用程式位於相同的主機網域。
 
 >[!NOTE]
 >
->所有顯示Twitter內容的應用程式都必須遵循其顯示要求。 如需詳細資訊，請參閱[Twitter顯示准則](https://dev.twitter.com/terms/display-requirements)。
+>顯示Twitter內容的所有應用程式都必須遵循其顯示需求。 如需詳細資訊，請參閱[Twitter顯示准則](https://dev.twitter.com/terms/display-requirements)。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn憑證可從LinkedIn應用程式API金鑰的「OAuth金鑰」區段取得。
+linkedIn認證可從您的LinkedIn應用程式API金鑰的「OAuth金鑰」區段取得。
 
 * 從LinkedIn的「開發人員」頁面[https://developer.linkedin.com/](https://developer.linkedin.com/)登入您的帳戶。
 * 將滑鼠指標暫留在右上角的名稱上，然後從下拉式選單中選取「API金鑰」。
@@ -68,12 +64,12 @@ LinkedIn憑證可從LinkedIn應用程式API金鑰的「OAuth金鑰」區段取�
 
 ## Facebook {#section_zyb_gpl_b1b}
 
-您的「開發人員應用程式」頁面提供Facebook認證。
+您的「開發人員應用程式」頁面提供facebook認證。
 
-* 開啟[Facebook的開發人員應用程式頁面](https://developers.facebook.com/apps)作為應用程式擁有者，尋找您的應用程式，然後按一下標題。
+* 開啟[Facebook開發人員應用程式頁面](https://developers.facebook.com/apps)作為應用程式擁有者，尋找您的應用程式，然後按一下標題。
 * 擷取應用程式ID和應用程式密碼的值。 若是「應用程式密碼」，您可能需要按一下「顯示」按鈕才能顯示。
 
-共用至Facebook需要您設定重新導向頁面，以接受Facebook請求並遵循[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)所要求的網域慣例。 頁面必須托管在您的網域上，Facebook才能確認請求來自合法來源。
+分享至Facebook需要您設定重新導向頁面，以接受Facebook的要求並遵循[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)所要求的網域慣例。 頁面必須托管在您的網域上，以便Facebook可以確認請求來自合法來源。
 
 ### Facebook重新導向
 
@@ -81,7 +77,7 @@ LinkedIn憑證可從LinkedIn應用程式API金鑰的「OAuth金鑰」區段取�
 
 ### Ruby
 
-這是使用Ruby和Rails執行Facebook OAuth重新導向的範例。
+這是使用Ruby和Rails執行FacebookOAuth重定向的示例。
 
 ```ruby
 require "base64" 
@@ -118,7 +114,7 @@ end
 
 ### Python
 
-這是使用Python和Django進行Facebook OAuth重新導向的範例。
+這是使用Python和Django進行FacebookOAuth重新導向的範例。
 
 ```python
 import base64, re 
@@ -160,7 +156,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-這是使用NodeJS和Sail/Express進行Facebook OAuth重新導向的範例。
+這是使用NodeJS和Sail/Express進行FacebookOAuth重新導向的範例。
 
 ```nodejs
 /* 
@@ -205,7 +201,7 @@ module.exports = {
 
 ### Java
 
-這是使用Java和Spring控制器執行Facebook OAuth重新導向的範例。
+這是使用Java和Spring控制器執行FacebookOAuth重定向的示例。
 
 ```java
 /* 
@@ -334,7 +330,7 @@ if (isset($_GET['lfoauth'])) {
 
 ## 配置「貼文至」提供者{#section_rdk_dpl_b1b}
 
-依預設，Facebook、LinkedIn和Twitter的「貼文至」按鈕會顯示在Livefyre核心應用程式上。 使用postToButtons參數來設定在內嵌Livefyre應用程式時，會出現哪些提供者。
+依預設，Livefyre核心應用程式上會顯示Facebook、LinkedIn和Twitter的「貼文至」按鈕。 使用postToButtons參數來設定在內嵌Livefyre應用程式時，會出現哪些提供者。
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
@@ -346,4 +342,4 @@ fyre.conv.load(networkConfig, [convConfig], function() {});
 
 * tw:Twitter
 * fb:Facebook
-* 李：LinkedIn
+* 李：linkedIn

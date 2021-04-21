@@ -1,18 +1,14 @@
 ---
 description: 將網站上每個頁面的每一部分轉換為協作互動式畫布。
-seo-description: 將網站上每個頁面的每一部分轉換為協作互動式畫布。
-seo-title: Sides的最佳做法
-solution: Experience Manager
 title: Sides的最佳做法
-uuid: 0f511fff-275a-436f-a81f-dbdf0bd39900
+exl-id: 2aa42a8b-89c2-4fd1-b21e-96eeb427bc47
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
-
 
 # Sidesks{#best-practices-for-sidenotes}的最佳做法
 
@@ -30,7 +26,7 @@ Siesors提供全新的注釋觀點，讓您的社群在&#x200B;*參與時，*&#x
 
 ## 展開觸及{#section_w1c_rc4_sy}
 
-Sidesor不僅提供了評論的新視角，也提供了社交分享內容的新視角。 當您的讀者反白標示文字時，「Siestroms」（標示）會彈出一個按鈕，讓讀者只要按兩下，就能直接將您的內容分享到Twitter或Facebook。 此低摩擦體驗可增加您的病毒式營銷觸及面，同時為您的使用者提供新方式，以輕鬆與您的內容互動。
+Sidesor不僅提供了評論的新視角，也提供了社交分享內容的新視角。 當您的讀者反白標示文字時，Siestrom會彈出一個按鈕，讓他們只要按兩下，就能直接將您的內容分享到Twitter或Facebook。 此低摩擦體驗可增加您的病毒式營銷觸及面，同時為您的使用者提供新方式，以輕鬆與您的內容互動。
 
 ## 註冊您的社群{#section_ipc_xc4_sy}
 

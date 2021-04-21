@@ -1,22 +1,18 @@
 ---
-description: 您可以建立可從Twitter提取內容的串流規則。
-seo-description: 您可以建立可從Twitter提取內容的串流規則。
-seo-title: Twitter規則
-solution: Experience Manager
+description: 您可以建立從Twitter提取內容的串流規則。
 title: Twitter規則
-uuid: a7fd2398-fd6b-4c24-92b2-7471176d7648
+exl-id: 3a5081eb-048d-4dcf-80a2-366af2cb2c86
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-
 # Twitter規則{#twitter-rules}
 
-您可以建立可從Twitter提取內容的串流規則。
+您可以建立從Twitter提取內容的串流規則。
 
 根據主題標籤、關鍵字、@mentions或作者建立Twitter規則。
 
@@ -24,24 +20,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Livefyre遵守Twitter展示方針，客戶也有責任遵守這些方針。 如需詳細資訊，請參閱Twitter的[顯示要求](https://dev.twitter.com/terms/display-requirements)檔案。
+>Livefyre遵守Twitter的展示方針，客戶也有責任遵守這些方針。 如需詳細資訊，請參閱Twitter的[顯示要求](https://dev.twitter.com/terms/display-requirements)檔案。
 
-若要建立Twitter規則以從Twitter動態消息提取內容至您的應用程式或資料夾，您可以依下列方式進行篩選：
+若要建立「Twitter規則」以從Twitter動態消息提取內容至您的應用程式或資料夾，您可以依下列方式進行篩選：
 
 * **[!UICONTROL Keywords]**
-   * 輸入&#x200B;**[!UICONTROL Keywords]**&#x200B;以加入或排除在Twitter串流中。 為&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位指定值時，會傳回包含第一個欄位且不包含第二個欄位的推文。 可輸入單一欄位的多個值，並傳回包含任何值的結果。 若要使用布林運算子AND來搜尋包含兩個或多個字詞的推文，請使用兩個&amp;符號(*&amp;&amp;*)來分隔這兩個字詞。
+   * 輸入&#x200B;**[!UICONTROL Keywords]**&#x200B;以包含在您的Twitter流中或從中排除。 為&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位指定值時，會傳回包含第一個欄位且不包含第二個欄位的推文。 可輸入單一欄位的多個值，並傳回包含任何值的結果。 若要使用布林運算子AND來搜尋包含兩個或多個字詞的推文，請使用兩個&amp;符號(*&amp;&amp;*)來分隔這兩個字詞。
    * 例如，輸入&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;關鍵字Giants、Posey和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;關鍵字Dodger，將傳回包含單字&#x200B;*Giants*&#x200B;或&#x200B;*Posey*&#x200B;的所有推文，且不包含單字&#x200B;*Dodger*。
-若要搜尋同時包含*Giants*&#x200B;和&#x200B;*Posey*&#x200B;字詞的推文，請輸入&quot;Giants &amp; &amp; Posey&quot;。 此功能僅支援Twitter規則中的&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位。
+若要搜尋同時包含*Giants*&#x200B;和&#x200B;*Posey*&#x200B;字詞的推文，請輸入&quot;Giants &amp; &amp; Posey&quot;。 此功能僅受Twitter規則中&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位支援。
 
 * **[!UICONTROL Hashtags]**。
-   * 輸入&#x200B;**[!UICONTROL Hashtags]**&#x200B;以加入或排除在Twitter串流中。 為&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位指定值時，會傳回在第一個欄位中包含主題標籤的推文，而在第二個欄位中不包含主題標籤。 您可以為單一欄位輸入多個值。 串流會傳回包含任何值的結果。
+   * 輸入&#x200B;**[!UICONTROL Hashtags]**&#x200B;以包含在您的Twitter流中或從中排除。 為&#x200B;**[!UICONTROL Contains any of these words]**&#x200B;和&#x200B;**[!UICONTROL Does not contain any of these words]**&#x200B;欄位指定值時，會傳回在第一個欄位中包含主題標籤的推文，而在第二個欄位中不包含主題標籤。 您可以為單一欄位輸入多個值。 串流會傳回包含任何值的結果。
 
 * **[!UICONTROL Usernames]**
    * 輸入&#x200B;**[!UICONTROL @mentions]**&#x200B;或&#x200B;**[!UICONTROL authors]**&#x200B;以拉入串流，或從串流中排除。 使用核取方塊來定義是否也應包含選取作者的&#x200B;**[!UICONTROL Retweets]**&#x200B;或&#x200B;**[!UICONTROL replies]**。
 
    >[!NOTE]
    >
-   >您可以包含或排除作者；您無法將這兩個欄位結合為單一Twitter規則。
+   >您可以包含或排除作者；您無法將這兩個欄位結合為單一的Twitter規則。
 
 * **[!UICONTROL Minimum number of followers.]** 選取使用者必須從其貼文提取資訊的追隨者人數下限。
 * **[!UICONTROL Location]**

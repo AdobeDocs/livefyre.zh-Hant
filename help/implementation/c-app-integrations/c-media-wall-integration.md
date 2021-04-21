@@ -1,24 +1,20 @@
 ---
 description: 建立即時串流內容的媒體牆。
-seo-description: 建立即時串流內容的媒體牆。
-seo-title: 媒體牆
-solution: Experience Manager
 title: 媒體牆
-uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
+exl-id: 597af7e1-9ada-4893-9071-e17c21ef0d04
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
-
 
 # 介質牆{#media-wall}
 
 建立即時串流內容的媒體牆。
 
-「媒體塗鴉牆」可讓您為網站建立即時的社交塗鴉牆。 使用Livefyre JavaScript SDK的串流桌布套件，將Livefyre社交動態消息顯示為視覺化、全螢幕、並排的內容體驗，非常適合於報導即時活動、主持像片競賽，並為您網站的社交區段提供動力。
+「媒體塗鴉牆」可讓您為網站建立即時的社交塗鴉牆。 使用Livefyre JavaScript SDK的串流桌布套件，將Livefyre社交動態消息顯示為視覺化、全螢幕、並排的內容體驗，非常適合於即時活動、主持像片競賽，以及為網站的社交區段提供動力。
 
 ## 整合 {#section_jfm_bwb_c1b}
 
@@ -61,7 +57,7 @@ Livefyre.require([
 
 >[!NOTE]
 >
->您的媒體塗鴉牆應用程式所呈現之推文的任何樣式自訂，都必須依照Twitter的「顯示要求」[進行。](https://dev.twitter.com/terms/display-requirements)
+>您的媒體塗鴉牆應用程式轉換之推文的任何樣式自訂都必須依照Twitter的「顯示要求」[進行。](https://dev.twitter.com/terms/display-requirements)
 
 ## 配置選項{#section_ucv_qvb_c1b}
 

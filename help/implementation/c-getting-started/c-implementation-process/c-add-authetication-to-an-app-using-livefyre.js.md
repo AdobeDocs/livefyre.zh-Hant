@@ -1,18 +1,14 @@
 ---
 description: 使用Livefyre.js為您的Livefyre應用程式新增全頁驗證。
-seo-description: 使用Livefyre.js為您的Livefyre應用程式新增全頁驗證。
-seo-title: 使用Livefyre.js將驗證新增至應用程式
-solution: Experience Manager
 title: 使用Livefyre.js將驗證新增至應用程式
-uuid: b7c61e07-e341-45d7-9112-c50155e38f1d
+exl-id: 6246a2bc-e7ff-4f86-a63a-36261c71d460
 translation-type: tm+mt
-source-git-commit: a6aebcc14325632cab0415e4aa4a24fda8a19bfc
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # 使用Livefyre.js{#add-authetication-to-an-app-using-livefyre-js}將驗證新增至應用程式
 

@@ -1,18 +1,14 @@
 ---
 description: 內嵌注釋應用程式會遵循內嵌核心應用程式的程式。
-seo-description: 內嵌注釋應用程式會遵循內嵌核心應用程式的程式。
-seo-title: 內嵌注釋應用程式
-solution: Experience Manager
 title: 內嵌注釋應用程式
-uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
+exl-id: 5eb191f8-ee52-4a9d-9180-90457a49fd4e
 translation-type: tm+mt
-source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
-
 
 # 內嵌注釋應用程式{#embed-a-comments-app}
 
@@ -67,4 +63,3 @@ ht-degree: 1%
 "title": "articleTitle" 
 }
 ```
-

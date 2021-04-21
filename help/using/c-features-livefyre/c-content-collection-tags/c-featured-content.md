@@ -1,18 +1,14 @@
 ---
 description: 使用CSS為自訂樣式的「精選」內容，向您的使用者反白顯示重要內容。
-seo-description: 使用CSS為自訂樣式的「精選」內容，向您的使用者反白顯示重要內容。
-seo-title: 精選內容
-solution: Experience Manager
 title: 精選內容
-uuid: 2204a989-69b3-440d-beae-7e9c6e9d5698
+exl-id: 3e8bbdb5-ec3a-4a6a-94c5-63bd9687fe99
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
-
 
 # 關於特色內容{#featured-content}
 
@@ -22,7 +18,7 @@ ht-degree: 1%
 
 在注釋中：
 
-* **[!UICONTROL Featured]**&#x200B;內容的最新兩段內容也會提取到串流上方。
+* **[!UICONTROL Featured]**&#x200B;內容的最新兩段也會提取到串流上方。
 * 「精選」內容在編輯器上方最多可能需要7分鐘的時間。
 * **[!UICONTROL Featured]**&#x200B;標籤可新增至串流中的任何留言，並用來設定留言的樣式，但編輯器上方將只會顯示由Livefyre原生使用者產生的內容。
 
@@ -41,4 +37,3 @@ ht-degree: 1%
 * [馬賽克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-

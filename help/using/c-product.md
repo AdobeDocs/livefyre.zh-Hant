@@ -1,18 +1,14 @@
 ---
 description: 領先的社交深度平台，提供您所需的工具，讓受眾以最信任自己的聲音互動。
-seo-description: 領先的社交深度平台，提供您所需的工具，讓受眾以最信任自己的聲音互動。
-seo-title: 關於Livefyre
-solution: Experience Manager
 title: 關於Livefyre
-uuid: b864afe0-9ccb-4607-b735-69ce42cd8199
+exl-id: 37aa41c5-6fa7-4a0d-8f8e-4210ca8ade0c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # 關於Livefyre{#about-livefyre}
 
@@ -31,4 +27,3 @@ Livefyre提供強大的功能，可讓您吸引受眾並控制對話，包括搜
 * [協調內容以確保內容品質](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md#c_setting_up_moderation)
 * [從內容片段上的「動作要求」按鈕，推動網站訪客的銷售和進一步的動作](c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
 * [管理使用者、角色和權限](c-about-apps/c-about-apps.md#c_about_apps)
-

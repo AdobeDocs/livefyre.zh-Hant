@@ -1,18 +1,14 @@
 ---
 description: 將使用者內容繪製成互動式地圖。
-seo-description: 將使用者內容繪製成互動式地圖。
-seo-title: 地圖
-solution: Experience Manager
 title: 地圖
-uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
+exl-id: 836b475e-0ec6-49f8-b89f-3af3209cf1f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
-
 
 # 地圖{#map}
 
@@ -87,4 +83,3 @@ var map = new Map({
     } 
 });
 ```
-

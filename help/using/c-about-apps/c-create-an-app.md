@@ -1,18 +1,14 @@
 ---
 description: 若要將應用程式新增至您的網站，您必須先在Livefyre Studio中建立應用程式。
-seo-description: 若要將應用程式新增至您的網站，您必須先在Livefyre Studio中建立應用程式。
-seo-title: 建立應用程式
-solution: Experience Manager
 title: 建立應用程式
-uuid: 8c2c07fb-a951-47d9-b498-4c487ee83a18
+exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 1%
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
-
 
 # 建立應用程式 {#create-an-app}
 
@@ -174,4 +170,3 @@ App Designer可讓您以多種傳送格式預覽應用程式，並顯示您自�
 1. 按一下 **[!UICONTROL Apps]**.
 1. 按一下要刪除之應用程式名稱右側的省略號。
 1. 按一下&#x200B;**[!UICONTROL Delete App]**&#x200B;以刪除應用程式。
-

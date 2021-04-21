@@ -1,18 +1,14 @@
 ---
 description: 2018年11月1日發行說明。
-seo-description: 2018年11月1日發行說明。
-seo-title: 2018 年 11 月 1 日
-solution: Experience Manager
 title: 2018 年 11 月 1 日
-uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
+exl-id: b12b6a56-f14f-4447-9fde-25cb3acf6665
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 4%
 
 ---
-
 
 # 2018 年 11 月 1 日{#november}
 
@@ -24,7 +20,7 @@ ht-degree: 5%
 
 * 視訊智慧型標籤
 
-   運用Adobe Sensei支援的最新電腦視覺技術，在您將視訊內容儲存至資料庫時自動標籤視訊內容。 智慧型標籤可協助您更有效率地管理UGC，同時建立超精確的組織規則（串流），以根據視訊中的內容（而非僅是文字）收集內容，為您節省大量的心力來協調不想要的內容。
+   運用由Adobe Sensei提供支援的最新電腦視覺技術，在您將視訊內容儲存至「資料庫」時，自動標籤視訊內容。 智慧型標籤可協助您更有效率地管理UGC，同時建立超精確的組織規則（串流），以根據視訊中的內容（而非僅是文字）收集內容，為您節省大量的心力來協調不想要的內容。
 
    功能詳細資訊：
 
@@ -37,7 +33,7 @@ ht-degree: 5%
 
 * Instagram速率限制
 
-   Instagram已將任何使用Instagram API（包括Livefyre）的公司，每小時每個Token可發出5,000個請求，變更為每小時每Token發出200個請求。 這稱為&#x200B;*速率限制*。 如需詳細資訊，請參閱[Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
+   Instagram已將任何使用InstagramAPI（包括Livefyre）的公司，每小時每個Token可發出5,000個請求的次數，變更為每小時每Token發出200個請求。 這稱為&#x200B;*速率限制*。 如需詳細資訊，請參閱[Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
 
 * 資料庫中的音訊檔案
 
@@ -51,7 +47,7 @@ ht-degree: 5%
 
 ## 問題 {#section_ehw_ndt_wcb}
 
-本版本的生產版本未解決任何新問題。 請參閱上述[節。](#c_rn/section_syx_mdt_wcb)
+本版本的生產版本未解決任何新問題。 請參閱上述](#c_rn/section_syx_mdt_wcb)節。[
 
 ## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
@@ -63,4 +59,3 @@ ht-degree: 5%
 | 錯誤 | 庫 | 已修正視訊上傳至「資料庫」，接著以資產詳細資料檢視的問題，此問題無法正確顯示。 |
 | 錯誤 | 馬賽克 | 修正Mosaic將Instagram轉盤上最後一段內容顯示為縮圖而非卡片的問題。 |
 | 錯誤 | 社交搜尋 | 修正Instagram社交搜尋無法如預期般運作的問題。 |
-

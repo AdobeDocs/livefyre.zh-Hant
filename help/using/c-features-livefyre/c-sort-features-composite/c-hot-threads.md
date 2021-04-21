@@ -1,18 +1,14 @@
 ---
 description: 顯示應用程式內25個最熱門的執行緒，依人氣排序。
-seo-description: 顯示應用程式內25個最熱門的執行緒，依人氣排序。
-seo-title: 熱線程
-solution: Experience Manager
 title: 熱線程
-uuid: 0011f769-6712-48e9-bb10-a43610fef595
+exl-id: a7d4efef-6f25-4eaf-9a1e-b0ff3c033d5d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
-
 
 # 熱線程{#hot-threads}
 
@@ -28,7 +24,7 @@ ht-degree: 0%
 
 ## 預覽{#section_xhh_2dl_wy}
 
-按一下串流頂端的&#x200B;**[!UICONTROL Hot Threads]**，會以預覽最多25個執行緒的應用程式內容，並顯示應用程式最高的「人氣分數」。 使用Livefyre的專屬演算法和演變演算法，計算每個執行緒的人氣分數。 預覽會顯示最上層的註解，以及最多5個最受歡迎的回覆，以及這5個回覆中每個回覆的直接父項。
+按一下串流頂端的&#x200B;**[!UICONTROL Hot Threads]**，會以預覽最多25個執行緒的應用程式內容，並顯示最高「人氣分數」。 使用Livefyre的專屬演算法和演變演算法，計算每個執行緒的人氣分數。 預覽會顯示最上層的註解，以及最多5個最受歡迎的回覆，以及這5個回覆中每個回覆的直接父項。
 
 如果串流中沒有具有人氣分數的執行緒，則不會顯示任何評論，且使用者會看到訊息&#x200B;**[!UICONTROL There are not enough threads yet]**&#x200B;和連結至&#x200B;**[!UICONTROL See what’s new]**。
 
@@ -53,4 +49,3 @@ ht-degree: 0%
 使用此功能的應用程式：
 
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
-

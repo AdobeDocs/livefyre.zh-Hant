@@ -1,18 +1,14 @@
 ---
 description: 要更新Collection中的資料，請修改Collection類對象方法的內容。
-seo-description: 要更新Collection中的資料，請修改Collection類對象方法的內容。
-seo-title: 系列類別方法
-solution: Experience Manager
 title: 系列類別方法
-uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
+exl-id: e54fe99d-381a-433e-b42f-8be609864ca8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
-
 
 # 系列類方法{#collection-class-methods}
 
@@ -33,4 +29,3 @@ ht-degree: 1%
 * PHP
 * Python
 * Ruby
-

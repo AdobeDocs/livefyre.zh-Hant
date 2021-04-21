@@ -1,18 +1,14 @@
 ---
 description: 可用於繫結視覺化應用程式 (如 Media Wall) JavaScript 的事件。
-seo-description: 可用於繫結視覺化應用程式 (如 Media Wall) JavaScript 的事件。
-seo-title: 視覺化應用程式的Javascript事件
-solution: Experience Manager
 title: 視覺化應用程式的Javascript事件
-uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
+exl-id: 93406d36-881d-4f35-a9a6-b42805f47c85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '533'
 ht-degree: 74%
 
 ---
-
 
 # 視覺化應用程式的Javascript事件{#javascript-events-for-visualization-apps}
 
@@ -30,7 +26,7 @@ ht-degree: 74%
 | 貼文 |  | 不適用 | 不適用 | 不適用 | 不適用 |  | 不適用 |
 | 已張貼 |  | 不適用 | 不適用 | 不適用 | 不適用 |  | 不適用 |
 | Twitter 回覆 | X | X |  | X | X | 不適用 | X |
-| Twitter贊 | X | X |  | X | X | 不適用 | X |
+| Twitter喜歡 | X | X |  | X | X | 不適用 | X |
 | LF like | X |  | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 |
 | LF不同 | X |  | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 |
 | 在貼文時分享 | 不適用 |  | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 |

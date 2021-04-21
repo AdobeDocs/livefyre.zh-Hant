@@ -1,18 +1,14 @@
 ---
 description: 翻譯集可讓您指定應用程式的替代語言。
-seo-description: 翻譯集可讓您指定應用程式的替代語言。
-seo-title: 翻譯集
-solution: Experience Manager
 title: 翻譯集
-uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
+exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1335'
 ht-degree: 7%
 
 ---
-
 
 # 翻譯集{#translation-sets}
 
@@ -332,4 +328,3 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorDuplicate | 我們也喜歡您的註解，但您不能再張貼。 |
 |  | errorGeneral | 發生錯誤. 請再試一次。 |
 |  | errorServer | 我們的伺服器出了問題。 再試一次？ |
-

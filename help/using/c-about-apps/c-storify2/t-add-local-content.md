@@ -1,18 +1,14 @@
 ---
 description: Storify可讓您在故事的任何位置新增內容。
-seo-description: Storify可讓您在故事的任何位置新增內容。
-seo-title: 新增文字
-solution: Experience Manager
 title: 新增文字
-uuid: 01dba567-daf9-4cfa-9671-b85f3d132ddc
+exl-id: 627eb641-e911-49c5-b060-d0d8f2599394
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # 新增文字{#add-text}
 

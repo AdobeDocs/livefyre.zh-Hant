@@ -1,17 +1,14 @@
 ---
 description: 從單一智慧型介面協調內容。
-seo-description: 從單一智慧型介面協調內容。
-seo-title: 使用ModQ協調內容
 title: 使用ModQ協調內容
-uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
+exl-id: 694b1f45-2b24-4e80-99a1-788e2cecc8a4
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
-
 
 # 使用ModQ{#moderate-content-using-modq}協調內容
 
@@ -109,7 +106,7 @@ ModQ分為兩個標籤式面板：
 
 **[!UICONTROL Moderation Recommendations]**。依自動協調建議所提供的建議篩選內容。
 
-下列影像顯示ModQ中的「協調建議」外觀： ![](assets/mod_reco1.png)
+下列影像顯示ModQ中的「協調Recommendations」外觀： ![](assets/mod_reco1.png)
 
 在&#x200B;**[!UICONTROL Network Settings > Moderation]**&#x200B;和&#x200B;**[!UICONTROL Network Settings > ModQ]**&#x200B;中設定內容時，會針對內容提供協調建議。
 
@@ -125,7 +122,7 @@ ModQ分為兩個標籤式面板：
 
    >[!NOTE]
    >
-   >您無法在ModQ中要求Instagram內容的權限。 您必須使用「資料庫」或「應用程式內容」，才能從Instagram傳送內容的權限要求。
+   >您無法向Instagram索取ModQ中的內容權限。 您必須使用「資料庫」或「應用程式內容」來傳送來自Instagram的內容權限要求。
 
 * **[!UICONTROL Feature and Approve]** 核准內容，並加入內容。
 * **[!UICONTROL Product Tag and Approve]** 將產品從產品目錄新增至內容，然後加以核准。
@@ -133,7 +130,7 @@ ModQ分為兩個標籤式面板：
 
 >[!NOTE]
 >
->一旦您將內容廢棄後，內容片段及對內容的所有回覆都會從ModQ中永久移除。 若要將已銷毀的內容放入應用程式，請參閱「將已銷毀的項目新增至應用程式」[。](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app)
+>一旦您將內容廢棄後，內容片段及對內容的所有回覆都會從ModQ中永久移除。 若要將已銷毀的內容放入應用程式，請參閱「將已銷毀的項目新增至應用程式」](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app)。[
 
 如果內容已處於所需狀態，選擇「垃圾筒」、「Bozo」或「核准」將確認狀態並從清單中移除項目。 協調一段內容會立即從您的佇列中移除，並將其停用在其他協調者的佇列中。
 
@@ -171,4 +168,3 @@ ModQ分為兩個標籤式面板：
 * [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

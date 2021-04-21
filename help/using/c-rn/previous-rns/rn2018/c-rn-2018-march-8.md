@@ -1,18 +1,14 @@
 ---
 description: 2018年3月8日發行說明。
-seo-description: 2018年3月8日發行說明。
-seo-title: 2018 年 3 月 8 日
-solution: Experience Manager
 title: 2018 年 3 月 8 日
-uuid: 4ed67147-0837-4d5e-8e99-532a4278bcce
+exl-id: 46d4a425-17e0-48a2-a596-5cc7163f9edd
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '295'
 ht-degree: 5%
 
 ---
-
 
 # 2018年3月8日{#march}
 
@@ -40,7 +36,6 @@ ht-degree: 5%
 | 問題類型 | 元件 | 發行說明 |
 |--- |--- |--- |
 | 增強功能 | 幻燈片 | 已更新Filmstrip的下列協助功能：<br><ul><li>從&lt;div>修正為&lt;button>的左／右箭頭 </li><li>預覽影像元素從描述性較差的ARIA標籤「開啟附加的像片」變更為讀取平台名稱和貼文文字的標籤。</li></ul> |
-| 錯誤 | 媒體牆 | 修正媒體塗鴉牆中，從串流規則新增Instagram貼文時，無法點選標籤的問題。 |
+| 錯誤 | 媒體牆 | 修正從串流規則新增Instagram貼文時，無法點選標籤的媒體塗鴉牆問題。 |
 | 增強功能 | 媒體牆 | 以下列方式改善媒體塗鴉牆協助功能：<br><ul><li>透過鍵盤指令開啟和關閉模組不會再將焦點移回頁面頂端。 焦點會保留在模型彈出畫面前最後聚焦的元素上。</li><li>「載入更多」按鈕可以使用鍵盤Enter鍵進行標籤化並觸發。</li></ul> |
-| 錯誤 | Rights Management | 修正在授與Instagram資產的權限後，您無法看到權限要求模型的錯誤。 |
-
+| 錯誤 | Rights Management | 修正在授與Instagram資產的權利後，您無法看到權利要求模型的錯誤。 |

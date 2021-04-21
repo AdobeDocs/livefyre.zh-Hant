@@ -1,18 +1,14 @@
 ---
 description: 瞭解Filmstrip應用程式的功能。
-seo-description: 瞭解Filmstrip應用程式的功能。
-seo-title: 幻燈片功能
-solution: Experience Manager
 title: 幻燈片功能
-uuid: 0d7d59dc-0465-44d3-8348-b59e51312aab
+exl-id: ba327da8-9a7c-4819-abdf-b66412999da0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
-
 
 # 幻燈片功能{#filmstrip-features}
 

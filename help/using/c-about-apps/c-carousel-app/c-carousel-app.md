@@ -1,18 +1,14 @@
 ---
 description: 在水準、可捲動的檢視中展示您的最佳內容。
-seo-description: 在水準、可捲動的檢視中展示您的最佳內容。
-seo-title: 轉盤
-solution: Experience Manager
 title: 轉盤
-uuid: c0704fba-6119-44ca-9ad1-1e2cb692ebda
+exl-id: 37664553-45cb-47e0-9b8f-d6e992e265cc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '632'
 ht-degree: 2%
 
 ---
-
 
 # 轉盤{#carousel}
 

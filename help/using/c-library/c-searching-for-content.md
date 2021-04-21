@@ -1,18 +1,14 @@
 ---
 description: 依URL搜尋要儲存在資產庫的內容。
-seo-description: 依URL搜尋要儲存在資產庫的內容。
-seo-title: 依URL搜尋
-solution: Experience Manager
 title: 依URL搜尋
-uuid: 45be6a85-e615-46c6-9601-82df02839315
+exl-id: 24744ab8-6077-4595-a46d-7496ee0ca0b5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # 依URL搜尋{#search-by-url}
 
@@ -24,5 +20,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若是使用URL欄位的Instagram搜尋，作者會傳回為「Instagram」。
-
+>對於使用URL欄位的Instagram搜尋，作者會傳回為&quot;Instagram&quot;。

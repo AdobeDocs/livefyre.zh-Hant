@@ -1,17 +1,14 @@
 ---
 description: 2017年8月10日發行說明。
-seo-description: 2017年8月10日發行說明。
-seo-title: 2017 年 8 月 10 日
 title: 2017 年 8 月 10 日
-uuid: a41ef369-3ef0-4c54-bfc5-e03713b08535
+exl-id: 9f92ac3b-a992-4c70-9860-4ffbc520a597
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '122'
 ht-degree: 13%
 
 ---
-
 
 # 2017 年 8 月 10 日{#august}
 
@@ -32,4 +29,3 @@ ht-degree: 13%
 | 錯誤 | 意見 | 已修正「注釋」中的錯誤，可讓。mov或。mpg成功上傳。 |
 | 錯誤 | Studio | 已修正錯誤，可依「大部分參與者」和「大部分項目」進行排序。 |
 | 錯誤 | Studio | 已修正允許大量轉換注釋的錯誤。 |
-

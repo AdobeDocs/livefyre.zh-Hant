@@ -1,18 +1,14 @@
 ---
 description: 將Livefyre新增至原生行動應用程式。
-seo-description: 將Livefyre新增至原生行動應用程式。
-seo-title: 行動 SDK
-solution: Experience Manager
 title: 行動 SDK
-uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
+exl-id: e05001a4-6199-4d98-a661-123e031b657b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 4%
 
 ---
-
 
 # 行動 SDK{#mobile-sdks}
 
@@ -66,4 +62,3 @@ HTTP API是端點群組，可讓您在Livefyre平台上建立對話和內容。 
 >[!IMPORTANT]
 >
 >**請不** 要在行動用戶端中建立使用者驗證Token，因為這需要您在不安全的應用程式中公開您的Livefyre機密網路金鑰。如需更強穩且安全的解決方案，請參閱「使用者驗證Token」區段。
-

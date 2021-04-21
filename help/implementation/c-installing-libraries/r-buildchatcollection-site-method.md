@@ -1,18 +1,14 @@
 ---
 description: 傳回實例化為聊天類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
-seo-description: 傳回實例化為聊天類型的Collection物件。 從Collection物件執行create_or_update()以完成建置程式。
-seo-title: buildChatCollection網站方法
-solution: Experience Manager
 title: buildChatCollection網站方法
-uuid: 39ee32d0-29c9-47a8-a458-a3cf7a96db30
+exl-id: b10f95de-9e6c-4fc3-987b-599717d5a9e7
 translation-type: tm+mt
-source-git-commit: 2908c6988c706a49c391f0e607bb641bce3a7f0d
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildChatCollection網站方法{#buildchatcollection-site-method}
 

@@ -1,17 +1,14 @@
 ---
 description: 2017年1月26日發行說明。
-seo-description: 2017年1月26日發行說明。
-seo-title: 2017 年 1 月 26 日
 title: 2017 年 1 月 26 日
-uuid: 5a04d31d-a26d-4369-8deb-adc3e28dfece
+exl-id: 33eaf1e2-45b6-4a73-9f38-41aeebfcc3b4
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 8%
+source-wordcount: '281'
+ht-degree: 7%
 
 ---
-
 
 # 2017 年 1 月 26 日{#january}
 
@@ -25,7 +22,7 @@ ht-degree: 8%
 | 增強功能 | Livefyre Identity | 增強的Livefyre Identity可支援鍵盤導覽，以符合協助工具標準。 |
 | 增強功能 | Storify 2 | 增強的Storify 2可在貼文中加入時區縮寫，讓客戶可清楚瞭解貼文的發佈時間。 |
 | 錯誤 | Storify 2 | 修正Storify 2中Google搜尋結果無法傳回的錯誤。 |
-| 錯誤 | 串流 | 增強的Facebook頁面規則，以在我們僅擷取縮圖之前，先擷取高品質的Facebook影像。 |
+| 錯誤 | 串流 | 增強「Facebook頁面規則」，在我們只擷取縮圖之前，先擷取高品質的Facebook影像。 |
 | 增強功能 | 串流 | 新增清除按鈕，以清除支援之串流規則中的使用者集位置。 |
 | 錯誤 | Studio | 增強的資料庫資產搜尋功能，以支援日文字元。 |
 
@@ -37,9 +34,8 @@ ht-degree: 8%
 | 錯誤 | ModQ | 修正「電子郵件串流內容」中無法顯示「電子郵件主題」的錯誤。 |
 | 錯誤 | 馬賽克 | 新增Mosaic的額外協助工具支援，讓使用者在內容卡片之間切換索引標籤。 |
 | 錯誤 | 評論 | 修正無法正確顯示評分編輯的錯誤。 |
-| 錯誤 | 社交搜尋 | 修正造成「Twitter清單搜尋」結果上「顯示更多」按鈕被截斷的錯誤。 |
+| 錯誤 | 社交搜尋 | 修正導致「Twitter清單搜尋」結果上「顯示更多」按鈕被切斷的錯誤。 |
 | 錯誤 | 串流 | 透過HTTPS提供電子郵件串流規則的增強內容（影像和視訊）。 |
 | 增強功能 | 串流 | 已對「僅驗證帳戶」選項的設定進行調整，預設為停用。 |
 | 錯誤 | 串流 | 修正「預先協調」和「媒體預先協調」設定傳遞至新建立之串流規則的錯誤。 |
 | 增強功能 | 串流 | 新增允許內容類別（透過串流規則）允許列出和略過協調的新功能。 |
-

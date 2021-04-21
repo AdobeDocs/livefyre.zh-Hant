@@ -1,18 +1,14 @@
 ---
 description: 可讓使用者使用完整的豐富式文字格式選項，在您的「系列」中張貼、編輯、標幟、刪除、回覆和贊內容。
-seo-description: 可讓使用者使用完整的豐富式文字格式選項，在您的「系列」中張貼、編輯、標幟、刪除、回覆和贊內容。
-seo-title: 使用者貼文
-solution: Experience Manager
 title: 使用者貼文
-uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
+exl-id: 8a9e2bef-d53c-4693-bc54-6186d08ac7d0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
-
 
 # 使用者貼文{#user-posts}
 
@@ -102,4 +98,3 @@ Livefyre應用程式可讓您的使用者順暢且直覺地張貼內容並與之
 * [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

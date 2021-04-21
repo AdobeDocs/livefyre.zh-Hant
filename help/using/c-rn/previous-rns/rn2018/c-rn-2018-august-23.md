@@ -1,18 +1,14 @@
 ---
 description: 2018年8月23日發行說明。
-seo-description: 2018年8月23日發行說明。
-seo-title: 2018 年 8 月 23 日
-solution: Experience Manager
 title: 2018 年 8 月 23 日
-uuid: 668058d8-cd31-416e-afc3-eaf158109e3e
+exl-id: 13117917-6137-49f1-a138-4d4d2e76f17f
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 7%
 
 ---
-
 
 # 2018 年 8 月 23 日{#august}
 
@@ -32,10 +28,10 @@ ht-degree: 8%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 意見 | 已將簡短連結選項還原為「分享」按鈕對話方塊，以顯示留言和其他對話「應用程式」。 |
-| 錯誤 | GDPR | 已修正某些Instagram影片無法顯示退出訊息的問題。 |
+| 錯誤 | GDPR | 已修正部分Instagram影片無法顯示退出訊息的問題。 |
 | 錯誤 | 庫 | 修正使用者無法將原生Livefyre影片從「資料庫」檔案夾發佈至「應用程式」的問題。 |
 | 錯誤 | 庫 | 修正無法將資產儲存至資料夾的問題。 |
-| 錯誤 | 資料庫／搜尋 | 已恢復從Social Search的Instagram搜尋URL的功能。 |
+| 錯誤 | 資料庫／搜尋 | 已恢復在Social Search中從Instagram搜尋URL的功能。 |
 | 錯誤 | ModQ | 修正ModQ中的「更多資訊」功能表未顯示預期位置的問題。 |
 | 錯誤 | Rights Management | 已修正手動授與權限的資訊卡，顯示錯誤的權限請求狀態的問題。 |
 | 錯誤 | Rights Management | 修正當頁面捲動時，ModQ中的排序應位於固定位置的問題。 |

@@ -1,18 +1,14 @@
 ---
 description: Studio經理和管理員可邀請新使用者或現有使用者建立Studio帳戶。
-seo-description: Studio經理和管理員可邀請新使用者或現有使用者建立Studio帳戶。
-seo-title: 邀請使用者建立Studio帳戶
-solution: Experience Manager
 title: 邀請使用者建立Studio帳戶
-uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
+exl-id: 5b4f5bb9-6bd0-413a-9cf9-9604bc2fb8af
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # 邀請使用者建立Studio帳戶{#invite-a-user-to-create-a-studio-account}
 

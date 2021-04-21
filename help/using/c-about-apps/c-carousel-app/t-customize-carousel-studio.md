@@ -1,18 +1,14 @@
 ---
 description: 變更轉盤應用程式的大小、寬度和互動選項。
-seo-description: 變更轉盤應用程式的大小、寬度和互動選項。
-seo-title: 使用Studio自訂轉盤
-solution: Experience Manager
 title: 使用Studio自訂轉盤
-uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
+exl-id: f6f681ac-c601-40b9-9e99-bf5495f505f8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # 使用Studio自訂轉盤{#customize-a-carousel-using-studio}
 

@@ -1,17 +1,14 @@
 ---
 description: ModQ中的協調者可使用下列鍵盤快速鍵。
-seo-description: ModQ中的協調者可使用下列鍵盤快速鍵。
-seo-title: ModQ鍵盤快速鍵
 title: ModQ鍵盤快速鍵
-uuid: fc4e7796-b6b5-4782-a0fc-b2326ca56d66
+exl-id: 759a1e8a-ac84-4a5b-b630-b63530fb3907
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '141'
+ht-degree: 6%
 
 ---
-
 
 # ModQ鍵盤快速鍵{#modq-keyboard-shortcuts}
 
@@ -29,4 +26,3 @@ ModQ中的協調者可使用下列鍵盤快速鍵。
 | 禁止使用者 | 僅禁止該網站的所選使用者 | Shift + B |  |
 | 白名單用戶 | 僅允許列出該站點的選定用戶 | Shift + W |  |
 | 清除網站篩選 | 顯示網路中的所有項目 | Shift + Q |  |
-

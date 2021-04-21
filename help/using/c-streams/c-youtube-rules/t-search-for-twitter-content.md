@@ -1,33 +1,30 @@
 ---
-description: 使用Social搜尋來搜尋Twitter內容，以納入您的資產庫或發佈至應用程式。
-seo-description: 使用Social搜尋來搜尋Twitter內容，以納入您的資產庫或發佈至應用程式。
-seo-title: 搜尋Twitter內容
+description: 使用Social搜尋來搜尋要納入資產庫或發佈至應用程式的Twitter內容。
 title: 搜尋Twitter內容
-uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
+exl-id: 25cb5b74-0e6c-4f00-90f9-1022a13406ca
 translation-type: tm+mt
-source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-
 # 搜尋Twitter內容{#search-for-twitter-content}
 
-使用Social搜尋來搜尋Twitter內容，以納入您的資產庫或發佈至應用程式。
+使用Social搜尋來搜尋要納入資產庫或發佈至應用程式的Twitter內容。
 
 您可以儲存並重複使用搜尋。 按一下搜尋列，查看您最近和已儲存的搜尋清單。
 
 當您新增資產至資料庫時，已包含在資料庫中的資產會以勾號標籤。
 
 1. 導覽至&#x200B;**[!UICONTROL Social Search]**。
-1. 選擇&#x200B;**[!UICONTROL Twitter]**&#x200B;以搜尋Twitter內容。
+1. 選擇&#x200B;**[!UICONTROL Twitter]**&#x200B;以搜索Twitter內容。
 1. 輸入關鍵字、#hashtag或@person。 您可以從搜尋列的右下拉式選單中選取搜尋類型，以調整您的搜尋。
 
    * **[!UICONTROL Subject Search:]** 預設情況下，搜索輸入文本的所有可用欄位。
    * **[!UICONTROL User Search:]** 依輸入作者搜尋推文。
-   * **[!UICONTROL List Search:]** 僅在輸入的Twitter清單URL中搜尋。
+   * **[!UICONTROL List Search:]** 僅在輸入的Twitter清單URL中搜索。
 
 1. 在輸入搜尋准則後，按一下&#x200B;**[!UICONTROL Show Filter]**&#x200B;以調整您的搜尋。
 

@@ -1,17 +1,14 @@
 ---
 description: 2017年9月21日發行說明。
-seo-description: 2017年9月21日發行說明。
-seo-title: 2017 年 9 月 21 日
 title: 2017 年 9 月 21 日
-uuid: 1132b48a-f85c-4e05-b312-0093db9ebc8f
+exl-id: 6d01710e-dab4-4065-85c5-b00f45d8d4fd
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '407'
 ht-degree: 6%
 
 ---
-
 
 # 2017 年 9 月 21 日{#september}
 
@@ -25,7 +22,7 @@ ht-degree: 6%
 | 錯誤 | 行動應用程式 | 此錯誤會修正在停用Avatar時，Mobile中呈現巢狀回覆的問題。 |
 | 錯誤 | 馬賽克 | 已修正UGC中IE11中造成Mosaic顯示「灰色方塊」的製作錯誤。 |
 | 增強功能 | 馬賽克 | 客戶現在可以指定要在Mosaic視覺化應用程式中顯示的卡片數目。 |
-| 錯誤 | Rights Management | 修正Studio使用者無法請求Instagram轉盤內容權限的錯誤。 |
+| 錯誤 | Rights Management | 修正Studio使用者無法要求Instagram轉盤內容權限的錯誤。 |
 | 錯誤 | Studio | 新增更清楚的錯誤訊息，以建立新網站。 |
 
 ## UAT發行
@@ -40,4 +37,3 @@ ht-degree: 6%
 | 增強功能 | UGC商務 | 客戶現在可以使用JSON檔案匯出，手動將Google產品目錄上傳至LF Studio。 這可讓客戶將UGC與該目錄中的產品配對，並在我們啟用商務的應用程式中視覺化這些產品。 |
 | 增強功能 | UGC商務 | 客戶可以在依產品ID篩選其電子商務應用程式時，選取想要使用的產品資料夾。 例如，我希望我的新幻燈片片會出現在我的女鞋和女裝包產品頁面中，因此我只會選擇「女裝鞋系列」和「女裝包」產品資料夾。 |
 | 增強功能 | UGC商務 | Livefyre客戶現在只有在已授予權限時，才能篩選發佈至其應用程式的UGC。 例如，客戶可以組織和發佈選擇的項目，但只有在作者授予這些項目權限後，這些項目才會在應用程式中呈現。 這對於電子商務使用案例尤其重要，因為UGC用於商業用途。 |
-

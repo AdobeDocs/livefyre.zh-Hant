@@ -1,18 +1,14 @@
 ---
 description: 變更地圖應用程式的大小、寬度和互動選項。
-seo-description: 變更地圖應用程式的大小、寬度和互動選項。
-seo-title: 功能卡自訂
-solution: Experience Manager
 title: 功能卡自訂
-uuid: dd43c076-027f-42c8-be2e-7d863d4e3976
+exl-id: b907885a-211d-4628-9955-5f1a5ec577cf
 translation-type: tm+mt
-source-git-commit: a014b5cd618672934843f1adf20d6b2cc504e2d8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # 功能卡自訂{#feature-card-customizations}
 
@@ -49,4 +45,3 @@ r_feature_card_customization.dita
    * **[!UICONTROL Filter UGC by Product ID]**。選取這個選項，可為多個產品頁面建立一個應用程式。 針對每個產品頁面，將產品特定的UGC篩選至應用程式。 您可以選取一或多個檔案夾，將特定系列與應用程式建立關聯。
    * **[!UICONTROL Select Product folders]**。選取要用來篩選UGC的頂層產品資料夾。 使用`CTRL/Command + click`選擇多個資料夾。 Livefyre使用資料夾來判斷該資料夾中哪些產品會顯示在不同頁面上的應用程式中。
    * **[!UICONTROL Show related content]**。切換此選項，以顯示已發佈至應用程式，但以不同產品ID標籤的內容。 在顯示應用程式的特定產品內容後，Livefyre會顯示其他產品的內容以及與產品無關的內容。 Livefyre會先將具有相同產品ID的內容排定優先順序，然後將內容發佈至具有其他產品ID的應用程式，接著將內容發佈至沒有產品ID的應用程式。
-

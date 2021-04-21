@@ -1,18 +1,14 @@
 ---
 description: 在整合和測試以除錯授權期間，您可透過主控台登入使用者。
-seo-description: 在整合和測試以除錯授權期間，您可透過主控台登入使用者。
-seo-title: 除錯驗證委派
-solution: Experience Manager
 title: 除錯驗證委派
-uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
+exl-id: fa1c17fa-5aba-4f4c-9217-5823af30af61
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # 調試驗證委派{#debugging-auth-delegate}
 
@@ -29,4 +25,3 @@ window.addEventListener('userAuthenticated', function(data) {
  }); 
 });
 ```
-

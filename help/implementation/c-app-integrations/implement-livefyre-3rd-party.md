@@ -1,24 +1,20 @@
 ---
 description: 從頭開始建立Livefyre應用程式，以建立自訂的體驗和資料視覺化。
-seo-description: 從頭開始建立Livefyre應用程式，以建立自訂的體驗和資料視覺化。
-seo-title: 將Livefyre與協力廠商整合
-solution: Experience Manager
 title: 將Livefyre整合至CMS
-uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
+exl-id: 05d85792-de97-47b1-90cc-ad7e841754b5
 translation-type: tm+mt
-source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
-
 
 # 透過協力廠商整合實作Livefyre
 
 從頭開始建立Livefyre應用程式，以建立自訂的體驗和資料視覺化。
 
-您可以使用引導和串流API來使用Livefyre和社交資料，從頭開始建立Livefyre應用程式。
+您可以使用Bootstrap和串流API來使用Livefyre和社交資料，從頭開始建立Livefyre應用程式。
 
 如需需驗證的Livefyre應用程式，請參閱身分整合以取得支援協力廠商驗證平台的相關資訊。
 

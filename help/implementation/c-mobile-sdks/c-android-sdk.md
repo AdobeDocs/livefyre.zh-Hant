@@ -1,18 +1,14 @@
 ---
 description: 建立採用Livefyre架構的Android應用程式。
-seo-description: 建立採用Livefyre架構的Android應用程式。
-seo-title: Android SDK
-solution: Experience Manager
 title: Android SDK
-uuid: 68793fa9-3ea1-4890-b36d-b631f1c6f7de
+exl-id: 54ea6537-5f27-4174-af25-d17257f23e48
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '419'
 ht-degree: 1%
 
 ---
-
 
 # Android SDK{#android-sdk}
 
@@ -84,4 +80,3 @@ StreamHub Android SDK公開數個可用來要求Livefyre API端點的用戶端�
 * **StreamClient** 輪詢系列的串流，以擷取新、更新和刪除的內容。
 
 * **WriteClientPost** 、標幟和贊系列中的內容。
-

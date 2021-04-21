@@ -1,18 +1,14 @@
 ---
 description: 使用bit.ly URL縮短程式自訂內容預覽。
-seo-description: 使用bit.ly URL縮短程式自訂內容預覽。
-seo-title: Permalinks
-solution: Experience Manager
 title: Permalinks
-uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
+exl-id: a21cbcca-9173-42ec-910d-7ec2edc60676
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '236'
 ht-degree: 1%
 
 ---
-
 
 # Permalinks{#permalinks}
 
@@ -22,7 +18,7 @@ Permalinks可讓您連結至串流中已封存的註解或內容。 若要啟用
 
 ## 永久連結顯示器{#section_mxd_wwg_wy}
 
-如果使用者從社交網路按一下Livefyre內容應用程式的Permalink，他們就會被帶到Livefyre內容串流。 內容會顯示在串流的分類檢視中，就在編輯器的正下方，並顯示完整的內容。 藍線會顯示在頭像下方的永久連結內容。 （這條藍線會在幾秒後消失。）
+如果使用者從社交網路按一下瀏覽器至Livefyre內容應用程式，則會將他們帶至Livefyre內容串流。 內容會顯示在串流的分類檢視中，就在編輯器的正下方，並顯示完整的內容。 藍線會顯示在頭像下方的永久連結內容。 （這條藍線會在幾秒後消失。）
 
 （如果刪除了permallinked內容，則會在分割檢視中顯示該效果的訊息）。
 
@@ -48,4 +44,3 @@ Permalinks可讓您連結至串流中已封存的註解或內容。 若要啟用
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Siesors](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-

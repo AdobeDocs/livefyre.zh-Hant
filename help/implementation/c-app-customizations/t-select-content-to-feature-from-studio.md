@@ -1,18 +1,14 @@
 ---
 description: 您可以從Studio中選取要加入的內容，而非應用程式。
-seo-description: 您可以從Studio中選取要加入的內容，而非應用程式。
-seo-title: 從Studio選取要加入的內容
-solution: Experience Manager
 title: 從Studio選取要加入的內容
-uuid: d2983d44-e388-4324-a9a4-be0b30f7ceea
+exl-id: 79181820-4022-4acd-a4e3-e73475d75e46
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # 從Studio中選擇內容以加強功能{#select-content-to-feature-from-studio}
 

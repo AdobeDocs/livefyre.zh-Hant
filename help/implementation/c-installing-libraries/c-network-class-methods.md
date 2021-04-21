@@ -1,18 +1,14 @@
 ---
 description: 建立網路對象。
-seo-description: 建立網路對象。
-seo-title: 網路類方法
-solution: Experience Manager
 title: 網路類方法
-uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
+exl-id: 5a011120-05d0-4768-9038-6a312e8c5dd1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
-
 
 # 網路類方法{#network-class-methods}
 

@@ -1,18 +1,14 @@
 ---
 description: 讓客戶對您的產品方案進行評分和審核。
-seo-description: 讓客戶對您的產品方案進行評分和審核。
-seo-title: 評論
-solution: Experience Manager
 title: 評論
-uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
+exl-id: 2f10646e-59c4-459c-ae1b-749f951a06d2
 translation-type: tm+mt
-source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
-
 
 # 評論{#reviews}
 

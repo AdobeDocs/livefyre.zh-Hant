@@ -1,17 +1,14 @@
 ---
 description: 將產品與資料庫的內容建立關聯，讓內容和產品目錄在易於管理的單一位置保持同步。
-seo-description: 將產品與資料庫的內容建立關聯，讓內容和產品目錄在易於管理的單一位置保持同步。
-seo-title: 使用程式庫將產品與內容建立關聯
 title: 使用程式庫將產品與內容建立關聯
-uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
+exl-id: 4d3e99cc-9188-4b5c-afdb-d177c66f19e6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # 使用程式庫將產品與內容建立關聯{#associate-products-with-content-using-the-library}
 

@@ -1,17 +1,14 @@
 ---
 description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時針對每個頁面顯示不同的產品特定UGC。
-seo-description: 依產品ID篩選UGC可讓您在多個頁面上內嵌完全相同的應用程式，同時針對每個頁面顯示不同的產品特定UGC。
-seo-title: 依產品ID篩選UGC
 title: 依產品ID篩選UGC
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+exl-id: c98ee899-fcac-45dd-a26a-f678814776fd
 translation-type: tm+mt
-source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # 依產品ID {#filter-ugc-product-id}篩選UGC
 

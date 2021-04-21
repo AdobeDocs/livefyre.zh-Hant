@@ -1,18 +1,14 @@
 ---
 description: 將選取的內容輸入Livefyre應用程式或Studio資料庫。
-seo-description: 將選取的內容輸入Livefyre應用程式或Studio資料庫。
-seo-title: 串流
-solution: Experience Manager
 title: 串流
-uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
+exl-id: 5abc2e7c-ee5f-4f73-8eb4-8d8a1c8c73a3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # 串流{#streams}
 
@@ -33,4 +29,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在您的串流作用中時建立的內容，將會出現在您的應用程式中。 在定義規則之前建立且串流處於作用中或停用串流後，您的應用程式中將不會顯示內容。
-

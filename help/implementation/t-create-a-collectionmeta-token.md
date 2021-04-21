@@ -1,18 +1,14 @@
 ---
 description: 建立傳遞至Livefyre的collectionMeta Token，以建立新的系列。
-seo-description: 建立傳遞至Livefyre的collectionMeta Token，以建立新的系列。
-seo-title: 使用CollectionMeta Token建立系列
-solution: Experience Manager
 title: 使用CollectionMeta Token建立系列
-uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
+exl-id: d2dafc90-de21-4998-8e85-83f970524329
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # 使用CollectionMeta Token建立系列{#create-a-collection-using-the-collectionmeta-token}
 

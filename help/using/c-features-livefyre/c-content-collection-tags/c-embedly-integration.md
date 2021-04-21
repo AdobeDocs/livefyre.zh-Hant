@@ -1,30 +1,26 @@
 ---
 description: 直接在應用程式中使用 embed.ly 顯示多種媒體格式。
-seo-description: 直接在應用程式中使用 embed.ly 顯示多種媒體格式。
-seo-title: Embedly 整合
-solution: Experience Manager
 title: Embedly 整合
-uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
+exl-id: 859fe306-367e-4207-b9f7-c730ba0cd24d
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 14%
+source-wordcount: '325'
+ht-degree: 11%
 
 ---
-
 
 # Embedly 整合{#embedly-integration}
 
 使用`embed.ly`直接在應用程式中顯示多種媒體格式。
 
-為了更好地啟用來自多種來源的內嵌媒體內容，包括Google地圖、YouTube、Flickr、Facebook、Instagram、Spotify和Tumblr,Livefyre Apps使用Embedly做為URL擴充的協力廠商提供者。 如果使用者或協調者在貼文中包含支援的連結，則連結中包含的媒體會在張貼至系列時展開。
+為了更好地啟用來自多種來源的內嵌媒體內容，包括Google地圖、YouTube、Flickr、Facebook、Instagram、Spotify和Tumblr,Livefyre Apps將Embedly當成協力廠商，以擴充URL。 如果使用者或協調者在貼文中包含支援的連結，則連結中包含的媒體會在張貼至系列時展開。
 
 這可讓Livefyre應用程式存取Embedly支援的250多種不同內嵌媒體選項。
 
 >[!NOTE]
 >
->Livefyre只會擴充Embedly完整提供者清單的子集。 只有提供者是Twitter、YouTube、Imgur、Vine、Wikipedia或SoundCloud時，內嵌影像才會在HTTPS頁面上展開。 如需連結擴充或來源的進一步問題，請連絡您的技術客戶經理。
+>Livefyre只會擴充Embedly完整提供者清單的子集。 只有提供者是Twitter、YouTube、Imgur、Vine、Wikipedia或SoundCloud時，內嵌影像才會在HTTPS頁面上擴充。 如需連結擴充或來源的進一步問題，請連絡您的技術客戶經理。
 
 本頁列出一些常用內嵌媒體類型的範例，以及它們可接受的URL模式。 `Embed.ly` 不斷新增來源。有關提供者的完整清單，請前往`https://embed.ly/embed/features/providers`。
 
@@ -32,7 +28,7 @@ ht-degree: 14%
 >
 >內嵌格式需要完整的權限。 縮短的連結將無法運作。
 
-只有可公開檢視的內容可內嵌。 如果您嘗試內嵌非公開的內容，內容的連結會出現在部落格文章中，並隨附一個預留位置圖示。 按一下連結後，該連結會將讀者帶至代管內容之服務的錯誤訊息，例如僅限朋友的像片的Facebook訊息。 如果您發現媒體未如預期般擴充，請連絡您的客戶經理。
+只有可公開檢視的內容可內嵌。 如果您嘗試內嵌非公開的內容，內容的連結會出現在部落格文章中，並隨附一個預留位置圖示。 按一下連結後，該連結會將讀者帶往代管內容的服務中的錯誤訊息，例如Facebook留言，以取得僅限朋友的像片。 如果您發現媒體未如預期般擴充，請連絡您的客戶經理。
 
 ## 內嵌URL範例
 
@@ -67,4 +63,3 @@ ht-degree: 14%
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趨勢分析](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上傳按鈕](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-

@@ -1,18 +1,14 @@
 ---
 description: 若要自訂使用者群組的樣式內容，您必須先將使用者標籤新增至帳戶，然後使用CSS來設定內容的樣式。
-seo-description: 若要自訂使用者群組的樣式內容，您必須先將使用者標籤新增至帳戶，然後使用CSS來設定內容的樣式。
-seo-title: 套用自訂樣式
-solution: Experience Manager
 title: 套用自訂樣式
-uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
+exl-id: 54692525-32ce-487a-b3c3-da1261b58da1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # 套用自訂樣式{#applying-custom-styles}
 
@@ -82,4 +78,3 @@ ht-degree: 0%
     padding-top: 4px; 
 }
 ```
-

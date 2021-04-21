@@ -1,18 +1,14 @@
 ---
 description: '透過完整的指南，瞭解Filmstrip應用程式的所有資訊。 視覺化應用程式會以一連串的復古相機影片來顯示您的影像。 運用我們的秘訣來掌握。 '
-seo-description: Filmstrip是視覺化應用程式，可將使用者產生的內容展示為動態的單一水準像片片段，類似相機的影片片段。
-seo-title: 幻燈片
-solution: Experience Manager
 title: Filmstrip應用程式指南
-uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
+exl-id: a96e5de0-bebb-42ee-ae10-813ad8b9e960
 translation-type: tm+mt
-source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
-
 
 # 幻燈片{#filmstrip}
 

@@ -1,18 +1,14 @@
 ---
 description: 自訂Livefyre評論的文字字串。
-seo-description: 自訂Livefyre評論的文字字串。
-seo-title: 檢閱文字字串
-solution: Experience Manager
 title: 檢閱文字字串
-uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
+exl-id: 82ced091-d573-4514-9b91-3451a94ed5d3
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 5%
 
 ---
-
 
 # 查看文本字串{#review-text-strings}
 
@@ -163,4 +159,3 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorShowMore | 載入更多評論時發生錯誤。 |
 |  | errorTitleMaxChars | 抱歉，您的標題太長。 請編輯並再試一次。 |
 |  | errorVoteOwnComment | 您無法依自己的意見投票 |
-

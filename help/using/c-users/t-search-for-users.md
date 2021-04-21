@@ -1,18 +1,14 @@
 ---
 description: 使用頁面頂端的「搜尋」欄位，依顯示名稱、使用者ID、電子郵件地址或網站訪客加入Livefyre網路的日期來搜尋網站訪客。
-seo-description: 使用頁面頂端的「搜尋」欄位，依顯示名稱、使用者ID、電子郵件地址或網站訪客加入Livefyre網路的日期來搜尋網站訪客。
-seo-title: 搜尋使用者
-solution: Experience Manager
 title: 搜尋使用者
-uuid: 613ea931-760a-4db6-ac00-a4199708b95c
+exl-id: 7e85fe5a-1bcc-400c-9e0c-bf00c455b860
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # 搜索用戶{#search-for-users}
 
@@ -28,4 +24,3 @@ ht-degree: 0%
 1. 僅列出&#x200B;**[!UICONTROL Banned]**&#x200B;或&#x200B;**[!UICONTROL Whitelisted]**&#x200B;使用者。
 1. 僅列出&#x200B;**[!UICONTROL Studio]**&#x200B;用戶。
 1. 僅列出附帶輸入&#x200B;**[!UICONTROL User Tags]**&#x200B;的帳戶。![](assets/UsersFilter-1024x568.png)
-

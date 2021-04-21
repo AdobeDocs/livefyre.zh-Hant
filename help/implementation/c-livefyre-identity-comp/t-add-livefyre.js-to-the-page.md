@@ -1,17 +1,14 @@
 ---
 description: Livefyre.js是小型的基本資料庫，可為您網站上的應用程式提供驗證。
-seo-description: Livefyre.js是小型的基本資料庫，可為您網站上的應用程式提供驗證。
-seo-title: 將Livefyre.js新增至頁面
 title: 將Livefyre.js新增至頁面
-uuid: fe52446e-4911-4160-a68c-7413e9bc6222
+exl-id: 4c5dfb31-b7e5-48f7-826c-cddbee06d876
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
-
 
 # 將Livefyre.js新增至頁面{#add-livefyre-js-to-the-page}
 
@@ -28,4 +25,3 @@ Livefyre.js是小型的基本資料庫，可為您網站上的應用程式提供
       ```
       <script src="//cdn.livefyre.com/Livefyre.js"></script>
       ```
-

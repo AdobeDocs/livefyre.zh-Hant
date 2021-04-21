@@ -1,26 +1,22 @@
 ---
-description: 搭配Livefyre應用程式使用引導和串流API。
-seo-description: 搭配Livefyre應用程式使用引導和串流API。
-seo-title: 搭配Livefyre應用程式使用引導和串流API
-solution: Experience Manager
+description: 將Bootstrap和串流API與Livefyre應用程式搭配使用。
 title: 檢視帳戶詳細資訊
-uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
+exl-id: b8458954-3727-4c4d-93dd-d21a4328e069
 translation-type: tm+mt
-source-git-commit: d615705ccf5e4511cc735ce91d95c3e15d0c0160
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
+# 將Bootstrap和串流API與Livefyre應用程式搭配使用{#bootstrap-stream-api}
 
-# 搭配Livefyre應用程式使用引導和串流API {#bootstrap-stream-api}
-
-## 引導API {#bootstrap-api}
+## BootstrapAPI {#bootstrap-api}
 
 ### 我要如何擷取最新50個以前的內容？{#howcontentolder}
 
-引導是Livefyre應用程式中的所有內容。 這是快取的資料，通常是12-20分鐘。 它會以50個片段的區塊傳送，並經過編頁，因此您可以擷取50個以上片段的內容。
+Bootstrap是Livefyre應用程式中的所有內容。 這是快取的資料，通常是12-20分鐘。 它會以50個片段的區塊傳送，並經過編頁，因此您可以擷取50個以上片段的內容。
 
 [API 參考](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:bootstrap:operations:bs3:v3.1:network:site:article:init:method=get)
 
@@ -40,7 +36,7 @@ ht-degree: 0%
 
 * `2.json` 將以遞增順序載入~101-120個內容：[https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json)
 
-[按一下這裡查看引導輪詢流程圖。](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
+[按一下這裡查看Bootstrap民調問答流程圖。](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
 
 ## 串流API {#stream-api}
 

@@ -1,18 +1,14 @@
 ---
-description: 變更 @mention 功能下拉式選單中 Livefyre 使用者的圖示。
-seo-description: 在「@提及功能下拉式選單」中變更 Livefyre 使用者的圖示。
-seo-title: 變更 @提及功能的圖示
-solution: Experience Manager
-title: 變更 @mention 圖示
-uuid: a395f4ff-a774-454a-8d94-4a3371d8cc2c
+description: 在「@提及功能下拉式選單」中變更 Livefyre 使用者的圖示。
+title: 變更 @提及功能的圖示
+exl-id: e078ef7f-7f16-4f5d-9152-95ae7fe7e4bd
 translation-type: tm+mt
-source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 31%
+source-wordcount: '83'
+ht-degree: 19%
 
 ---
-
 
 # 變更`@mention`圖示{#change-mention-icon}
 

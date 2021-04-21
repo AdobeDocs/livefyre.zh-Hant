@@ -1,17 +1,14 @@
 ---
 description: 新增使用者標籤至帳戶以套用使用者標章。
-seo-description: 新增使用者標籤至帳戶以套用使用者標章。
-seo-title: 新增使用者標籤至帳戶
 title: 新增使用者標籤至帳戶
-uuid: 737907ff-4958-489d-acef-fab531ebd526
+exl-id: a9944f1b-c882-456f-be26-f064213e63fd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # 新增使用者標籤至帳戶{#add-user-tags-to-an-account}
 

@@ -1,17 +1,14 @@
 ---
 description: 在Livefyre中建立隱私權要求。
-seo-description: 在Livefyre中建立隱私權要求。
-seo-title: 建立隱私權要求
 title: 建立隱私權要求
-uuid: 9fdbd564-0cea-4e4f-bdea-d5b8744fe63a
+exl-id: 117e1edb-becd-45f2-bfe5-12fb19ad01e0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # 建立隱私權要求{#create-a-privacy-request}
 
@@ -52,19 +49,19 @@ ht-degree: 0%
          * 允許的值：英數字串，最多255個字元。 電子郵件地址不是有效的輸入
       * **[!UICONTROL Facebook User]**
 
-         * 透過Facebook提供的數值ID識別帳戶。 請求者應提供此資訊。 您可以在這裡找到如何找到數值Facebook ID [的指示。](https://www.facebook.com/help/1397933243846983?helpref=faq_content)
+         * 以Facebook提供的數位ID識別帳戶。 請求者應提供此資訊。 您可以找到如何找到數字FacebookID [的說明，此處](https://www.facebook.com/help/1397933243846983?helpref=faq_content)
          * 允許的值：6-16個數字字元
       * **[!UICONTROL Instagram User]**
 
-         * 透過Instagram提供的數位ID識別帳戶。 請求者應提供此資訊。 您可以透過線上搜尋，找到如何在Instagram帳戶上找到數值Instagram ID的指示
+         * 以Instagram提供的數位ID識別帳戶。 請求者應提供此資訊。 您可以透過線上搜尋，找到如何在Instagram帳戶上找到數位InstagramID的指示
          * 允許的值：5-16個數字字元
       * **[!UICONTROL Twitter User]**
 
-         * 以Twitter提供的數值ID識別帳戶。 要求變更隱私權的人員應提供此資訊。 您可以透過線上搜尋，找到如何找到Twitter帳戶數值Twitter ID的指示
+         * 以Twitter提供的數位ID識別帳戶。 要求變更隱私權的人員應提供此資訊。 您可以透過線上搜尋，找到如何找到Twitter帳戶的數位TwitterID的指示
          * 允許的值：5-16個數字字元
       * **[!UICONTROL YouTube User]**
 
-         * 透過YouTube提供的數值ID識別帳戶。 要求變更隱私權的人員應提供此資訊。 您可在此[找到如何在YouTube帳戶上找到數值YouTube ID的指示](https://support.google.com/youtube/answer/3250431?hl=en)
+         * 以YouTube提供的數位ID識別帳戶。 要求變更隱私權的人員應提供此資訊。 您可以在[這裡找到如何在YouTube帳戶上找到數字YouTubeID的說明。](https://support.google.com/youtube/answer/3250431?hl=en)
          * 允許的值：5-16個數字字元
       * **[!UICONTROL Generic Author]**
 
@@ -90,4 +87,3 @@ ht-degree: 0%
    >[!IMPORTANT]
    >
    >刪除帳戶的資料將永久刪除或銷毀與該帳戶關聯的資料。 您無法反轉此動作，也無法在刪除後恢復資料。
-

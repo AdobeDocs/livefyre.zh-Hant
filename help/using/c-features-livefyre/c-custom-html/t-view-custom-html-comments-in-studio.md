@@ -1,18 +1,14 @@
 ---
 description: 請參閱自訂HTML使用此程式新增的注釋。
-seo-description: 請參閱自訂HTML使用此程式新增的注釋。
-seo-title: 在Studio中檢視自訂HTML注釋
-solution: Experience Manager
 title: 在Studio中檢視自訂HTML注釋
-uuid: 56df319c-6be7-448c-9562-48c67db27557
+exl-id: bddcf589-b611-448c-92aa-d975d1542ee6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
-
 
 # 在Studio中檢視自訂HTML注釋{#view-custom-html-comments-in-studio}
 

@@ -1,18 +1,14 @@
 ---
 description: 允許使用者從單一頁面版面和URL點進「系列」。
-seo-description: 允許使用者從單一頁面版面和URL點進「系列」。
-seo-title: 變更系列
-solution: Experience Manager
 title: 變更系列
-uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
+exl-id: 5cfae2c6-e328-4d2c-b08b-709be94e4c54
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # 變更系列{#change-collection}
 
@@ -64,4 +60,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-

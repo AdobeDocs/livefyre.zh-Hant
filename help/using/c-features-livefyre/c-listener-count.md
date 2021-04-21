@@ -1,18 +1,14 @@
 ---
 description: 監聽器計數是追蹤頁面上應用程式的網站訪客數並顯示此數目的計數器。
-seo-description: 監聽器計數是追蹤頁面上應用程式的網站訪客數並顯示此數目的計數器。
-seo-title: 監聽器計數
-solution: Experience Manager
 title: 監聽器計數
-uuid: fdd7cfe4-ae69-4d31-baa2-8978368fc3e8
+exl-id: a07e83c2-7465-42ec-9d24-821aac5ab74b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
-
 
 # 監聽器計數{#listener-count}
 
@@ -48,4 +44,3 @@ Livefyre的監聽器計數的運作方式如下：
 * [意見](/help/using/c-about-apps/c-comments/c-comments.md)
 * [評論](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
-

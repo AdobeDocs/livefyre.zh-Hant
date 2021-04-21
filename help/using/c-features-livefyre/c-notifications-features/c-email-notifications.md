@@ -1,18 +1,14 @@
 ---
 description: 允許用戶選擇其通知頻率和內容。
-seo-description: 允許用戶選擇其通知頻率和內容。
-seo-title: 電子郵件通知
-solution: Experience Manager
 title: 電子郵件通知
-uuid: 27dad133-bd8d-4949-8146-1254c160d3af
+exl-id: 46821382-ac93-4523-a0ac-84535e76d367
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 1%
+source-wordcount: '940'
+ht-degree: 0%
 
 ---
-
 
 # 電子郵件通知{#email-notifications}
 
@@ -117,4 +113,3 @@ Livefyre提供兩種電子郵件頻率選項：
 * [功能卡](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [媒體牆](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [評論](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-

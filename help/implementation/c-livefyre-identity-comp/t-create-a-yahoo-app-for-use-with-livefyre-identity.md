@@ -1,18 +1,14 @@
 ---
 description: 您可以搭配Yahoo! 允許使用者使用其Yahoo! 登入以與您網站上的應用程式互動。
-seo-description: 您可以搭配Yahoo! 允許使用者使用其Yahoo! 登入以與您網站上的應用程式互動。
-seo-title: 建立Yahoo! 與Livefyre Identity搭配使用的應用程式
-solution: Experience Manager
 title: 建立Yahoo! 與Livefyre Identity搭配使用的應用程式
-uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
+exl-id: 6b4c6ea9-1cb0-4496-aabe-70811f464a3d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # 建立Yahoo! 與Livefyre Identity搭配使用的應用程式{#create-a-yahoo-app-for-use-with-livefyre-identity}
 
@@ -30,7 +26,7 @@ ht-degree: 0%
 1. Enter **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
 1. 選擇&#x200B;**[!UICONTROL API Permissions: Profiles (Social Directory)]**&#x200B;和&#x200B;**[!UICONTROL Read Public]**。
 
-   完成後，Yahoo的應用程式詳細資訊頁面會列出應用程式的用戶端ID（消費者金鑰）和用戶端密碼（消費者密碼），以便用於Studio的「整合設定」頁面。
+   完成後，Yahoo的應用程式詳細資訊頁面將會列出應用程式的用戶端ID（消費者金鑰）和用戶端密碼（消費者密碼），以便用於Studio的「整合設定」頁面。
 
    >[!NOTE]
    >

@@ -1,18 +1,14 @@
 ---
 description: 這些選項適用於所有社交網路或張貼方法的任何串流規則。
-seo-description: 這些選項適用於所有社交網路或張貼方法的任何串流規則。
-seo-title: 所有串流規則的串流規則選項
-solution: Experience Manager
 title: 所有串流規則的串流規則選項
-uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
+exl-id: eff1a3cb-395f-4eb1-be93-f0f09bba95e2
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '391'
+ht-degree: 2%
 
 ---
-
 
 # 所有串流規則的串流規則選項{#stream-rule-options-for-all-stream-rules}
 
@@ -31,7 +27,7 @@ ht-degree: 1%
 * **[!UICONTROL Media]**。選擇以下選項之一：
 
    * **[!UICONTROL All Content.]** 允許任何內容。
-   * **[!UICONTROL Media Required.]** 僅允許包含影像和視訊的內容。（若是Instagram和Facebook內容，您只能指定&#x200B;**[!UICONTROL Photos]**&#x200B;或&#x200B;**[!UICONTROL Videos]**）。
+   * **[!UICONTROL Media Required.]** 僅允許包含影像和視訊的內容。(對於Instagram和Facebook內容，您只能指定&#x200B;**[!UICONTROL Photos]**&#x200B;或&#x200B;**[!UICONTROL Videos]**)。
 
 * **[!UICONTROL Language]**。選擇要搜尋的語言。 英文是預設語言。
 * **[!UICONTROL Smart Tags]**。選擇用來識別內容的標籤。 Livefyre運用電腦視覺技術，透過特定智慧型標籤來識別像片和視訊，讓搜尋更精確。 使用&#x200B;**[!UICONTROL ANY]**&#x200B;修飾元，使用任何標籤將內容篩選到串流中，或使用&#x200B;**[!UICONTROL ALL]**&#x200B;修飾元將內容篩選到使用所有標籤的串流中。 使用&#x200B;**[!UICONTROL Image contains none of these smart tags]**&#x200B;欄位，為包含您不想在串流中的內容的像片輸入標籤。 此選項不適用於文字內容。

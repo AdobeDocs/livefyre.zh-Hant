@@ -1,18 +1,14 @@
 ---
 description: 審核提供廣泛的自訂設定，讓您建立符合您需求和品牌的審核應用程式。
-seo-description: 審核提供廣泛的自訂設定，讓您建立符合您需求和品牌的審核應用程式。
-seo-title: 建立審核應用程式
-solution: Experience Manager
 title: 建立審核應用程式
-uuid: 6caeafe7-c04e-484e-b02f-98dc6d9b3184
+exl-id: 14f074d2-922c-4997-8d7d-f2c92f069e07
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
-
 
 # 建立審核應用程式{#creating-a-reviews-app}
 
@@ -35,7 +31,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱「檢閱自訂」下方的&#x200B;**[!UICONTROL Configure Star Ratings]**。
 
-## 評等維度{#section_cnx_snh_21b}
+## 評分Dimension{#section_cnx_snh_21b}
 
 評分維度是您的審核者對產品或服務評分的類別。 評等維度的範例包括「效能」、「設計」、「成本」、「整體」或您選擇的任何其他類別。
 
@@ -79,7 +75,7 @@ Studio中啟用了使用者回覆審核的選項。 擁有者可以針對網路�
 
 [評分與評論](https://api.livefyre.com/docs/apis/by-category/ratings-and-reviews)
 
-* **[!UICONTROL Bootstrap API Endpoint]** 引導API端點可讓Google等搜尋引擎讀取您的審核，讓內容和關鍵字可改善您的搜尋引擎最佳化。
+* **[!UICONTROL Bootstrap API Endpoint]** 「BootstrapAPI端點」可讓Google等搜尋引擎讀取您的審核，讓內容和關鍵字可改善您的搜尋引擎最佳化。
 
 * **[!UICONTROL Average User Ratings]** 「平均使用者評分API」會擷取一或多個「評論系列」的平均使用者評分，讓您在索引頁面上建立此項資訊的視覺化效果，或新增至搜尋索引頁面。
 

@@ -1,18 +1,14 @@
 ---
 description: Livefyre提供4個精選API，可讓您擷取輸入網路、網站或系列的50個最新精選內容項目，或輸入系列頂端的兩個精選內容。
-seo-description: Livefyre提供4個精選API，可讓您擷取輸入網路、網站或系列的50個最新精選內容項目，或輸入系列頂端的兩個精選內容。
-seo-title: 使用精選API匯總精選內容
-solution: Experience Manager
 title: 使用精選API匯總精選內容
-uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
+exl-id: 19f146bf-f406-4667-8ed9-7c7fb3672c05
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 1%
+source-wordcount: '200'
+ht-degree: 2%
 
 ---
-
 
 # 使用「精選API」匯總「精選內容」{#aggregated-featured-content-using-the-featured-apis}
 
@@ -466,4 +462,3 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
    } 
 }
 ```
-

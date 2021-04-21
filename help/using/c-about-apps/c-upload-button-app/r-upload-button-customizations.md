@@ -1,18 +1,14 @@
 ---
 description: 變更上傳按鈕的大小、寬度和互動選項。
-seo-description: 變更上傳按鈕的大小、寬度和互動選項。
-seo-title: 上傳按鈕自訂
-solution: Experience Manager
 title: 上傳按鈕自訂
-uuid: d820bbec-8c76-4864-9e70-55394010c35d
+exl-id: 7481911f-2fb5-4721-8345-cbdd5e4ea202
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 8%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
-
 
 # 上傳按鈕自訂{#upload-button-customizations}
 
@@ -52,4 +48,3 @@ ht-degree: 8%
 * **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有應用程式的選項 **[!UICONTROL App Designer]**。如需&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有應用程式的標準&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;選項的詳細資訊，請參閱自訂應用程式
 
 * 整合工具。 如需如何使用整合工具自訂應用程式的詳細資訊，請參閱應用程式整合。
-

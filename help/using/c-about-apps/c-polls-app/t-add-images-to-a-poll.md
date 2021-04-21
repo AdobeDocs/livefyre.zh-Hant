@@ -1,18 +1,14 @@
 ---
 description: 新增影像，為民調問答增添視覺興趣。
-seo-description: 新增影像，為民調問答增添視覺興趣。
-seo-title: 新增影像至民調問答
-solution: Experience Manager
 title: 新增影像至民調問答
-uuid: 966cefba-3a0e-433d-97b3-d683d92b8f69
+exl-id: 2e68b10f-79b9-4aea-9c3d-43d589c8fe00
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # 將影像新增至民調問答{#add-images-to-a-poll}
 

@@ -1,26 +1,22 @@
 ---
-description: Twitter的顯示需求概述。
-seo-description: Twitter的顯示需求概述。
-seo-title: Twitter顯示需求
-solution: Experience Manager
-title: Twitter顯示需求
-uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
+description: twitter的展示需求概觀。
+title: Twitter顯示器需求
+exl-id: f985a47e-4bab-4e60-8b8b-d8c6e5321be7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-
 # Twitter顯示要求{#twitter-display-requirements}
 
-社交媒體網路通常要求顯示內容以符合其品牌標準。 當使用Livefyre平台重新呈現Twitter內容時，您有責任遵守其使用條款，包括其顯示要求。 請務必先閱讀並瞭解其條款與條件，再將其內容顯示在您的Livefyre應用程式中。
+社交媒體網路通常要求顯示內容以符合其品牌標準。 當使用Livefyre平台重新呈現Twitter內容時，您有責任遵守其使用條款，包括顯示要求。 請務必先閱讀並瞭解其條款與條件，再將其內容顯示在您的Livefyre應用程式中。
 
-如需詳細資訊，請參閱[Twitter的顯示要求](https://about.twitter.com/company/display-requirements)檔案。
+如需詳細資訊，請參閱[Twitter的顯示需求](https://about.twitter.com/company/display-requirements)檔案。
 
-Twitter要求下列簡報需求：
+Twitter規定下列演示要求：
 
 * 線上（網路和行動裝置）顯示必須包含下列所有項目：
 

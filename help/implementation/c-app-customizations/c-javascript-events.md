@@ -1,18 +1,14 @@
 ---
 description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript 的事件。
-seo-description: 可用於繫結對話應用程式 (如 Comments、Chat、Live Blog、Reviews 和 Sidenotes) JavaScript 的事件。
-seo-title: JavaScript事件定義與範例
-solution: Experience Manager
 title: JavaScript事件定義與範例
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
-
 
 # JavaScript事件定義與範例{#javascript-events-definitions-and-examples}
 
@@ -20,7 +16,7 @@ ht-degree: 15%
 
 Livefyre提供JavaScript事件，可追蹤Livefyre應用程式中的使用者活動。 例如，當使用者按贊或分享內容至Twitter或Facebook，或是張貼新內容時，您可能想要更新頁面。
 
-Livefyre也可讓您將事件新增至協力廠商分析整合（Adobe Analytics JS、Google Analytics、動態標籤管理等），以追蹤應用程式事件。 如需詳細資訊，請與您的協力廠商整合管理員合作，以提供正確的事件。
+Livefyre也可讓您將事件新增至協力廠商分析整合(Adobe AnalyticsJS、Google Analytics、動態標籤管理等)，以追蹤應用程式事件。 如需詳細資訊，請與您的協力廠商整合管理員合作，以提供正確的事件。
 
 若要系結至這些事件，請在頁面上實例化您的應用程式時，將下列程式碼新增至頁面。 將事件名稱替換為`{eventName}`:
 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-

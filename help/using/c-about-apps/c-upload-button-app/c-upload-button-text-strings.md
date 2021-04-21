@@ -1,18 +1,14 @@
 ---
 description: 您可以修改「上傳按鈕」的這些文字字串。
-seo-description: 您可以修改「上傳按鈕」的這些文字字串。
-seo-title: 上傳按鈕文字字串
-solution: Experience Manager
 title: 上傳按鈕文字字串
-uuid: f4d24af3-c7cb-468d-96b9-b5360047b5dc
+exl-id: 10467ae3-294a-4c8f-99a4-201019b81ff1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 1%
 
 ---
-
 
 # 上傳按鈕文字字串{#upload-button-text-strings}
 
@@ -39,4 +35,3 @@ ht-degree: 0%
 |  | 啟用標題 | 啟用頁首，為網站訪客提供內容。 您可以選擇將頁首新增至按鈕的頂端或右側。 |
 |  | 主註解標題 | 用於標題的文本。 |
 |  | 主註解消息 | 要在頁首中使用的文字。 |
-

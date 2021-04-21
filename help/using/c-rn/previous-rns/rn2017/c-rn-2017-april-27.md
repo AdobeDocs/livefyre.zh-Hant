@@ -1,17 +1,14 @@
 ---
 description: 2017年4月27日發行說明。
-seo-description: 2017年4月27日發行說明。
-seo-title: 2017 年 4 月 27 日
 title: 2017 年 4 月 27 日
-uuid: 30284115-92c0-4a85-acdb-adc70605ed5f
+exl-id: ebafb0ee-bb72-4187-ae35-316135434740
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '300'
 ht-degree: 8%
 
 ---
-
 
 # 2017 年 4 月 27 日{#april}
 
@@ -39,4 +36,3 @@ ht-degree: 8%
 | 增強功能 | API | 已發行新的API以擷取應用程式內嵌代碼。 如需詳細資訊，請造訪https://api.livefyre.com/docs/apis/by-category/apps。 |
 | 錯誤 | 資產庫 | 已修正將「資料庫」結果的第一頁限制為10個資產的錯誤。 |
 | 增強功能 | Studio | 增強Studio中切換元件的對比，讓您更容易看到。 |
-

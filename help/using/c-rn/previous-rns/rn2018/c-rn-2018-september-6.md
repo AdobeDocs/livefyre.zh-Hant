@@ -1,18 +1,14 @@
 ---
 description: 2018年9月6日發行說明。
-seo-description: 2018年9月6日發行說明。
-seo-title: 2018 年 9 月 6 日
-solution: Experience Manager
 title: 2018 年 9 月 6 日
-uuid: 8dbe8be0-cc3c-4d96-af56-1808d8555af3
+exl-id: 61a4b43e-d40f-41bf-b9cc-0303b0232c6b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '427'
 ht-degree: 4%
 
 ---
-
 
 # 2018 年 9 月 6 日{#september}
 
@@ -22,9 +18,9 @@ ht-degree: 4%
 
 此版本的生產版本中已發佈下列新功能：
 
-* [Experience Manager Livefyre中的自訂行動](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) 呼叫(CTA)按鈕
+* [自訂行動要求(CTA)按鈕在](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) Experience ManagerLivefyre
 
-   Experience Manager Livefyre中的全新自訂行動要求按鈕，將您網站上的UGC轉換為可執行的體驗，進而推動您的業務發展。 使用自訂CTA按鈕來增加銷售、擷取銷售機會、推動更深入的參與度，或激發您希望受眾採取的任何行動。 自訂CTA按鈕可讓您：
+   LivefyreExperience Manager中新的自訂行動要求按鈕，可將您網站上的UGC轉換為可執行的體驗，進而推動您的業務發展。 使用自訂CTA按鈕來增加銷售、擷取銷售機會、推動更深入的參與度，或激發您希望受眾採取的任何行動。 自訂CTA按鈕可讓您：
 
    * 將自訂按鈕新增至Livefyre媒體牆、拼貼、輪播、影片片段以及個別功能卡上的任何UGC片段。
    * 完全控制每段UGC上的按鈕、訊息、圖示、顏色和連結數。
@@ -49,9 +45,9 @@ ht-degree: 4%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 意見 | 已修正音訊檔案無法在「注釋應用程式」中正確播放的問題。 |
-| 錯誤 | 庫 | 修正當卡片顯示影像（而非影片）時，使用「資料庫URL」搜尋來搜尋Instagram時，縮圖上會顯示播放按鈕的問題。 |
-| 錯誤 | 庫 | 修正將內容發佈至執行Instagram URL搜尋所獲得之應用程式時，未顯示縮圖的問題。 |
-| 錯誤 | 庫 | 修正在將產品新增至資產後，開啟該資產的詳細資料，然後按一下轉換標籤後，該資產的產品不會顯示的問題。 |
+| 錯誤 | 庫 | 修正使用資料庫URL搜尋搜尋搜尋Instagram時，卡片顯示影像而非影片時，縮圖上會顯示播放按鈕的問題。 |
+| 錯誤 | 庫 | 修正將內容發佈至執行InstagramURL搜尋所得之應用程式時，未顯示縮圖的問題。 |
+| 錯誤 | 庫 | 修正在將產品新增至資產後，開啟該資產的詳細資訊，然後按一下轉換標籤後，該資產的產品不會顯示的問題。 |
 
 ## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
@@ -60,4 +56,3 @@ ht-degree: 4%
 | **問題類型** | **元件** | **發行說明** |
 |---|---|---|
 | 錯誤 | 社交元件：媒體上傳 | 修正使用者無法如預期般將媒體上傳至幻燈片的問題。 |
-

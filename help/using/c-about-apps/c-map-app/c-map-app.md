@@ -1,18 +1,14 @@
 ---
 description: 使用「地圖」產生互動式地圖，將內容串流至應用程式。
-seo-description: 使用「地圖」產生互動式地圖，將內容串流至應用程式。
-seo-title: 地圖
-solution: Experience Manager
 title: 地圖
-uuid: e6021a8a-055d-4c60-817c-ca3236c48159
+exl-id: f5f45a39-0181-406a-ac5c-1f4377dafcf9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
-
 
 # 地圖{#map}
 
@@ -27,4 +23,3 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Map由©OpenStreetMap提供支援，它提供Livefyre用於呈現其Map的資料。
-

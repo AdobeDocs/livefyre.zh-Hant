@@ -1,20 +1,19 @@
 ---
-title: Livefyre使用指南
-description: Livefyre使用指南
+title: Livefyre使用手冊
+description: Livefyre使用手冊
 exl-id: 1b106519-9165-4cce-bddf-c0980424f54d
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
-# Livefyre使用指南{#livefyre-help}
+# Livefyre使用手冊 {#livefyre-help}
 
-使用Livefyre Studio建立應用程式、收集使用者產生的內容並協調內容。
+使用Livefyre Studio來建立應用程式、收集使用者產生的內容並協調內容。
 
-如需如何使用開發人員工具在您的網站上實施和自訂Livefyre應用程式的詳細資訊，請參閱&#x200B;[*Adobe Experience ManagerLivefyre實施指南*](/help/implementation/home.md)。
+如需如何使用開發人員工具在您的網站上實作和自訂Livefyre應用程式的詳細資訊，請參閱&#x200B;[*Adobe Experience Manager Livefyre實作指南*](/help/implementation/home.md)。
 
 ## 熱門主題
 
@@ -31,8 +30,6 @@ ht-degree: 4%
 * [搭配Adobe Experience Manager使用Livefyre應用程式](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [搭配使用Livefyre與Adobe Target](/help/using/c-library/livefyre-target.md)
-
-* [搭配Adobe啟動Livefyre擴充功能使用Livefyre](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
-
+* [搭配Adobe Target使用Livefyre](/help/using/c-library/livefyre-target.md)
+* [搭配Livefyre使用LivefyreAdobe啟動Livefyre擴充功能](/help/using/c-library/launch-extension.md)
 * [發行說明](c-rn/c-rn.md#c_rn)

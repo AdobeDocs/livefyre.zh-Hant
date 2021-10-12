@@ -2,9 +2,9 @@
 description: 設定Adobe Analytics和Dynamic Tag Manager(DTM)以收集Livefyre應用程式的資料。
 title: 搭配Adobe Analytics和Dynamic Tag Manager(DTM)使用Livefyre
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -31,14 +31,16 @@ ht-degree: 1%
 
 1. 在「報表套裝管理器」中，按一下「**[!UICONTROL Edit Settings > Conversion > Conversion Variables]**」。
 1. 選擇要使用的自訂轉換變數(eVar)，並將其對應至Livefyre轉換變數。 若要將Livefyre轉換變數對應至自訂轉換變數：
-* 啟用轉換變數
-* 為轉換變數命名
-* 為轉換變數指定類型
+
+   * 啟用轉換變數
+   * 為轉換變數命名
+   * 為轉換變數指定類型
+
 1. 儲存自訂轉換變數。
 
 ## 步驟3:使用DTM搭配Livefyre事件新增您的報表套裝 {#section_t15_2hd_4cb}
 
-將Adobe Analytics新增至DTM以讓Analytics運作。 若要這麼做，請建立新屬性和工具，並將含有Livefyre事件的新報表套裝新增至屬性。 如需DTM的詳細資訊，請參閱[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
+使用標籤將Analytics與Livefyre事件整合。 若要這麼做，請建立新屬性和工具，並將含有Livefyre事件的新報表套裝新增至屬性。 如需詳細資訊，請參閱[標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 
 如果您已為您設定Livefyre事件的報表套裝設定屬性或工具，則不需要執行此步驟。
 
@@ -65,7 +67,7 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL Create New Rule]**&#x200B;按鈕。
 1. 按一下&#x200B;**[!UICONTROL Plus]**&#x200B;按鈕，開啟&#x200B;**[!UICONTROL Conditions]**&#x200B;區段。
 1. 觸發規則。 如果要非同步延遲或實作規則，請選擇&#x200B;**[!UICONTROL DOM Ready]**&#x200B;或&#x200B;**[!UICONTROL Onload]**&#x200B;觸發器類型。
-1. （選用）新增其他參數以限制顯示Livefyre應用程式的頁面。 如需其他設定選項的詳細資訊，請參閱[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
+1. （選用）新增其他參數以限制顯示Livefyre應用程式的頁面。 如需其他設定選項的詳細資訊，請參閱[標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 1. 在&#x200B;**[!UICONTROL Javascript/ Third Party Tags]**&#x200B;下，按一下&#x200B;**[!UICONTROL Non-sequential]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add New Script]**。
 1. 選擇&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;作為指令碼類型。
 1. 將以下指令碼添加到代碼編輯器中，然後按一下&#x200B;**[!UICONTROL Save Code]**。
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 如需本頁討論主題的詳細資訊，請參閱：
 
 * [報告套裝管理員](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [規則](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

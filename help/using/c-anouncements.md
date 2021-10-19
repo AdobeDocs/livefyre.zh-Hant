@@ -2,9 +2,9 @@
 title: Livefyre服務終止提醒
 description: Livefyre和Livefyre Studio的服務終止提醒和封存公告。
 exl-id: 78fe3f11-2365-4765-a0af-f817e9c80ea9
-source-git-commit: c1f1f501203ea64a282abc631318983011eb4e5b
+source-git-commit: 96f4e5f196446834cdf92a2774bd26f02b6b58a4
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---

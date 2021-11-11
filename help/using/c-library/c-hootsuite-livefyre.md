@@ -1,50 +1,49 @@
 ---
-description: 瞭解如何搭配Hootsuite使用LivefyreExperience Manager，讓您直接從Hootsuite儀表板組織、管理和共用使用者產生的內容。
-title: 搭配使用Adobe Experience ManagerLivefyre和Hootsuite
+description: 了解如何搭配Hootsuite使用Experience ManagerLivefyre，讓您直接從Hootsuite控制面板組織、管理和共用使用者產生的內容。
+title: 搭配Hootsuite使用Adobe Experience Manager Livefyre
 exl-id: 1ca84c72-95ec-485d-9c8e-ace4487225d6
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: ecac8943330cc0dd8ae3ce0ba4ba66948c502b9e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
 
 ---
 
-# 搭配使用Adobe Experience ManagerLivefyre和Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
+# 搭配Hootsuite使用Adobe Experience Manager Livefyre{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
-瞭解如何搭配Hootsuite使用LivefyreExperience Manager，讓您直接從Hootsuite儀表板組織、管理和共用使用者產生的內容。
+了解如何搭配Hootsuite使用Experience ManagerLivefyre，讓您直接從Hootsuite控制面板組織、管理和共用使用者產生的內容。
 
-## 將Adobe Experience ManagerLivefyre與Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}搭配使用
+## 搭配Hootsuite使用Adobe Experience Manager Livefyre {#topic_FB6E613DBCF74F39ABD5045C501EA326}
 
-瞭解如何搭配Hootsuite使用LivefyreExperience Manager，讓您直接從Hootsuite儀表板組織、管理和共用使用者產生的內容。
+了解如何搭配Hootsuite使用Experience ManagerLivefyre，讓您直接從Hootsuite控制面板組織、管理和共用使用者產生的內容。
 
 ## 快速入門 {#task_22699BD901C24384AB2DC02D926D8F4A}
 
 任務上下文
 
-1. 從Hootsuite應用程式目錄安裝Adobe Experience ManagerLivefyre for Hootsuite。
+1. 從Hootsuite應用程式目錄安裝適用於Hootsuite的Adobe Experience Manager Livefyre。
 
-1. 在您的Hootsuite儀表板中，按一下「使用Adobe登入」**。**
+1. 在您的Hotsuite控制面板中，按一下 **使用Adobe登入**.
 
    ![](assets/hootsuite-login.png)
 
-1. 使用您的Livefyre認證登入Experience ManagerLivefyre。
-1. 按一下「授權&#x200B;****」，授予Hootsuite存取您資料庫的權限。
+1. 使用您的Livefyre憑證登入Experience ManagerLivefyre。
+1. 按一下 **授權** 授予Hootsuite存取程式庫的權限。
 
    ![](assets/hootsuite-authorize.png)
 
-   一旦您授予權限，您將會回到Hootsuite儀表板，您可在儀表板中搜尋Experience ManagerLivefyre程式庫中的資產。
+   一旦您授予權限，系統會將您帶回Hootsuite控制面板，您可在其中搜尋Experience ManagerLivefyre資料庫中的資產。
 
 ## 搜尋資產 {#task_0B011B0C539E400BB72A6DF69FBF66C0}
 
 任務上下文
 
-1. 按一下功能表列中的搜尋圖示，以搜尋Experience ManagerLivefyre程式庫中的資產。
+1. 按一下功能表列中的搜尋圖示，以搜尋Experience ManagerLivefyre資料庫中的資產。
 
    ![](assets/hootsuite-search.png)
 
-1. 按一下「**選擇**」，彈出畫面就會顯示您所有的程式庫。
-1. 按一下資料庫的資料夾，然後按一下「選取資料夾&#x200B;**」，以選取將顯示在Hootsuite串流中的資料庫。**
+1. 按一下 **選擇** 隨著所有程式庫，會顯示快顯視窗。
+1. 按一下程式庫的資料夾，然後按一下 **選擇資料夾** ，以選取要顯示在您的Hootsuite資料流中的資料庫。
 
    ![](assets/hootsuite-select.png)
 
@@ -58,64 +57,58 @@ ht-degree: 1%
 
 | 區域 | 說明 |
 |--- |--- |
-| 顯示資產來源 | 選擇以從「所有來源」或從單一來源檢視資產。 例如：Instagram、Twitter、Facebook等。 |
-| 權利 | 選取以僅檢視具有特定權限設定的資產。 |
-| 關鍵字 | 選擇以依「關鍵字」或「標籤」篩選結果。 依關鍵字篩選會搜尋貼文的文字內容，以及作者的顯示名稱和作者使用者名稱。 |
-| 標記 | 選擇以依「關鍵字」或「標籤」篩選結果。 依關鍵字篩選會搜尋貼文的文字內容，以及作者的顯示名稱和作者使用者名稱。 |
+| 顯示資產來源 | 選取「 」，即可從「所有來源」或從單一來源檢視資產。 例如：Instagram、Twitter、Facebook等 |
+| 權限 | 選取「 」 ，僅檢視具有特定權限設定的資產。 |
+| 關鍵字 | 選取「 」可依「關鍵字」或「標籤」篩選結果。 依關鍵字篩選會搜尋貼文的文字內容，以及作者顯示名稱和作者使用者名稱。 |
+| 標記 | 選取「 」可依「關鍵字」或「標籤」篩選結果。 依關鍵字篩選會搜尋貼文的文字內容，以及作者顯示名稱和作者使用者名稱。 |
 
-在您選取搜尋參數後，當您搜尋時，資產會顯示在串流中：
+選取搜尋參數後，當您搜尋時，資產會顯示在資料流中：
 
 ![](assets/hootsuite-stream.png)
 
 ### 串流功能表選項
 
-按一下用戶的名稱或表徵圖將顯示相應網路上的用戶。 按一下時間會顯示原始文章。 當您的滑鼠移到項目上方時，將會出現更多選項。 按一下共用![](assets/share.png)
+按一下使用者的名稱或圖示，就會在個別網路上顯示該使用者。 按一下時間會顯示原始文章。 當滑鼠移到項目上方時，會顯示更多選項。 按一下共用 ![](assets/share.png)
 
-表徵圖會將當前資產添加到網路合成框中，允許您通過Hootsuite與網路共用該資產。
+圖示會將目前的資產新增至網路撰寫方塊，讓您透過Hootsuite與您的網路共用資產。
 
 >[!NOTE]
 >
->只有當您篩選具有已授權權限的資產時，才會顯示共用按鈕。
+>只有當您篩選具有授權權限的資產時，才會顯示「共用」按鈕。
 
-按一下「指派![](assets/assign.png)」圖示，將目前項目指派給您的Hootsuite團隊成員。 如果已分配項目，則解析![](assets/resolve.png)
+按一下指派  ![](assets/assign.png) 表徵圖，將當前項指派給某個Hootsuite團隊成員。 如果已分配項目，則解析 ![](assets/resolve.png) 圖示。 按一下它可解析當前分配。
 
-表徵圖。 按一下它可解析當前分配。
+### 其他應用程式功能表
 
-### 其他應用程式選單
+按一下「設定」  ![](assets/settings.png) 圖示可讓您中斷目前Experience Manager的Livefyre帳戶，並與其他帳戶連線。
 
-按一下「設定![](assets/settings.png)」
+按一下功能表  ![](assets/menu.png) 表徵圖將顯示此文檔、支援和Synaptive網站的連結。
 
-圖示可讓您中斷目前Experience ManagerLivefyre帳戶的連線，並與另一個帳戶連線。
+## Experience ManagerLivefyre應用程式外掛程式 {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
-按一下菜單![](assets/menu.png)
+除了能在Hootsuite資料流中顯示資產資料庫外，您還可以將Instagram、Twitter、Facebook和YouTube資料流中的項目儲存至您的Experience ManagerLivefyre資料庫。
 
-表徵圖將顯示此文檔、支援和Synaptive網站的連結。
-
-## Experience ManagerLivefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
-
-除了能夠在Hootsuite串流中顯示資產資料庫外，您也可以將項目從Instagram、Twitter、Facebook和YouTube串流儲存到您的Experience ManagerLivefyre資料庫。
-
-1. 按一下每個項目底部的「功能表」圖示。
+1. 按一下位於每個項目底部的「菜單」表徵圖。
 
    ![](assets/hootsuite-menu-icon.png)
 
-1. 選擇「傳送至AEMLivefyre **」。**
-1. 選取一或多個程式庫以儲存資產。
+1. 選擇 **傳送至AEM Livefyre**.
+1. 選取一或多個要儲存資產的程式庫。
 
    ![](assets/hootsuite-save.png)
 
-1. 按一下「儲存至程式庫&#x200B;**」，項目就會儲存至您選取的程式庫。**
+1. 按一下 **儲存至程式庫**，項目會儲存至您選取的程式庫。
 
-## Experience ManagerLivefyreMedia Library元件{#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
+## Experience ManagerLivefyre Media Library元件 {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
-您可以透過Hootsuite Composer的媒體元件存取您的資產。
+您可以透過Hotsuite撰寫器的媒體元件存取資產。
 
-1. 在「編寫器」中，按一下&#x200B;**Media**&#x200B;部分中的&#x200B;**開啟Media Library**&#x200B;連結。
+1. 在撰寫器中，按一下 **開啟Media Library** 連結 **媒體** 區段。
 
    ![](assets/hootsuite-open-media-library.png)
 
-1. 從下拉式選單中選取「Adobe Experience ManagerLivefyre」，您的檔案就會顯示。
+1. 從下拉式選單中選取Adobe Experience Manager Livefyre，您的檔案便會顯示。
 
    ![](assets/hootsuite-aem-files.png)
 
-1. 若要將資產新增至您正在撰寫的目前貼文，請按一下。 若要搜尋特定資產，請在&#x200B;**搜尋媒體**&#x200B;方塊中輸入搜尋詞，並顯示結果。
+1. 若要將資產新增至您正在撰寫的目前貼文，請按一下。 若要搜尋特定資產，請在 **搜尋媒體** 框中，將顯示結果。

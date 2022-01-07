@@ -1,24 +1,23 @@
 ---
-title: 設定認證
-description: 設定認證
+title: 設定憑據
+description: 設定憑據
 exl-id: cfbb40b6-e13b-4869-87f9-a1f2f6ddd5d3
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 9cd6617c4204b2c09787ea294227f640018928ce
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
 
 # 設定憑據{#set-up-credentials}
 
-**認** 證憑證面板會顯示您的Livefyre網路和網站認證。這些欄位將由Livefyre在您的整合程式中填入，並可供您在此處參考。 本頁也將包含透過Studio新增的新網站。 這些值是唯讀的。
-**網路** **認證注** 意：您的網路金鑰僅 **** 用於產生userAuth Token，不用於任何其他API呼叫。當建構collectionMeta Token時，會使用網站金鑰。 如需詳細資訊，請參閱[開發人員>快速入門>建立使用者驗證Token](https://answers.livefyre.com/developers/getting-started/tokens/auth/)。
+**憑證** 「認證」面板會顯示您的Livefyre網路和網站認證。 這些欄位將會在您的整合程式中填入，並可在此處供您參考。 本頁也將包含透過Studio新增的Sites。 這些值為唯讀。
+**網路憑證** **注意：** 已使用您的網路密鑰 **僅限** 來產生userAuth代號，且不用於任何其他API呼叫。 建構collectionMeta權杖時，會使用網站金鑰。
 
-* 網路網域
-* 網路金鑰
+* 網路域
+* 網路密鑰
 
-**網站認證（每個網站）**:在「搜尋」欄位中輸入您的網站，以填入這些欄位。
+**站點憑據（每個站點）**:在「搜尋」欄位中輸入您的網站，以填入這些欄位。
 
 * 網站名稱
 * 網站URL
